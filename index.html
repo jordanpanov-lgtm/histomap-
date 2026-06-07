@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Historical Evidence Atlas</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
+
+/* ── HEADER ── */
+#header{background:#fff;border-bottom:1px solid #e0d8cc;padding:16px 20px 14px;position:sticky;top:0;z-index:500}
+#header-top{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+#app-title{font-family:'IM Fell English',serif;font-size:11px;color:#bbb;letter-spacing:.15em;text-transform:uppercase}
+#module-title{font-family:'IM Fell English',serif;font-size:21px;color:#1a1a1a}
+#module-subtitle{font-size:11px;font-family:'Courier New',monospace;color:#8B6914;letter-spacing:.13em}
+#module-cats{font-size:10px;color:#bbb;font-family:'Courier New',monospace;margin-top:3px;letter-spacing:.07em;line-height:1.7}
+#controls{display:flex;gap:8px;align-items:center;margin-top:12px;flex-wrap:wrap}
+.view-btn{padding:6px 14px;font-size:11px;font-family:'Courier New',monospace;letter-spacing:.07em;border:1px solid #ddd;background:#fff;color:#888;cursor:pointer;border-radius:4px;transition:all .15s}
+.view-btn.active{background:#1a1a1a;color:#f0ead6;border-color:#1a1a1a}
+#module-btn{padding:6px 14px;font-size:11px;font-family:'Courier New',monospace;letter-spacing:.07em;border:1px solid #ddd;background:#faf9f6;color:#888;cursor:pointer;border-radius:4px}
+#search-input{flex:1;min-width:160px;background:#faf9f6;border:1px solid #ddd;border-radius:4px;color:#333;padding:6px 12px;font-size:13px;font-family:Georgia,serif;outline:none}
+
+/* ── MODULE PICKER ── */
+#module-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:1000;align-items:center;justify-content:center;padding:20px}
+#module-overlay.open{display:flex}
+#module-picker{background:#fff;border-radius:8px;padding:24px;max-width:480px;width:100%;max-height:80vh;overflow-y:auto;box-shadow:0 8px 40px rgba(0,0,0,.2)}
+#module-picker h2{font-family:'IM Fell English',serif;font-size:18px;margin-bottom:16px;color:#1a1a1a}
+.module-card{border:1px solid #e0d8cc;border-radius:5px;padding:12px 14px;margin-bottom:8px;cursor:pointer;transition:all .15s}
+.module-card:hover{border-color:#8B6914;background:#fffbf4}
+.module-card.active{border-color:#B22222;background:#fff5f5}
+.module-card-title{font-family:'IM Fell English',serif;font-size:14px;color:#1a1a1a}
+.module-card-sub{font-size:10px;color:#aaa;font-family:'Courier New',monospace;margin-top:2px}
+#picker-close{margin-top:8px;background:transparent;border:1px solid #ccc;color:#888;padding:5px 16px;cursor:pointer;font-size:11px;font-family:'Courier New',monospace;border-radius:3px}
+#picker-note{font-size:10px;color:#bbb;font-family:'Courier New',monospace;margin-top:12px;line-height:1.7;border-top:1px solid #eee;padding-top:10px}
+
+/* ── TIMELINE ── */
+#timeline-wrap{background:#faf9f6;border:1px solid #e8e0d0;border-radius:5px;padding:10px 14px;margin-top:14px;overflow-x:auto}
+#tl-label{font-size:9px;color:#bbb;font-family:'Courier New',monospace;letter-spacing:.12em;margin-bottom:6px}
+#tl-svg{display:block}
+
+/* ── LIST ── */
+#list-view{display:block}
+#list-header{background:#fff;border-bottom:1px solid #e0d8cc;padding:12px 20px}
+#list-area{padding:14px 16px 40px;max-width:740px;margin:0 auto}
+.cat-panel{border:1px solid #ddd;border-radius:6px;margin-bottom:8px;background:#fafafa;overflow:hidden;transition:all .2s}
+.cat-panel.open{border-color:var(--accent)}
+.cat-head{padding:11px 14px;cursor:pointer;display:flex;align-items:center;gap:11px;user-select:none}
+.cat-icon-circle{width:33px;height:33px;border-radius:50%;background:#e8e8e8;display:flex;align-items:center;justify-content:center;font-size:14px;flex-shrink:0;transition:background .2s}
+.cat-panel.open .cat-icon-circle{background:var(--accent)}
+.cat-name{font-size:14px;font-family:'IM Fell English',serif;color:#333;transition:color .2s}
+.cat-panel.open .cat-name{color:var(--color)}
+.cat-sub{font-size:10px;color:#999;font-style:italic;margin-top:1px}
+.cat-panel.open .cat-sub{color:var(--accent)}
+.cat-toggle{width:20px;height:20px;border-radius:50%;border:1px solid #ccc;display:flex;align-items:center;justify-content:center;font-size:13px;color:#aaa;flex-shrink:0;margin-left:auto;transition:all .2s}
+.cat-panel.open .cat-toggle{border-color:var(--accent);color:var(--accent)}
+.cat-body{display:none;padding:6px 8px 10px}
+.cat-panel.open .cat-body{display:block}
+.subgroup-label{font-size:9px;color:#aaa;font-family:'Courier New',monospace;letter-spacing:.12em;padding:4px 8px 2px;text-transform:uppercase}
+.entry{display:grid;grid-template-columns:1fr auto;gap:6px;align-items:start;padding:8px 10px;cursor:pointer;border-left:2px solid transparent;margin-bottom:1px;border-radius:0 3px 3px 0;transition:border-color .12s,background .12s}
+.entry:hover{border-left-color:var(--accent);background:var(--accent-faint)}
+.entry-name{font-size:13px;color:#1a1a1a;font-family:'IM Fell English',serif}
+.entry-date{font-size:10px;font-family:'Courier New',monospace;opacity:.8;white-space:nowrap}
+.entry-hint{font-size:11px;color:#666;font-style:italic;margin-top:2px;line-height:1.45}
+.entry-loc{font-size:10px;color:#aaa;margin-top:2px}
+.entry-arrow{font-size:10px;color:#ccc;padding-top:2px}
+.methodology{margin-top:24px;border-top:1px solid #e0d8cc;padding-top:12px;font-size:10px;color:#bbb;font-family:'Courier New',monospace;line-height:1.8}
+
+/* ── MAP ── */
+#map-view{display:none}
+#map-area{padding:14px 16px 40px;max-width:740px;margin:0 auto}
+#map-filters{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+.filter-pill{padding:3px 10px;border-radius:20px;border:1px solid #ccc;background:#fff;color:#aaa;font-size:10px;font-family:'Courier New',monospace;letter-spacing:.06em;cursor:pointer;transition:all .15s;display:flex;align-items:center;gap:4px}
+.filter-pill.on{border-color:var(--accent);background:var(--faint);color:var(--accent)}
+#map-container{border-radius:6px;overflow:hidden;border:1px solid #e0d8cc;height:420px}
+#the-map{width:100%;height:100%}
+#map-legend{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px;align-items:center}
+.leg-item{display:flex;align-items:center;gap:4px}
+.leg-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+.leg-label{font-size:10px;color:#888;font-style:italic}
+#map-note{margin-top:6px;font-size:10px;color:#bbb;font-family:'Courier New',monospace}
+
+/* ── MODAL ── */
+#modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.35);z-index:2000;align-items:center;justify-content:center;padding:20px}
+#modal-overlay.open{display:flex}
+#modal{background:#fff;border-radius:6px;padding:24px;max-width:500px;width:100%;max-height:85vh;overflow-y:auto;box-shadow:0 8px 40px rgba(0,0,0,.2);border-top:4px solid #ccc}
+#modal-tag{display:inline-block;font-size:9px;font-family:'Courier New',monospace;letter-spacing:.1em;padding:2px 7px;border-radius:2px;margin-bottom:6px}
+#modal-title{font-size:18px;font-family:'IM Fell English',serif;color:#1a1a1a;line-height:1.3}
+#modal-meta{display:flex;flex-wrap:wrap;gap:14px;margin-top:7px}
+.meta-g{display:flex;align-items:center;gap:5px}
+.meta-k{font-size:9px;color:#bbb;font-family:'Courier New',monospace;flex-shrink:0}
+.meta-v{font-size:11px;font-family:'Courier New',monospace}
+.meta-vl{font-size:11.5px;font-family:Georgia,serif;color:#555}
+#modal-hint{font-size:13px;color:#444;margin-top:12px;line-height:1.65;font-style:italic;border-left:3px solid #ccc;padding-left:12px}
+#modal-ev-label{font-size:9px;color:#aaa;font-family:'Courier New',monospace;letter-spacing:.1em;margin-top:14px;display:block}
+#modal-note{font-size:12px;color:#666;line-height:1.75;margin-top:4px}
+#modal-close{margin-top:18px;background:transparent;border:1px solid #ccc;color:#888;padding:5px 16px;cursor:pointer;font-size:11px;letter-spacing:.1em;font-family:'Courier New',monospace;border-radius:3px}
+
+/* ── LOADING ── */
+#loading{display:flex;align-items:center;justify-content:center;height:40vh;font-size:12px;color:#aaa;font-family:'Courier New',monospace;letter-spacing:.1em}
+</style>
+</head>
+<body>
+
+<div id="header">
+  <div id="header-top">
+    <span id="app-title">Historical Evidence Atlas</span>
+    <span id="module-title">—</span>
+    <span id="module-subtitle"></span>
+  </div>
+  <div id="module-cats"></div>
+  <div id="controls">
+    <button class="view-btn active" id="btn-list" onclick="setView('list')">☰ List & Timeline</button>
+    <button class="view-btn" id="btn-map" onclick="setView('map')">◎ Map</button>
+    <button id="module-btn" onclick="openPicker()">⊞ Modules</button>
+    <input id="search-input" placeholder="Search…" oninput="filterList()">
+  </div>
+</div>
+
+<!-- MODULE PICKER -->
+<div id="module-overlay" onclick="if(event.target===this)closePicker()">
+  <div id="module-picker">
+    <h2>Select a module</h2>
+    <div id="picker-list"></div>
+    <div id="picker-note">
+      To add a new module, drop a .json file into the <code>modules/</code> folder<br>
+      and add it to the <code>MODULES</code> list in index.html.<br>
+      Ask Claude to generate the JSON — it knows the schema.
+    </div>
+    <button id="picker-close" onclick="closePicker()">CLOSE</button>
+  </div>
+</div>
+
+<!-- VIEWS -->
+<div id="loading">LOADING MODULE…</div>
+
+<div id="list-view" style="display:none">
+  <div id="list-header">
+    <div id="timeline-wrap">
+      <div id="tl-label">TIMELINE — hover for labels</div>
+      <svg id="tl-svg"></svg>
+    </div>
+  </div>
+  <div id="list-area"></div>
+</div>
+
+<div id="map-view" style="display:none">
+  <div id="map-area">
+    <div id="map-filters"></div>
+    <div id="map-container"><div id="the-map"></div></div>
+    <div id="map-legend"></div>
+    <div id="map-note">Tiles © OpenStreetMap contributors · Pins = primary location · Tap multi-pin to list entries</div>
+  </div>
+</div>
+
+<!-- MODAL -->
+<div id="modal-overlay" onclick="if(event.target===this)closeModal()">
+  <div id="modal">
+    <span id="modal-tag"></span>
+    <div id="modal-title"></div>
+    <div id="modal-meta">
+      <div class="meta-g"><span class="meta-k">WHEN</span><span class="meta-v" id="modal-date"></span></div>
+      <div class="meta-g"><span class="meta-k">WHERE</span><span class="meta-vl" id="modal-loc"></span></div>
+    </div>
+    <div id="modal-hint"></div>
+    <span id="modal-ev-label">PRIMARY EVIDENCE</span>
+    <div id="modal-note"></div>
+    <button id="modal-close" onclick="closeModal()">CLOSE</button>
+  </div>
+</div>
+
+<script>
+// ── MODULE REGISTRY ───────────────────────────────────────────────────────────
+// To add a new module: add an entry here, drop the .json in modules/
+const MODULES = [
+  { id: "rome-400-500",  file: "modules/rome-400-500.json",  label: "Roman Empire",     sub: "400–500 AD" },
+  // { id: "rome-300-400",  file: "modules/rome-300-400.json",  label: "Roman Empire",     sub: "300–400 AD" },
+  // { id: "visigoths",     file: "modules/visigoths.json",     label: "Visigoth Kingdom", sub: "410–507 AD" },
+  // Add more modules here ↑
+];
+
+// ── STATE ─────────────────────────────────────────────────────────────────────
+let MOD = null;         // loaded module data
+let leafMap = null;
+let markerLayer = null;
+let activeCatIds = new Set();
+let currentView = 'list';
+
+// ── TAG COLOURS ───────────────────────────────────────────────────────────────
+const TAG_COLORS = {
+  SUCCESSION:"#2471A3",COUP:"#C0392B",PUPPET:"#884EA0",APPOINTED:"#1E8449",
+  LEGITIMATE:"#2471A3",DEPOSED:"#C0392B",MARRIAGE:"#884EA0",
+  BATTLE:"#7D3C98",INVASION:"#C0392B",SACK:"#922B21",NAVAL:"#1A5276",
+  POLITICAL:"#566573",CONSTRUCTION:"#1E8449",LAW:"#2471A3",EDICT:"#2471A3",
+  SCHISM:"#117A65",DOCUMENT:"#566573",COUNCIL:"#1E8449",MISSION:"#117A65",
+  DEATH:"#7B7D7D",TEXT:"#2C3E50",CHRONICLE:"#2C3E50",FRAGMENT:"#566573",
+  LETTERS:"#2C3E50",OBJECT:"#8D6E63",MONUMENT:"#6D4C41",
+  MIGRATION:"#B7770D",EARTHQUAKE:"#D35400",PLAGUE:"#7D3C98",
+  ECONOMIC:"#8B5E00",EVENT:"#566573",CLIMATE:"#2471A3",TECHNOLOGY:"#2E7D52",
+};
+
+// ── MODULE LOADING ────────────────────────────────────────────────────────────
+function loadModule(file) {
+  document.getElementById('loading').style.display = 'flex';
+  document.getElementById('list-view').style.display = 'none';
+  document.getElementById('map-view').style.display = 'none';
+
+  fetch(file)
+    .then(r => r.json())
+    .then(data => {
+      MOD = data;
+      activeCatIds = new Set(data.categories.map(c => c.id));
+      renderHeader();
+      buildPicker();
+      buildList();
+      buildTimeline();
+      if (leafMap) { leafMap.remove(); leafMap = null; }
+      document.getElementById('loading').style.display = 'none';
+      setView(currentView);
+    })
+    .catch(err => {
+      document.getElementById('loading').textContent = 'Error loading module. Check the file path.';
+      console.error(err);
+    });
+}
+
+function renderHeader() {
+  document.title = MOD.title + ' ' + MOD.subtitle + ' — Historical Evidence Atlas';
+  document.getElementById('module-title').textContent = MOD.title;
+  document.getElementById('module-subtitle').textContent = MOD.subtitle + ' · EVIDENCE-ANCHORED';
+  document.getElementById('module-cats').textContent = MOD.categories.map(c => c.label.toUpperCase()).join(' · ');
+}
+
+// ── VIEW SWITCHING ────────────────────────────────────────────────────────────
+function setView(v) {
+  currentView = v;
+  document.getElementById('list-view').style.display = v === 'list' ? 'block' : 'none';
+  document.getElementById('map-view').style.display  = v === 'map'  ? 'block' : 'none';
+  document.getElementById('btn-list').classList.toggle('active', v === 'list');
+  document.getElementById('btn-map').classList.toggle('active',  v === 'map');
+  if (v === 'map' && !leafMap) initMap();
+}
+
+// ── MODULE PICKER ─────────────────────────────────────────────────────────────
+function buildPicker() {
+  const list = document.getElementById('picker-list');
+  list.innerHTML = '';
+  MODULES.forEach(m => {
+    const card = document.createElement('div');
+    card.className = 'module-card' + (MOD && MOD.id === m.id ? ' active' : '');
+    card.innerHTML = `<div class="module-card-title">${m.label}</div><div class="module-card-sub">${m.sub}</div>`;
+    card.onclick = () => { closePicker(); loadModule(m.file); };
+    list.appendChild(card);
+  });
+}
+function openPicker()  { buildPicker(); document.getElementById('module-overlay').classList.add('open'); }
+function closePicker() { document.getElementById('module-overlay').classList.remove('open'); }
+
+// ── MODAL ─────────────────────────────────────────────────────────────────────
+function openModal(entry, accent) {
+  const c = TAG_COLORS[entry.tag] || '#888';
+  const ac = accent || c;
+  document.getElementById('modal').style.borderTopColor = ac;
+  document.getElementById('modal-tag').textContent = entry.tag;
+  document.getElementById('modal-tag').style.cssText = `display:inline-block;font-size:9px;font-family:'Courier New',monospace;letter-spacing:.1em;padding:2px 7px;border:1px solid ${c};color:${c};border-radius:2px;margin-bottom:6px`;
+  document.getElementById('modal-title').textContent = entry.label;
+  document.getElementById('modal-date').textContent = entry.date || '';
+  document.getElementById('modal-date').style.color = ac;
+  document.getElementById('modal-loc').textContent = entry.loc || '';
+  document.getElementById('modal-hint').textContent = entry.hint || '';
+  document.getElementById('modal-hint').style.borderLeftColor = ac;
+  document.getElementById('modal-note').textContent = entry.note || '';
+  document.getElementById('modal-overlay').classList.add('open');
+}
+function closeModal() { document.getElementById('modal-overlay').classList.remove('open'); }
+
+// ── HELPERS ───────────────────────────────────────────────────────────────────
+function allEntries() {
+  if (!MOD) return [];
+  const out = [];
+  MOD.categories.forEach(cat => {
+    cat.entries.forEach(e => out.push({ ...e, catId: cat.id, accent: cat.accent }));
+  });
+  return out;
+}
+
+// ── LIST ──────────────────────────────────────────────────────────────────────
+function buildList() {
+  const area = document.getElementById('list-area');
+  area.innerHTML = '';
+  MOD.categories.forEach(cat => {
+    const panel = document.createElement('div');
+    panel.className = 'cat-panel';
+    panel.style.setProperty('--accent', cat.accent);
+    panel.style.setProperty('--color', cat.color);
+    panel.innerHTML = `
+      <div class="cat-head" onclick="togglePanel(this)">
+        <div class="cat-icon-circle">${cat.icon}</div>
+        <div>
+          <div class="cat-name">${cat.label}</div>
+          <div class="cat-sub">${cat.subtitle} · ${cat.entries.length} entries</div>
+        </div>
+        <div class="cat-toggle">+</div>
+      </div>
+      <div class="cat-body"></div>`;
+    const body = panel.querySelector('.cat-body');
+
+    // Group entries by group field if present
+    const groups = {};
+    cat.entries.forEach(e => {
+      const g = e.group || '_';
+      if (!groups[g]) groups[g] = [];
+      groups[g].push(e);
+    });
+    Object.entries(groups).forEach(([g, entries]) => {
+      if (g !== '_') {
+        const lbl = document.createElement('div');
+        lbl.className = 'subgroup-label';
+        lbl.textContent = g;
+        body.appendChild(lbl);
+      }
+      entries.forEach(e => body.appendChild(makeEntry(e, cat.accent)));
+    });
+    area.appendChild(panel);
+  });
+
+  const meth = document.createElement('div');
+  meth.className = 'methodology';
+  meth.textContent = 'METHODOLOGY · Every entry anchors to a datable primary source: surviving manuscript, inscription, coin series, standing monument, or datable chronicle. Locations given as ancient name with modern equivalent where useful.';
+  area.appendChild(meth);
+}
+
+function makeEntry(e, accent) {
+  const div = document.createElement('div');
+  div.className = 'entry';
+  div.style.setProperty('--accent', accent);
+  div.style.setProperty('--accent-faint', accent + '18');
+  div.innerHTML = `
+    <div>
+      <div style="display:flex;align-items:baseline;gap:8px;flex-wrap:wrap">
+        <span class="entry-name">${e.label}</span>
+        ${e.date ? `<span class="entry-date" style="color:${accent}">${e.date}</span>` : ''}
+      </div>
+      ${e.hint ? `<div class="entry-hint">${e.hint}</div>` : ''}
+      ${e.loc  ? `<div class="entry-loc">📍 ${e.loc}</div>` : ''}
+    </div>
+    <div class="entry-arrow">↗</div>`;
+  div.onclick = () => openModal(e, accent);
+  return div;
+}
+
+function togglePanel(head) {
+  const panel = head.parentElement;
+  panel.classList.toggle('open');
+  head.querySelector('.cat-toggle').textContent = panel.classList.contains('open') ? '−' : '+';
+}
+
+function filterList() {
+  const q = document.getElementById('search-input').value.toLowerCase().trim();
+  document.querySelectorAll('.entry').forEach(div => {
+    div.style.display = (!q || div.textContent.toLowerCase().includes(q)) ? '' : 'none';
+  });
+}
+
+// ── TIMELINE ──────────────────────────────────────────────────────────────────
+function buildTimeline() {
+  if (!MOD) return;
+  const svg = document.getElementById('tl-svg');
+  const wrap = document.getElementById('timeline-wrap');
+  const W = wrap.offsetWidth - 28 || 640;
+  const lanes = MOD.timeline;
+  const MIN = MOD.period.start, MAX = MOD.period.end;
+  const LW = 80, RH = 26, GAP = 2;
+  const H = lanes.length * (RH + GAP) + 28;
+  const TICKS = [];
+  for (let y = Math.ceil(MIN/10)*10; y <= MAX; y += 10) TICKS.push(y);
+
+  svg.setAttribute('width', W);
+  svg.setAttribute('height', H);
+  svg.innerHTML = '';
+
+  const px = y => LW + Math.max(0, Math.min(1, (y - MIN) / (MAX - MIN))) * (W - LW);
+
+  // Grid lines
+  TICKS.forEach(y => {
+    const x = px(y);
+    const l = document.createElementNS('http://www.w3.org/2000/svg','line');
+    l.setAttribute('x1',x); l.setAttribute('y1',0);
+    l.setAttribute('x2',x); l.setAttribute('y2',H-18);
+    l.setAttribute('stroke','#e4ddd4'); l.setAttribute('stroke-width','0.6');
+    svg.appendChild(l);
+    const t = document.createElementNS('http://www.w3.org/2000/svg','text');
+    t.setAttribute('x',x); t.setAttribute('y',H-4);
+    t.setAttribute('text-anchor','middle'); t.setAttribute('font-size','8');
+    t.setAttribute('fill','#bbb'); t.setAttribute('font-family',"'Courier New',monospace");
+    t.textContent = y; svg.appendChild(t);
+  });
+
+  // 476 marker (or midpoint if different period)
+  const mid = Math.round((MIN + MAX) / 2);
+  const markerYear = (MIN <= 476 && 476 <= MAX) ? 476 : null;
+  if (markerYear) {
+    const xm = px(markerYear);
+    const vl = document.createElementNS('http://www.w3.org/2000/svg','line');
+    vl.setAttribute('x1',xm); vl.setAttribute('y1',0);
+    vl.setAttribute('x2',xm); vl.setAttribute('y2',H-18);
+    vl.setAttribute('stroke','#B22222'); vl.setAttribute('stroke-width','1.2'); vl.setAttribute('opacity','0.4');
+    svg.appendChild(vl);
+  }
+
+  lanes.forEach((lane, li) => {
+    const ty = li * (RH + GAP);
+    const bg = document.createElementNS('http://www.w3.org/2000/svg','rect');
+    bg.setAttribute('x',0); bg.setAttribute('y',ty);
+    bg.setAttribute('width',W); bg.setAttribute('height',RH);
+    bg.setAttribute('fill', li % 2 === 0 ? '#faf9f6' : '#f4f1eb'); bg.setAttribute('rx','2');
+    svg.appendChild(bg);
+
+    const lt = document.createElementNS('http://www.w3.org/2000/svg','text');
+    lt.setAttribute('x','4'); lt.setAttribute('y', ty + RH/2 + 4);
+    lt.setAttribute('font-size','9'); lt.setAttribute('fill', lane.accent);
+    lt.setAttribute('font-family',"'Courier New',monospace"); lt.setAttribute('font-weight','600');
+    lt.textContent = lane.icon + ' ' + lane.id.slice(0,8).toUpperCase();
+    svg.appendChild(lt);
+
+    lane.events.forEach(ev => {
+      const isSpan = ev.y2 && ev.y2 > ev.y + 1;
+      const x1 = px(Math.max(MIN, ev.y));
+      const tip = ev.l + (ev.y2 && ev.y2 !== ev.y ? ` (${ev.y}–${ev.y2})` : ` (${ev.y})`);
+
+      if (isSpan) {
+        const x2 = px(Math.min(MAX, ev.y2));
+        const r = document.createElementNS('http://www.w3.org/2000/svg','rect');
+        r.setAttribute('x', x1); r.setAttribute('y', ty + RH*.22);
+        r.setAttribute('width', Math.max(2, x2-x1)); r.setAttribute('height', RH*.56);
+        r.setAttribute('fill', lane.accent+'40'); r.setAttribute('rx','2');
+        r.setAttribute('stroke', lane.accent+'80'); r.setAttribute('stroke-width','0.8');
+        r.style.cursor = 'pointer';
+        r.addEventListener('mouseenter', e => showTip(tip, e));
+        r.addEventListener('mouseleave', hideTip);
+        svg.appendChild(r);
+        if (x2 - x1 > 20) {
+          const rt = document.createElementNS('http://www.w3.org/2000/svg','text');
+          rt.setAttribute('x', x1+3); rt.setAttribute('y', ty+RH/2+3.5);
+          rt.setAttribute('font-size','7'); rt.setAttribute('fill', lane.accent);
+          rt.setAttribute('font-family',"'Courier New',monospace"); rt.textContent = ev.l;
+          svg.appendChild(rt);
+        }
+      } else {
+        const c = document.createElementNS('http://www.w3.org/2000/svg','circle');
+        c.setAttribute('cx', x1); c.setAttribute('cy', ty + RH/2);
+        c.setAttribute('r','4'); c.setAttribute('fill', lane.accent);
+        c.setAttribute('stroke','white'); c.setAttribute('stroke-width','1.2');
+        c.style.cursor = 'pointer';
+        c.addEventListener('mouseenter', e => showTip(tip, e));
+        c.addEventListener('mouseleave', hideTip);
+        svg.appendChild(c);
+      }
+    });
+  });
+}
+
+let tipEl = null;
+function showTip(text, e) {
+  if (!tipEl) {
+    tipEl = document.createElement('div');
+    tipEl.style.cssText = 'position:fixed;background:#1a1a1a;color:#f0ead6;font-size:11px;font-family:Georgia,serif;padding:4px 10px;border-radius:3px;pointer-events:none;z-index:9999;white-space:nowrap';
+    document.body.appendChild(tipEl);
+  }
+  tipEl.textContent = text;
+  tipEl.style.left = (e.clientX + 10) + 'px';
+  tipEl.style.top  = (e.clientY - 28) + 'px';
+  tipEl.style.display = 'block';
+}
+function hideTip() { if (tipEl) tipEl.style.display = 'none'; }
+
+// ── MAP ────────────────────────────────────────────────────────────────────────
+function initMap() {
+  leafMap = L.map('the-map', {
+    center: MOD.mapCenter || [42, 18],
+    zoom:   MOD.mapZoom   || 4,
+    minZoom: 2, maxZoom: 12,
+  });
+
+  L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_toner_lite/{z}/{x}/{y}{r}.png', {
+    attribution: '© Stadia Maps © Stamen Design © OpenStreetMap',
+    maxZoom: 20
+  }).addTo(leafMap);
+
+  buildMapFilters();
+  buildLegend();
+  renderPins();
+}
+
+function buildMapFilters() {
+  const wrap = document.getElementById('map-filters');
+  wrap.innerHTML = '';
+  MOD.categories.forEach(cat => {
+    const btn = document.createElement('button');
+    btn.className = 'filter-pill on';
+    btn.style.setProperty('--accent', cat.accent);
+    btn.style.setProperty('--faint', cat.accent + '18');
+    btn.innerHTML = cat.icon + ' ' + cat.label.toUpperCase();
+    btn.onclick = () => {
+      activeCatIds.has(cat.id) ? activeCatIds.delete(cat.id) : activeCatIds.add(cat.id);
+      btn.classList.toggle('on', activeCatIds.has(cat.id));
+      renderPins();
+    };
+    wrap.appendChild(btn);
+  });
+}
+
+function buildLegend() {
+  const wrap = document.getElementById('map-legend');
+  wrap.innerHTML = '';
+  MOD.categories.forEach(cat => {
+    const d = document.createElement('div');
+    d.className = 'leg-item';
+    d.innerHTML = `<div class="leg-dot" style="background:${cat.accent}"></div><span class="leg-label">${cat.label}</span>`;
+    wrap.appendChild(d);
+  });
+}
+
+// Global store for map popup entry access
+window._mapEntries = {};
+
+function renderPins() {
+  if (!leafMap) return;
+  if (markerLayer) markerLayer.clearLayers();
+  markerLayer = L.layerGroup().addTo(leafMap);
+
+  const entries = allEntries().filter(e => e.coords && activeCatIds.has(e.catId));
+
+  // Group by snapped coord
+  const groups = {};
+  entries.forEach(e => {
+    const key = e.coords[0].toFixed(1) + ',' + e.coords[1].toFixed(1);
+    if (!groups[key]) groups[key] = { latlng: e.coords, items: [] };
+    groups[key].items.push(e);
+    window._mapEntries[e.id] = e;
+  });
+
+  Object.values(groups).forEach(({ latlng, items }) => {
+    const multi = items.length > 1;
+    let html, size;
+
+    if (multi) {
+      const R = 12, total = Math.min(items.length, 8);
+      let slices = '';
+      items.slice(0, total).forEach((it, i) => {
+        const a0 = (i/total)*2*Math.PI - Math.PI/2;
+        const a1 = ((i+1)/total)*2*Math.PI - Math.PI/2;
+        const x1=R+R*Math.cos(a0), y1=R+R*Math.sin(a0);
+        const x2=R+R*Math.cos(a1), y2=R+R*Math.sin(a1);
+        slices += `<path d="M${R},${R} L${x1},${y1} A${R},${R} 0 ${(a1-a0)>Math.PI?1:0} 1 ${x2},${y2} Z" fill="${it.accent}" opacity="0.9"/>`;
+      });
+      html = `<div style="width:28px;height:28px;border-radius:50%;border:2px solid white;box-shadow:0 1px 5px rgba(0,0,0,.4);overflow:hidden;background:white;cursor:pointer"><svg width="28" height="28" viewBox="0 0 24 24">${slices}</svg></div>`;
+      size = [28,28];
+    } else {
+      const cat = MOD.categories.find(c => c.id === items[0].catId);
+      html = `<div style="width:26px;height:26px;border-radius:50%;background:${items[0].accent};border:2px solid white;box-shadow:0 1px 5px rgba(0,0,0,.4);display:flex;align-items:center;justify-content:center;font-size:12px;cursor:pointer">${cat?.icon||'·'}</div>`;
+      size = [26,26];
+    }
+
+    const icon = L.divIcon({ html, className:'', iconSize:size, iconAnchor:[size[0]/2,size[1]/2] });
+    const marker = L.marker(latlng, { icon }).addTo(markerLayer);
+
+    if (multi) {
+      const listHtml = items.map(it =>
+        `<div style="display:flex;align-items:center;gap:7px;margin-bottom:5px;cursor:pointer" onclick="openModal(window._mapEntries['${it.id}'],'${it.accent}')">
+           <span style="width:8px;height:8px;border-radius:50%;background:${it.accent};display:inline-block;flex-shrink:0"></span>
+           <span style="font-size:12px;font-family:Georgia,serif">${it.label}</span>
+           <span style="font-size:10px;color:#999;font-family:'Courier New',monospace">${it.date||''}</span>
+         </div>`
+      ).join('');
+      marker.bindPopup(`<div style="min-width:180px;max-width:240px">${listHtml}</div>`, { maxWidth:260 });
+    } else {
+      marker.on('click', () => openModal(items[0], items[0].accent));
+    }
+  });
+}
+
+// ── INIT ───────────────────────────────────────────────────────────────────────
+window.addEventListener('load', () => {
+  buildPicker();
+  loadModule(MODULES[0].file);
+});
+window.addEventListener('resize', () => { if (MOD) buildTimeline(); });
+</script>
+</body>
+</html>
