@@ -123,7 +123,7 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
 <!-- TOP NAV BAR -->
 <div id="topbar">
   <span id="app-label">Area Studies Atlas</span>
-  <button id="select-btn" onclick="openPicker()">⊞ Select module</button>
+  <button id="select-btn" onclick="openPicker()">⊞ Select</button>
   <span id="module-name-top">—</span>
 </div>
 
@@ -377,6 +377,7 @@ function makeEntry(e, accent) {
       <div style="display:flex;align-items:baseline;gap:8px;flex-wrap:wrap">
         <span class="entry-name">${e.label}</span>
         ${e.date?`<span class="entry-date" style="color:${accent}">${e.date}</span>`:''}
+        ${e.dynasty?`<span style="font-size:9px;font-family:'Courier New',monospace;color:#bbb;padding:1px 6px;border:1px solid #e0d8cc;border-radius:2px;white-space:nowrap">${e.dynasty}</span>`:''}
       </div>
       ${e.hint?`<div class="entry-hint">${e.hint}</div>`:''}
       ${e.loc?`<div class="entry-loc">📍 ${e.loc}</div>`:''}
@@ -406,7 +407,7 @@ function buildTimeline() {
   const W = Math.max(640, wrap.clientWidth - 28);
   const lanes = MOD.timeline;
   const MIN = MOD.period.start, MAX = MOD.period.end;
-  const LW = 84, GAP = 2;
+  const LW = 160, GAP = 2;
 
   // ── For the POWER lane, compute non-overlapping row layout ──
   // Each lane gets its own sub-row structure
@@ -484,13 +485,14 @@ function buildTimeline() {
     bg.setAttribute('fill', li%2===0 ? '#faf9f6' : '#f4f1eb'); bg.setAttribute('rx','2');
     svg.appendChild(bg);
 
-    // Lane label (icon + name)
+    // Lane label (icon + name, using label field if present)
     const licon = CAT_ICONS[lane.id] || lane.icon || '';
+    const ltext = lane.label || lane.id.slice(0,8).toUpperCase();
     const lt = document.createElementNS('http://www.w3.org/2000/svg','text');
     lt.setAttribute('x','4'); lt.setAttribute('y', ty + laneH/2 + 4);
-    lt.setAttribute('font-size','11'); lt.setAttribute('fill', lane.accent);
+    lt.setAttribute('font-size','9'); lt.setAttribute('fill', lane.accent);
     lt.setAttribute('font-family',"'Courier New',monospace"); lt.setAttribute('font-weight','600');
-    lt.textContent = licon + ' ' + lane.id.slice(0,7).toUpperCase();
+    lt.textContent = licon + ' ' + ltext;
     svg.appendChild(lt);
 
     // Draw events
@@ -500,8 +502,13 @@ function buildTimeline() {
       const rowY = ty + LANE_PAD + row * ROW_H;
       const tip = ev.l + (ev.y2 && ev.y2!==ev.y ? ` (${ev.y}–${ev.y2})` : ` (${ev.y})`);
 
-      // Find matching entry in data for click
-      const matchEntry = allEntries().find(e => e.label === ev.l || (ev.entryId && e.id === ev.entryId));
+      // Find matching entry — prefer explicit entryId, then exact label, then label contains short name
+      const allE = allEntries();
+      const matchEntry = ev.entryId
+        ? allE.find(e => e.id === ev.entryId)
+        : allE.find(e => e.label === ev.l)
+          || allE.find(e => e.label.toLowerCase().includes(ev.l.toLowerCase()))
+          || allE.find(e => ev.l.toLowerCase().includes(e.label.toLowerCase().split(' ').slice(-1)[0]));
       const clickFn = matchEntry ? () => openModal(matchEntry, matchEntry.accent) : null;
 
       if (isSpan) {
