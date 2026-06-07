@@ -201,6 +201,11 @@
       {"y":249,"l":"Plague of Cyprian",             "entryId":"s2"},
       {"y":260,"l":"Eastern trade disruption",      "entryId":"s3"}
     ]},
+    {"id":"technology",       "icon":"⚙️","accent":"#2E7D52","events":[
+      {"y":212,"l":"Baths of Caracalla (vaulting)", "entryId":"te1"},
+      {"y":271,"l":"Aurelian Walls construction",   "entryId":"te2"},
+      {"y":200,"l":"Road milestone network",        "entryId":"te3"}
+    ]},
     {"id":"world",            "icon":"🌍","accent":"#2471A3","events":[
       {"y":224,"l":"Sassanid Empire rises",         "entryId":"w1"},
       {"y":230,"l":"Gothic confederation",          "entryId":"w3"},
