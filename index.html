@@ -312,7 +312,7 @@ function loadModule(file) {
   document.getElementById('loading').style.display = 'flex';
   ['list-view','timeline-view','map-view'].forEach(id => document.getElementById(id).style.display = 'none');
 
-  fetch(file)
+  return fetch(file)
     .then(r => r.json())
     .then(data => {
       MOD = data;
@@ -323,7 +323,6 @@ function loadModule(file) {
       if (leafMap) { leafMap.remove(); leafMap = null; markerLayer = null; }
       document.getElementById('loading').style.display = 'none';
       setView(currentView);
-      // Delay timeline build to ensure layout is complete
       setTimeout(buildTimeline, 80);
     })
     .catch(err => {
@@ -473,23 +472,59 @@ function globalSearch(q) {
 
 function globalSelectEntry(modId, modFile, entryId, accent) {
   closePicker();
-  // If the module is already loaded, open the entry directly
+
+  function revealEntry() {
+    // Switch to List view
+    setView('list');
+
+    // Find the entry in the DOM — it's a div.entry inside a .cat-panel
+    // We need to open the right panel first, then scroll to the entry
+    setTimeout(() => {
+      // Find which category contains this entry
+      const entry = allEntries().find(e => e.id === entryId);
+      if (!entry) return;
+
+      // Find all cat-panels and open the one containing this entry
+      const panels = document.querySelectorAll('.cat-panel');
+      panels.forEach(panel => {
+        const entries = panel.querySelectorAll('.entry');
+        entries.forEach(div => {
+          // Match by entry text content (name)
+          if (div.querySelector('.entry-name') &&
+              div.querySelector('.entry-name').textContent === entry.label) {
+            // Open this panel
+            if (!panel.classList.contains('open')) {
+              panel.classList.add('open');
+              const toggle = panel.querySelector('.cat-toggle');
+              if (toggle) toggle.textContent = '−';
+            }
+            // Scroll entry into view with a small offset
+            setTimeout(() => {
+              div.scrollIntoView({ behavior: 'smooth', block: 'center' });
+              // Flash highlight
+              div.style.transition = 'background .1s';
+              div.style.background = accent + '28';
+              setTimeout(() => { div.style.background = ''; }, 1200);
+            }, 120);
+          }
+        });
+      });
+
+      // Open the modal
+      openModal(entry, accent);
+    }, 150);
+  }
+
   if (MOD && MOD.id === modId) {
-    const entry = allEntries().find(e => e.id === entryId);
-    if (entry) openModal(entry, accent);
+    revealEntry();
   } else {
-    // Load the module, then open the entry
     loadModule(modFile).then(() => {
-      setTimeout(() => {
-        const entry = allEntries().find(e => e.id === entryId);
-        if (entry) openModal(entry, accent);
-      }, 300);
+      setTimeout(revealEntry, 200);
     });
   }
 }
 
 // Make loadModule return a promise so globalSelectEntry can chain
-// (already is async via fetch chain — we just need to capture it)
 let _loadModuleResolve = null;
 
 // ── MODAL ─────────────────────────────────────────────────────────────────────
