@@ -2,10 +2,7 @@
   "id": "rome-400-500",
   "title": "Roman Empire",
   "subtitle": "400–500 AD",
-  "period": {
-    "start": 400,
-    "end": 500
-  },
+  "period": "Late Antique",
   "mapCenter": [
     41,
     18
@@ -754,6 +751,20 @@
           "hint": "Marble sarcophagus likely from Stilicho's family; shows Christian funerary art for the elite.",
           "tag": "OBJECT",
           "note": "Shows biblical scenes — example of Christian aristocratic funerary art."
+        },
+        {
+          "id": "a8",
+          "group": "Music & Performance",
+          "label": "Boethius: De Institutione Musica — music theory for the Middle Ages",
+          "date": "c.500–510",
+          "loc": "Rome (written); transmitted across medieval Europe",
+          "coords": [
+            41.9,
+            12.5
+          ],
+          "hint": "Boethius writes the foundational text of Western music theory — synthesising Greek theory (Pythagoras, Ptolemy) for a Latin audience; it becomes the standard university music textbook for 1,000 years and shapes how European music is conceptualised.",
+          "tag": "TEXT",
+          "note": "De Institutione Musica: complete text survives. Earliest MS: 9th century. Bower translation (1989). Boethius distinguishes musica mundana (cosmic), musica humana (human harmony) and musica instrumentalis (performed music) — the tripartite framework inherited by all medieval music theory. Written c.500–510, just after Boethius served as consul (510). The text's influence: cited in every major medieval music treatise."
         }
       ]
     },
@@ -1475,6 +1486,11 @@
           "y": 425,
           "l": "Mausoleum of Galla Placidia",
           "entryId": "a3"
+        },
+        {
+          "y": 500,
+          "l": "Boethius: De Institutione Musica",
+          "entryId": "a8"
         }
       ]
     },
@@ -1635,5 +1651,6 @@
         }
       ]
     }
-  ]
+  ],
+  "region": "Europe"
 }
