@@ -550,20 +550,6 @@
       "subtitle": "The translation movement, the Academy of Gundeshapur and Persian learning",
       "entries": [
         {
-          "id": "t1",
-          "group": "Philosophy",
-          "label": "Greek philosophers at Khosrow's court",
-          "date": "529–532",
-          "loc": "Ctesiphon; Academy of Gundeshapur",
-          "coords": [
-            32.3,
-            48.5
-          ],
-          "hint": "When Justinian closes the Academy of Athens in 529, seven Neoplatonist philosophers travel to Khosrow I's court — he negotiates their right of safe return in the Perpetual Peace of 532; Agathias records this extraordinary episode.",
-          "tag": "TEXT",
-          "note": "Agathias 2.30–31 (contemporary Byzantine historian). The seven philosophers named. Perpetual Peace 532 included their protection: Procopius 1.22. Damascius, Simplicius and others identifiable. This is the best-documented example of cross-cultural intellectual exchange in late antiquity."
-        },
-        {
           "id": "t2",
           "group": "Science & Geography",
           "label": "Academy of Gundeshapur — Sassanid medical centre",
@@ -576,20 +562,6 @@
           "hint": "The Academy of Gundeshapur combines Greek (displaced Nestorian scholars from Edessa, 489), Indian and Iranian medical traditions — the most important centre of medical learning in the pre-Islamic world, providing physicians to the early Islamic caliphs.",
           "tag": "CONSTRUCTION",
           "note": "Foundation of Nestorian school after Edessa's closure 489: Chronicle of Se'ert (Syriac). Khosrow I's expansion: multiple Islamic sources (Ibn al-Qifti). Indian physicians invited: documented in Tabari and Dinkard. The Barmakid family (later Abbasid viziers) managed the Academy: confirmed in Islamic sources."
-        },
-        {
-          "id": "t3",
-          "group": "Science & Geography",
-          "label": "Indian mathematical and astronomical texts translated",
-          "date": "c.531–579",
-          "loc": "Gundeshapur; Ctesiphon",
-          "coords": [
-            32.3,
-            48.5
-          ],
-          "hint": "Khosrow I sends the scholar Borzuya to India to bring back scientific texts — the Panchatantra (fables) is translated into Middle Persian as Kalilah wa Dimnah; Indian astronomical and medical texts also translated.",
-          "tag": "TEXT",
-          "note": "Borzuya's mission to India: recorded in the Arabic Kalilah wa Dimnah (Ibn al-Muqaffa translation, 8th c., from lost Middle Persian). The Panchatantra-Kalilah wa Dimnah transmission is one of the best-documented instances of Sanskrit-Persian-Arabic literary transfer."
         },
         {
           "id": "t4",
@@ -724,6 +696,73 @@
           "hint": "A 195km wall with forts, a canal and a garrison of 30,000 soldiers defending Persia's northeast frontier against steppe peoples — bigger than Hadrian's Wall; recent excavations date it to the 5th–6th century Sassanid period.",
           "tag": "CONSTRUCTION",
           "note": "Extant (195km). Sauer et al. (2013), Persia's Imperial Power in Late Antiquity: The Great Wall of Gorgan. Archaeological dating: 5th–6th c. CE. Brick production evidence for centralised construction. One of the largest military engineering projects of late antiquity, almost unknown outside specialist scholarship."
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "label": "Exchange",
+      "icon": "🔀",
+      "color": "#1A3A3A",
+      "accent": "#148080",
+      "bg": "#F0FAFA",
+      "subtitle": "Diplomacy, trade routes, cultural transmission & the movement of peoples, goods and ideas",
+      "entries": [
+        {
+          "id": "ex1",
+          "group": "Intellectual Exchange",
+          "label": "Khosrow I hosts expelled Athenian philosophers",
+          "date": "529–532",
+          "loc": "Ctesiphon; Academy of Gundeshapur",
+          "coords": [
+            32.3,
+            48.5
+          ],
+          "hint": "When Justinian closes the Academy of Athens in 529, Neoplatonist philosophers including Simplicius and Damascius travel to Khosrow's court — the most documented instance of Greek philosophy crossing into the Iranian world, protected by treaty and preserved for the Arabic translation movement.",
+          "tag": "DOCUMENT",
+          "note": "Agathias 2.30–31 (contemporary): names seven philosophers. Perpetual Peace 532 included their right of return: Procopius 1.22. Simplicius's commentaries on Aristotle (written partly at Ctesiphon?): scholarly debate. The chain from Athens to Ctesiphon to Baghdad is the most important single intellectual transmission of late antiquity. MOVED from Thought t1."
+        },
+        {
+          "id": "ex2",
+          "group": "Silk Road & Trade Routes",
+          "label": "Silk monopoly broken — Byzantine silkworm smuggling",
+          "date": "c.552",
+          "loc": "Central Asia → Constantinople (monks' route)",
+          "coords": [
+            41.01,
+            28.97
+          ],
+          "hint": "Byzantine monks smuggle silkworm eggs from Central Asia to Constantinople hidden in hollow walking staves — ending the Sassanid silk monopoly; Procopius describes the episode in detail, making it the best-documented act of industrial espionage in antiquity.",
+          "tag": "DOCUMENT",
+          "note": "Procopius Wars 8.17.1–8 (contemporary, detailed). The monks' route: via Central Asia, probably Sogdiana. The hollow stave detail: Procopius 8.17.4. Theophanes of Byzantium (fragment) corroborates. Laufer (1919), Sino-Iranica on silk transmission. The episode ends the Sassanid commercial monopoly that had structured east-west trade for three centuries. MOVED from Subsistence s2."
+        },
+        {
+          "id": "ex3",
+          "group": "Cultural Transmission",
+          "label": "Borzuya's mission to India — Panchatantra transmitted",
+          "date": "c.550–570",
+          "loc": "India (mission); Ctesiphon (translation)",
+          "coords": [
+            20.0,
+            77.0
+          ],
+          "hint": "Khosrow I sends the physician-scholar Borzuya to India to collect scientific and literary texts — the Panchatantra fables are translated into Middle Persian as Kalilah wa Dimnah; this single mission initiates one of the longest documented chains of literary transmission in world history.",
+          "tag": "DOCUMENT",
+          "note": "Borzuya's mission: preserved in the Arabic Kalilah wa Dimnah (Ibn al-Muqaffa's 8th-c. translation from lost Middle Persian). Borzuya's preface (in Arabic translation): autobiographical and datable. The transmission chain: Sanskrit → Middle Persian (c.550) → Arabic (c.750) → Latin (c.1270) → European languages. de Blois (1990), Burzōy's Voyage to India and the Origin of the Book of Kalīlah wa Dimnah. MOVED from Thought t3."
+        },
+        {
+          "id": "ex4",
+          "group": "Diplomatic Exchange",
+          "label": "Khosrow II and Maurice — the friendship that triggered the great war",
+          "date": "590–602",
+          "loc": "Constantinople / Ctesiphon",
+          "coords": [
+            41.01,
+            28.97
+          ],
+          "hint": "Byzantine emperor Maurice helps Khosrow II recover his throne in 590 — creating a personal diplomatic bond; when Maurice is murdered in 602 Khosrow launches the great war as 'revenge', making this friendship the proximate cause of the most destructive war of late antiquity.",
+          "tag": "POLITICAL",
+          "note": "Theophylact Simocatta 5.9–15 (contemporary): the most detailed account of Maurice's military assistance. The 'friendship' (philia) between the emperors: documented in Byzantine sources. Khosrow's stated justification for the war: multiple sources agree. Howard-Johnston (2010), Witnesses to a World Crisis, pp.1–30."
         }
       ]
     },
@@ -1152,6 +1191,33 @@
           "y": 600,
           "l": "Sassanid seals corpus",
           "entryId": "te2"
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "icon": "🔀",
+      "accent": "#148080",
+      "events": [
+        {
+          "y": 529,
+          "l": "Greek philosophers at Khosrow's court",
+          "entryId": "ex1"
+        },
+        {
+          "y": 550,
+          "l": "Borzuya — India to Persia transmission",
+          "entryId": "ex3"
+        },
+        {
+          "y": 552,
+          "l": "Silkworm smuggling breaks monopoly",
+          "entryId": "ex2"
+        },
+        {
+          "y": 590,
+          "l": "Maurice & Khosrow — fatal friendship",
+          "entryId": "ex4"
         }
       ]
     },
