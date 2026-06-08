@@ -791,7 +791,7 @@
     {
       "id": "exchange",
       "label": "Exchange",
-      "icon": "🔀",
+      "icon": "🌐",
       "color": "#1A3A3A",
       "accent": "#148080",
       "bg": "#F0FAFA",
@@ -1284,7 +1284,7 @@
     },
     {
       "id": "exchange",
-      "icon": "🔀",
+      "icon": "🌐",
       "accent": "#148080",
       "events": [
         {
