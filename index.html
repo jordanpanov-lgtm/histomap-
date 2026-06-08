@@ -37,20 +37,20 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
 /* ── MODULE MATRIX PICKER ── */
 #module-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:1000;align-items:flex-start;justify-content:flex-start}
 #module-overlay.open{display:flex}
-#module-picker{background:#e8f2e8;width:min(96vw,860px);min-height:100vh;max-height:100vh;overflow-y:auto;padding:24px 24px 40px;box-shadow:4px 0 40px rgba(0,0,0,.3);display:flex;flex-direction:column;gap:0}
+#module-picker{background:#e8f2e8;width:100vw;max-width:1100px;min-height:100vh;max-height:100vh;overflow-y:auto;overflow-x:hidden;padding:24px 28px 40px;box-shadow:4px 0 40px rgba(0,0,0,.2);display:flex;flex-direction:column;gap:0}
 
 /* Picker header */
-#picker-head{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:6px}
+#picker-head{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:8px;flex-shrink:0}
 #picker-head h2{font-family:'IM Fell English',serif;font-size:17px;color:#0e2a18}
 #picker-close{background:transparent;border:1px solid #6a9a7a;color:#2a5a38;padding:4px 10px;cursor:pointer;font-size:11px;font-family:'Courier New',monospace;border-radius:3px;flex-shrink:0;transition:all .15s}
 #picker-close:hover{background:#0e2a18;color:#d4e8d0;border-color:#0e2a18}
 
 /* Global search */
-#global-search-wrap{margin-bottom:18px}
+#global-search-wrap{margin-bottom:14px;flex-shrink:0;position:relative}
 #global-search{width:100%;background:#fff;border:1px solid #8ab89a;border-radius:4px;color:#0e2a18;padding:9px 14px;font-size:13px;font-family:Georgia,serif;outline:none}
 #global-search::placeholder{color:#8ab89a}
 #global-search:focus{border-color:#2a6a3a;box-shadow:0 0 0 2px rgba(42,106,58,.12)}
-#global-results{margin-top:8px;max-height:220px;overflow-y:auto;display:none;background:#fff;border:1px solid #b8d8b8;border-radius:4px}
+#global-results{position:absolute;top:100%;left:0;right:0;margin-top:4px;max-height:260px;overflow-y:auto;display:none;background:#fff;border:1px solid #b8d8b8;border-radius:4px;z-index:10;box-shadow:0 4px 16px rgba(0,0,0,.12)}
 #global-results.open{display:block}
 .gr-module{font-size:10px;color:#4a7a55;font-family:'Courier New',monospace;letter-spacing:.08em;padding:8px 10px 2px;text-transform:uppercase;border-bottom:1px solid #e0eee0}
 .gr-entry{display:flex;align-items:baseline;gap:8px;padding:5px 10px;cursor:pointer;transition:background .12s}
@@ -61,24 +61,24 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
 .gr-no-results{font-size:11px;color:#6a9a7a;font-family:'Courier New',monospace;padding:10px}
 
 /* Matrix */
-#matrix-label{font-size:9px;color:#4a7a55;font-family:'Courier New',monospace;letter-spacing:.12em;margin-bottom:10px}
-#matrix-wrap{overflow-x:auto}
-#matrix{border-collapse:collapse;width:100%;min-width:560px}
-#matrix th{font-size:9px;font-family:'Courier New',monospace;letter-spacing:.1em;color:#2a5a38;text-transform:uppercase;padding:8px 8px 6px;border-bottom:2px solid #8ab89a;text-align:left;white-space:nowrap;font-weight:700;background:#e8f2e8}
-#matrix th:first-child{width:110px}
-#matrix td{padding:5px 6px;border:1px solid #c8e0c8;vertical-align:top;min-width:100px;background:#f2f8f2}
-.matrix-region{font-size:10px;font-family:'Courier New',monospace;color:#2a5a38;letter-spacing:.08em;padding:6px 0;text-transform:uppercase;white-space:nowrap;font-weight:600}
-.matrix-cell{min-height:36px;border-radius:3px;padding:2px}
+#matrix-label{font-size:9px;color:#4a7a55;font-family:'Courier New',monospace;letter-spacing:.12em;margin-bottom:10px;flex-shrink:0}
+#matrix-wrap{width:100%}
+#matrix{border-collapse:collapse;width:100%;table-layout:fixed}
+#matrix th{font-size:9px;font-family:'Courier New',monospace;letter-spacing:.08em;color:#2a5a38;text-transform:uppercase;padding:8px 8px 6px;border-bottom:2px solid #8ab89a;text-align:left;white-space:nowrap;font-weight:700;background:#e8f2e8}
+#matrix th:first-child{width:100px}
+#matrix td{padding:5px 6px;border:1px solid #c8e0c8;vertical-align:top;background:#f2f8f2}
+.matrix-region{font-size:9px;font-family:'Courier New',monospace;color:#2a5a38;letter-spacing:.07em;padding:6px 0;text-transform:uppercase;white-space:nowrap;font-weight:600}
+.matrix-cell{min-height:40px;border-radius:3px;padding:2px}
 .matrix-cell.empty{background:#e0ede0;opacity:.6}
 .mc-card{background:#fff;border:1px solid #b8d8b8;border-radius:3px;padding:6px 8px;margin-bottom:4px;cursor:pointer;transition:all .15s;box-shadow:0 1px 3px rgba(0,0,0,.06)}
 .mc-card:hover{border-color:#2a6a3a;background:#f0f8f0;box-shadow:0 2px 6px rgba(42,106,58,.15)}
 .mc-card.active{border-color:#0e4a22;background:#e0f0e4;box-shadow:inset 0 0 0 1px #0e4a22}
-.mc-title{font-family:'IM Fell English',serif;font-size:12px;color:#0e2a18;line-height:1.3}
-.mc-sub{font-size:9px;color:#4a7a55;font-family:'Courier New',monospace;margin-top:2px;line-height:1.4}
+.mc-title{font-family:'IM Fell English',serif;font-size:11px;color:#0e2a18;line-height:1.3}
+.mc-sub{font-size:8px;color:#4a7a55;font-family:'Courier New',monospace;margin-top:2px;line-height:1.4}
 .mc-empty{font-size:9px;color:#b8d8b8;font-family:'Courier New',monospace;padding:4px 0;text-align:center}
 
 /* Picker footer */
-#picker-note{font-size:10px;color:#6a9a7a;font-family:'Courier New',monospace;margin-top:20px;line-height:1.7;border-top:1px solid #b8d8b8;padding-top:14px}
+#picker-note{font-size:10px;color:#6a9a7a;font-family:'Courier New',monospace;margin-top:20px;line-height:1.7;border-top:1px solid #b8d8b8;padding-top:14px;flex-shrink:0}
 
 /* ── FULL-WIDTH CONTENT WRAPPER ── */
 #content-wrap{max-width:none;width:100%;padding:0}
@@ -180,7 +180,7 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
 
     <div id="picker-head">
       <h2>Area Studies Atlas</h2>
-      <button id="picker-close" onclick="closePicker()">✕ CLOSE</button>
+      <button id="picker-close" onclick="closePicker()" style="visibility:hidden">✕ CLOSE</button>
     </div>
 
     <!-- Global search -->
@@ -218,7 +218,7 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
 </div>
 
 <!-- VIEWS -->
-<div id="loading">LOADING MODULE…</div>
+<div id="loading" style="display:flex">SELECT A MODULE TO BEGIN</div>
 
 <div id="timeline-view">
   <div id="timeline-scroll">
@@ -309,7 +309,9 @@ function catIcon(cat) { return CAT_ICONS[cat.id] || cat.icon || "•"; }
 
 // ── MODULE LOADING ────────────────────────────────────────────────────────────
 function loadModule(file) {
-  document.getElementById('loading').style.display = 'flex';
+  const loadEl = document.getElementById('loading');
+  loadEl.textContent = 'LOADING MODULE…';
+  loadEl.style.display = 'flex';
   ['list-view','timeline-view','map-view'].forEach(id => document.getElementById(id).style.display = 'none');
 
   return fetch(file)
@@ -337,6 +339,8 @@ function renderHeader() {
   document.getElementById('module-subtitle').textContent = MOD.subtitle;
   document.getElementById('module-cats').textContent = MOD.categories.map(c => (CAT_ICONS[c.id]||c.icon) + ' ' + c.label.toUpperCase()).join('  ·  ');
   document.getElementById('module-name-top').textContent = MOD.title + ' · ' + MOD.subtitle;
+  // Reveal the close button now that a module is loaded
+  document.getElementById('picker-close').style.visibility = 'visible';
 }
 
 // ── VIEW SWITCHING ────────────────────────────────────────────────────────────
@@ -405,6 +409,8 @@ function openPicker() {
   setTimeout(() => document.getElementById('global-search').focus(), 80);
 }
 function closePicker() {
+  // Don't allow closing until a module is loaded
+  if (!MOD) return;
   document.getElementById('module-overlay').classList.remove('open');
 }
 
@@ -934,9 +940,9 @@ function renderPins() {
 
 // ── INIT ───────────────────────────────────────────────────────────────────────
 window.addEventListener('load', () => {
-  loadModule(MODULES[0].file);
+  openPicker();
   // Preload all module data into cache silently for global search
-  setTimeout(ensureModCache, 2000);
+  setTimeout(ensureModCache, 1000);
 });
 window.addEventListener('resize', () => { /* viewBox scales automatically */ });
 </script>
