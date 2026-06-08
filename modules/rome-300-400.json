@@ -962,6 +962,87 @@
           "note": "Earthquake and tsunami 21 Jul 365: Ammianus 26.10 (eyewitness account of waves reaching Egypt). Kelly Harper, The Fate of Rome (2017) ch. 6. Archaeological evidence: destruction layers at coastal sites."
         }
       ]
+    },
+    {
+      "id": "lives",
+      "label": "Lives",
+      "icon": "🪞",
+      "color": "#2E1A4A",
+      "accent": "#7B4FA6",
+      "bg": "#F7F0FF",
+      "subtitle": "Gender, sexuality & marginalised experience · evidence anchored · including categorical shifts",
+      "entries": [
+        {
+          "id": "lv1",
+          "group": "Same-Sex Practice & Law",
+          "label": "Constantius II criminalises passive same-sex acts",
+          "date": "342",
+          "loc": "Rome (issued); applicable Empire-wide",
+          "coords": [
+            41.9,
+            12.5
+          ],
+          "hint": "The first Roman imperial law explicitly criminalising same-sex acts: Codex Theodosianus 9.7.3 threatens punishment by the sword for the passive role — marking a shift from the Lex Scantinia's social stigma to criminal law, driven by Christian influence on the court.",
+          "tag": "CATEGORICAL SHIFT",
+          "note": "CTh 9.7.3 (342 CE): text survives in the Codex Theodosianus. Boswell (1980) pp.120–123. The law's Christian theological background: Constantius II's Arian Christianity shapes the legislation. Williams (2010), Roman Homosexuality, ch.8: the shift from status-based to act-based criminal law. This is the first dateable legislative CATEGORICAL SHIFT in Roman law on this subject."
+        },
+        {
+          "id": "lv2",
+          "group": "Same-Sex Practice & Law",
+          "label": "Theodosian Code 9.7.6 — burning alive prescribed",
+          "date": "390",
+          "loc": "Rome / Constantinople (issued by Valentinian II)",
+          "coords": [
+            41.9,
+            12.5
+          ],
+          "hint": "Valentinian II prescribes death by burning for men who take the passive role in same-sex acts — escalating from the sword (342) to burning, and removing the citizen/non-citizen distinction entirely; a major step in the Christianisation of Roman criminal law.",
+          "tag": "CATEGORICAL SHIFT",
+          "note": "CTh 9.7.6 (390 CE): full text survives in the Codex Theodosianus. Boswell (1980) pp.123–124. The burning penalty: parallels Mosaic law (Lev 20:13 Septuagint) — the first direct Biblical legal borrowing in Roman statute. The progression from 342 to 390 is the key arc of 4th-century legal history on this subject."
+        },
+        {
+          "id": "lv3",
+          "group": "Women's Agency",
+          "label": "Perpetua's Passio — a woman's first-person prison account",
+          "date": "c.203 (text circulating widely by 300s)",
+          "loc": "Carthage (written); copied throughout North Africa",
+          "coords": [
+            36.85,
+            10.33
+          ],
+          "hint": "The Passio Sanctarum Perpetuae et Felicitatis contains sections written by Perpetua herself in prison — one of the only surviving first-person texts by a woman from antiquity; she describes a dream in which she becomes a man to fight in the arena.",
+          "tag": "EVIDENCE",
+          "note": "Passio Perpetuae et Felicitatis: Latin text, oldest MS 11th c. but content dated 203 CE by internal evidence. Perpetua's own sections: 3.1–10.13. The gender-transformation dream: 10.7 ('I became a man'). Scholarly debate on authenticity: Shaw (1993), JRS. Gold (2018), Perpetua: Athlete of God. Widely circulated in North Africa by the 4th century."
+        },
+        {
+          "id": "lv4",
+          "group": "Gender Variance",
+          "label": "Gallae — priests of Cybele and gender variance at Rome",
+          "date": "c.300–391 (cult banned 391)",
+          "loc": "Rome (Palatine sanctuary of Cybele, excavated)",
+          "coords": [
+            41.89,
+            12.49
+          ],
+          "hint": "The Gallae, castrated priests of Cybele, occupy a recognised gender-variant role in Roman religious life — wearing women's dress, using feminine pronouns, begging in public; their existence is extensively documented before the cult's suppression in 391.",
+          "tag": "EVIDENCE",
+          "note": "Multiple sources: Lucian De Dea Syria; Catullus 63; Augustine De Civitate Dei 7.26 (hostile but detailed). Archaeological: Palatine sanctuary of Cybele excavated. The Gallae as recognised gender-variant category: Roller (1999), In Search of God the Mother. Suppression under Theodosius 391: CTh 16.10.10. This is BOTH evidence of the practice AND a categorical shift when the cult is banned."
+        },
+        {
+          "id": "lv5",
+          "group": "Women's Agency",
+          "label": "Macrina the Elder — Gregory of Nyssa's theological biography",
+          "date": "c.379–382 (events: 327–380)",
+          "loc": "Annisa, Pontus (mod. Turkey)",
+          "coords": [
+            40.5,
+            36.5
+          ],
+          "hint": "Gregory of Nyssa's Life of Macrina documents his sister's decision to remain unmarried, manage a monastic community, and engage in theological debate — the most detailed 4th-century account of a woman exercising intellectual and spiritual authority outside marriage.",
+          "tag": "EVIDENCE",
+          "note": "Gregory of Nyssa, Vita Macrinae (c.382): Greek text survives complete. Callahan translation (1967). Macrina's philosophical dialogue On the Soul and Resurrection (Gregory attributes it to her): survives. Hart (2019) on Macrina's intellectual independence. The text is unusual in presenting a woman as the theological teacher of her male relatives."
+        }
+      ]
     }
   ],
   "timeline": [
@@ -1337,6 +1418,33 @@
           "y": 395,
           "l": "Empire splits permanently",
           "entryId": "w3"
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "icon": "🪞",
+      "accent": "#7B4FA6",
+      "events": [
+        {
+          "y": 300,
+          "l": "Gallae — Cybele priests (until 391)",
+          "entryId": "lv4"
+        },
+        {
+          "y": 342,
+          "l": "First law criminalising same-sex acts",
+          "entryId": "lv1"
+        },
+        {
+          "y": 380,
+          "l": "Macrina — female theological authority",
+          "entryId": "lv5"
+        },
+        {
+          "y": 390,
+          "l": "Burning alive prescribed (CTh 9.7.6)",
+          "entryId": "lv2"
         }
       ]
     }
