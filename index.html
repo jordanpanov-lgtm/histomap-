@@ -317,7 +317,7 @@ function loadModule(file) {
       MOD = data;
       activeCatIds = new Set(data.categories.map(c => c.id));
       renderHeader();
-      buildPicker();
+      buildMatrix();
       buildList();
       if (leafMap) { leafMap.remove(); leafMap = null; markerLayer = null; }
       document.getElementById('loading').style.display = 'none';
