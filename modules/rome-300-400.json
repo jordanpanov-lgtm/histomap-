@@ -2,10 +2,7 @@
   "id": "rome-300-400",
   "title": "Roman Empire",
   "subtitle": "300–400 AD · Constantine to Theodosius",
-  "period": {
-    "start": 300,
-    "end": 400
-  },
+  "period": "Late Antique",
   "mapCenter": [
     41,
     22
@@ -650,6 +647,20 @@
           "hint": "Constantine transforms Byzantium into a vast imperial capital: hippodrome, imperial palace and Christian basilicas built simultaneously on a massive scale.",
           "tag": "MONUMENT",
           "note": "Hippodrome obelisk inscriptions (extant). Malalas 13.7–8. Eusebius VC 3.48–49. Columns of Serpent (from Delphi), Theodosius, and Constantine still visible in Istanbul."
+        },
+        {
+          "id": "a8",
+          "group": "Music & Performance",
+          "label": "Christian hymnody — Ambrose of Milan establishes antiphonal singing",
+          "date": "c.386",
+          "loc": "Milan (Basilica Ambrosiana)",
+          "coords": [
+            45.46,
+            9.19
+          ],
+          "hint": "Ambrose of Milan introduces antiphonal hymn-singing to the Western Church in 386 during the siege of the basilica by Arian troops — Augustine's Confessions records hearing it for the first time and weeping; the Ambrosian hymns survive as the oldest datable Western Christian music.",
+          "tag": "DOCUMENT",
+          "note": "Augustine, Confessions 9.7 (c.397): 'It was then first instituted that hymns and psalms should be sung after the manner of the eastern church, to prevent the people from being quite overcome with tedium and sorrow; from that time to this day the practice has been retained.' Four Ambrosian hymns authenticated as genuine: Fontaine (1992), Ambroise de Milan: Hymnes. The 386 date confirmed by Augustine's narrative. Antiphonal singing introduced from Antioch: Ambrose, Epistula 20 to his sister Marcellina."
         }
       ]
     },
@@ -1367,6 +1378,11 @@
           "y": 350,
           "l": "Hinton St Mary mosaic",
           "entryId": "a5"
+        },
+        {
+          "y": 386,
+          "l": "Ambrose — antiphonal hymnody",
+          "entryId": "a8"
         }
       ]
     },
@@ -1542,5 +1558,6 @@
         }
       ]
     }
-  ]
+  ],
+  "region": "Europe"
 }
