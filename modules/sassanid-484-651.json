@@ -2,7 +2,10 @@
   "id": "sassanid-484-651",
   "title": "Sassanid Empire",
   "subtitle": "484–651 AD · Renewal, Apogee and Collapse",
-  "period": "Late Antique",
+  "period": {
+    "start": 484,
+    "end": 651
+  },
   "mapCenter": [
     34,
     50
@@ -1292,5 +1295,6 @@
       ]
     }
   ],
-  "region": "Near East"
+  "region": "Near East",
+  "period_label": "Late Antique"
 }
