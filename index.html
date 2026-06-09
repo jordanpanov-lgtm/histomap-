@@ -184,7 +184,7 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
     <div id="picker-top">
       <div id="picker-head">
         <h2>Area Studies Atlas</h2>
-        <button id="picker-close" onclick="closePicker()" style="visibility:hidden">✕ CLOSE</button>
+        <button id="picker-close" onclick="closePicker(true)" style="visibility:hidden">✕ CLOSE</button>
       </div>
       <div id="global-search-wrap">
         <input id="global-search" placeholder="Search across all modules — rulers, battles, manuscripts, places…"
@@ -389,7 +389,7 @@ function buildMatrix() {
           const card = document.createElement('div');
           card.className = 'mc-card' + (MOD && MOD.id === m.id ? ' active' : '');
           card.innerHTML = `<div class="mc-title">${m.label}</div><div class="mc-sub">${m.sub}</div>`;
-          card.onclick = () => { closePicker(); loadModule(m.file); };
+      card.onclick = () => { closePicker(true); loadModule(m.file); };
           cell.appendChild(card);
         });
       }
@@ -408,9 +408,10 @@ function openPicker() {
   document.getElementById('module-overlay').classList.add('open');
   setTimeout(() => document.getElementById('global-search').focus(), 80);
 }
-function closePicker() {
-  // Don't allow closing until a module is loaded
-  if (!MOD) return;
+function closePicker(force) {
+  // Block accidental close (clicking backdrop) until a module is loaded
+  // but always allow when force=true (card click or close button)
+  if (!force && !MOD) return;
   document.getElementById('module-overlay').classList.remove('open');
 }
 
@@ -477,7 +478,7 @@ function globalSearch(q) {
 }
 
 function globalSelectEntry(modId, modFile, entryId, accent) {
-  closePicker();
+  closePicker(true);
 
   function revealEntry() {
     // Switch to List view
@@ -656,11 +657,13 @@ function buildTimeline() {
   if (!MOD) return;
   const svg  = document.getElementById('tl-svg');
   const wrap = document.getElementById('timeline-scroll');
-  // Use a fixed logical width — SVG will scale via viewBox + CSS width:100%
-  const W = 1000;
+  const W = 1200;  // wider logical space gives labels more room
   const lanes = MOD.timeline;
   const MIN = MOD.period.start, MAX = MOD.period.end;
-  const LW = 168, GAP = 2;
+  // Label width: measure longest label to avoid overflow
+  const longestLabel = Math.max(...lanes.map(l => (l.label || l.id).length));
+  const LW = Math.min(220, Math.max(120, longestLabel * 7));
+  const GAP = 2;
 
   // ── For the POWER lane, compute non-overlapping row layout ──
   // Each lane gets its own sub-row structure
@@ -697,7 +700,7 @@ function buildTimeline() {
   const H = y + 22; // +22 for year axis at bottom
 
   svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
-  svg.setAttribute('preserveAspectRatio', 'none');
+  svg.setAttribute('preserveAspectRatio', 'xMinYMin meet');
   svg.removeAttribute('width');
   svg.removeAttribute('height');
   svg.innerHTML = '';
