@@ -1,0 +1,156 @@
+{
+  "id": "spain-1975-today",
+  "title": "Spain",
+  "subtitle": "1975–today · Transition, Democracy and the Unfinished Nation",
+  "period": { "start": 1975, "end": 2025 },
+  "region": "Iberia",
+  "period_label": "Modern",
+  "mapCenter": [40.4, -3.7],
+  "mapZoom": 6,
+  "categories": [
+    {
+      "id": "power", "label": "Power", "icon": "⚜️",
+      "color": "#1A3A5C", "accent": "#2471A3", "bg": "#F0F7FF",
+      "subtitle": "Constitutional monarchy — from La Transición to today",
+      "entries": [
+        { "id":"k1", "group":"Constitutional Monarchy", "dynasty":"Bourbon", "label":"Juan Carlos I — architect of the Transition", "date":"1975–2014", "loc":"Madrid (Zarzuela Palace)", "coords":[40.47,-3.78], "hint":"Franco designates Juan Carlos as his successor expecting continuity — within two years Juan Carlos dismantles the dictatorship through legal reform from within; his decisive televised speech on 23 February 1981 stops the coup attempt and cements democratic legitimacy.", "tag":"SUCCESSION", "note":"Juan Carlos I's accession speech 22 Nov 1975: BOE 23 Nov 1975. His 23-F speech transcript: RTVE archive (broadcast live, 1:14am, 24 Feb 1981). The 153 declassified 23-F documents (Feb 2026): La Moncloa website — include telephone transcripts. Powell (1996), Juan Carlos of Spain: the standard English biography. He abdicated 18 Jun 2014: BOE 19 Jun 2014." },
+        { "id":"k2", "group":"Constitutional Monarchy", "dynasty":"Bourbon", "label":"Felipe VI — constitutional king", "date":"19 Jun 2014–present", "loc":"Madrid (Zarzuela Palace)", "coords":[40.47,-3.78], "hint":"Felipe VI accedes on his father's abdication — his reign is defined by the 2017 Catalan independence crisis, during which his televised address (3 October 2017) sides explicitly with constitutional order against the referendum; a significant departure from his father's consensual style.", "tag":"SUCCESSION", "note":"Abdication law of Juan Carlos I: BOE 19 Jun 2014. Felipe VI's 3 Oct 2017 speech: RTVE broadcast, transcript on La Moncloa. Constitutionally, the speech's political content was unusual — analysed by constitutional scholars in real time. The reign's constitutional status: documented in BOE throughout." },
+        { "id":"k3", "group":"Democracy", "dynasty":"Republic", "label":"Adolfo Suárez — first democratic prime minister", "date":"1976–1981", "loc":"Madrid (Moncloa Palace)", "coords":[40.42,-3.71], "hint":"Suárez, a former Franco official, is the paradox of the Transition: a man of the regime who dismantles it from within; his Ley para la Reforma Política (1977) transforms the Francoist Cortes into a democratic parliament through a self-abolishing vote.", "tag":"SUCCESSION", "note":"Suárez's appointment by Juan Carlos: BOE 5 Jul 1976. Ley para la Reforma Política, ratified by Francoist Cortes 18 Nov 1976: BOE 5 Jan 1977. Referendum approving the LRP, 15 Dec 1976: Interior Ministry results. Powell (1996). The Cortes voting itself out of existence: documented in Diario de Sesiones. Suárez resigned Jan 1981, weeks before the coup attempt." }
+      ]
+    },
+    {
+      "id": "conflict", "label": "Conflict", "icon": "⚔️",
+      "color": "#4A235A", "accent": "#7D3C98", "bg": "#FAF5FF",
+      "subtitle": "ETA terrorism, the 23-F coup attempt and the 11-M bombings",
+      "entries": [
+        { "id":"c1", "group":"ETA Terrorism", "label":"Assassination of Admiral Carrero Blanco — 1973", "date":"20 Dec 1973", "loc":"Madrid (Calle Claudio Coello)", "coords":[40.43,-3.68], "hint":"ETA plants a bomb under Carrero Blanco's car — the explosion launches the car over a five-storey building; Carrero Blanco was Franco's designated successor and the assassination changes the course of the Transition by removing the hardest-line Francoist from succession.", "tag":"BATTLE", "note":"Police and judicial records: AHN. Contemporary press: El País archive, ABC archive. The engineering of the tunnel: documented in ETA's own later accounts. Preston (2012), Franco's Caudillo, ch. final. The assassination's political impact — removing the most rigid Francoist from succession — is argued by Preston (1993) and Payne (1987) as inadvertently facilitating the Transition." },
+        { "id":"c2", "group":"Coup Attempt", "label":"23-F — attempted coup in parliament, 1981", "date":"23 Feb 1981", "loc":"Madrid (Congress of Deputies); Valencia (tanks in streets)", "coords":[40.43,-3.69], "hint":"Lt Col Antonio Tejero storms the Congress of Deputies with 200 Civil Guards — the entire government is held hostage for 18 hours; Juan Carlos's televised address at 1:14am defeats the coup; the events are captured on television and radio.", "tag":"CIVIL WAR", "note":"EXCEPTIONAL ANCHOR: RTVE footage (extant, broadcast live) — Tejero entering Congress captured on parliamentary cameras. King's speech broadcast 1:14am, 24 Feb 1981: RTVE archive. 153 declassified documents (25 Feb 2026): La Moncloa — include transcripts of telephone conversations between military commanders (Euronews, 25 Feb 2026). Tejero convicted 1982: Tribunal Supremo records." },
+        { "id":"c3", "group":"ETA Terrorism", "label":"ETA's final ceasefire declaration — 2011", "date":"20 Oct 2011", "loc":"San Sebastián (declaration); Spain-wide (consequences)", "coords":[43.32,-1.98], "hint":"ETA declares a 'definitive cessation of armed activity' on 20 October 2011 — ending 43 years of terrorism that killed over 800 people; the declaration comes after a sustained international and judicial pressure campaign.", "tag":"POLITICAL", "note":"ETA declaration 20 Oct 2011: published in full in Gara (Basque newspaper) and international press. The full text: archived in Centro Memorial de las Víctimas del Terrorismo (Vitoria). The death toll of 829: documented in Interior Ministry records. ETA's formal dissolution 3 May 2018: Interior Ministry announcement. The verification process: facilitated by international observers including Brian Currin (South Africa)." },
+        { "id":"c4", "group":"Terrorism", "label":"11-M Madrid train bombings — 2004", "date":"11 Mar 2004", "loc":"Madrid (Atocha station; Téllez street; Pozo station)", "coords":[40.41,-3.69], "hint":"Al-Qaeda-linked bombers detonate ten improvised explosive devices on four commuter trains — 193 killed, 2,000 injured; the most deadly terrorist attack in Spanish history; the government's initial false attribution to ETA (three days before the general election) is considered a factor in its electoral defeat.", "tag":"BATTLE", "note":"Judicial investigation: Audiencia Nacional, Sumario 20/2004 — the trial records are public and extensive. Commission of Inquiry report (2005): Congreso de los Diputados archive. The misattribution to ETA: documented in real-time press records and government communications (AHN). The election results 14 Mar 2004: Interior Ministry archive. 192 victims (one died later): official memorial registry." }
+      ]
+    },
+    {
+      "id": "order", "label": "Order", "icon": "⚖️",
+      "color": "#1A3A5C", "accent": "#2471A3", "bg": "#F0F7FF",
+      "subtitle": "The Constitution of 1978 and the legal architecture of democracy",
+      "entries": [
+        { "id":"o1", "group":"Constitutional Law", "label":"Constitution of 1978 — the Magna Carta of the Transition", "date":"29 Dec 1978", "loc":"Madrid (Cortes; referendum)", "coords":[40.43,-3.69], "hint":"The 1978 Constitution is approved by referendum (88.5% in favour, 67.1% turnout) — establishing parliamentary monarchy, regional autonomy, and a rights framework; it is the product of consenso (political consensus) across parties including the Communist Party.", "tag":"LAW", "note":"HARD ANCHOR: BOE 29 Dec 1978 — the full constitutional text. Referendum result (6 Dec 1978): Interior Ministry official results. The constitutional drafting process (los padres de la Constitución): documented in the Cortes archives, Diario de Sesiones 1977–78. The Communist Party's role: Santiago Carrillo's PCE participated in drafting — its inclusion was itself a political act. Peces-Barba (2003), La elaboración de la Constitución de 1978." },
+        { "id":"o2", "group":"Administrative Reform", "label":"State of Autonomies — 17 regions self-governing", "date":"1979–1983", "loc":"Spain-wide (statute negotiations)", "coords":[40.4,-3.7], "hint":"The 1978 Constitution creates the Estado de las Autonomías — 17 autonomous communities each with their own parliament and government; the Basque Country and Catalonia gain the most extensive powers; the structure is a deliberate ambiguity about whether Spain is federal or unitary.", "tag":"LAW", "note":"Basque Statute of Autonomy (Estatuto de Gernika): BOE 22 Dec 1979. Catalan Statute (Estatut de Sau): BOE 18 Dec 1979. The subsequent statutes for other regions: BOE throughout 1981–83. The constitutional ambiguity: Morán (2009) on the 'state of autonomies' as an unfinished settlement. The 17 autonomías: documented in Ministerio de las Administraciones Públicas records." },
+        { "id":"o3", "group":"Constitutional Law", "label":"Pactos de la Moncloa — the economic consensus", "date":"25 Oct 1977", "loc":"Madrid (Moncloa Palace)", "coords":[40.42,-3.71], "hint":"All major political parties sign the Moncloa Pacts — agreeing wage restraint, political reform, and economic stabilisation simultaneously; the pacts are the economic foundation of the Transition, preventing the inflation-triggered crisis that derailed other democratisations.", "tag":"LAW", "note":"Text of the Moncloa Pacts: BOE 27 Oct 1977. Signed by 7 parties including PCE (Communist) and AP (conservative): documented. Fuentes Quintana (1983), Economía y política en la Transición. The pacts as economic model: cited in international democratic transition literature (O'Donnell & Schmitter 1986)." },
+        { "id":"o4", "group":"Human Rights", "label":"Historical Memory Law — exhumations and recognition", "date":"2007 (law); 2022 (expanded)", "loc":"Spain-wide (mass graves); Salamanca (archive)", "coords":[40.97,-5.66], "hint":"The 2007 Ley de Memoria Histórica mandates a mass graves programme, removes Francoist symbols from public space, and recognises victims of the Civil War and dictatorship — the 2022 Democratic Memory Law strengthens it; both laws are contested politically.", "tag":"LAW", "note":"Ley 52/2007 de Memoria Histórica: BOE 27 Dec 2007. Ley 20/2022 de Memoria Democrática: BOE 20 Oct 2022. Mass graves database: Ministerio de Presidencia, online. Centro Documental de la Memoria Histórica (Salamanca): the primary archive. The law's political contestation: documented in parliamentary debates (Diario de Sesiones). The PP government's suspension of funding 2011–2015: documented in budget records." }
+      ]
+    },
+    {
+      "id": "belief", "label": "Belief", "icon": "🙏",
+      "color": "#0B4F2E", "accent": "#1E8449", "bg": "#F0FFF6",
+      "subtitle": "Secularisation, the Church's retreat and plural religious Spain",
+      "entries": [
+        { "id":"r1", "group":"Catholic / Church of Rome", "label":"Church-State separation in the 1978 Constitution", "date":"1978", "loc":"Madrid", "coords":[40.42,-3.71], "hint":"Article 16 of the 1978 Constitution declares Spain a non-confessional state while acknowledging the 'special relations' with the Catholic Church — a carefully negotiated formula that ends National Catholicism without confronting the Church directly.", "tag":"CATEGORICAL SHIFT", "note":"Constitution Article 16: BOE 29 Dec 1978. The 1979 Agreements between Spain and the Holy See: BOE 15 Dec 1979 — replace the 1953 Concordat with four partial agreements on legal status, education, military service and economic affairs. The secularisation data: INE (Instituto Nacional de Estadística) surveys document the rapid decline in Mass attendance from ~70% (1975) to ~15% (2020). This is a documented CATEGORICAL SHIFT in how the state defines itself." },
+        { "id":"r2", "group":"Calvinist / Reformed Church", "label":"Muslim community and the Islamic Council of Spain", "date":"1992", "loc":"Spain-wide; Ceuta and Melilla", "coords":[35.89,-5.34], "hint":"The 1992 Cooperation Agreement between the Spanish state and the Islamic Commission of Spain formally recognises Islam — reflecting the arrival of significant Muslim immigrant communities; Ceuta and Melilla on the African coast have majority-Muslim populations predating the agreements.", "tag":"EDICT", "note":"Ley 26/1992 (Islamic Cooperation Agreement): BOE 12 Nov 1992. The CIE (Comisión Islámica de España): formally constituted 1992. INE data on Muslim population: from ~150,000 (1990) to ~2 million (2020). The pre-existing Muslim community in Ceuta and Melilla: documented in local civil registry records from the 19th century. Moreras (1999), Musulmanes en Barcelona: the first major sociological study." }
+      ]
+    },
+    {
+      "id": "expression", "label": "Expression", "icon": "✨",
+      "color": "#5D4037", "accent": "#8D6E63", "bg": "#FFF8F5",
+      "subtitle": "La Movida, cinema, architecture and the cultural explosion",
+      "entries": [
+        { "id":"a1", "group":"Film & Media", "label":"Pedro Almodóvar and La Movida Madrileña", "date":"1980–1992", "loc":"Madrid (Malasaña; Chueca; La Bobia bar)", "coords":[40.42,-3.7], "hint":"La Movida — the creative explosion following Franco's death — produces Almodóvar's first films (Pepi, Luci, Bom, 1980; What Have I Done to Deserve This?, 1984), Andy Warhol's visits to Madrid, and a deliberate transgression of Francoist repression through sexual and artistic freedom.", "tag":"LITERATURE", "note":"Almodóvar's Pepi, Luci, Bom (1980): first film, made for 500,000 pesetas — production records at El Deseo SA. All About My Mother (1999), Todo sobre mi madre: won the Oscar for Best Foreign Film — Academy of Motion Picture Arts and Sciences records. The Movida's documentation: Ministerio de Cultura archives, press coverage in El País (first edition 4 May 1976 — itself a primary source of the Transition)." },
+        { "id":"a2", "group":"Architecture", "label":"Guggenheim Bilbao — the titanium catalyst", "date":"18 Oct 1997", "loc":"Bilbao, Basque Country (extant)", "coords":[43.27,-2.93], "hint":"Frank Gehry's Guggenheim Museum Bilbao opens in 1997 — the titanium-clad building transforms a post-industrial waterfront city and triggers the 'Bilbao effect' concept in urban regeneration; the museum receives 1 million visitors in its first year.", "tag":"MONUMENT", "note":"Extant (Museo Guggenheim Bilbao). Opening 18 Oct 1997: contemporary press records. Construction cost €84 million: Guggenheim Foundation records. The 'Bilbao effect': Plaza et al. (2003), JAPA 69(1) — the academic term coined here. The museum's visitor statistics: Guggenheim annual reports. Ibelings (1998), Supermodernism: the architectural context." },
+        { "id":"a3", "group":"Music & Performance", "label":"Rosalía — flamenco fusion and global reach", "date":"2018–present", "loc":"Barcelona (born); global", "coords":[41.38,2.18], "hint":"Rosalía Vila Tobella's album El Mal Querer (2018) fuses flamenco with electronic production — winning the Latin Grammy for Best Fusion/Urban Interpretation and the Grammy for Best Latin/Urban Album; the most internationally successful Spanish musical artist since Julio Iglesias.", "tag":"LITERATURE", "note":"El Mal Querer (2018): Sony Music. Latin Grammy winner 2018 (documented). Grammy Award winner 2023: Recording Academy records. The album's flamenco sources: based on a 13th-century Occitan novel Flamenca — the literary source documented in liner notes. Rosalía's conservatory training: Escola Superior de Música de Catalunya records. The album is currently the most studied recent work of Spanish popular music in academic literature." }
+      ]
+    },
+    {
+      "id": "thought", "label": "Thought", "icon": "💡",
+      "color": "#2C3E50", "accent": "#566573", "bg": "#F5F6FA",
+      "subtitle": "Democracy, nationalism and the contested memory of the past",
+      "entries": [
+        { "id":"t1", "group":"Political Theory", "label":"Transition model — Spain as democratic template", "date":"1976–1982", "loc":"Madrid; Washington DC; academic literature", "coords":[40.42,-3.71], "hint":"Spain's Transition becomes the global reference model for democratic transitions — O'Donnell and Schmitter cite it in their foundational 1986 study; the consenso approach (negotiation rather than rupture) is exported as a model for Eastern Europe, Latin America and South Africa.", "tag":"TEXT", "note":"O'Donnell & Schmitter (1986), Transitions from Authoritarian Rule: Tentative Conclusions — the foundational comparative politics text, cites Spain repeatedly. Gunther, Sani & Shabad (1986), Spain after Franco: the first systematic academic study. The model's influence on South Africa's transition: Asmal (1994) explicitly references the Spanish pactos. The Transition's limitations — the 'pact of silence' on the past — are the subject of the Historical Memory debates." },
+        { "id":"t2", "group":"History & Chronicle", "label":"El País — newspaper of the Transition", "date":"4 May 1976–present", "loc":"Madrid", "coords":[40.42,-3.71], "hint":"El País is founded on 4 May 1976 — the first major liberal newspaper of the Transition; its first edition is itself a primary source for the period; its archives document the entire democratic era in real time.", "tag":"TEXT", "note":"First edition: 4 May 1976 — BNE and El País archive. Circulation: 450,000 daily at its peak (1990s). The paper's role in the Transition: Seoane & Sueiro (2004), Una historia de El País. The paper's archives: digitised from 1976 — the fullest newspaper record of democratic Spain. Note: El País is owned by the PRISA group — its editorial line (centrist-left) must be accounted for in using it as a primary source." }
+      ]
+    },
+    {
+      "id": "subsistence", "label": "Subsistence", "icon": "🌾",
+      "color": "#4A3200", "accent": "#8B5E00", "bg": "#FFFBF0",
+      "subtitle": "The Spanish economic miracle, boom and crash",
+      "entries": [
+        { "id":"s1", "group":"Trade & Commerce", "label":"Spain joins the European Community — 1986", "date":"1 Jan 1986", "loc":"Madrid (accession); Brussels", "coords":[40.42,-3.71], "hint":"Spain's EU accession on 1 January 1986 ends nearly a decade of negotiations — it triggers massive structural funds, foreign investment and economic integration; Spain's GDP per capita rises from 70% of EU average (1985) to 90% (2007).", "tag":"ECONOMIC", "note":"Accession Treaty signed 12 Jun 1985: Archivo del Ministerio de Asuntos Exteriores (Madrid). Entered into force 1 Jan 1986: Official Journal of the European Communities, L302, 15 Nov 1985. GDP convergence data: Eurostat. The accession negotiations (1977–1985): documented in AMAE. Fuentes Quintana (1989) on the economic consequences." },
+        { "id":"s2", "group":"Epidemic & Demographic", "label":"2008 financial crisis — Spain's property collapse", "date":"2008–2014", "loc":"Spain-wide (housing; unemployment)", "coords":[40.4,-3.7], "hint":"Spain's property bubble — the largest in the world per capita at its peak — collapses in 2008; unemployment reaches 27% (2013); the EU-IMF bailout of €100bn (2012) is the largest bank rescue in Spanish history; 400,000 mortgage evictions documented 2008–2014.", "tag":"PLAGUE", "note":"Eviction data: Consejo General del Poder Judicial (CGPJ) annual reports — 400,000+ between 2008 and 2014. Unemployment peak 27%: INE, Encuesta de Población Activa Q1 2013. EU bank rescue memorandum, Jul 2012: European Stability Mechanism records. Salmon (2010), The Modern Spanish Economy: the standard economic history, updated. The political consequences: rise of Podemos and Ciudadanos documented in electoral records from 2015." }
+      ]
+    },
+    {
+      "id": "exchange", "label": "Exchange", "icon": "🌐",
+      "color": "#1A3A3A", "accent": "#148080", "bg": "#F0FAFA",
+      "subtitle": "European integration, immigration and global Spain",
+      "entries": [
+        { "id":"ex1", "group":"Diplomatic Exchange", "label":"NATO membership — 1982 accession and 1986 referendum", "date":"1982–1986", "loc":"Madrid; Brussels", "coords":[40.42,-3.71], "hint":"Spain joins NATO in 1982 under Calvo-Sotelo — then González holds a referendum on remaining (1986) having promised withdrawal; the 'Yes to NATO' campaign reverses González's own position; Spain stays in NATO (52.5% yes); the episode reveals the Socialists' European integration logic.", "tag":"POLITICAL", "note":"NATO accession 30 May 1982: NATO records. Referendum 12 Mar 1986: Interior Ministry results (52.5% yes, 39.8% no, 7.7% blank). The campaign's reversal: documented in PSOE internal records and press. The three-condition 'yes': documented in González's statement (BOE). Spain's full military integration (joining the integrated command): 1999 — NATO records." },
+        { "id":"ex2", "group":"Migration & Settlement", "label":"Mass immigration to Spain — 1990s–2000s", "date":"1995–2008", "loc":"Spain-wide; Catalonia; Madrid; Murcia (agricultural zones)", "coords":[40.4,-3.7], "hint":"Spain transforms from a country of emigrants to one of the world's fastest-growing immigration destinations — from 500,000 foreign residents (1995) to 5.6 million (2008); Moroccan, Romanian, Ecuadorian and other communities create new social realities documented in census and civil registry.", "tag":"MIGRATION", "note":"INE Padrón Municipal (municipal register): the primary source — records all residents, citizens or not, by nationality. Data series 1996–2008: INE website. Izquierdo & Cornelius (2012), Controlling Immigration: Spain chapter — the standard academic analysis. The Delegación del Gobierno para la Inmigración y la Emigración annual reports: primary government documentation." }
+      ]
+    },
+    {
+      "id": "world", "label": "World", "icon": "🌍",
+      "color": "#1A3A4A", "accent": "#2471A3", "bg": "#F0F7FF",
+      "subtitle": "Democratic Spain in its European and global context",
+      "entries": [
+        { "id":"w1", "group":"Geopolitical Shift", "label":"Catalan independence crisis — 2017 referendum", "date":"1 Oct 2017", "loc":"Catalonia (polling stations); Madrid (constitutional court)", "coords":[41.38,2.18], "hint":"The Catalan government holds an independence referendum declared illegal by the Constitutional Court — 2.3 million vote (90% yes, 43% turnout); Spanish police violently block polling stations; the Catalan president Puigdemont flees to Belgium; the crisis remains unresolved.", "tag":"EVENT", "note":"Referendum results: Generalitat de Catalunya, 1 Oct 2017. Constitutional Court ruling (ATC 24/2017): declaring the referendum illegal. Puigdemont's exile in Belgium: Belgian court records. The UN Human Rights Committee ruling (2023): found Spain violated Puigdemont's right to stand for election. Felipe VI's 3 Oct 2017 speech: RTVE archive. The 2021 pardons of imprisoned leaders: BOE 22 Jun 2021." },
+        { "id":"w2", "group":"Geopolitical Shift", "label":"Spain's democratic consolidation as a European model", "date":"1975–1995", "loc":"Europe; Latin America; South Africa", "coords":[40.4,-3.7], "hint":"Spain becomes the model for democratic transitions — Chilean, Argentine and South African negotiators explicitly study the Spanish Transition; the consenso method and the Moncloa Pacts are referenced in South Africa's CODESA negotiations (1991–1993).", "tag":"EVENT", "note":"O'Donnell & Schmitter (1986): the primary academic source establishing Spain as the model. Asmal et al. (1994), Reconciliation Through Truth — explicitly references the Spanish experience. The ANC's study of the Spanish Transition: documented in ANC internal papers (University of Fort Hare archive, South Africa). Huntington (1991), The Third Wave: places Spain at the centre of the global democratisation pattern." }
+      ]
+    },
+    {
+      "id": "lives", "label": "Lives", "icon": "🪞",
+      "color": "#2E1A4A", "accent": "#7B4FA6", "bg": "#F7F0FF",
+      "subtitle": "Gender, sexuality & marginalised experience · evidence anchored · including categorical shifts",
+      "entries": [
+        { "id":"lv1", "group":"Same-Sex Practice & Law", "label":"Same-sex marriage legalised — 2005", "date":"30 Jun 2005", "loc":"Madrid", "coords":[40.42,-3.71], "hint":"Spain legalises same-sex marriage on 30 June 2005 — the third country in the world after the Netherlands and Belgium; Prime Minister Zapatero explicitly frames it as completing the democratic revolution begun in 1978; the Constitutional Court upholds it in 2012.", "tag":"CATEGORICAL SHIFT", "note":"Ley 13/2005: BOE 2 Jul 2005 — the law text. The Congressional vote (30 Apr 2005): 183 in favour, 136 against — Diario de Sesiones del Congreso. Constitutional Court Ruling STC 198/2012 (6 Nov 2012): upholds the law 8–3. Spain was the third country globally and the first majority-Catholic country. The law's social context: CIS (Centro de Investigaciones Sociológicas) surveys document public opinion shifts 1985–2005." },
+        { "id":"lv2", "group":"Women's Agency", "label":"8-M feminist strikes — 2018 and 2019", "date":"8 Mar 2018; 8 Mar 2019", "loc":"Madrid; Barcelona; 60+ Spanish cities", "coords":[40.42,-3.71], "hint":"Spain's 8 March feminist strikes (2018, 2019) are the largest women's mobilisations in Spanish history — 5.3 million march in 2018 according to organisers; the strikes produce Spain's most intense public debate on gender violence, equal pay and political representation.", "tag":"EVIDENCE", "note":"Strike turnout: Delegación del Gobierno para la Violencia de Género data; police counts lower (120,000 in Madrid alone). The Manifiesto 8-M (2018): published in full in major press. The legal debate around the strike's legality: Audiencia Nacional rulings. The subsequent 'purple tide' legislation — Ley Orgánica de Violencia de Género was already in place (LO 1/2004: BOE 29 Dec 2004) — but the 2018 strikes accelerated the Ley del Solo Sí es Sí (sexual consent law, 2022)." },
+        { "id":"lv3", "group":"Gender Variance", "label":"Gender identity law — 2023", "date":"16 Mar 2023", "loc":"Madrid", "coords":[40.42,-3.71], "hint":"Spain passes the 'Trans Law' (Ley 4/2023 para la igualdad real y efectiva de las personas trans) allowing legal gender change by self-declaration without medical requirements — one of the most progressive gender identity laws in Europe; passed despite internal PSOE opposition.", "tag":"CATEGORICAL SHIFT", "note":"Ley 4/2023: BOE 2 Mar 2023. The congressional vote (188 in favour, 150 against, 12 abstentions): Diario de Sesiones, 16 Feb 2023. The internal PSOE debate: documented in party records and press. The contrasting debate between trans rights advocates and some feminist groups: documented in El País and Público archives 2020–2023. This is a CATEGORICAL SHIFT: from medicalised gender identity to self-declaration." },
+        { "id":"lv4", "group":"Marginalised Communities", "label":"Romani community — gitanos in democratic Spain", "date":"1978–present", "loc":"Andalusia; Catalonia; Madrid (gitano communities throughout)", "coords":[37.38,-5.99], "hint":"Spain's 750,000 Romani (gitano) population is the largest in Western Europe — the Constitution forbids ethnic discrimination but structural inequalities are documented in education, housing and employment; the Fundación Secretariado Gitano produces annual reports measuring the gap between legal equality and lived reality.", "tag":"EVIDENCE", "note":"Fundación Secretariado Gitano, Discriminación y Comunidad Gitana: annual reports from 2004 (primary data source). INE population estimates: ~750,000–1 million. The gitano community's legal status under democracy: Constitutional Court jurisprudence on Roma rights. Laparra (2007), La exclusión social en España: the standard academic study. The community's cultural role in flamenco: documented in ethnomusicological literature." }
+      ]
+    }
+  ],
+  "timeline": [
+    {"id":"transition",  "icon":"⚜️","accent":"#2471A3","label":"La Transición (1975–1982)", "events":[
+      {"y":1975,"y2":1982,"l":"Juan Carlos I — Transition architect", "entryId":"k1"},
+      {"y":1976,"y2":1981,"l":"Adolfo Suárez — first PM",             "entryId":"k3"}
+    ]},
+    {"id":"democracy",   "icon":"⚜️","accent":"#1A5276","label":"Democratic Spain (1982–today)", "events":[
+      {"y":1982,"y2":2014,"l":"Juan Carlos I — constitutional king",  "entryId":"k1"},
+      {"y":2014,"y2":2025,"l":"Felipe VI",                            "entryId":"k2"}
+    ]},
+    {"id":"conflict",    "icon":"⚔️","accent":"#7D3C98","events":[
+      {"y":1973,"l":"Carrero Blanco assassinated",                    "entryId":"c1"},
+      {"y":1981,"l":"23-F — coup attempt",                           "entryId":"c2"},
+      {"y":2004,"l":"11-M Madrid bombings",                          "entryId":"c4"},
+      {"y":2011,"l":"ETA ceasefire",                                 "entryId":"c3"}
+    ]},
+    {"id":"order",       "icon":"⚖️","accent":"#2471A3","events":[
+      {"y":1977,"l":"Pactos de la Moncloa",                          "entryId":"o3"},
+      {"y":1978,"l":"Constitution of 1978",                          "entryId":"o1"},
+      {"y":1979,"l":"State of Autonomies",                           "entryId":"o2"},
+      {"y":2007,"l":"Historical Memory Law",                         "entryId":"o4"}
+    ]},
+    {"id":"expression",  "icon":"✨","accent":"#8D6E63","events":[
+      {"y":1980,"l":"La Movida — Almodóvar",                         "entryId":"a1"},
+      {"y":1997,"l":"Guggenheim Bilbao",                             "entryId":"a2"},
+      {"y":2018,"l":"Rosalía — El Mal Querer",                       "entryId":"a3"}
+    ]},
+    {"id":"subsistence", "icon":"🌾","accent":"#8B5E00","events":[
+      {"y":1986,"l":"EU accession — structural funds",                "entryId":"s1"},
+      {"y":2008,"l":"Financial crisis — 27% unemployment",           "entryId":"s2"}
+    ]},
+    {"id":"exchange",    "icon":"🌐","accent":"#148080","events":[
+      {"y":1982,"l":"Spain joins NATO",                              "entryId":"ex1"},
+      {"y":1986,"l":"EU accession",                                  "entryId":"s1"},
+      {"y":2000,"l":"Mass immigration wave",                         "entryId":"ex2"}
+    ]},
+    {"id":"world",       "icon":"🌍","accent":"#2471A3","events":[
+      {"y":1986,"l":"Spain as democratic model",                     "entryId":"w2"},
+      {"y":2017,"l":"Catalan independence crisis",                   "entryId":"w1"}
+    ]},
+    {"id":"lives",       "icon":"🪞","accent":"#7B4FA6","events":[
+      {"y":1979,"l":"Homosexuality decriminalised",                  "entryId":"lv1"},
+      {"y":2005,"l":"Same-sex marriage legalised",                   "entryId":"lv1"},
+      {"y":2018,"l":"8-M feminist strikes",                         "entryId":"lv2"},
+      {"y":2023,"l":"Trans Law — self-declaration",                  "entryId":"lv3"}
+    ]}
+  ]
+}
