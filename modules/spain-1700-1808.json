@@ -1,0 +1,624 @@
+{
+  "id": "spain-1700-1808",
+  "title": "Bourbon Spain",
+  "subtitle": "1700–1808 · War of Succession, Enlightenment and Reform",
+  "period": {
+    "start": 1700,
+    "end": 1808
+  },
+  "region": "Iberia",
+  "period_label": "Early Modern",
+  "mapCenter": [
+    40.4,
+    -3.7
+  ],
+  "mapZoom": 6,
+  "categories": [
+    {
+      "id": "power",
+      "label": "Power",
+      "icon": "⚜️",
+      "color": "#1A3A5C",
+      "accent": "#2471A3",
+      "bg": "#F0F7FF",
+      "subtitle": "The Bourbon kings — dynastic rupture and enlightened reform",
+      "entries": [
+        {
+          "id": "k1",
+          "group": "Early Bourbons (1700–1746)",
+          "dynasty": "Bourbon",
+          "label": "Philip V — the War of Spanish Succession",
+          "date": "16 Nov 1700–9 Jul 1746",
+          "loc": "Madrid; Versailles (origin)",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "Philip V, grandson of Louis XIV, inherits Spain from the last Habsburg — triggering the 13-year War of Spanish Succession that involves most of Europe; the Peace of Utrecht (1713) confirms him as king but strips Spain of the Netherlands, Sardinia, Naples and Gibraltar.",
+          "tag": "SUCCESSION",
+          "note": "Philip V's accession: Gaceta de Madrid, Nov 1700. Peace of Utrecht: AGS Estado; also in the British National Archives (SP 108/402). The loss of Gibraltar (Treaty of Utrecht Art.10, 1713): text in Davenport (1917). Philip V abdicated briefly 1724 (to his son Luis I who died after 7 months) — documented in Gaceta de Madrid. Kamen (2001), Philip V of Spain: the standard English biography."
+        },
+        {
+          "id": "k2",
+          "group": "High Bourbons (1746–1788)",
+          "dynasty": "Bourbon",
+          "label": "Charles III — Spain's great enlightened monarch",
+          "date": "10 Aug 1759–14 Dec 1788",
+          "loc": "Madrid; Naples (previous reign)",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "Charles III is the paradigm of Bourbon enlightened despotism — expels the Jesuits (1767), centralises administration, promotes trade, builds roads and canals, reforms the colonies; his reforms transform Spain but create tensions that will explode in 1808.",
+          "tag": "SUCCESSION",
+          "note": "Jesuit expulsion decree: Pragmática Sanción, 27 Feb 1767, Gaceta de Madrid. The Bourbon administrative reforms (Nueva Planta decrees): AGS. Lynch (1989), Bourbon Spain 1700–1808: the standard English study. Charles III's building programme in Madrid: documented in Archivo de la Villa de Madrid. Herr (1958), The Eighteenth-Century Revolution in Spain: analyses the reform programme."
+        },
+        {
+          "id": "k3",
+          "group": "Late Bourbons (1788–1808)",
+          "dynasty": "Bourbon",
+          "label": "Charles IV and Godoy — the road to 1808",
+          "date": "14 Dec 1788–19 Mar 1808",
+          "loc": "Madrid; Aranjuez",
+          "coords": [
+            40.03,
+            -3.6
+          ],
+          "hint": "Charles IV's weak rule is dominated by his chief minister Manuel Godoy — their disastrous alliance with Napoleon leads to Trafalgar (1805), the Aranjuez uprising (March 1808), and Napoleon's replacement of the Bourbons with his brother Joseph.",
+          "tag": "SUCCESSION",
+          "note": "The Aranjuez uprising (Motín de Aranjuez) 17–19 Mar 1808: contemporary press and AGS. Godoy's appointment records: AGS Estado. The Treaty of Fontainebleau (27 Oct 1807) allowing French troops through Spain: AGS Estado legajo 8174. Charles IV's abdication 19 Mar 1808: Gaceta de Madrid 20 Mar 1808. La Parra (2002), Manuel Godoy: the standard modern biography."
+        }
+      ]
+    },
+    {
+      "id": "conflict",
+      "label": "Conflict",
+      "icon": "⚔️",
+      "color": "#4A235A",
+      "accent": "#7D3C98",
+      "bg": "#FAF5FF",
+      "subtitle": "War of Succession, colonial wars and the road to Trafalgar",
+      "entries": [
+        {
+          "id": "c1",
+          "group": "War of Succession",
+          "label": "Battle of Almansa — Bourbon victory in Spain",
+          "date": "25 Apr 1707",
+          "loc": "Almansa, Albacete",
+          "coords": [
+            38.87,
+            -1.09
+          ],
+          "hint": "The Duke of Berwick defeats the Austro-British allied army at Almansa — securing Castile and Aragon for Philip V; the decisive battle of the War of Spanish Succession in Spain, fought by a French marshal commanding a Spanish army against a British-led force.",
+          "tag": "BATTLE",
+          "note": "Military records: AGS Guerra Moderna. The battle's outcome: confirmed across French, British and Spanish sources. The Decreto de Nueva Planta for Valencia (29 Jun 1707): issued directly after Almansa — Gaceta de Madrid. The paradox: a French marshal won Castile for the Spanish crown. Kamen (1969), The War of Succession in Spain 1700–1715: the standard study."
+        },
+        {
+          "id": "c2",
+          "group": "Colonial Wars",
+          "label": "Battle of Trafalgar — end of Spanish naval power",
+          "date": "21 Oct 1805",
+          "loc": "Cape Trafalgar, Cádiz coast",
+          "coords": [
+            36.19,
+            -6.01
+          ],
+          "hint": "Nelson defeats the combined Franco-Spanish fleet at Trafalgar — 18 Spanish ships lost, 2,500 Spanish dead; Spain's naval power is broken permanently, making it impossible to maintain the American empire; Napoleon's invasion follows three years later.",
+          "tag": "BATTLE",
+          "note": "The battle: documented in both British National Archives (ADM 1/404, Nelson's log) and AGS Marina (Spanish fleet records). Spanish casualties: AGS Marina. The Spanish flagship Santísima Trinidad (112 guns, largest warship in the world): its last log entry is in AGS. Adkins (2004), Trafalgar: uses both British and Spanish archives. Spain's fleet never recovered: documented in AGS Marina statistics."
+        }
+      ]
+    },
+    {
+      "id": "order",
+      "label": "Order",
+      "icon": "⚖️",
+      "color": "#1A3A5C",
+      "accent": "#2471A3",
+      "bg": "#F0F7FF",
+      "subtitle": "Bourbon centralisation, the Nueva Planta and colonial reform",
+      "entries": [
+        {
+          "id": "o1",
+          "group": "Administrative Reform",
+          "label": "Decreto de Nueva Planta — abolishing Catalan and Aragonese law",
+          "date": "1707–1716",
+          "loc": "Madrid (issued); Catalonia; Aragon; Valencia; Mallorca",
+          "coords": [
+            41.38,
+            2.18
+          ],
+          "hint": "Following the War of Succession, Philip V abolishes the traditional laws and institutions of Aragon, Valencia, Mallorca and Catalonia — replacing them with Castilian law; this is the origin of the Catalan grievance that has never been fully resolved.",
+          "tag": "LAW",
+          "note": "Decreto de Nueva Planta for Catalonia (16 Jan 1716): Gaceta de Madrid, 18 Jan 1716 — text published. The Valencia decree (29 Jun 1707): Gaceta de Madrid. The Catalan institutions abolished: Generalitat, Consell de Cent, local law codes. Elliott (2018), Scots and Catalans: places the suppression in European comparative context. The 1716 decree is explicitly referenced in current Catalan independence debates."
+        },
+        {
+          "id": "o2",
+          "group": "Administrative Reform",
+          "label": "Bourbon colonial reforms — the intendant system",
+          "date": "1764–1790",
+          "loc": "Colonial America (empire-wide)",
+          "coords": [
+            40.4,
+            -3.7
+          ],
+          "hint": "Charles III replaces the old Habsburg colonial councils with a system of intendants (royal governors with wide powers) across Spanish America — the most systematic reorganisation of the colonial administration since the 16th century; it increases revenue but creates resentment.",
+          "tag": "LAW",
+          "note": "Ordinance of Intendants for New Spain 1786: AGI, Mexico. The colonial fiscal data showing revenue increase: TePaske (2010). Lynch (1958), Spanish Colonial Administration 1782–1810: the standard study. The resentment the reforms created: documented in subsequent independence movements' grievance lists (e.g. Miranda's writings). The reform's unintended consequence — creating a creole administrative class that then leads independence — is a major historiographical theme."
+        },
+        {
+          "id": "o3",
+          "group": "Ecclesiastical Act",
+          "label": "Expulsion of the Jesuits — 1767",
+          "date": "27 Feb 1767",
+          "loc": "Spain (issued); Spanish colonies (implemented)",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "Charles III expels the Society of Jesus from Spain and its colonies with 24 hours' notice — 2,641 Spanish Jesuits deported; the reason is never officially stated; the expulsion closes Jesuit schools and missions across the empire.",
+          "tag": "EDICT",
+          "note": "Pragmática Sanción 27 Feb 1767: Gaceta de Madrid 2 Mar 1767 — text published. The sealed orders to colonial governors: AGI and AGS. The number deported: 2,641 from Spain, more from the colonies — documented in Jesuit records. Batllori (1966), La Cultura Hispano-Italiana de los Jesuitas Expulsos: documents the exiles' intellectual activity. The expulsion's connection to the Enlightenment critique of corporate power: Herr (1958)."
+        }
+      ]
+    },
+    {
+      "id": "belief",
+      "label": "Belief",
+      "icon": "🙏",
+      "color": "#0B4F2E",
+      "accent": "#1E8449",
+      "bg": "#F0FFF6",
+      "subtitle": "National Catholicism under pressure — Enlightenment vs the Church",
+      "entries": [
+        {
+          "id": "r1",
+          "group": "Catholic / Church of Rome",
+          "label": "The Inquisition under Bourbon reform — declining but present",
+          "date": "1700–1808",
+          "loc": "Spain-wide",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "The Bourbon Inquisition is significantly less violent than its Habsburg predecessor — the last auto de fe burning is 1826; but it still operates, banning Enlightenment texts and prosecuting free thinkers; Goya witnesses its proceedings and documents them.",
+          "tag": "EDICT",
+          "note": "AHN Inquisición: the archive continues into the Bourbon period. The Índice de libros prohibidos: published editions 1707, 1747, 1790 — BNE. The last auto de fe with burning: Seville 1781 (Manuel Cayetano Rodriguez, hanged in effigy). Goya's Inquisition scenes: Prado (painted c.1812–1819). Kamen (1997), The Spanish Inquisition: covers the Bourbon period."
+        }
+      ]
+    },
+    {
+      "id": "expression",
+      "label": "Expression",
+      "icon": "✨",
+      "color": "#5D4037",
+      "accent": "#8D6E63",
+      "bg": "#FFF8F5",
+      "subtitle": "Goya, neoclassicism and the Enlightenment aesthetic",
+      "entries": [
+        {
+          "id": "a1",
+          "group": "Painting & Visual Art",
+          "label": "Goya — from court painter to witness of disaster",
+          "date": "1786–1808 (court period)",
+          "loc": "Madrid (Royal Palace; Prado)",
+          "coords": [
+            40.41,
+            -3.69
+          ],
+          "hint": "Goya is appointed court painter in 1786 and paints the royal family with merciless psychological honesty — his portraits of Charles IV's family (1800–1801) are the most penetrating royal portraits of the 18th century; he simultaneously documents the darkness beneath the Enlightenment surface.",
+          "tag": "OBJECT",
+          "note": "Goya's court appointment 25 Jun 1786: Archivo del Palacio Real. The Family of Charles IV (1800–1801): Prado (P000726). Los Caprichos (1799): published by Goya himself, sold in his shop — BNE holds copies. The Disasters of War etchings (made c.1810–1820): Prado. Goya's complaint to the Inquisition: AHN Inquisición (he was investigated for Los Caprichos). Hughes (2003), Goya: the standard modern biography."
+        },
+        {
+          "id": "a2",
+          "group": "Architecture",
+          "label": "Ventura Rodríguez and Bourbon neoclassicism",
+          "date": "1750–1785",
+          "loc": "Madrid; Pamplona (Cathedral façade); Zaragoza (Pilar basilica)",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "Ventura Rodríguez is the leading architect of Spanish neoclassicism — his work for Charles III transforms Madrid; the Pilar basilica in Zaragoza (completed 1765) and the Pamplona Cathedral façade (1783) are the primary surviving monuments.",
+          "tag": "MONUMENT",
+          "note": "Ventura Rodríguez's building records: Archivo de la Villa de Madrid. The Pilar basilica, Zaragoza: extant. The Pamplona Cathedral façade: extant. Reese (1976), The Architecture of Ventura Rodríguez: the standard study. Charles III's urban reform of Madrid (the Paseo del Prado planted 1775): documented in Archivo de la Villa de Madrid."
+        },
+        {
+          "id": "a3",
+          "group": "Music & Performance",
+          "label": "Luigi Boccherini in Madrid — Spanish-Italian musical fusion",
+          "date": "1769–1805",
+          "loc": "Madrid (court of Infante Luis)",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "The Italian cellist-composer Luigi Boccherini spends 36 years in Madrid — his 'Spanish' style (incorporating fandango, seguidilla rhythms) creates a unique fusion; his chamber music is performed throughout Europe from Madrid manuscripts.",
+          "tag": "LITERATURE",
+          "note": "Boccherini's appointment to Infante Luis's court 1770: Archivo del Palacio Real. His Madrid manuscripts: Biblioteca Nacional de España holds the primary collection. Gérard (1969), Catalogue of the Works of Luigi Boccherini: the standard catalogue. Boccherini's G major Guitar Quintet (Op. 30 No. 6) with fandango finale: the most widely performed example of the Spanish-Italian fusion."
+        }
+      ]
+    },
+    {
+      "id": "thought",
+      "label": "Thought",
+      "icon": "💡",
+      "color": "#2C3E50",
+      "accent": "#566573",
+      "bg": "#F5F6FA",
+      "subtitle": "Spanish Enlightenment — Feijóo, Jovellanos and the reforming intellect",
+      "entries": [
+        {
+          "id": "t1",
+          "group": "Philosophy",
+          "label": "Feijóo — Teatro Crítico Universal",
+          "date": "1726–1740",
+          "loc": "Oviedo (University)",
+          "coords": [
+            43.36,
+            -5.85
+          ],
+          "hint": "Benito Feijóo's Teatro Crítico Universal (8 volumes, 1726–1739) attacks superstition and promotes scientific inquiry — it is the most widely read work of the Spanish Enlightenment, going through 14 editions in the 18th century; the Royal Council of Castile prohibits criticism of it.",
+          "tag": "TEXT",
+          "note": "First volume 1726 (Madrid): BNE. The Royal Council prohibition on criticism (1750): Gaceta de Madrid. The 14 editions by 1800: documented in publication records. Herr (1958), The Eighteenth-Century Revolution in Spain, ch.2. Feijóo's influence on the subsequent generation of reformers: documented in their own writings."
+        },
+        {
+          "id": "t2",
+          "group": "Political Theory",
+          "label": "Jovellanos — Informe sobre la Ley Agraria",
+          "date": "1794",
+          "loc": "Madrid (Council of Castile)",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "Gaspar Melchor de Jovellanos's Report on the Agrarian Law is the most important Enlightenment economic document in Spanish history — arguing for the abolition of entail, common lands and guild restrictions; it influences Spanish liberalism for a century.",
+          "tag": "TEXT",
+          "note": "First published 1795 (Madrid): BNE. The manuscript submitted to the Council of Castile 1794: AHN Consejos. Jovellanos's subsequent imprisonment by Godoy (1801–1808): documented in AGS. Caso González (1998), Jovellanos: the standard biography. The Informe's influence on the Cádiz Constitution debates (1810–1812): explicit references in the Diario de Sesiones."
+        }
+      ]
+    },
+    {
+      "id": "subsistence",
+      "label": "Subsistence",
+      "icon": "🌾",
+      "color": "#4A3200",
+      "accent": "#8B5E00",
+      "bg": "#FFFBF0",
+      "subtitle": "Colonial trade reform and the Bourbon economic programme",
+      "entries": [
+        {
+          "id": "s1",
+          "group": "Trade & Commerce",
+          "label": "Decreto de Libre Comercio — opening the colonial trade",
+          "date": "12 Oct 1778",
+          "loc": "Madrid (issued); colonial ports (implemented)",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "Charles III ends the Cádiz monopoly on colonial trade — his Free Trade Decree allows 13 Spanish ports to trade directly with the Americas; colonial trade increases 700% between 1778 and 1796, the most dramatic economic expansion in Spanish colonial history.",
+          "tag": "ECONOMIC",
+          "note": "Decreto de Libre Comercio 12 Oct 1778: Gaceta de Madrid. AGI, Indiferente General: trade statistics before and after. The 700% growth figure: Fisher (1985), Commercial Relations between Spain and Spanish America in the Era of Free Trade. Lynch (1989), Bourbon Spain, ch.7. The decree's text is explicit about ending the Cádiz monopoly."
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "label": "Exchange",
+      "icon": "🌐",
+      "color": "#1A3A3A",
+      "accent": "#148080",
+      "bg": "#F0FAFA",
+      "subtitle": "Dynastic diplomacy, the Family Compact and the Atlantic world",
+      "entries": [
+        {
+          "id": "ex1",
+          "group": "Diplomatic Exchange",
+          "label": "Family Compact — Bourbon alliance with France",
+          "date": "1733; 1743; 1761",
+          "loc": "Paris and Madrid (negotiated)",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "hint": "Three successive Family Compacts between the French and Spanish Bourbon branches coordinate their foreign policies against Britain — the alliance draws Spain into the Seven Years War, the American War of Independence (Spain aids the colonies), and eventually Napoleon's orbit.",
+          "tag": "POLITICAL",
+          "note": "First Family Compact 1733: AGS Estado; Archives des Affaires Étrangères, Paris. Third Family Compact 1761: AGS Estado. Spain's role in the American War of Independence 1779–1783: documented in AGS Marina and AGS Guerra. Dull (2005), The French Navy and the Seven Years' War: analyses the Family Compact's strategic consequences."
+        },
+        {
+          "id": "ex2",
+          "group": "Cultural Transmission",
+          "label": "Spanish Enlightenment and the Real Academia Española",
+          "date": "1713",
+          "loc": "Madrid",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "Philip V founds the Real Academia Española in 1713 — modelled on the Académie française, its purpose is to 'purify' and standardise the Spanish language; its first dictionary (1726–1739) and grammar (1771) are the foundational documents of modern standard Spanish.",
+          "tag": "DOCUMENT",
+          "note": "Royal warrant founding the RAE: 3 Oct 1714, Gaceta de Madrid. Diccionario de Autoridades (1726–1739, 6 vols): BNE — the first comprehensive Spanish dictionary with literary citations. The 1771 Gramática: BNE. Lázaro Carreter (1949), Las ideas lingüísticas en España durante el siglo XVIII: the standard study. The RAE's founding documents: Archivo de la Real Academia Española, Madrid."
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "label": "World",
+      "icon": "🌍",
+      "color": "#1A3A4A",
+      "accent": "#2471A3",
+      "bg": "#F0F7FF",
+      "subtitle": "Bourbon Spain in its European and Atlantic context",
+      "entries": [
+        {
+          "id": "w1",
+          "group": "Geopolitical Shift",
+          "label": "Peace of Utrecht — Spain's European losses",
+          "date": "1713–1715",
+          "loc": "Utrecht (negotiations)",
+          "coords": [
+            52.09,
+            5.12
+          ],
+          "hint": "The Peace of Utrecht strips Spain of the Spanish Netherlands, Sardinia, Naples, Sicily and Gibraltar — the greatest territorial contraction in Spanish history; Spain retains the Americas but is reduced to a second-rank European power.",
+          "tag": "EVENT",
+          "note": "Treaty of Utrecht: British National Archives (SP 108/402); Spanish ratification in AGS Estado. Gibraltar cession (Article 10): 'to be held and enjoyed absolutely with all manner of right forever without any exception or impediment whatsoever' — text still cited in contemporary diplomatic disputes. Kamen (1969), The War of Succession: the standard study of the peace terms."
+        },
+        {
+          "id": "w2",
+          "group": "Geopolitical Shift",
+          "label": "American independence movements — the empire's beginning of the end",
+          "date": "1780s–1808",
+          "loc": "Spanish colonial America",
+          "coords": [
+            -15.0,
+            -60.0
+          ],
+          "hint": "The Bourbon reforms' success in enriching creole elites, combined with the example of the American and French revolutions, begins the process of independence — Tupac Amaru II's revolt in Peru (1780) is the largest colonial uprising before independence; Miranda's conspiracies begin in the 1790s.",
+          "tag": "EVENT",
+          "note": "Tupac Amaru II revolt 1780–1781: documented in AGI Lima — the most detailed colonial uprising record. Francisco de Miranda's correspondence: Archivo del General Miranda (Caracas) and British Foreign Office records (Kew). Lynch (1973), The Spanish American Revolutions: the standard study. The American Declaration of Independence's Spanish translation: circulated in Latin America, documented in colonial records."
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "label": "Lives",
+      "icon": "🪞",
+      "color": "#2E1A4A",
+      "accent": "#7B4FA6",
+      "bg": "#F7F0FF",
+      "subtitle": "Gender, sexuality & marginalised experience · evidence anchored",
+      "entries": [
+        {
+          "id": "lv1",
+          "group": "Women's Agency",
+          "label": "Josefa Amar y Borbón — Spanish Enlightenment feminism",
+          "date": "1786–1790",
+          "loc": "Zaragoza; Madrid",
+          "coords": [
+            41.65,
+            -0.88
+          ],
+          "hint": "Josefa Amar y Borbón publishes the Discurso en defensa del talento de las mujeres (1786) and Discurso sobre la educación física y moral de las mujeres (1790) — the most substantial Spanish Enlightenment argument for women's equal education; she is admitted to the Aragonese Economic Society over male objections.",
+          "tag": "EVIDENCE",
+          "note": "Discurso en defensa del talento de las mujeres (1786): first published in Memorial Literario (Madrid) — BNE. Discurso sobre la educación (1790): BNE first edition. Her admission to the Aragonese Economic Society: documented in the society's minutes (Archivo de la RSEAP de Aragón). Bolufer Peruga (1998), Mujeres e Ilustración: the standard study of women in the Spanish Enlightenment."
+        },
+        {
+          "id": "lv2",
+          "group": "Same-Sex Practice & Law",
+          "label": "CATEGORICAL SHIFT: Bourbon secularisation of sodomy law",
+          "date": "1787",
+          "loc": "Spain",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "The Bourbon Código Criminal of 1787 transfers sodomy cases from the Inquisition to secular courts — a CATEGORICAL SHIFT from religious heresy to secular crime; part of the broader Bourbon effort to limit Church jurisdiction, but not a decriminalisation.",
+          "tag": "CATEGORICAL SHIFT",
+          "note": "Código Criminal project 1787: AHN Consejos — the reform documents. The transfer of sodomy jurisdiction: analysed in Berco (2007), Sexual Hierarchies, Public Status. The Inquisition's resistance to the transfer: documented in AHN Inquisición. Tomás y Valiente (1990), El derecho penal de la monarquía absoluta: the standard legal history. This is a CATEGORICAL SHIFT: the same act moves from religious to secular jurisdiction, changing its social meaning and its punishers."
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "early-bourbon",
+      "icon": "⚜️",
+      "accent": "#2471A3",
+      "label": "Early Bourbons (1700–1746)",
+      "events": [
+        {
+          "y": 1700,
+          "y2": 1746,
+          "l": "Philip V",
+          "entryId": "k1"
+        }
+      ]
+    },
+    {
+      "id": "high-bourbon",
+      "icon": "⚜️",
+      "accent": "#1A5276",
+      "label": "High Bourbons (1746–1788)",
+      "events": [
+        {
+          "y": 1746,
+          "y2": 1759,
+          "l": "Ferdinand VI",
+          "entryId": "k2"
+        },
+        {
+          "y": 1759,
+          "y2": 1788,
+          "l": "Charles III",
+          "entryId": "k2"
+        }
+      ]
+    },
+    {
+      "id": "late-bourbon",
+      "icon": "⚜️",
+      "accent": "#0A2744",
+      "label": "Late Bourbons (1788–1808)",
+      "events": [
+        {
+          "y": 1788,
+          "y2": 1808,
+          "l": "Charles IV",
+          "entryId": "k3"
+        }
+      ]
+    },
+    {
+      "id": "conflict",
+      "icon": "⚔️",
+      "accent": "#7D3C98",
+      "events": [
+        {
+          "y": 1707,
+          "l": "Battle of Almansa",
+          "entryId": "c1"
+        },
+        {
+          "y": 1805,
+          "l": "Battle of Trafalgar",
+          "entryId": "c2"
+        }
+      ]
+    },
+    {
+      "id": "order",
+      "icon": "⚖️",
+      "accent": "#2471A3",
+      "events": [
+        {
+          "y": 1707,
+          "l": "Nueva Planta — Catalan autonomy abolished",
+          "entryId": "o1"
+        },
+        {
+          "y": 1767,
+          "l": "Jesuits expelled",
+          "entryId": "o3"
+        },
+        {
+          "y": 1778,
+          "l": "Free Trade Decree",
+          "entryId": "s1"
+        },
+        {
+          "y": 1786,
+          "l": "Colonial intendant system",
+          "entryId": "o2"
+        }
+      ]
+    },
+    {
+      "id": "expression",
+      "icon": "✨",
+      "accent": "#8D6E63",
+      "events": [
+        {
+          "y": 1769,
+          "l": "Boccherini in Madrid",
+          "entryId": "a3"
+        },
+        {
+          "y": 1786,
+          "l": "Goya — court painter",
+          "entryId": "a1"
+        },
+        {
+          "y": 1799,
+          "l": "Goya: Los Caprichos",
+          "entryId": "a1"
+        }
+      ]
+    },
+    {
+      "id": "thought",
+      "icon": "💡",
+      "accent": "#566573",
+      "events": [
+        {
+          "y": 1713,
+          "l": "Real Academia Española",
+          "entryId": "ex2"
+        },
+        {
+          "y": 1726,
+          "l": "Feijóo: Teatro Crítico",
+          "entryId": "t1"
+        },
+        {
+          "y": 1794,
+          "l": "Jovellanos: Informe Agrario",
+          "entryId": "t2"
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "icon": "🌐",
+      "accent": "#148080",
+      "events": [
+        {
+          "y": 1713,
+          "l": "Peace of Utrecht",
+          "entryId": "w1"
+        },
+        {
+          "y": 1761,
+          "l": "Third Family Compact",
+          "entryId": "ex1"
+        },
+        {
+          "y": 1779,
+          "l": "Spain aids American independence",
+          "entryId": "ex1"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "icon": "🌍",
+      "accent": "#2471A3",
+      "events": [
+        {
+          "y": 1713,
+          "l": "Spain loses Gibraltar — Utrecht",
+          "entryId": "w1"
+        },
+        {
+          "y": 1780,
+          "l": "Tupac Amaru revolt",
+          "entryId": "w2"
+        },
+        {
+          "y": 1808,
+          "l": "Napoleon — empire threatened",
+          "entryId": "k3"
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "icon": "🪞",
+      "accent": "#7B4FA6",
+      "events": [
+        {
+          "y": 1786,
+          "l": "Amar y Borbón — women's education",
+          "entryId": "lv1"
+        },
+        {
+          "y": 1787,
+          "l": "Sodomy — secular courts (shift)",
+          "entryId": "lv2"
+        }
+      ]
+    }
+  ]
+}

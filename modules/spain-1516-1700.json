@@ -1,0 +1,901 @@
+{
+  "id": "spain-1516-1700",
+  "title": "Spanish Habsburg Empire",
+  "subtitle": "1516–1700 · The First Global Empire",
+  "period": {
+    "start": 1516,
+    "end": 1700
+  },
+  "region": "Iberia",
+  "period_label": "Early Modern",
+  "mapCenter": [
+    40.4,
+    -3.7
+  ],
+  "mapZoom": 5,
+  "categories": [
+    {
+      "id": "power",
+      "label": "Power",
+      "icon": "⚜️",
+      "color": "#5C0A00",
+      "accent": "#A0200A",
+      "bg": "#FFF5EE",
+      "subtitle": "The Habsburg kings of Spain — rulers of the first global empire",
+      "entries": [
+        {
+          "id": "k1",
+          "group": "Early Habsburgs (1516–1556)",
+          "dynasty": "Habsburg",
+          "label": "Charles I (Charles V) — empire on which the sun never sets",
+          "date": "23 Jan 1516–16 Jan 1556",
+          "loc": "Madrid; Toledo; Brussels; Valladolid",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "Charles inherits Spain, the Americas, the Holy Roman Empire, the Netherlands and much of Italy simultaneously — the largest realm in Christendom since Charlemagne; his abdication in 1556 divides the empire between his son (Spain, Americas, Italy) and his brother (Austria, Holy Roman Empire).",
+          "tag": "SUCCESSION",
+          "note": "Election as Holy Roman Emperor 28 Jun 1519: Frankfurt electoral records. Abdication: ceremony at Brussels 25 Oct 1555 documented in eyewitness accounts (including by William of Orange). Simancas AGS Estado series: the primary archive for his entire reign. Brandi (1939), The Emperor Charles V: the standard biography. Simancas UNESCO inscription: 33 million documents covering his reign."
+        },
+        {
+          "id": "k2",
+          "group": "High Habsburgs (1556–1598)",
+          "dynasty": "Habsburg",
+          "label": "Philip II — El Prudente and El Escorial",
+          "date": "16 Jan 1556–13 Sep 1598",
+          "loc": "El Escorial (primary residence); Madrid (capital from 1561)",
+          "coords": [
+            40.59,
+            -4.15
+          ],
+          "hint": "Philip II rules the first empire coordinated from a fixed capital — Madrid from 1561; builds El Escorial as palace, monastery and archive simultaneously; defeats the Ottomans at Lepanto (1571) but loses the Armada (1588); his reign defines the Spanish Golden Age at its peak.",
+          "tag": "SUCCESSION",
+          "note": "El Escorial building accounts: AGS, Obras y Bosques. Madrid as capital decree 1561: AGS. Philip II's personal correspondence: AGS Estado — he wrote in the margins of state papers himself, providing unique primary source insight. Parker (1998), The Grand Strategy of Philip II: uses the Simancas archive extensively. Death certificate 13 Sep 1598: parish records, El Escorial."
+        },
+        {
+          "id": "k3",
+          "group": "Later Habsburgs (1598–1700)",
+          "dynasty": "Habsburg",
+          "label": "Philip III, IV and Charles II — the long decline",
+          "date": "1598–1700",
+          "loc": "Madrid (El Buen Retiro palace from 1633)",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "Three increasingly weak kings preside over the empire's slow contraction — the Thirty Years War (1618–1648), the loss of Portugal (1640), the loss of the Spanish Netherlands, and finally the extinction of the Habsburg line when the childless Charles II dies in 1700.",
+          "tag": "SUCCESSION",
+          "note": "Charles II's will (2 Oct 1700) bequeathing the empire to Philip of Anjou: AGS Estado legajo 3001 — the document that triggers the War of Spanish Succession. Olivares's memoranda to Philip IV: published in Elliott & Peña (1978), Memoriales y Cartas del Conde Duque de Olivares. Velázquez's court appointment records: Archivo del Palacio Real."
+        }
+      ]
+    },
+    {
+      "id": "conflict",
+      "label": "Conflict",
+      "icon": "⚔️",
+      "color": "#4A235A",
+      "accent": "#7D3C98",
+      "bg": "#FAF5FF",
+      "subtitle": "European wars, Ottoman confrontation and colonial conquest",
+      "entries": [
+        {
+          "id": "c1",
+          "group": "European Wars",
+          "label": "Battle of Lepanto — Ottoman advance halted",
+          "date": "7 Oct 1571",
+          "loc": "Gulf of Patras, Greece",
+          "coords": [
+            38.38,
+            21.65
+          ],
+          "hint": "The Holy League (Spain, Venice, Papacy) destroys the Ottoman fleet at Lepanto — the largest naval battle since antiquity; Cervantes loses the use of his left hand fighting here; it is the first major Ottoman defeat and the symbolic high point of Habsburg military power.",
+          "tag": "BATTLE",
+          "note": "Philip II's orders to the fleet: AGS Estado. The battle: documented in multiple contemporary accounts. Cervantes's own testimony about his wound: prologue to Don Quixote Part I. Participating ships' rosters: AGS Marina. Braudel (1972), The Mediterranean, Vol.II: the most detailed modern account. The date 7 Oct 1571 confirmed across all sources."
+        },
+        {
+          "id": "c2",
+          "group": "European Wars",
+          "label": "Spanish Armada — the great failure of 1588",
+          "date": "Jul–Sep 1588",
+          "loc": "English Channel; Irish coast (wrecks)",
+          "coords": [
+            50.5,
+            -3.0
+          ],
+          "hint": "Philip II sends 130 ships to invade England — the Armada is scattered by storms and English fireships; 63 ships and 15,000 men are lost; the myth of Spanish invincibility is broken and England's naval power established.",
+          "tag": "BATTLE",
+          "note": "Philip II's planning documents: AGS Guerra Antigua — the most detailed surviving record of a pre-modern naval expedition's logistics. The Armada's casualty list: compiled from AGS by Mattingly (1959), The Armada. Wreck archaeology: multiple sites off the Irish coast, excavated 1968–present (Ulster Museum, Belfast). Philip II's letter on the defeat: AGS Estado — 'I sent the fleet against men, not storms.'"
+        },
+        {
+          "id": "c3",
+          "group": "Colonial Conquest",
+          "label": "Conquest of Mexico — Cortés and Tenochtitlan",
+          "date": "1519–1521",
+          "loc": "Tenochtitlan (mod. Mexico City)",
+          "coords": [
+            19.43,
+            -99.13
+          ],
+          "hint": "Hernán Cortés with 500 men and indigenous allies destroys the Aztec empire — Tenochtitlan falls on 13 August 1521; the conquest of the most powerful state in the Americas is accomplished in two years, transforming the known world.",
+          "tag": "BATTLE",
+          "note": "Cortés's Cartas de Relación (5 letters to Charles V, 1519–1526): first published in Seville 1522–1525; BNE holds early editions. The Aztec account: Sahagún, Florentine Codex Book XII (Nahuatl-Spanish, 1577): BNAH Mexico City. Cortés's appointment: AGS. Restall (2003), Seven Myths of the Spanish Conquest: the standard modern reassessment using both Spanish and indigenous sources."
+        },
+        {
+          "id": "c4",
+          "group": "Colonial Conquest",
+          "label": "Conquest of Peru — Pizarro and the Inca Empire",
+          "date": "1532–1572",
+          "loc": "Cajamarca; Cuzco (Peru)",
+          "coords": [
+            -13.52,
+            -71.97
+          ],
+          "hint": "Francisco Pizarro captures the Inca emperor Atahualpa at Cajamarca (16 November 1532) — ransomed for a room full of gold and silver and then executed; within 40 years the largest empire in pre-Columbian America is reduced to a Spanish viceroyalty.",
+          "tag": "BATTLE",
+          "note": "Pizarro's appointment: AGS. The ransom room dimensions: Felipe Guaman Poma de Ayala, Nueva corónica y buen gobierno (c.1615) — Andean perspective, Royal Library of Denmark (GKS 2232 4°). Pedro Pizarro, Relación del descubrimiento (1571): eyewitness account. The capture at Cajamarca 16 Nov 1532: confirmed across Spanish and Andean sources."
+        },
+        {
+          "id": "c5",
+          "group": "European Wars",
+          "label": "Thirty Years War and Peace of Westphalia (1648)",
+          "date": "1618–1648",
+          "loc": "Central Europe; Spanish Netherlands",
+          "coords": [
+            52.37,
+            4.9
+          ],
+          "hint": "Spain fights the Thirty Years War on behalf of the Catholic Habsburgs — exhausting its treasury and losing the Spanish Netherlands; the Peace of Westphalia (1648) formally ends the war and marks the end of Spanish hegemony in Europe.",
+          "tag": "BATTLE",
+          "note": "Peace of Westphalia: original text at Niedersächsisches Landesarchiv, Osnabrück; Spanish ratification in AGS. The Spanish financial exhaustion: documented in AGS Contadurías Generales (Drelichman & Voth 2014). Elliott (1963), Imperial Spain: the standard narrative of the decline. The treaty is the foundation document of modern international law."
+        }
+      ]
+    },
+    {
+      "id": "order",
+      "label": "Order",
+      "icon": "⚖️",
+      "color": "#1A3A5C",
+      "accent": "#2471A3",
+      "bg": "#F0F7FF",
+      "subtitle": "Imperial administration, colonial law and the Inquisition's legal framework",
+      "entries": [
+        {
+          "id": "o1",
+          "group": "Colonial Law",
+          "label": "Laws of Burgos — first colonial legislation",
+          "date": "27 Dec 1512",
+          "loc": "Burgos (issued)",
+          "coords": [
+            42.34,
+            -3.7
+          ],
+          "hint": "The Laws of Burgos are the first European colonial legislation — a direct response to Bartolomé de las Casas's testimony about indigenous abuse; they regulate the treatment of indigenous peoples in the Americas, though enforcement is minimal.",
+          "tag": "LAW",
+          "note": "Text: Archivo General de Indias (AGI), Indiferente General 419, L.4. First published Burgos 1513. Las Casas's testimony that provoked them: documented in his Historia de las Indias. Simpson (1929), The Encomienda in New Spain: the standard study of the laws' implementation. The gap between the law's text and colonial reality is itself a primary source on the nature of empire."
+        },
+        {
+          "id": "o2",
+          "group": "Colonial Law",
+          "label": "New Laws of 1542 — Las Casas's greatest victory",
+          "date": "20 Nov 1542",
+          "loc": "Barcelona (issued)",
+          "coords": [
+            41.38,
+            2.18
+          ],
+          "hint": "After Las Casas's persistent lobbying, Charles V issues the New Laws abolishing indigenous slavery and the encomienda system — they provoke a revolt by Spanish colonists in Peru and are partially repealed; but they establish the legal principle that indigenous people are free subjects of the Crown.",
+          "tag": "LAW",
+          "note": "Text: AGI, Indiferente General 423, L.20. Las Casas's Brevísima Relación (1542): written to accompany these laws — BNE first edition 1552. The Peruvian revolt against the laws: documented in AGI Peru. Hanke (1949), The Spanish Struggle for Justice: the standard study of Las Casas and the New Laws."
+        },
+        {
+          "id": "o3",
+          "group": "Inquisition",
+          "label": "Edicto de Fe — the Inquisition's annual public summons",
+          "date": "c.1478–1700 (continuous)",
+          "loc": "Cathedrals across Spain and empire",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "Every year the Inquisition reads the Edict of Faith publicly in churches — listing heresies and calling on the faithful to denounce neighbours; the edicts survive in AHN and document what the Inquisition considered heretical across the entire period.",
+          "tag": "EDICT",
+          "note": "AHN, Inquisición series: the primary archive, holding 49,000 trial records. Homza (2006), The Spanish Inquisition 1478–1614: Anthology of Sources — makes key documents accessible. Henningsen (1980), The Witches' Advocate: statistical analysis of 44,000 cases. The AHN Inquisición archive is the richest surviving record of marginalised lives in early modern Europe."
+        },
+        {
+          "id": "o4",
+          "group": "Imperial Administration",
+          "label": "Archivo General de Simancas — world's first purpose-built archive",
+          "date": "1540 (founded); 1588 (ordinances)",
+          "loc": "Simancas castle, near Valladolid (extant)",
+          "coords": [
+            41.6,
+            -4.93
+          ],
+          "hint": "Philip II issues the world's first archive regulations on 24 August 1588 — the Simancas ordinances define the archivist's role, access procedures and document organisation; the archive holds 33 million documents and is the primary source for the entire Spanish empire.",
+          "tag": "DOCUMENT",
+          "note": "UNESCO Memory of the World (2002). Philip II's ordinances 24 Aug 1588: AGS, text published. The archive's 33 million documents in 80,000 bundles: current holdings. PARES (Portal de Archivos Españoles): digitised access. The Simancas archive is — after the Vatican — the most important archive for global 16th-19th century history (UNESCO)."
+        }
+      ]
+    },
+    {
+      "id": "belief",
+      "label": "Belief",
+      "icon": "🙏",
+      "color": "#0B4F2E",
+      "accent": "#1E8449",
+      "bg": "#F0FFF6",
+      "subtitle": "The Counter-Reformation, the Inquisition and the expulsion of the moriscos",
+      "entries": [
+        {
+          "id": "r1",
+          "group": "Catholic / Church of Rome",
+          "label": "Council of Trent — Spanish Counter-Reformation",
+          "date": "1545–1563",
+          "loc": "Trent (Italy); implemented across Spain",
+          "coords": [
+            46.07,
+            11.12
+          ],
+          "hint": "Spain is the Council of Trent's most powerful sponsor and most zealous implementer — Spanish Jesuit theologians shape its decrees; the post-Tridentine Church gives Spain's religious culture its distinctive severity that persists for centuries.",
+          "tag": "COUNCIL",
+          "note": "Trent Acts: Concilium Tridentinum (Görres-Gesellschaft edition). Spanish delegation: AGS Estado. The Jesuits founded by Ignatius Loyola (Spanish Basque, 1534): Loyola's Spiritual Exercises first printed 1548 — BNE. The Spanish Inquisition's role in implementing Trent: AHN Inquisición. O'Malley (2013), Trent: What Happened at the Council: the standard modern study."
+        },
+        {
+          "id": "r2",
+          "group": "Persecution",
+          "label": "Expulsion of the Moriscos — 1609–1614",
+          "date": "9 Apr 1609–1614",
+          "loc": "Valencia (first expelled); across Spain",
+          "coords": [
+            39.47,
+            -0.38
+          ],
+          "hint": "Philip III orders the expulsion of the Moriscos (converted Muslims) — between 275,000 and 300,000 people forcibly expelled from Spain in five years; the Valencia expulsion decree of 9 April 1609 is the primary document.",
+          "tag": "PERSECUTION",
+          "note": "Expulsion decree for Valencia: AGS Estado legajo 2025. Philip III's letters confirming the decision: AGS. The numbers expelled: Domínguez Ortiz & Vincent (1978), Historia de los Moriscos — between 275,000 and 300,000. The economic impact on Valencia (loss of agricultural labour): documented in contemporary fiscal records. Carr (1982), Spain 1808–1975 for long-term consequences."
+        },
+        {
+          "id": "r3",
+          "group": "Catholic / Church of Rome",
+          "label": "Teresa of Ávila and John of the Cross — mysticism as primary source",
+          "date": "1560s–1580s",
+          "loc": "Ávila; Toledo; Salamanca",
+          "coords": [
+            40.66,
+            -4.7
+          ],
+          "hint": "Teresa of Ávila's Interior Castle (1577) and John of the Cross's Dark Night of the Soul (c.1578) are primary sources for the interior spiritual life of Counter-Reformation Spain — both wrote under Inquisition scrutiny; Teresa was investigated twice.",
+          "tag": "TEXT",
+          "note": "Teresa's Interior Castle autograph manuscript: Biblioteca del Real Monasterio de El Escorial. Interior Castle first published 1588 (Salamanca): BNE. Teresa's Inquisition interrogation records: AHN Inquisición. John of the Cross manuscripts: Real Biblioteca del Monasterio de El Escorial. Both were canonised (1622, 1726) — their Inquisition files document the tension between mysticism and orthodoxy."
+        }
+      ]
+    },
+    {
+      "id": "expression",
+      "label": "Expression",
+      "icon": "✨",
+      "color": "#5D4037",
+      "accent": "#8D6E63",
+      "bg": "#FFF8F5",
+      "subtitle": "El Siglo de Oro — Velázquez, Cervantes, El Greco and the Golden Age",
+      "entries": [
+        {
+          "id": "a1",
+          "group": "Literature & Poetry",
+          "label": "Don Quixote — first modern novel",
+          "date": "1605 (Part I); 1615 (Part II)",
+          "loc": "Madrid (published by Juan de la Cuesta)",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "Cervantes publishes Don Quixote Part I in January 1605 — it sells out within a week; Part II follows in 1615; the novel is immediately translated across Europe and is arguably the most influential work of prose fiction ever written.",
+          "tag": "LITERATURE",
+          "note": "First edition Part I: Juan de la Cuesta, Madrid, Jan 1605. Only a handful of Part I first editions survive; one at the BNE. The pirated edition (Lisbon 1605) confirms the original's success. Part II first edition 1615: BNE. Cervantes's imprisonment records (he was twice jailed for debt): AGS. Rico (2004), critical edition: the standard modern text. The novel's connection to the Inquisition: Cervantes was examined by inquisitors (documented in AHN)."
+        },
+        {
+          "id": "a2",
+          "group": "Painting & Visual Art",
+          "label": "Velázquez at Philip IV's court — Las Meninas",
+          "date": "1623–1660",
+          "loc": "Madrid (El Alcázar; now Prado)",
+          "coords": [
+            40.41,
+            -3.69
+          ],
+          "hint": "Diego Velázquez serves as Philip IV's court painter for 37 years — Las Meninas (1656) is arguably the most analysed painting in Western art history; his court appointment records survive, and the Prado holds the world's most important Velázquez collection.",
+          "tag": "OBJECT",
+          "note": "Velázquez's court appointment 6 Oct 1623: Archivo del Palacio Real. Las Meninas (1656): Museo del Prado (P001174) — inventory first documented in 1666 palace inventory. Palomino (1724), El Parnaso Español: the earliest substantial account of Velázquez's life and work, written within living memory. Brown (1986), Velázquez: the standard modern study."
+        },
+        {
+          "id": "a3",
+          "group": "Architecture",
+          "label": "El Escorial — palace, monastery and archive",
+          "date": "1563–1584",
+          "loc": "San Lorenzo de El Escorial, Madrid (extant, UNESCO)",
+          "coords": [
+            40.59,
+            -4.15
+          ],
+          "hint": "Philip II builds El Escorial as the physical embodiment of Habsburg ideology — palace, monastery, library and royal tomb in one building; Juan de Herrera's austere classicism defines Spanish architecture; the library holds 40,000 manuscripts and printed books.",
+          "tag": "MONUMENT",
+          "note": "Extant (UNESCO 1984). Building accounts: AGS Obras y Bosques. Cornerstone laid 23 Apr 1563: documented. Juan de Herrera as architect: his drawings survive in AGS Mapas, Planos y Dibujos. The library (Biblioteca de El Escorial): 40,000 volumes, catalogue published 1601. Taylor (1967), Architecture and Magic: Considerations on the Idea of the Escorial: the standard analysis."
+        },
+        {
+          "id": "a4",
+          "group": "Painting & Visual Art",
+          "label": "El Greco in Toledo — Byzantine meets Mannerism",
+          "date": "1577–1614",
+          "loc": "Toledo (extant works in situ and Prado)",
+          "coords": [
+            39.86,
+            -4.03
+          ],
+          "hint": "Domenikos Theotokopoulos (El Greco) settles in Toledo in 1577 — his elongated figures and electric colours produce the most distinctive visual style of the Spanish Golden Age; the Burial of the Count of Orgaz (1586, Santo Tomé, Toledo) remains in situ.",
+          "tag": "OBJECT",
+          "note": "El Greco's contract for the Burial of the Count of Orgaz: Toledo Cathedral archive (1586) — full text survives. The painting: in situ, Santo Tomé, Toledo. His payment records: Toledo notarial archives. Álvarez Lopera (1999), El Greco: the standard modern catalogue. The contract's provisions (including the price dispute) document both the commission process and El Greco's status."
+        },
+        {
+          "id": "a5",
+          "group": "Music & Performance",
+          "label": "Tomás Luis de Victoria — polyphony at the Counter-Reformation",
+          "date": "c.1548–1611",
+          "loc": "Rome (trained); Madrid (died)",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "Tomás Luis de Victoria is the greatest Spanish composer of the Renaissance — his Officium Defunctorum (1605), written for the death of Empress María, is the masterpiece of Counter-Reformation polyphony; printed by the Royal Printer in Madrid.",
+          "tag": "LITERATURE",
+          "note": "Officium Defunctorum first edition: Madrid, 1605 (Royal Printer) — BNE and British Library. Victoria's appointment to the Descalzas Reales convent, Madrid: Archivo del Palacio Real. Stevenson (1961), Spanish Cathedral Music in the Golden Age: the standard study. The Officium's dedicatory letter to Philip III: documents Victoria's position at court."
+        }
+      ]
+    },
+    {
+      "id": "thought",
+      "label": "Thought",
+      "icon": "💡",
+      "color": "#2C3E50",
+      "accent": "#566573",
+      "bg": "#F5F6FA",
+      "subtitle": "Humanism, scholasticism, political theory and the debate on empire",
+      "entries": [
+        {
+          "id": "t1",
+          "group": "Political Theory",
+          "label": "Las Casas vs Sepúlveda — the Valladolid debate (1550–1551)",
+          "date": "1550–1551",
+          "loc": "Valladolid (Colegio de San Gregorio)",
+          "coords": [
+            41.65,
+            -4.72
+          ],
+          "hint": "The most important ethical debate in the history of European colonialism: Bartolomé de las Casas argues indigenous people have full human rights; Juan Ginés de Sepúlveda argues they are natural slaves; Charles V suspends the conquests while the debate proceeds.",
+          "tag": "TEXT",
+          "note": "Las Casas's Apologética Historia (c.1551): manuscript BNE. Sepúlveda's Democrates Alter (refused publication by the Spanish universities): manuscript AHN. The debate's proceedings: partially documented in Las Casas, Aquí se contiene una disputa (1552) — BNE. Hanke (1974), All Mankind Is One: the standard study. The conquests' suspension: documented in AGS. This is the founding debate of international human rights law."
+        },
+        {
+          "id": "t2",
+          "group": "Theology",
+          "label": "Francisco de Vitoria — founder of international law",
+          "date": "1539",
+          "loc": "Salamanca (University)",
+          "coords": [
+            40.96,
+            -5.66
+          ],
+          "hint": "Franciscus de Vitoria's Relectiones Theologicae (1539) argue that indigenous peoples have natural rights and that war against them requires just cause — the founding text of modern international law and the law of nations.",
+          "tag": "TEXT",
+          "note": "Relectiones Theologicae: first published Lyons 1557; Salamanca University library holds the lecture notes (relectiones). Vitoria's lectures were taken down by students — the manuscripts are the primary source. Pagden & Lawrence (eds.) (1991), Political Writings: the standard English edition. Scott (1934), The Spanish Origin of International Law: the foundational study of Vitoria's influence."
+        },
+        {
+          "id": "t3",
+          "group": "Science & Geography",
+          "label": "Archivo General de Indias — the empire's colonial memory",
+          "date": "1785 (archive founded; documents from 1492)",
+          "loc": "Seville (Casa Lonja; extant, UNESCO)",
+          "coords": [
+            37.38,
+            -5.99
+          ],
+          "hint": "Charles III orders all colonial documents consolidated in the Casa Lonja in Seville — 43,000 bundles covering the administration of the Americas and Philippines from 1492 to independence; the most complete colonial administrative archive in the world.",
+          "tag": "DOCUMENT",
+          "note": "UNESCO Memory of the World (1997). Founded by royal decree 1785: AGI itself. Holdings: 43,000 legajos, 80 million pages, 8,000 maps. PARES digital access. The archive contains: Cortés's letters, Pizarro's orders, the Laws of Burgos, Las Casas's petitions, every colonial governor's reports — the most complete record of a colonial empire's administration in existence."
+        }
+      ]
+    },
+    {
+      "id": "subsistence",
+      "label": "Subsistence",
+      "icon": "🌾",
+      "color": "#4A3200",
+      "accent": "#8B5E00",
+      "bg": "#FFFBF0",
+      "subtitle": "Silver from the Americas, imperial debt and the price revolution",
+      "entries": [
+        {
+          "id": "s1",
+          "group": "Trade & Commerce",
+          "label": "Silver from Potosí — the engine of the world economy",
+          "date": "1545–1700",
+          "loc": "Potosí (mod. Bolivia); Seville (Casa de Contratación)",
+          "coords": [
+            -19.58,
+            -65.75
+          ],
+          "hint": "The discovery of the Potosí silver mountain in 1545 transforms the world economy — Spain extracts an estimated 45,000 tonnes of silver over 150 years; it funds the Habsburg wars but triggers inflation across Europe (the 'Price Revolution') and ultimately flows to China via trade.",
+          "tag": "ECONOMIC",
+          "note": "Casa de Contratación records (Seville): AGI — the most detailed record of transatlantic trade volume. The Potosí mine: discovered 1 Apr 1545 (documented in AGI). Silver tonnage estimates: TePaske (2010), A New World of Gold and Silver: the definitive quantitative study using AGI records. Flynn & Giráldez (1995), American Silver and the Manila Galleons: documents the China connection. Potosí: UNESCO World Heritage Site (1987)."
+        },
+        {
+          "id": "s2",
+          "group": "Fiscal & Monetary",
+          "label": "Philip II's bankruptcies — four sovereign defaults",
+          "date": "1557; 1575; 1596; 1607",
+          "loc": "Madrid (treasury); Simancas (archive)",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "Philip II defaults on his debts four times despite receiving more silver than any monarch in history — the gap between imperial revenue and imperial expenditure is documented in extraordinary detail in the Simancas archive; the first documented cases of sovereign default in modern history.",
+          "tag": "ECONOMIC",
+          "note": "AGS Contadurías Generales, Legajos 84–92: the primary archive for Philip II's finances. Drelichman & Voth (2014), Lending to the Borrower from Hell: Debt and Default in the Age of Philip II — uses the Simancas data for a quantitative analysis. The 1575 bankruptcy document: AGS Estado. Carande (1987), Carlos V y sus banqueros: the earlier standard study."
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "label": "Exchange",
+      "icon": "🌐",
+      "color": "#1A3A3A",
+      "accent": "#148080",
+      "bg": "#F0FAFA",
+      "subtitle": "The Manila Galleon, the Columbian Exchange and global Spain",
+      "entries": [
+        {
+          "id": "ex1",
+          "group": "Silk Road & Trade Routes",
+          "label": "Manila Galleon — the first Pacific trade route",
+          "date": "1565–1815",
+          "loc": "Manila (Philippines) → Acapulco (Mexico) → Seville",
+          "coords": [
+            14.6,
+            120.98
+          ],
+          "hint": "The Manila Galleon establishes the first regular trans-Pacific trade route in 1565 — Mexican silver goes west to China; Chinese silk and porcelain go east to the Americas and Europe; a global trading circuit for 250 years.",
+          "tag": "ECONOMIC",
+          "note": "AGI, Philippines series: the primary archive for Manila Galleon records. Andrade (1519): the first voyage by Urdaneta, documented. Schurz (1939), The Manila Galleon: the foundational study. Flynn & Giráldez (1995) on the silver-silk exchange. Chinese porcelain from Manila Galleons recovered archaeologically in Mexico: multiple museum collections. The route operated 1565–1815 — 250 years of continuous trans-Pacific trade."
+        },
+        {
+          "id": "ex2",
+          "group": "Cultural Transmission",
+          "label": "The Columbian Exchange — biological globalisation",
+          "date": "1492–1600",
+          "loc": "Americas → Europe → Asia; Europe → Americas",
+          "coords": [
+            40.4,
+            -3.7
+          ],
+          "hint": "The exchange of plants, animals and diseases between the Old and New Worlds is the most consequential biological event since the last Ice Age — tomatoes, potatoes, maize, chocolate go east; horses, cattle, smallpox go west; documented in Spanish colonial records.",
+          "tag": "DOCUMENT",
+          "note": "The exchange's documentary evidence: AGI and AGS — colonial reports describing new plants and animals (e.g. the potato's first European description by Cieza de León, 1553). Crosby (1972), The Columbian Exchange: the foundational modern study. The smallpox epidemic that preceded Cortés: documented in the Florentine Codex (Sahagún). The potato: Cieza de León, Crónica del Perú (1553) — first European written description."
+        },
+        {
+          "id": "ex3",
+          "group": "Diplomatic Exchange",
+          "label": "Treaty of Tordesillas — dividing the world",
+          "date": "7 Jun 1494",
+          "loc": "Tordesillas, Castile (signed)",
+          "coords": [
+            41.5,
+            -5.0
+          ],
+          "hint": "Spain and Portugal divide the world between them at Tordesillas — a line 370 leagues west of the Cape Verde Islands; everything east goes to Portugal, everything west to Spain; Brazil falls just east of the line, explaining why it speaks Portuguese.",
+          "tag": "POLITICAL",
+          "note": "HARD ANCHOR: Original treaty text — two copies survive: Archivo General de Simancas (AGS PTR, legajo 49, doc. 5) and Arquivo Nacional da Torre do Tombo (Lisbon). Both inscribed on UNESCO Memory of the World register (2007). Signed 7 June 1494. The line's implications for Brazil: documented in subsequent Portuguese correspondence. Davenport (1917), European Treaties Bearing on the History of the United States: the standard English edition."
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "label": "World",
+      "icon": "🌍",
+      "color": "#1A3A4A",
+      "accent": "#2471A3",
+      "bg": "#F0F7FF",
+      "subtitle": "The Habsburg empire in its global context",
+      "entries": [
+        {
+          "id": "w1",
+          "group": "Geopolitical Shift",
+          "label": "The empire on which the sun never sets",
+          "date": "1519–1700",
+          "loc": "Spain; Americas; Philippines; Italy; Netherlands; Holy Roman Empire",
+          "coords": [
+            40.4,
+            -3.7
+          ],
+          "hint": "At its peak under Philip II, the Spanish empire encompasses the Americas, the Philippines, Portugal (1580–1640), southern Italy, the Netherlands, and parts of North Africa — the first genuinely global empire, administered from Madrid via a postal network that spans the world.",
+          "tag": "EVENT",
+          "note": "The phrase 'on which the sun never sets': documented first in a 1557 document from the court of Charles V. The imperial postal network: documented in AGS. Parker (1998), The Grand Strategy of Philip II: maps and analyses the empire's logistical system. The Philippines acquisition 1565: AGI. The Portuguese union 1580: AGS Estado."
+        },
+        {
+          "id": "w2",
+          "group": "Geopolitical Shift",
+          "label": "Decline of Spanish hegemony — 1640–1700",
+          "date": "1640–1700",
+          "loc": "Portugal (independence); Catalonia (revolt); Netherlands (lost)",
+          "coords": [
+            40.4,
+            -3.7
+          ],
+          "hint": "1640 is Spain's annus horribilis — Portugal revolts and regains independence; Catalonia revolts (the Reapers' War); the Thirty Years War continues; Philip IV's chief minister Olivares falls; by 1700 the empire has lost Portugal, the northern Netherlands and much of its European prestige.",
+          "tag": "EVENT",
+          "note": "Portugal's independence declaration 1640: Arquivo Nacional da Torre do Tombo, Lisbon. The Catalan revolt (Guerra dels Segadors): its anthem 'Els Segadors' (1640) is still Catalonia's national anthem. Olivares's memoranda: Elliott & Peña (1978). Elliott (1963), Imperial Spain and (1986), The Count-Duke of Olivares: the standard studies of the decline."
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "label": "Lives",
+      "icon": "🪞",
+      "color": "#2E1A4A",
+      "accent": "#7B4FA6",
+      "bg": "#F7F0FF",
+      "subtitle": "Gender, sexuality & marginalised experience · evidence anchored · including categorical shifts",
+      "entries": [
+        {
+          "id": "lv1",
+          "group": "Persecuted Communities",
+          "label": "Conversos under the Inquisition — blood purity statutes",
+          "date": "1449–1700",
+          "loc": "Toledo (first statute 1449); Spain-wide",
+          "coords": [
+            39.86,
+            -4.03
+          ],
+          "hint": "The Estatutos de Limpieza de Sangre (blood purity statutes) from 1449 onwards bar conversos (Jewish converts) from public office, guilds and religious orders — the first racial discrimination laws in European history, a CATEGORICAL SHIFT from religious to ethnic persecution.",
+          "tag": "CATEGORICAL SHIFT",
+          "note": "Toledo statute 1449: the first limpieza de sangre statute — AHN. The Inquisition's genealogical investigations: AHN Inquisición — families tracked across generations for Jewish ancestry. Netanyahu (1995), The Origins of the Inquisition in Fifteenth Century Spain: the foundational modern study. The paradox: Cervantes and Velázquez were both likely of converso descent (documented by genealogical research). This is a CATEGORICAL SHIFT from religious heresy to ethnic origin as the basis of persecution."
+        },
+        {
+          "id": "lv2",
+          "group": "Same-Sex Practice & Law",
+          "label": "Inquisition trials for sodomy — the systematic record",
+          "date": "1540–1700",
+          "loc": "Inquisition tribunals across Spain and empire",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "The Spanish Inquisition tried hundreds of cases of sodomy — the AHN Inquisición archive contains the most detailed surviving early modern legal documentation of same-sex acts, including testimony, sentencing and punishment; the records allow reconstruction of lived experience behind the legal framework.",
+          "tag": "EVIDENCE",
+          "note": "AHN Inquisición: sodomy cases catalogued by Berco (2007), Sexual Hierarchies, Public Status: Men, Sodomy, and Society in Spain's Golden Age — the primary modern study using AHN records. Garza Carvajal (2003), Butterflies Will Burn: Prosecuting Sodomites in Early Modern Spain and Mexico. The records document both the acts and the social networks around them. The Inquisition's jurisdiction over sodomy (shared with secular courts): documented in the Instrucciones (1561)."
+        },
+        {
+          "id": "lv3",
+          "group": "Indigenous Lives",
+          "label": "Florentine Codex — indigenous voice in the conquest",
+          "date": "1575–1577",
+          "loc": "Mexico (written in Nahuatl and Spanish)",
+          "coords": [
+            19.43,
+            -99.13
+          ],
+          "hint": "Bernardino de Sahagún compiles the Florentine Codex with Nahuatl-speaking informants — a 12-book encyclopedia of Aztec life, including an eyewitness Nahuatl account of the conquest (Book XII); the most important indigenous primary source for the colonial encounter.",
+          "tag": "EVIDENCE",
+          "note": "HARD ANCHOR: Florentine Codex (Códice Florentino): Biblioteca Medicea Laurenziana, Florence (Ms. Mediceo Palatino 218–220). Completed 1575–1577. Sahagún, Historia General de las Cosas de Nueva España: the same work in different manuscript form. Anderson & Dibble translation (1950–1982), 13 vols: the standard English edition. Book XII: the indigenous account of the conquest in Nahuatl — the most important non-Spanish primary source for 16th-century Mexico."
+        },
+        {
+          "id": "lv4",
+          "group": "Women's Agency",
+          "label": "Sor Juana Inés de la Cruz — poet and proto-feminist",
+          "date": "1651–1695",
+          "loc": "Mexico City (Convent of San Jerónimo)",
+          "coords": [
+            19.43,
+            -99.13
+          ],
+          "hint": "Sor Juana Inés de la Cruz, a nun in colonial Mexico, is the greatest poet of the Spanish Golden Age — her Respuesta a Sor Filotea (1691) is the first feminist manifesto in the Americas, defending women's right to education against her bishop's censure.",
+          "tag": "EVIDENCE",
+          "note": "Respuesta a Sor Filotea de la Cruz (1691): manuscript at New York Public Library (Berg Collection). First published 1700 (Fama y Obras Póstumas). Sor Juana's convent records: Archivo del Antiguo Convento de San Jerónimo, Mexico City. Paz (1982), Sor Juana or, the Traps of Faith: the standard modern biography. Her forced 'renunciation' of learning (1693): documented in the convent's own records — the bishop's pressure and her submission."
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "early-habsburg",
+      "icon": "⚜️",
+      "accent": "#A0200A",
+      "label": "Early Habsburgs (1516–1556)",
+      "events": [
+        {
+          "y": 1516,
+          "y2": 1556,
+          "l": "Charles I (Charles V)",
+          "entryId": "k1"
+        }
+      ]
+    },
+    {
+      "id": "high-habsburg",
+      "icon": "⚜️",
+      "accent": "#7B1A0A",
+      "label": "High Habsburgs (1556–1598)",
+      "events": [
+        {
+          "y": 1556,
+          "y2": 1598,
+          "l": "Philip II",
+          "entryId": "k2"
+        }
+      ]
+    },
+    {
+      "id": "late-habsburg",
+      "icon": "⚜️",
+      "accent": "#3A0000",
+      "label": "Later Habsburgs (1598–1700)",
+      "events": [
+        {
+          "y": 1598,
+          "y2": 1621,
+          "l": "Philip III",
+          "entryId": "k3"
+        },
+        {
+          "y": 1621,
+          "y2": 1665,
+          "l": "Philip IV",
+          "entryId": "k3"
+        },
+        {
+          "y": 1665,
+          "y2": 1700,
+          "l": "Charles II",
+          "entryId": "k3"
+        }
+      ]
+    },
+    {
+      "id": "conflict",
+      "icon": "⚔️",
+      "accent": "#7D3C98",
+      "events": [
+        {
+          "y": 1519,
+          "l": "Conquest of Mexico",
+          "entryId": "c3"
+        },
+        {
+          "y": 1532,
+          "l": "Conquest of Peru",
+          "entryId": "c4"
+        },
+        {
+          "y": 1571,
+          "l": "Battle of Lepanto",
+          "entryId": "c1"
+        },
+        {
+          "y": 1588,
+          "l": "Spanish Armada",
+          "entryId": "c2"
+        },
+        {
+          "y": 1618,
+          "l": "Thirty Years War",
+          "entryId": "c5"
+        },
+        {
+          "y": 1648,
+          "l": "Peace of Westphalia",
+          "entryId": "c5"
+        }
+      ]
+    },
+    {
+      "id": "order",
+      "icon": "⚖️",
+      "accent": "#2471A3",
+      "events": [
+        {
+          "y": 1494,
+          "l": "Treaty of Tordesillas",
+          "entryId": "ex3"
+        },
+        {
+          "y": 1512,
+          "l": "Laws of Burgos",
+          "entryId": "o1"
+        },
+        {
+          "y": 1540,
+          "l": "Archive of Simancas founded",
+          "entryId": "o4"
+        },
+        {
+          "y": 1542,
+          "l": "New Laws — end of indigenous slavery",
+          "entryId": "o2"
+        }
+      ]
+    },
+    {
+      "id": "belief",
+      "icon": "🙏",
+      "accent": "#1E8449",
+      "events": [
+        {
+          "y": 1545,
+          "l": "Council of Trent",
+          "entryId": "r1"
+        },
+        {
+          "y": 1577,
+          "l": "Teresa of Ávila: Interior Castle",
+          "entryId": "r3"
+        },
+        {
+          "y": 1609,
+          "l": "Expulsion of Moriscos",
+          "entryId": "r2"
+        }
+      ]
+    },
+    {
+      "id": "expression",
+      "icon": "✨",
+      "accent": "#8D6E63",
+      "events": [
+        {
+          "y": 1563,
+          "l": "El Escorial begun",
+          "entryId": "a3"
+        },
+        {
+          "y": 1577,
+          "l": "El Greco in Toledo",
+          "entryId": "a4"
+        },
+        {
+          "y": 1605,
+          "l": "Don Quixote Part I",
+          "entryId": "a1"
+        },
+        {
+          "y": 1623,
+          "l": "Velázquez at court",
+          "entryId": "a2"
+        },
+        {
+          "y": 1605,
+          "l": "Victoria: Officium Defunctorum",
+          "entryId": "a5"
+        }
+      ]
+    },
+    {
+      "id": "thought",
+      "icon": "💡",
+      "accent": "#566573",
+      "events": [
+        {
+          "y": 1539,
+          "l": "Vitoria — international law",
+          "entryId": "t2"
+        },
+        {
+          "y": 1550,
+          "l": "Valladolid debate",
+          "entryId": "t1"
+        },
+        {
+          "y": 1785,
+          "l": "Archivo General de Indias",
+          "entryId": "t3"
+        }
+      ]
+    },
+    {
+      "id": "subsistence",
+      "icon": "🌾",
+      "accent": "#8B5E00",
+      "events": [
+        {
+          "y": 1545,
+          "l": "Potosí silver mountain",
+          "entryId": "s1"
+        },
+        {
+          "y": 1557,
+          "l": "First Habsburg bankruptcy",
+          "entryId": "s2"
+        },
+        {
+          "y": 1565,
+          "l": "Manila Galleon begins",
+          "entryId": "ex1"
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "icon": "🌐",
+      "accent": "#148080",
+      "events": [
+        {
+          "y": 1494,
+          "l": "Treaty of Tordesillas",
+          "entryId": "ex3"
+        },
+        {
+          "y": 1492,
+          "l": "Columbian Exchange begins",
+          "entryId": "ex2"
+        },
+        {
+          "y": 1565,
+          "l": "Manila Galleon — Pacific trade",
+          "entryId": "ex1"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "icon": "🌍",
+      "accent": "#2471A3",
+      "events": [
+        {
+          "y": 1519,
+          "l": "First global empire",
+          "entryId": "w1"
+        },
+        {
+          "y": 1580,
+          "l": "Portugal annexed",
+          "entryId": "w1"
+        },
+        {
+          "y": 1640,
+          "l": "Portugal revolts; Catalonia revolts",
+          "entryId": "w2"
+        },
+        {
+          "y": 1648,
+          "l": "Westphalia — hegemony ends",
+          "entryId": "w2"
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "icon": "🪞",
+      "accent": "#7B4FA6",
+      "events": [
+        {
+          "y": 1449,
+          "l": "Blood purity statutes — racial turn",
+          "entryId": "lv1"
+        },
+        {
+          "y": 1540,
+          "l": "Inquisition sodomy trials",
+          "entryId": "lv2"
+        },
+        {
+          "y": 1577,
+          "l": "Florentine Codex — indigenous voice",
+          "entryId": "lv3"
+        },
+        {
+          "y": 1691,
+          "l": "Sor Juana — feminist manifesto",
+          "entryId": "lv4"
+        }
+      ]
+    }
+  ]
+}

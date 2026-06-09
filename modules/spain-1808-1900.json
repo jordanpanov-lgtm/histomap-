@@ -1,0 +1,651 @@
+{
+  "id": "spain-1808-1900",
+  "title": "Spain",
+  "subtitle": "1808–1900 · Peninsular War, Constitutions and the Long Crisis",
+  "period": {
+    "start": 1808,
+    "end": 1900
+  },
+  "region": "Iberia",
+  "period_label": "Early Modern",
+  "mapCenter": [
+    40.4,
+    -3.7
+  ],
+  "mapZoom": 6,
+  "categories": [
+    {
+      "id": "power",
+      "label": "Power",
+      "icon": "⚜️",
+      "color": "#5C2D00",
+      "accent": "#8B4513",
+      "bg": "#FFF8F0",
+      "subtitle": "A century of instability — 43 governments in 92 years",
+      "entries": [
+        {
+          "id": "k1",
+          "group": "Peninsular War & Restoration (1808–1833)",
+          "dynasty": "Bourbon / Napoleonic",
+          "label": "Joseph I and Ferdinand VII — war and absolutism",
+          "date": "1808–1833",
+          "loc": "Madrid; Cádiz (resistance government)",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "Napoleon replaces the Bourbons with his brother Joseph I in 1808 — triggering the Peninsular War; Ferdinand VII returns in 1814 and immediately abolishes the 1812 Constitution; his decade-long absolutism, interrupted by the Trienio Liberal (1820–1823), ends with the First Carlist War breaking out at his death.",
+          "tag": "SUCCESSION",
+          "note": "Joseph I's appointment: Gaceta de Madrid 20 Jun 1808. Ferdinand VII's abolition of the 1812 Constitution: Royal Decree 4 May 1814, Gaceta de Madrid. The Trienio Liberal (1820–1823): Riego's pronunciamiento 1 Jan 1820 — documented in AGS. Carr (1982), Spain 1808–1975: the essential survey of the century. The 43 governments: counted in Solé Tura & Aja (1977), Constituciones y períodos constituyentes en España."
+        },
+        {
+          "id": "k2",
+          "group": "Constitutional Instability (1833–1874)",
+          "dynasty": "Bourbon",
+          "label": "Isabel II — the liberal monarchy",
+          "date": "29 Sep 1833–30 Sep 1868",
+          "loc": "Madrid (Royal Palace)",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "Isabel II reigns through two Carlist Wars, multiple constitutions, and 40 years of liberal-conservative oscillation — she is overthrown by the Glorious Revolution of September 1868 and goes into exile; Spain then tries a constitutional monarchy with a foreign king, a republic, and a military coup before returning to the Bourbons.",
+          "tag": "SUCCESSION",
+          "note": "Isabel II's regency under her mother María Cristina (1833–1843): documented in Gaceta de Madrid. The Glorious Revolution 18 Sep 1868: press records and AGS. Burdiel (2010), Isabel II: the standard modern biography. The constitutional sequence: 1837, 1845, 1869 — all published in Gaceta de Madrid."
+        },
+        {
+          "id": "k3",
+          "group": "Restoration (1874–1900)",
+          "dynasty": "Bourbon",
+          "label": "Alfonso XII and the Bourbon Restoration",
+          "date": "30 Dec 1874–1900",
+          "loc": "Madrid",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "Alfonso XII's restoration (1874) inaugurates the Cánovas turno pacífico — an arranged alternation of Liberal and Conservative parties that creates apparent political stability through managed elections (caciquismo); the system holds until 1898 when colonial disaster breaks it.",
+          "tag": "SUCCESSION",
+          "note": "Alfonso XII's Pronunciamiento of Sagunto 29 Dec 1874: Gaceta de Madrid. The Constitution of 1876: Gaceta de Madrid 30 Jun 1876. The turno pacífico system: Cánovas's design documented in his writings. Varela Ortega (1977), Los amigos políticos: the foundational study of caciquismo. Alfonso XII dies 1885; regency of María Cristina until 1902."
+        }
+      ]
+    },
+    {
+      "id": "conflict",
+      "label": "Conflict",
+      "icon": "⚔️",
+      "color": "#4A235A",
+      "accent": "#7D3C98",
+      "bg": "#FAF5FF",
+      "subtitle": "Peninsular War, Carlist Wars and colonial collapse",
+      "entries": [
+        {
+          "id": "c1",
+          "group": "Peninsular War",
+          "label": "Dos de Mayo — the uprising that begins the Peninsular War",
+          "date": "2 May 1808",
+          "loc": "Madrid (Puerta del Sol; Monteleón barracks)",
+          "coords": [
+            40.42,
+            -3.7
+          ],
+          "hint": "The Madrid population rises against French occupation on 2 May 1808 — Murat's cavalry suppresses the uprising; executions follow on 3 May; Goya documents both days in two of the most powerful paintings in Western art; the national war begins the next day across Spain.",
+          "tag": "BATTLE",
+          "note": "Goya, The Second of May 1808 and The Third of May 1808 (painted c.1814): Prado (P000748, P000749). The uprising: documented in contemporary French military reports (Archives de la Guerre, Paris) and Spanish sources. Esdaile (2003), The Peninsular War: the standard modern study. The juntas that formed after 2 May: documented in AGS."
+        },
+        {
+          "id": "c2",
+          "group": "Peninsular War",
+          "label": "Battle of Bailén — Napoleon's first European defeat",
+          "date": "19 Jul 1808",
+          "loc": "Bailén, Jaén",
+          "coords": [
+            38.1,
+            -3.78
+          ],
+          "hint": "Spanish forces under General Castaños defeat and capture an entire French army corps at Bailén — Napoleon's first defeat in Europe; it shatters the myth of French invincibility and inspires resistance across Europe.",
+          "tag": "BATTLE",
+          "note": "Spanish military records: AGS Guerra. French records: Archives de la Guerre, Paris — Dupont's surrender documents. Contemporary impact across Europe: documented in press records (Times of London, 23 Aug 1808). Esdaile (2003), Peninsular War, ch.3. The 18,000 French prisoners: their fate documented in AGS."
+        },
+        {
+          "id": "c3",
+          "group": "Carlist Wars",
+          "label": "First Carlist War — dynastic civil war",
+          "date": "1833–1840",
+          "loc": "Basque Country; Navarre; Aragon (main theatres)",
+          "coords": [
+            43.0,
+            -2.0
+          ],
+          "hint": "On Ferdinand VII's death, his brother Carlos claims the throne against his daughter Isabel — triggering a seven-year civil war fought primarily in the Basque Country and Navarre; the Carlists represent traditionalism (Church, fueros, monarchy); the Liberals represent constitutional modernisation.",
+          "tag": "CIVIL WAR",
+          "note": "The war's military records: AGS Guerra Moderna. The Convention of Vergara (31 Aug 1839): the peace agreement — text in Gaceta de Madrid 1 Sep 1839. Holt (1967), The Carlist Wars in Spain: the standard English study. Three Carlist Wars in total (1833–1840, 1846–1849, 1872–1876) make 19th-century Spain's civil conflict the longest in Western European history."
+        },
+        {
+          "id": "c4",
+          "group": "Colonial Wars",
+          "label": "Disaster of '98 — Cuba, Puerto Rico and the Philippines lost",
+          "date": "1 May–12 Aug 1898",
+          "loc": "Cuba; Manila Bay; Puerto Rico",
+          "coords": [
+            23.1,
+            -82.4
+          ],
+          "hint": "Spain is defeated by the United States in 10 weeks — Cuba, Puerto Rico and the Philippines are lost; Spain's last remnants of empire are gone; the 'Generation of '98' intellectual movement responds with a crisis of national identity that shapes the entire 20th century.",
+          "tag": "BATTLE",
+          "note": "Treaty of Paris 10 Dec 1898: US Senate ratification records; Spanish text in Gaceta de Madrid. The naval battles: US Navy records (NARA) and Spanish AGS Marina. Tone (2006), War and Genocide in Cuba 1895–1898. The Spanish navy's losses at Santiago de Cuba 3 Jul 1898: documented in AGS Marina — complete destruction of the Caribbean fleet. This entry bridges directly to the spain-1900-1975 folio."
+        }
+      ]
+    },
+    {
+      "id": "order",
+      "label": "Order",
+      "icon": "⚖️",
+      "color": "#1A3A5C",
+      "accent": "#2471A3",
+      "bg": "#F0F7FF",
+      "subtitle": "Spain's constitutional laboratory — six constitutions in one century",
+      "entries": [
+        {
+          "id": "o1",
+          "group": "Constitutional Law",
+          "label": "Constitution of 1812 — La Pepa",
+          "date": "19 Mar 1812",
+          "loc": "Cádiz (Cortes)",
+          "coords": [
+            36.53,
+            -6.3
+          ],
+          "hint": "The Cádiz Constitution is proclaimed on Saint Joseph's Day (hence 'La Pepa') — the first Spanish liberal constitution; it establishes national sovereignty, abolishes the Inquisition, ends feudal privileges, and provides for freedom of the press; it becomes the model for liberal constitutions across southern Europe and Latin America.",
+          "tag": "LAW",
+          "note": "HARD ANCHOR: Original text in Archivo de las Cortes (Madrid) and Archivo Municipal de Cádiz. Published in Gaceta de la Regencia de España e Indias, 19 Mar 1812. Fernández Sarasola (2002), La Constitución de Cádiz: the standard modern study. The constitution's international influence: explicitly cited in the Portuguese (1822), Italian (1820) and Norwegian (1814) constitutions."
+        },
+        {
+          "id": "o2",
+          "group": "Constitutional Law",
+          "label": "Six constitutions — Spain's constitutional instability",
+          "date": "1812; 1837; 1845; 1869; 1873 (republic); 1876",
+          "loc": "Madrid (Cortes)",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "Spain enacts six different constitutions in one century — each representing a different political settlement between liberals and conservatives; no constitution lasts more than 30 years; the instability is itself the primary historical fact of 19th-century Spanish politics.",
+          "tag": "LAW",
+          "note": "All six texts: Gaceta de Madrid (each promulgation date). Solé Tura & Aja (1977), Constituciones y períodos constituyentes en España: the standard comparative study. The 1869 Constitution (the most liberal, granting universal male suffrage, religious freedom): Gaceta de Madrid 6 Jun 1869. The 1876 Constitution (the Restoration settlement, lasting to 1931): Gaceta de Madrid 30 Jun 1876."
+        },
+        {
+          "id": "o3",
+          "group": "Administrative Reform",
+          "label": "Abolition of the Spanish Inquisition — 1834",
+          "date": "15 Jul 1834",
+          "loc": "Madrid",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "The Inquisition is abolished for the third and final time on 15 July 1834 — it had been abolished by Joseph Bonaparte (1808), restored by Ferdinand VII (1814), and finally suppressed definitively; its 356 years of operation are formally ended by a single royal decree.",
+          "tag": "CATEGORICAL SHIFT",
+          "note": "Royal Decree 15 Jul 1834: Gaceta de Madrid 16 Jul 1834. The abolitions and restorations documented in: 1808 (Joseph I): Gaceta de Madrid; 1813 (Cádiz Cortes): ibid.; 1814 (Ferdinand VII): ibid.; 1820 (Trienio): ibid.; 1823 (restored): ibid.; 1834 (final): ibid. The entire cycle is documented in consecutive Gaceta issues — a remarkable primary source for constitutional instability."
+        }
+      ]
+    },
+    {
+      "id": "belief",
+      "label": "Belief",
+      "icon": "🙏",
+      "color": "#0B4F2E",
+      "accent": "#1E8449",
+      "bg": "#F0FFF6",
+      "subtitle": "Church, state and the religious question",
+      "entries": [
+        {
+          "id": "r1",
+          "group": "Catholic / Church of Rome",
+          "label": "Ecclesiastical confiscations — Mendizábal's desamortización",
+          "date": "1836–1837",
+          "loc": "Spain-wide (monastery and Church properties)",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "Prime Minister Mendizábal seizes and sells Church and monastic properties — approximately 100,000 properties auctioned; the measure finances the First Carlist War but destroys the monastic system and creates a new landowning class; the single most significant redistribution of wealth in 19th-century Spain.",
+          "tag": "EDICT",
+          "note": "Mendizábal's decree: Gaceta de Madrid 19 Feb 1836. The confiscation records: AHN Clero (the primary archive — the most detailed surviving record of pre-industrial Spanish Church property). Tomás y Valiente (1971), El marco político de la desamortización en España: the foundational study. The 100,000 properties figure: derived from AHN Clero auction records."
+        }
+      ]
+    },
+    {
+      "id": "expression",
+      "label": "Expression",
+      "icon": "✨",
+      "color": "#5D4037",
+      "accent": "#8D6E63",
+      "bg": "#FFF8F5",
+      "subtitle": "Goya's Disasters, Romanticism and the realist novel",
+      "entries": [
+        {
+          "id": "a1",
+          "group": "Painting & Visual Art",
+          "label": "Goya: Disasters of War — eyewitness atrocity",
+          "date": "c.1810–1820 (printed 1863)",
+          "loc": "Madrid (created); Prado (held)",
+          "coords": [
+            40.41,
+            -3.69
+          ],
+          "hint": "Goya's 82 etching series documents the atrocities of the Peninsular War — torture, massacre, famine, execution; printed only posthumously in 1863; they are the most powerful visual testimony of 19th-century warfare and the first anti-war art.",
+          "tag": "OBJECT",
+          "note": "Original copper plates: Real Academia de Bellas Artes de San Fernando, Madrid. First printed edition 1863 (posthumous): Biblioteca Nacional de España. Goya made them during or just after the war — their sequence and dating studied by Licht (1979). Hughes (2003), Goya, ch.12–14. The plates were never published in Goya's lifetime — possibly too dangerous under Ferdinand VII's absolutism."
+        },
+        {
+          "id": "a2",
+          "group": "Literature & Poetry",
+          "label": "Benito Pérez Galdós — Episodios Nacionales",
+          "date": "1873–1912",
+          "loc": "Madrid (written and published)",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "Galdós writes 46 historical novels covering Spain from Trafalgar (1805) to the Restoration — the most ambitious literary history of a century in any European language; his novels are simultaneously primary sources for social history, drawing on direct research in archives and personal memory.",
+          "tag": "LITERATURE",
+          "note": "First series (Trafalgar, 1873): BNE first edition. Galdós's research methods: documented in his notebooks (Biblioteca Nacional de España, Archivo Galdós). Berkowitz (1948), Pérez Galdós: Spanish Liberal Crusader: the standard biography. The Episodios Nacionales as historical source: Bly (1983) analyses their archival basis. Note: Galdós (1843–1920) straddles both the 1808–1900 and 1900–1975 folios."
+        },
+        {
+          "id": "a3",
+          "group": "Music & Performance",
+          "label": "La Verbena de la Paloma — zarzuela and popular theatre",
+          "date": "1894",
+          "loc": "Madrid (Teatro Apolo)",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "Tomás Bretón's La Verbena de la Paloma (1894) is the masterpiece of the zarzuela — Spanish musical theatre combining spoken dialogue and song; its setting in working-class Madrid on the Feast of La Paloma (15 August) makes it the most detailed musical document of late 19th-century popular urban life.",
+          "tag": "LITERATURE",
+          "note": "First performance Teatro Apolo, Madrid, 17 Feb 1894: documented in press records and theatre archives. Bretón's manuscript score: Sociedad General de Autores y Editores (SGAE), Madrid. Contemporary reviews: La Época, El Imparcial (Madrid press archive). Cotarelo y Mori (1934), Historia de la zarzuela: the foundational study. The libretto (Ricardo de la Vega): BNE."
+        }
+      ]
+    },
+    {
+      "id": "thought",
+      "label": "Thought",
+      "icon": "💡",
+      "color": "#2C3E50",
+      "accent": "#566573",
+      "bg": "#F5F6FA",
+      "subtitle": "Liberalism, Krausism and the roots of 20th-century Spanish thought",
+      "entries": [
+        {
+          "id": "t1",
+          "group": "Political Theory",
+          "label": "Institución Libre de Enseñanza — secular education",
+          "date": "1876",
+          "loc": "Madrid",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "Francisco Giner de los Ríos founds the Free Teaching Institution after being expelled from the University of Madrid for refusing to conform his teaching to Church and Crown orthodoxy — its graduates include García Lorca, Machado and Ortega y Gasset; it is the intellectual nursery of the Second Republic.",
+          "tag": "CONSTRUCTION",
+          "note": "Foundation act 1876: BILE (Boletín de la Institución Libre de Enseñanza) — the institution's own journal, published 1877–1936, BNE. Giner de los Ríos's expulsion from the university: documented in university records. Jiménez-Landi (1973–1996), La Institución Libre de Enseñanza (4 vols): the standard study. The ILE's alumni: documented in its membership records (BILE)."
+        },
+        {
+          "id": "t2",
+          "group": "History & Chronicle",
+          "label": "Generation of '98 — the intellectual response to disaster",
+          "date": "1898–1910",
+          "loc": "Madrid; Salamanca (Unamuno); Bilbao (Baroja)",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "The '98 disaster produces a generation of writers who interrogate Spanish identity and national failure — Unamuno, Azorín, Baroja, Machado, Valle-Inclán; their essays, novels and poetry are primary evidence for elite self-questioning at the century's end.",
+          "tag": "TEXT",
+          "note": "The term 'Generation of '98': coined by Azorín in a 1913 article — documented in press archive. Unamuno, En torno al casticismo (1895): BNE. Azorín, El alma castellana (1900): BNE. Fox (1997), Reimagining Spain: the standard English study. The generation's diverse politics (ranging from Unamuno's Catholic nationalism to Baroja's anarchism) is documented in their own correspondence."
+        }
+      ]
+    },
+    {
+      "id": "subsistence",
+      "label": "Subsistence",
+      "icon": "🌾",
+      "color": "#4A3200",
+      "accent": "#8B5E00",
+      "bg": "#FFFBF0",
+      "subtitle": "Economic backwardness, industrialisation and the agrarian question",
+      "entries": [
+        {
+          "id": "s1",
+          "group": "Trade & Commerce",
+          "label": "Catalan industrialisation — the cotton revolution",
+          "date": "1830s–1900",
+          "loc": "Barcelona; Manresa; Terrassa",
+          "coords": [
+            41.38,
+            2.18
+          ],
+          "hint": "Catalonia industrialises around cotton textiles from the 1830s — by 1900 it has 80% of Spain's industrial capacity; the contrast between industrial Catalonia and agrarian Andalusia shapes Spanish politics for the next century.",
+          "tag": "ECONOMIC",
+          "note": "Factory census records: Archivo Municipal de Barcelona. The 1856 Junta de Comercio census: BNE. Nadal (1975), El fracaso de la Revolución Industrial en España: the foundational economic history of Spanish industrialisation's limits. The concentration in Catalonia: documented in National Census records (INE historical series). The contrast with the south: described in contemporary travel literature and social investigation."
+        },
+        {
+          "id": "s2",
+          "group": "Agriculture & Land",
+          "label": "Agrarian crisis and caciquismo — the Andalusian question",
+          "date": "1880–1900",
+          "loc": "Andalusia; Extremadura (latifundio zones)",
+          "coords": [
+            37.4,
+            -6.0
+          ],
+          "hint": "The desamortización created a class of large landowners (latifundistas) in the south rather than small farmers — by 1900 Andalusia has the most unequal land distribution in Europe; seasonal day labourers (jornaleros) live in poverty; anarchism takes root.",
+          "tag": "ECONOMIC",
+          "note": "Land distribution data: Ministerio de Hacienda amillaramiento records (1860s–1880s): AHN. The jornalero condition: Costa (1902), Oligarquía y caciquismo — a primary source document based on a survey of local conditions. Bernal (1988), La lucha por la tierra en la crisis del Antiguo Régimen: the standard study. The anarchist movement's roots in Andalusian agrarian conditions: Temma Kaplan (1977), Anarchists of Andalusia."
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "label": "Exchange",
+      "icon": "🌐",
+      "color": "#1A3A3A",
+      "accent": "#148080",
+      "bg": "#F0FAFA",
+      "subtitle": "Colonial independence, international isolation and the Atlantic world",
+      "entries": [
+        {
+          "id": "ex1",
+          "group": "Migration & Settlement",
+          "label": "Spanish American independence — the empire dissolves",
+          "date": "1810–1826",
+          "loc": "Latin America",
+          "coords": [
+            -15.0,
+            -60.0
+          ],
+          "hint": "Spain loses virtually all its American empire between 1810 and 1826 — 18 new republics emerge; 300 years of colonial rule ends; Spain is left with Cuba, Puerto Rico and the Philippines; 300,000 Spanish soldiers die in the independence wars.",
+          "tag": "MIGRATION",
+          "note": "Bolívar's Carta de Jamaica (6 Sep 1815): the most important programmatic document of Latin American independence — original at Archivo Nacional de Colombia. The Spanish military records: AGS Guerra. Lynch (1973), The Spanish American Revolutions: the standard study. The economic consequence for Spain: Tortella (2000), The Development of Modern Spain, ch.6."
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "label": "World",
+      "icon": "🌍",
+      "color": "#1A3A4A",
+      "accent": "#2471A3",
+      "bg": "#F0F7FF",
+      "subtitle": "Spain's 19th-century international isolation and colonial twilight",
+      "entries": [
+        {
+          "id": "w1",
+          "group": "Geopolitical Shift",
+          "label": "Spain as Europe's 'sick man of the century'",
+          "date": "1808–1900",
+          "loc": "Europe (Spain's peripheral position)",
+          "coords": [
+            40.4,
+            -3.7
+          ],
+          "hint": "Throughout the 19th century Spain is marginalised from the main currents of European development — absent from the Concert of Europe, late to industrialise, riven by civil wars; its European neighbours cease to treat it as a major power; the contrast with France (Napoleonic, industrial) and Britain (imperial, industrial) is stark.",
+          "tag": "EVENT",
+          "note": "Spain's absence from the Concert of Europe: Kissinger (1957), A World Restored — Spain not mentioned as a Great Power. The contrast in industrial output: Mitchell (1975), European Historical Statistics — Spain's industrialisation lag documented. The 'sick man' characterisation: contemporaries including Marx (articles on Spain 1854: New-York Tribune) used this framing. Álvarez Junco (2001), Mater Dolorosa: analyses Spain's 19th-century national identity crisis."
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "label": "Lives",
+      "icon": "🪞",
+      "color": "#2E1A4A",
+      "accent": "#7B4FA6",
+      "bg": "#F7F0FF",
+      "subtitle": "Gender, sexuality & marginalised experience · evidence anchored",
+      "entries": [
+        {
+          "id": "lv1",
+          "group": "Women's Agency",
+          "label": "Concepción Arenal — criminologist and feminist",
+          "date": "1820–1893",
+          "loc": "Galicia; Madrid",
+          "coords": [
+            43.36,
+            -8.41
+          ],
+          "hint": "Concepción Arenal attends university disguised as a man, becomes Spain's first female criminologist, and writes the foundational texts of Spanish prison reform and social feminism — her La mujer del porvenir (1869) is the most important 19th-century Spanish feminist text.",
+          "tag": "EVIDENCE",
+          "note": "La mujer del porvenir (1869): BNE first edition. Her disguise to attend university: documented in her biographies and her own later accounts. Her reports on prison conditions: Ministerio de Justicia records (AHN). Lacalzada de Mateo (1994), Mentalidad y proyección civil de Concepción Arenal: the standard biography. Her role as Visitadora de Cárceles (prison inspector): official appointment in AHN."
+        },
+        {
+          "id": "lv2",
+          "group": "Same-Sex Practice & Law",
+          "label": "Penal Code 1870 — homosexuality decriminalised de facto",
+          "date": "1870",
+          "loc": "Madrid",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "The 1870 Liberal Penal Code removes explicit criminalisation of same-sex acts — a significant CATEGORICAL SHIFT; however social persecution continues and the 1928 Penal Code under Primo de Rivera will re-criminalise; the 1870 code documents the gap between legal toleration and social reality.",
+          "tag": "CATEGORICAL SHIFT",
+          "note": "Código Penal 1870: Gaceta de Madrid 31 Aug 1870. The removal of explicit sodomy provisions: analysed in Ugarte Pérez (2008), Una discriminación universal. The 1822 Code (first to largely secularise criminal law): Gaceta de Madrid. The 1928 re-criminalisation: Primo de Rivera's Código Penal, BOE 13 Sep 1928. The 1870–1928 period of relative legal tolerance: documented in comparison of the two codes."
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "peninsular-war",
+      "icon": "⚜️",
+      "accent": "#8B4513",
+      "label": "Peninsular War / Restoration (1808–1833)",
+      "events": [
+        {
+          "y": 1808,
+          "y2": 1813,
+          "l": "Joseph I (French)",
+          "entryId": "k1"
+        },
+        {
+          "y": 1813,
+          "y2": 1833,
+          "l": "Ferdinand VII",
+          "entryId": "k1"
+        }
+      ]
+    },
+    {
+      "id": "liberal-period",
+      "icon": "⚜️",
+      "accent": "#6B3000",
+      "label": "Liberal Monarchy (1833–1874)",
+      "events": [
+        {
+          "y": 1833,
+          "y2": 1840,
+          "l": "Regent María Cristina",
+          "entryId": "k2"
+        },
+        {
+          "y": 1843,
+          "y2": 1868,
+          "l": "Isabel II",
+          "entryId": "k2"
+        },
+        {
+          "y": 1868,
+          "y2": 1874,
+          "l": "Glorious Revolution period",
+          "entryId": "k2"
+        }
+      ]
+    },
+    {
+      "id": "restoration",
+      "icon": "⚜️",
+      "accent": "#4A1A00",
+      "label": "Bourbon Restoration (1874–1900)",
+      "events": [
+        {
+          "y": 1874,
+          "y2": 1885,
+          "l": "Alfonso XII",
+          "entryId": "k3"
+        },
+        {
+          "y": 1885,
+          "y2": 1900,
+          "l": "Regency María Cristina",
+          "entryId": "k3"
+        }
+      ]
+    },
+    {
+      "id": "conflict",
+      "icon": "⚔️",
+      "accent": "#7D3C98",
+      "events": [
+        {
+          "y": 1808,
+          "l": "Dos de Mayo — Peninsular War begins",
+          "entryId": "c1"
+        },
+        {
+          "y": 1808,
+          "l": "Battle of Bailén",
+          "entryId": "c2"
+        },
+        {
+          "y": 1833,
+          "l": "First Carlist War",
+          "entryId": "c3"
+        },
+        {
+          "y": 1898,
+          "l": "Disaster of '98",
+          "entryId": "c4"
+        }
+      ]
+    },
+    {
+      "id": "order",
+      "icon": "⚖️",
+      "accent": "#2471A3",
+      "events": [
+        {
+          "y": 1812,
+          "l": "Constitution of Cádiz — La Pepa",
+          "entryId": "o1"
+        },
+        {
+          "y": 1834,
+          "l": "Inquisition abolished (final)",
+          "entryId": "o3"
+        },
+        {
+          "y": 1836,
+          "l": "Mendizábal desamortización",
+          "entryId": "r1"
+        },
+        {
+          "y": 1876,
+          "l": "Restoration Constitution",
+          "entryId": "o2"
+        }
+      ]
+    },
+    {
+      "id": "expression",
+      "icon": "✨",
+      "accent": "#8D6E63",
+      "events": [
+        {
+          "y": 1810,
+          "l": "Goya: Disasters of War",
+          "entryId": "a1"
+        },
+        {
+          "y": 1873,
+          "l": "Galdós: Episodios Nacionales",
+          "entryId": "a2"
+        },
+        {
+          "y": 1894,
+          "l": "La Verbena de la Paloma",
+          "entryId": "a3"
+        }
+      ]
+    },
+    {
+      "id": "thought",
+      "icon": "💡",
+      "accent": "#566573",
+      "events": [
+        {
+          "y": 1876,
+          "l": "Institución Libre de Enseñanza",
+          "entryId": "t1"
+        },
+        {
+          "y": 1898,
+          "l": "Generation of '98",
+          "entryId": "t2"
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "icon": "🌐",
+      "accent": "#148080",
+      "events": [
+        {
+          "y": 1810,
+          "l": "Latin American independence begins",
+          "entryId": "ex1"
+        },
+        {
+          "y": 1826,
+          "l": "Last colonies independent",
+          "entryId": "ex1"
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "icon": "🌍",
+      "accent": "#2471A3",
+      "events": [
+        {
+          "y": 1820,
+          "l": "Spain absent from Concert of Europe",
+          "entryId": "w1"
+        },
+        {
+          "y": 1898,
+          "l": "'Sick man' — colonial collapse",
+          "entryId": "w1"
+        }
+      ]
+    },
+    {
+      "id": "lives",
+      "icon": "🪞",
+      "accent": "#7B4FA6",
+      "events": [
+        {
+          "y": 1869,
+          "l": "Arenal: La mujer del porvenir",
+          "entryId": "lv1"
+        },
+        {
+          "y": 1870,
+          "l": "Penal Code — decriminalisation",
+          "entryId": "lv2"
+        }
+      ]
+    }
+  ]
+}
