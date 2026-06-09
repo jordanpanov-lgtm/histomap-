@@ -2,7 +2,10 @@
   "id": "rome-200-300",
   "title": "Roman Empire",
   "subtitle": "200–300 AD · The Third Century Crisis",
-  "period": "Late Antique",
+  "period": {
+    "start": 200,
+    "end": 300
+  },
   "mapCenter": [
     40,
     20
@@ -1609,5 +1612,6 @@
       ]
     }
   ],
-  "region": "Europe"
+  "region": "Europe",
+  "period_label": "Late Antique"
 }
