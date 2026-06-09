@@ -1,10 +1,10 @@
 {
   "id": "lakhmid-268-602",
   "title": "Lakhmid Kingdom",
-  "subtitle": "c.268–602 AD · The Nasrid Kings of al-Hira",
+  "subtitle": "c.268–638 AD · The Nasrid Kings of al-Hira",
   "period": {
     "start": 268,
-    "end": 610
+    "end": 638
   },
   "mapCenter": [
     32.5,
@@ -47,9 +47,9 @@
             33.02,
             37.28
           ],
-          "hint": "Calls himself 'King of all the Arabs' on his tombstone — the Namara inscription of 328 CE, found in southern Syria, is the most important pre-Islamic Arabic inscription known.",
+          "hint": "Calls himself 'King of all the Arabs' on his tombstone — the Namara inscription of 328 CE, found in Roman-controlled southern Syria, not Sasanian territory; this location strongly suggests he defected to Rome during his career, making him both the most epigraphically documented early Lakhmid and a figure of ambiguous political allegiance.",
           "tag": "SUCCESSION",
-          "note": "HARD ANCHOR: Namara inscription, basalt stele, dated 7 Dec 328 CE (internal calendar date). Found Namara, Syria 1901. Now Louvre (inv. AO 4083). Nabataean-Arabic script. Irfan Shahid: 'the most important Arabic inscription of pre-Islamic times.' Text: Robin (2010)."
+          "note": "HARD ANCHOR: Namara inscription, basalt stele, dated 7 Dec 328 CE (internal calendar date). Found Namara, Syria 1901 — in Roman territory, not Sasanian. Now Louvre (inv. AO 4083). Nabataean-Arabic script; contains first known use of 'king of all the Arabs' (malik jami al-Arab). Robin (2010) on the Roman territory implication. Irfan Shahid: 'the most important Arabic inscription of pre-Islamic times.'"
         },
         {
           "id": "k3",
@@ -212,9 +212,9 @@
             31.98,
             44.39
           ],
-          "hint": "Last Lakhmid king — converted to Nestorian Christianity, was betrayed to Khosrow II (possibly over the Adi ibn Zayd affair), then executed, ending the dynasty in 602.",
+          "hint": "Last Lakhmid king — converted to Nestorian Christianity, was betrayed to Khosrow II (possibly over the Adi ibn Zayd affair), then executed by being trampled to death by elephants c.602, ending the dynasty after over 300 years of Sasanian service.",
           "tag": "DEPOSED",
-          "note": "WELL DOCUMENTED: Tabari I.1012–1022. Al-Numan's Christianity: multiple Arabic sources. Death c.609 at Ctesiphon: Tabari. Adi ibn Zayd connection: Ibn al-Kalbi. Bosworth (1999) EI2 s.v. al-Numan ibn al-Mundhir. End of kingdom: Tabari I.1022; Dinawari, Akhbar al-Tiwal."
+          "note": "WELL DOCUMENTED: Tabari I.1012–1022 (most detailed; records execution by elephant trampling). Al-Numan's Christianity: multiple Arabic sources. Death c.602 at Ctesiphon: Tabari. Adi ibn Zayd connection: Ibn al-Kalbi. Bosworth (1999) EI2 s.v. al-Numan ibn al-Mundhir. End of kingdom: Tabari I.1022; Dinawari, Akhbar al-Tiwal. The elephant execution: also in Ibn Abd Rabbih, al-Iqd al-Farid."
         }
       ]
     },
@@ -237,9 +237,9 @@
             33.5,
             38.5
           ],
-          "hint": "Al-Mundhir III killed fighting the Ghassanids in 'the Day of Halima' — named for the Ghassanid princess who rallied her side's warriors; one of the most famous battles in pre-Islamic Arabic tradition.",
+          "hint": "Al-Mundhir III killed by the Ghassanid king al-Harith ibn Jabalah in revenge for the sacrifice of al-Harith's son ten years earlier — named 'the Day of Halima' after al-Harith's daughter who rallied her side's warriors.",
           "tag": "BATTLE",
-          "note": "Arabic sources: Tabari I.948; Aghani (Kitab al-Aghani by al-Isfahani, 10th c.) preserves poetic accounts. Named after Halima, daughter of al-Harith ibn Jabalah (Ghassanid). Irfan Shahid, BASIC I.2 pp.195–260. Date c.554 confirmed by Byzantine synchronism."
+          "note": "Arabic sources: Tabari I.948; Aghani preserves poetic accounts. The revenge motive: explicit in Arabic tradition — al-Harith acts to avenge his sacrificed son (c.544 event). Named after Halima, daughter of al-Harith. Irfan Shahid, BASIC I.2 pp.195–260. Date c.554 confirmed by Byzantine synchronism with Procopius."
         },
         {
           "id": "c2",
@@ -258,16 +258,16 @@
         {
           "id": "c3",
           "group": "Ghassanid-Lakhmid Wars",
-          "label": "Ain Ubagh — al-Mundhir III kills Harith",
-          "date": "c.554",
+          "label": "Ain Ubagh — al-Mundhir III sacrifices son of al-Harith",
+          "date": "c.544",
           "loc": "Ain Ubagh, steppe west of al-Hira (approximate)",
           "coords": [
             33.0,
             40.0
           ],
-          "hint": "Al-Mundhir III captures and sacrifices the Ghassanid king al-Harith ibn Jabalah at a sanctuary — a ritual killing that becomes one of the defining events of pre-Islamic Arab history.",
+          "hint": "Al-Mundhir III captures a son of the Ghassanid king al-Harith ibn Jabalah and sacrifices him at the shrine of al-Uzza — a deliberate act of ritual humiliation; al-Harith survives and takes revenge ten years later at Yawm Halima (c.554) where Mundhir is killed.",
           "tag": "BATTLE",
-          "note": "Procopius Wars 2.28.13 (contemporary). Tabari I.948. The human sacrifice detail: Procopius and Arabic tradition agree on the ritual character. Shahid, BASIC I.2 pp.176–195. Exact location unidentified."
+          "note": "Procopius Wars 2.28.13 (contemporary, most detailed Greek account) records the sacrifice at a pagan sanctuary. Tabari I.948. The victim was al-Harith's son, not al-Harith himself — a distinction blurred in some sources. The two events (544 sacrifice; 554 revenge killing) are separated by a decade in the sources. Shahid, BASIC I.2 pp.176–195."
         },
         {
           "id": "c4",
@@ -420,14 +420,14 @@
         {
           "id": "r4",
           "group": "Church of the East (Nestorian)",
-          "label": "Church of the East Synod of Isaac — al-Hira bishop listed",
+          "label": "Synod of Isaac 410 — al-Hira established as major diocese",
           "date": "410",
           "loc": "Seleucia-Ctesiphon (council site); al-Hira (bishop's see)",
           "coords": [
             33.09,
             44.58
           ],
-          "hint": "The first great synod of the Church of the East in 410 lists a bishop of al-Hira — the earliest hard evidence for a Christian institutional presence in the Lakhmid capital.",
+          "hint": "The first great synod of the Church of the East in 410 lists a bishop of al-Hira among its signatories — establishing the Lakhmid capital as a major diocese and the primary institutional base for Nestorian Christianity in Arabia; the earliest hard documentary evidence for Christian institutional presence at al-Hira.",
           "tag": "COUNCIL",
           "note": "Synodicon Orientale, Synod of Isaac 410 (Syriac text; Chabot 1902 critical edition). The bishop of al-Hira is listed among signatories. This is the earliest certain documentary evidence for Christianity at al-Hira."
         }
@@ -473,14 +473,14 @@
         {
           "id": "a3",
           "group": "Literature & Poetry",
-          "label": "Al-Nabigha al-Dhubyani: court odes to Lakhmids",
+          "label": "Al-Nabigha al-Dhubyani (c.535–604): court odes to Lakhmids",
           "date": "c.560–600",
           "loc": "Al-Hira (composed at Lakhmid and Ghassanid courts)",
           "coords": [
             31.98,
             44.39
           ],
-          "hint": "Al-Nabigha served at both the Lakhmid and Ghassanid courts alternately — his surviving odes addressed to Amr ibn Hind and al-Numan III are primary sources for 6th-century court culture.",
+          "hint": "Al-Nabigha (c.535–604) serves at both the Lakhmid and Ghassanid courts alternately — his surviving odes addressed to Amr ibn Hind and al-Numan III are primary sources for 6th-century court culture, and his lifespan spanning the dynasty's final decades makes him its last major literary witness.",
           "tag": "LITERATURE",
           "note": "Poems survive in the Aghani (al-Isfahani, 10th c.) and Diwans (collected works). Arberry (1957), The Seven Odes. The odes' historical references (battles, court events) have been cross-referenced with other sources by Shahid, BASIC II.1."
         },
@@ -564,6 +564,20 @@
           "hint": "Al-Tabari's vast Annals contain the most detailed narrative of Lakhmid history in Arabic — drawn from earlier sources including Ibn al-Kalbi; invaluable for the 6th-century kings but epistemically a secondary source.",
           "tag": "CHRONICLE",
           "note": "Al-Tabari (d.923), Tarikh al-Rusul wa'l-Muluk. English translation: Bosworth (1999), vol. V, The Sasanids, the Byzantines, the Lakhmids and Yemen. Primary compilation ~915 CE. Earlier sources identified and assessed by Nöldeke (1879)."
+        },
+        {
+          "id": "t3",
+          "group": "Cultural Transmission",
+          "label": "Arabic script develops at al-Hira and al-Anbar",
+          "date": "c.5th–6th century",
+          "loc": "Al-Hira; al-Anbar (mod. Falluja area, Iraq)",
+          "coords": [
+            31.98,
+            44.39
+          ],
+          "hint": "The Arabic alphabet as we know it is attributed by medieval Arab scholars to scribes working at al-Hira and the nearby town of al-Anbar — the literate bilingual (Arabic-Persian) scribal class of the Lakhmid court is the most plausible vector for the Nabataean-to-Arabic script transition already visible in the Namara inscription.",
+          "tag": "DOCUMENT",
+          "note": "Ibn al-Nadim, Fihrist (987 CE) 1.4: explicitly attributes the development of the Arabic script to the people of al-Hira and al-Anbar. The Nabataean-Arabic transition visible in the Namara inscription (328 CE, Louvre AO 4083) is the earliest physical evidence. Al-Marzubani and others corroborate the al-Hira attribution. Abbott (1939), The Rise of the North Arabic Script (University of Chicago): the foundational modern study. The claim is broadly accepted in scholarship though details are debated."
         }
       ]
     },
@@ -695,6 +709,20 @@
           "hint": "The tombstone of Imru al-Qays ibn Amr, dated to the day, is one of the earliest Arabic language texts — it places the Lakhmids at the intersection of Nabataean, Arabic and proto-Islamic epigraphy.",
           "tag": "DOCUMENT",
           "note": "Louvre AO 4083. Basalt, 7 Dec 328. Nabataean-Arabic script. First published: Dussaud & Macler (1901). Critical studies: Bellamy (1985), Robin (2010). Irfan Shahid: 'the most important Arabic inscription of pre-Islamic times.' Now a key text in Arabic linguistic history."
+        },
+        {
+          "id": "w5",
+          "group": "Geopolitical Shift",
+          "label": "Al-Hira falls to the Islamic state",
+          "date": "633–638",
+          "loc": "Al-Hira (mod. south of Kufa, Iraq)",
+          "coords": [
+            31.98,
+            44.39
+          ],
+          "hint": "Khalid ibn al-Walid captures al-Hira in 633 (or 638 — sources differ); the Lakhmid capital negotiates surrender rather than resist, its Christian population pays the jizya tax, and the city transitions into the early Islamic administrative network — within a generation it is eclipsed by the new garrison city of Kufa founded nearby.",
+          "tag": "EVENT",
+          "note": "Tabari I (Arabic, most detailed on the conquest). Baladhuri, Futuh al-Buldan: records al-Hira's negotiated surrender and jizya terms. Date disputed: 633 in most Arabic sources, but 638 in some modern reconstructions. Kennedy (2007), The Great Arab Conquests, ch.5. The foundation of Kufa (637/638) as the replacement centre: confirmed in multiple sources. Al-Hira's rapid eclipse documented in geographical literature by the 9th century."
         }
       ]
     },
@@ -858,7 +886,7 @@
         {
           "y": 580,
           "y2": 602,
-          "l": "al-Numan III (last king)",
+          "l": "al-Nu'man III — trampled by elephants",
           "entryId": "k13"
         }
       ]
@@ -897,6 +925,11 @@
           "y": 607,
           "l": "Battle of Dhu Qar",
           "entryId": "c6"
+        },
+        {
+          "y": 544,
+          "l": "Ain Ubagh — sacrifice to al-Uzza",
+          "entryId": "c3"
         }
       ]
     },
@@ -985,6 +1018,11 @@
           "y": 500,
           "l": "Al-Hira literary centre",
           "entryId": "t3"
+        },
+        {
+          "y": 500,
+          "l": "Arabic script — al-Hira scribes",
+          "entryId": "t3"
         }
       ]
     },
@@ -1034,6 +1072,11 @@
           "y": 602,
           "l": "Vacuum for Islamic conquest",
           "entryId": "w3"
+        },
+        {
+          "y": 633,
+          "l": "Al-Hira falls to Islam",
+          "entryId": "w5"
         }
       ]
     },
