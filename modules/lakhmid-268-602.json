@@ -2,7 +2,10 @@
   "id": "lakhmid-268-602",
   "title": "Lakhmid Kingdom",
   "subtitle": "c.268–602 AD · The Nasrid Kings of al-Hira",
-  "period": "Late Antique",
+  "period": {
+    "start": 268,
+    "end": 610
+  },
   "mapCenter": [
     32.5,
     44.5
@@ -1057,5 +1060,6 @@
       ]
     }
   ],
-  "region": "Near East"
+  "region": "Near East",
+  "period_label": "Late Antique"
 }
