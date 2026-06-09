@@ -560,7 +560,15 @@ function buildMatrix() {
       <span class="m-t1-label">${region.label}</span>
       ${folioCount > 0 ? `<span class="m-count">${folioCount} folio${folioCount > 1 ? 's' : ''}</span>` : ''}
     `;
-    t1td.onclick = () => { _t1Collapsed[region.id] = !_t1Collapsed[region.id]; buildMatrix(); };
+    t1td.onclick = () => {
+      const nowCollapsed = !_t1Collapsed[region.id];
+      _t1Collapsed[region.id] = nowCollapsed;
+      // When expanding a region, auto-expand all its sub-regions too
+      if (!nowCollapsed) {
+        region.subs.forEach(s => { _t2Collapsed[s.id] = false; });
+      }
+      buildMatrix();
+    };
     t1tr.appendChild(t1td);
     tbody.appendChild(t1tr);
     if (t1Collapsed) return;
