@@ -684,7 +684,7 @@
       "id": "transition",
       "icon": "⚜️",
       "accent": "#2471A3",
-      "label": "Head of State — Transition",
+      "label": "Bourbon Restoration (1975–1982)",
       "events": [
         {
           "y": 1975,
@@ -704,7 +704,7 @@
       "id": "democracy",
       "icon": "⚜️",
       "accent": "#1A5276",
-      "label": "Head of State — Democracy",
+      "label": "Bourbon Constitutional (1982–today)",
       "events": [
         {
           "y": 1982,
