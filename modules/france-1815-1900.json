@@ -67,7 +67,7 @@
       ]
     },
     {
-      "id": "subsistence", "label": "Subsistence", "icon": "🌾",
+      "id": "economy", "label": "Economy", "icon": "💰",
       "color": "#4A3200", "accent": "#8B5E00", "bg": "#FFFBF0",
       "subtitle": "Industrialisation, Haussmann's Paris and the social question",
       "entries": [
@@ -140,7 +140,7 @@
       {"y":1817,"l":"Saint-Simon — origins of socialism",    "entryId":"t1"},
       {"y":1871,"l":"Zola's Rougon-Macquart series",        "entryId":"t2"}
     ]},
-    {"id":"subsistence",    "icon":"🌾","accent":"#8B5E00","events":[
+    {"id":"economy",    "icon":"💰","accent":"#8B5E00","events":[
       {"y":1853,"l":"Haussmann rebuilds Paris",              "entryId":"s1"},
       {"y":1860,"l":"Railway network — 5,000 km",           "entryId":"s2"}
     ]},

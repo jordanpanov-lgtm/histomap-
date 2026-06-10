@@ -71,7 +71,7 @@
       ]
     },
     {
-      "id": "subsistence", "label": "Subsistence", "icon": "🌾",
+      "id": "economy", "label": "Economy", "icon": "💰",
       "color": "#4A3200", "accent": "#8B5E00", "bg": "#FFFBF0",
       "subtitle": "Colbertism, mercantilism and the cost of Louis XIV's wars",
       "entries": [
@@ -141,7 +141,7 @@
       {"y":1667,"l":"Racine: Andromaque",                     "entryId":"a3"},
       {"y":1673,"l":"Lully — French opera",                   "entryId":"a4"}
     ]},
-    {"id":"subsistence",  "icon":"🌾","accent":"#8B5E00","events":[
+    {"id":"economy",  "icon":"💰","accent":"#8B5E00","events":[
       {"y":1661,"l":"Colbertism — mercantilism",              "entryId":"s1"},
       {"y":1707,"l":"Vauban: Dîme royale",                    "entryId":"s2"}
     ]},

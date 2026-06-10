@@ -77,7 +77,7 @@
       ]
     },
     {
-      "id": "subsistence", "label": "Subsistence", "icon": "🌾",
+      "id": "economy", "label": "Economy", "icon": "💰",
       "color": "#4A3200", "accent": "#8B5E00", "bg": "#FFFBF0",
       "subtitle": "Economy, Byzantine subsidy and the steppe frontier",
       "entries": [

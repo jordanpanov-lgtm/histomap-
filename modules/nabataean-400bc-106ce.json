@@ -73,7 +73,7 @@
       ]
     },
     {
-      "id": "subsistence", "label": "Subsistence", "icon": "🌾",
+      "id": "economy", "label": "Economy", "icon": "💰",
       "color": "#4A3200", "accent": "#8B5E00", "bg": "#FFFBF0",
       "subtitle": "The incense trade — frankincense, myrrh and the routes of wealth",
       "entries": [
@@ -151,7 +151,7 @@
       {"y":-60, "l":"Diodorus — earliest Nabataean account",  "entryId":"t1"},
       {"y":50,  "l":"Periplus Maris Erythraei",               "entryId":"t3"}
     ]},
-    {"id":"subsistence",   "icon":"🌾","accent":"#8B5E00","events":[
+    {"id":"economy",   "icon":"💰","accent":"#8B5E00","events":[
       {"y":-400,"l":"Incense Road through Petra",             "entryId":"s1"},
       {"y":-100,"l":"Nabataean merchants at Puteoli/Delos",   "entryId":"s2"},
       {"y":1,   "l":"25% transit tax (Periplus)",             "entryId":"s3"}

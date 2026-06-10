@@ -68,7 +68,7 @@
       ]
     },
     {
-      "id": "subsistence", "label": "Subsistence", "icon": "🌾",
+      "id": "economy", "label": "Economy", "icon": "💰",
       "color": "#4A3200", "accent": "#8B5E00", "bg": "#FFFBF0",
       "subtitle": "Revolutionary economy, assignats and the Continental System",
       "entries": [
@@ -139,7 +139,7 @@
       {"y":1789,"l":"Sieyès: What Is the Third Estate?",      "entryId":"t1"},
       {"y":1805,"l":"Napoleon's Bulletins",                   "entryId":"t2"}
     ]},
-    {"id":"subsistence",  "icon":"🌾","accent":"#8B5E00","events":[
+    {"id":"economy",  "icon":"💰","accent":"#8B5E00","events":[
       {"y":1789,"l":"Assignats — paper money",                "entryId":"s1"},
       {"y":1806,"l":"Continental System",                     "entryId":"s2"}
     ]},

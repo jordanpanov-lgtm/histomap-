@@ -73,7 +73,7 @@
       ]
     },
     {
-      "id": "subsistence", "label": "Subsistence", "icon": "🌾",
+      "id": "economy", "label": "Economy", "icon": "💰",
       "color": "#4A3200", "accent": "#8B5E00", "bg": "#FFFBF0",
       "subtitle": "Caravan trade, the Silk Road and Palmyrene commercial wealth",
       "entries": [
@@ -148,7 +148,7 @@
       {"y":213, "l":"Longinus — philosopher at court",            "entryId":"t1"},
       {"y":-100,"l":"PAT corpus — 3,000 inscriptions",            "entryId":"t3"}
     ]},
-    {"id":"subsistence",   "icon":"🌾","accent":"#8B5E00","events":[
+    {"id":"economy",   "icon":"💰","accent":"#8B5E00","events":[
       {"y":-100,"l":"Silk Road — Palmyra as key node",            "entryId":"s1"},
       {"y":1,   "l":"Palmyrene merchants across the empire",      "entryId":"s2"}
     ]},
