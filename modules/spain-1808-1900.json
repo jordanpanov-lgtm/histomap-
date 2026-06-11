@@ -54,6 +54,21 @@
           "note": "Isabel II's regency under her mother María Cristina (1833–1843): documented in Gaceta de Madrid. The Glorious Revolution 18 Sep 1868: press records and AGS. Burdiel (2010), Isabel II: the standard modern biography. The constitutional sequence: 1837, 1845, 1869 — all published in Gaceta de Madrid."
         },
         {
+          "id": "k5",
+          "group": "Constitutional Instability (1833–1874)",
+          "dynasty": "Bourbon",
+          "label": "The espadones — military brokers of Spanish liberalism",
+          "date": "1840–1868",
+          "loc": "Madrid (court and ministry)",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "19th-century Spanish politics is actually brokered by rival generals — Baldomero Espartero (Progressive, regent 1840–1843), Ramón María Narváez (Moderate), Leopoldo O'Donnell (Liberal Union); every change of political direction is driven by a military pronunciamiento, not a parliamentary election; the constitutions are real but the mechanism of power is the generals.",
+          "tag": "COUP",
+          "note": "Espartero's regency (1840–1843): documented in Gaceta de Madrid. His overthrow by Narváez 1843: ibid. O'Donnell's Liberal Union and his 1854 pronunciamiento (La Vicalvarada): documented. Comellas (1963), Los moderados en el poder 1844–1854: the standard study of the Narváez period. Bullough (2000), Spain: A History: contextualises the espadones. The pronounciamiento mechanism: every major political change from Riego (1820) to the Glorious Revolution (1868) is initiated by a military coup — documented in systematic form by Headrick (1981), Ejército y política en España."
+        },
+        {
           "id": "k3",
           "group": "Restoration (1874–1900)",
           "dynasty": "Bourbon",
@@ -82,21 +97,6 @@
           "hint": "Colonel Rafael del Riego pronounces at Las Cabezas de San Juan on 1 January 1820 — forcing Ferdinand VII to swear the 1812 Constitution; the resulting Trienio Liberal (1820–1823) produces Spain's first Penal Code (1822), directly derails the reconquest of the American colonies (Riego's army was gathered for that purpose), and ends when France invades to restore absolutism.",
           "tag": "COUP",
           "note": "Riego's pronunciamiento 1 Jan 1820: documented in press and official records. Ferdinand VII's oath to the 1812 Constitution: Gaceta de Madrid 9 Mar 1820. The Trienio Liberal: Gaceta de Madrid (official source throughout). The Penal Code of 1822: Gaceta de Madrid — Spain's first systematic criminal code. Fontana (1979), La crisis del Antiguo Régimen 1808–1833: the standard study. Riego is executed 7 Nov 1823 after French intervention — documented. His march (*Himno de Riego*) becomes the anthem of Spanish liberalism and later of the Second Republic."
-        },
-        {
-          "id": "k5",
-          "group": "Constitutional Instability (1833–1874)",
-          "dynasty": "Bourbon",
-          "label": "The espadones — military brokers of Spanish liberalism",
-          "date": "1840–1868",
-          "loc": "Madrid (court and ministry)",
-          "coords": [
-            40.42,
-            -3.71
-          ],
-          "hint": "19th-century Spanish politics is actually brokered by rival generals — Baldomero Espartero (Progressive, regent 1840–1843), Ramón María Narváez (Moderate), Leopoldo O'Donnell (Liberal Union); every change of political direction is driven by a military pronunciamiento, not a parliamentary election; the constitutions are real but the mechanism of power is the generals.",
-          "tag": "COUP",
-          "note": "Espartero's regency (1840–1843): documented in Gaceta de Madrid. His overthrow by Narváez 1843: ibid. O'Donnell's Liberal Union and his 1854 pronunciamiento (La Vicalvarada): documented. Comellas (1963), Los moderados en el poder 1844–1854: the standard study of the Narváez period. Bullough (2000), Spain: A History: contextualises the espadones. The pronounciamiento mechanism: every major political change from Riego (1820) to the Glorious Revolution (1868) is initiated by a military coup — documented in systematic form by Headrick (1981), Ejército y política en España."
         },
         {
           "id": "k6",
@@ -153,6 +153,20 @@
           "note": "Spanish military records: AGS Guerra. French records: Archives de la Guerre, Paris — Dupont's surrender documents. Contemporary impact across Europe: documented in press records (Times of London, 23 Aug 1808). Esdaile (2003), Peninsular War, ch.3. The 18,000 French prisoners: their fate documented in AGS."
         },
         {
+          "id": "c5",
+          "group": "French Intervention",
+          "label": "Hundred Thousand Sons of Saint Louis — France restores absolutism",
+          "date": "7 Apr–31 Aug 1823",
+          "loc": "Pyrenees (crossing); Madrid; Cádiz (final siege)",
+          "coords": [
+            43.4,
+            -1.5
+          ],
+          "hint": "The Holy Alliance authorises France to invade Spain and crush the Trienio Liberal — the Duc d'Angoulême leads 100,000 troops across the Pyrenees on 7 April 1823; they reach Madrid in weeks; the liberal government retreats to Cádiz; Ferdinand VII is freed and immediately abrogates all Trienio legislation; the brutal Ominous Decade (1823–1833) follows.",
+          "tag": "BATTLE",
+          "note": "The invasion order: Congress of Verona (1822) — documented in the Congress minutes. French military records: Archives de la Guerre, Vincennes. The Duc d'Angoulême's campaign: documented in French and Spanish sources. Ferdinand VII's Valenciazo (royal decree annulling Trienio legislation, 1 Oct 1823): Gaceta de Madrid. Fontana (1979). The Ominous Decade's repression: documented in AHN. This is how Spain's first liberal experiment ends — by foreign military intervention."
+        },
+        {
           "id": "c3",
           "group": "Carlist Wars",
           "label": "First Carlist War — dynastic civil war",
@@ -179,20 +193,6 @@
           "hint": "Spain is defeated by the United States in 10 weeks — Cuba, Puerto Rico and the Philippines are lost; Spain's last remnants of empire are gone; the 'Generation of '98' intellectual movement responds with a crisis of national identity that shapes the entire 20th century.",
           "tag": "BATTLE",
           "note": "Treaty of Paris 10 Dec 1898: US Senate ratification records; Spanish text in Gaceta de Madrid. The naval battles: US Navy records (NARA) and Spanish AGS Marina. Tone (2006), War and Genocide in Cuba 1895–1898. The Spanish navy's losses at Santiago de Cuba 3 Jul 1898: documented in AGS Marina — complete destruction of the Caribbean fleet. This entry bridges directly to the spain-1900-1975 folio."
-        },
-        {
-          "id": "c5",
-          "group": "French Intervention",
-          "label": "Hundred Thousand Sons of Saint Louis — France restores absolutism",
-          "date": "7 Apr–31 Aug 1823",
-          "loc": "Pyrenees (crossing); Madrid; Cádiz (final siege)",
-          "coords": [
-            43.4,
-            -1.5
-          ],
-          "hint": "The Holy Alliance authorises France to invade Spain and crush the Trienio Liberal — the Duc d'Angoulême leads 100,000 troops across the Pyrenees on 7 April 1823; they reach Madrid in weeks; the liberal government retreats to Cádiz; Ferdinand VII is freed and immediately abrogates all Trienio legislation; the brutal Ominous Decade (1823–1833) follows.",
-          "tag": "BATTLE",
-          "note": "The invasion order: Congress of Verona (1822) — documented in the Congress minutes. French military records: Archives de la Guerre, Vincennes. The Duc d'Angoulême's campaign: documented in French and Spanish sources. Ferdinand VII's Valenciazo (royal decree annulling Trienio legislation, 1 Oct 1823): Gaceta de Madrid. Fontana (1979). The Ominous Decade's repression: documented in AHN. This is how Spain's first liberal experiment ends — by foreign military intervention."
         }
       ]
     },
@@ -312,20 +312,6 @@
           "note": "First series (Trafalgar, 1873): BNE first edition. Galdós's research methods: documented in his notebooks (Biblioteca Nacional de España, Archivo Galdós). Berkowitz (1948), Pérez Galdós: Spanish Liberal Crusader: the standard biography. The Episodios Nacionales as historical source: Bly (1983) analyses their archival basis. Note: Galdós (1843–1920) straddles both the 1808–1900 and 1900–1975 folios."
         },
         {
-          "id": "a3",
-          "group": "Music & Performance",
-          "label": "La Verbena de la Paloma — zarzuela and popular theatre",
-          "date": "1894",
-          "loc": "Madrid (Teatro Apolo)",
-          "coords": [
-            40.42,
-            -3.71
-          ],
-          "hint": "Tomás Bretón's La Verbena de la Paloma (1894) is the masterpiece of the zarzuela — Spanish musical theatre combining spoken dialogue and song; its setting in working-class Madrid on the Feast of La Paloma (15 August) makes it the most detailed musical document of late 19th-century popular urban life.",
-          "tag": "LITERATURE",
-          "note": "First performance Teatro Apolo, Madrid, 17 Feb 1894: documented in press records and theatre archives. Bretón's manuscript score: Sociedad General de Autores y Editores (SGAE), Madrid. Contemporary reviews: La Época, El Imparcial (Madrid press archive). Cotarelo y Mori (1934), Historia de la zarzuela: the foundational study. The libretto (Ricardo de la Vega): BNE."
-        },
-        {
           "id": "a4",
           "group": "Architecture",
           "label": "Antoni Gaudí and Catalan Modernisme — the Sagrada Família begun",
@@ -338,6 +324,20 @@
           "hint": "Antoni Gaudí takes over the Sagrada Família in 1883 and transforms it into the most extraordinary religious building of the modern era; alongside Domènech i Montaner and Puig i Cadafalch, he creates Catalan Modernisme — a synthesis of Gothic structure, Moorish decoration, Art Nouveau and Catalan nationalism that is Spain's most internationally celebrated artistic contribution.",
           "tag": "MONUMENT",
           "note": "Sagrada Família: Gaudí takes over from Francisco de Paula del Villar in 1883 — Arxiu de la Junta Constructora del Temple Expiatori de la Sagrada Família. UNESCO World Heritage (2005). Gaudí's building accounts: Arxiu de la Junta. Domènech i Montaner, Palau de la Música Catalana (1908): UNESCO 1997. Puig i Cadafalch, Casa Amatller (1900): extant. Bassegoda i Nonell (2000), El gran Gaudí: the standard Catalan study. Gaudí dies 10 June 1926 — knocked down by a tram; identified only because he had no money in his pockets; documented in press."
+        },
+        {
+          "id": "a3",
+          "group": "Music & Performance",
+          "label": "La Verbena de la Paloma — zarzuela and popular theatre",
+          "date": "1894",
+          "loc": "Madrid (Teatro Apolo)",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "Tomás Bretón's La Verbena de la Paloma (1894) is the masterpiece of the zarzuela — Spanish musical theatre combining spoken dialogue and song; its setting in working-class Madrid on the Feast of La Paloma (15 August) makes it the most detailed musical document of late 19th-century popular urban life.",
+          "tag": "LITERATURE",
+          "note": "First performance Teatro Apolo, Madrid, 17 Feb 1894: documented in press records and theatre archives. Bretón's manuscript score: Sociedad General de Autores y Editores (SGAE), Madrid. Contemporary reviews: La Época, El Imparcial (Madrid press archive). Cotarelo y Mori (1934), Historia de la zarzuela: the foundational study. The libretto (Ricardo de la Vega): BNE."
         }
       ]
     },
@@ -377,6 +377,20 @@
           "hint": "The '98 disaster produces a generation of writers who interrogate Spanish identity and national failure — Unamuno, Azorín, Baroja, Machado, Valle-Inclán; their essays, novels and poetry are primary evidence for elite self-questioning at the century's end.",
           "tag": "TEXT",
           "note": "The term 'Generation of '98': coined by Azorín in a 1913 article — documented in press archive. Unamuno, En torno al casticismo (1895): BNE. Azorín, El alma castellana (1900): BNE. Fox (1997), Reimagining Spain: the standard English study. The generation's diverse politics (ranging from Unamuno's Catholic nationalism to Baroja's anarchism) is documented in their own correspondence."
+        },
+        {
+          "id": "t3",
+          "group": "Philosophy",
+          "label": "Krausism — the philosophical engine of Spanish liberalism",
+          "date": "1854–1900",
+          "loc": "Madrid (Universidad Central; ILE)",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "Julián Sanz del Río introduces Karl Christian Friedrich Krause's philosophy to Spain in 1854 — its organic, harmonious pantheism and secular ethics become the philosophical engine of Spanish liberalism; Krausism directly inspires the Institución Libre de Enseñanza and triggers the bitter Cuestión Universitaria academic freedom battles (1875) when conservative professors are expelled for refusing Krausist tolerance.",
+          "tag": "TEXT",
+          "note": "Sanz del Río, Ideal de la humanidad para la vida (1860): BNE — his adaptation of Krause. The Cuestión Universitaria (1875): documented in the Gaceta de Madrid and university records — 11 professors including Giner de los Ríos expelled for refusing to abandon Krausist principles. López Morillas (1956), El krausismo español: the standard study. The ILE connection: Giner de los Ríos (the ILE's founder) is Sanz del Río's direct disciple — documented. Cacho Viu (1962), La Institución Libre de Enseñanza: documents the Krausism-ILE lineage."
         }
       ]
     },
@@ -390,20 +404,6 @@
       "subtitle": "Economic backwardness, industrialisation and the agrarian question",
       "entries": [
         {
-          "id": "s1",
-          "group": "Trade & Commerce",
-          "label": "Catalan industrialisation — the cotton revolution",
-          "date": "1830s–1900",
-          "loc": "Barcelona; Manresa; Terrassa",
-          "coords": [
-            41.38,
-            2.18
-          ],
-          "hint": "Catalonia industrialises around cotton textiles from the 1830s — by 1900 it has 80% of Spain's industrial capacity; the contrast between industrial Catalonia and agrarian Andalusia shapes Spanish politics for the next century.",
-          "tag": "ECONOMIC",
-          "note": "Factory census records: Archivo Municipal de Barcelona. The 1856 Junta de Comercio census: BNE. Nadal (1975), El fracaso de la Revolución Industrial en España: the foundational economic history of Spanish industrialisation's limits. The concentration in Catalonia: documented in National Census records (INE historical series). The contrast with the south: described in contemporary travel literature and social investigation."
-        },
-        {
           "id": "s2",
           "group": "Agriculture & Land",
           "label": "Agrarian crisis and caciquismo — the Andalusian question",
@@ -416,6 +416,34 @@
           "hint": "The desamortización created a class of large landowners (latifundistas) in the south rather than small farmers — by 1900 Andalusia has the most unequal land distribution in Europe; seasonal day labourers (jornaleros) live in poverty; anarchism takes root.",
           "tag": "ECONOMIC",
           "note": "Land distribution data: Ministerio de Hacienda amillaramiento records (1860s–1880s): AHN. The jornalero condition: Costa (1902), Oligarquía y caciquismo — a primary source document based on a survey of local conditions. Bernal (1988), La lucha por la tierra en la crisis del Antiguo Régimen: the standard study. The anarchist movement's roots in Andalusian agrarian conditions: Temma Kaplan (1977), Anarchists of Andalusia."
+        },
+        {
+          "id": "s3",
+          "group": "Trade & Commerce",
+          "label": "Arancel Cánovas (1891) — the tariff that strangled Spain's colonies",
+          "date": "1891",
+          "loc": "Madrid (Ministry of Finance)",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "The ultra-protectionist Arancel Cánovas (1891) closes Spain's market to foreign grain and industrial imports — satisfying Castile's wheat barons, Catalan textile magnates and Basque steel producers at the cost of raising food prices for the poor and forcing Cuba and the Philippines to buy expensive peninsular goods; the colonial resentment it generates directly fuels the final independence wars.",
+          "tag": "Trade & Commerce",
+          "note": "Arancel de Aduanas 1891: Gaceta de Madrid. The political coalition behind it: Castilian wheat, Catalan textile, Basque iron — documented in parliamentary debates (Diario de Sesiones). The colonial impact: Cubans paying peninsular prices for goods they could buy cheaper from the US — documented in Cuban commercial records. Fradera (1999), Gobernar colonias: the standard study of the colonial-metropolis economic relationship. Tortella (2000), The Development of Modern Spain ch.4: quantifies the tariff's economic effects."
+        },
+        {
+          "id": "s1",
+          "group": "Trade & Commerce",
+          "label": "Catalan industrialisation — the cotton revolution",
+          "date": "1830s–1900",
+          "loc": "Barcelona; Manresa; Terrassa",
+          "coords": [
+            41.38,
+            2.18
+          ],
+          "hint": "Catalonia industrialises around cotton textiles from the 1830s — by 1900 it has 80% of Spain's industrial capacity; the contrast between industrial Catalonia and agrarian Andalusia shapes Spanish politics for the next century.",
+          "tag": "ECONOMIC",
+          "note": "Factory census records: Archivo Municipal de Barcelona. The 1856 Junta de Comercio census: BNE. Nadal (1975), El fracaso de la Revolución Industrial en España: the foundational economic history of Spanish industrialisation's limits. The concentration in Catalonia: documented in National Census records (INE historical series). The contrast with the south: described in contemporary travel literature and social investigation."
         }
       ]
     },
@@ -441,6 +469,20 @@
           "hint": "Spain loses virtually all its American empire between 1810 and 1826 — 18 new republics emerge; 300 years of colonial rule ends; Spain is left with Cuba, Puerto Rico and the Philippines; 300,000 Spanish soldiers die in the independence wars.",
           "tag": "MIGRATION",
           "note": "Bolívar's Carta de Jamaica (6 Sep 1815): the most important programmatic document of Latin American independence — original at Archivo Nacional de Colombia. The Spanish military records: AGS Guerra. Lynch (1973), The Spanish American Revolutions: the standard study. The economic consequence for Spain: Tortella (2000), The Development of Modern Spain, ch.6."
+        },
+        {
+          "id": "ex2",
+          "group": "Maritime & Trade Routes",
+          "label": "Railway Law of 1855 — wider gauge isolates Spain from Europe",
+          "date": "3 Jun 1855",
+          "loc": "Madrid (Cortes); Spain (nationwide implementation)",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "The Ley de Ferrocarriles (1855) mandates a rail gauge 23cm wider than the European standard (1,668mm vs 1,435mm) — a decision shaped by engineering miscalculation and military caution; French capital finances the construction; the wider gauge physically isolates Spain's commercial exchange from the rest of Europe for over a century, requiring goods to be transferred at the border.",
+          "tag": "ECONOMIC",
+          "note": "Ley de Ferrocarriles 3 Jun 1855: Gaceta de Madrid. The gauge decision: debated in the Comisión de Ingenieros 1844 report — AHN. The French capital: Pérès-Brémond (2000) on French railway investment in Spain. Tedde (1978), Las compañías ferroviarias en España 1855–1935: the standard study. The border transfer problem: documented in customs records. The gauge difference is finally being resolved with high-speed AVE lines using standard gauge — the 19th-century decision still shaping 21st-century infrastructure."
         }
       ]
     },
@@ -466,6 +508,20 @@
           "hint": "Throughout the 19th century Spain is marginalised from the main currents of European development — absent from the Concert of Europe, late to industrialise, riven by civil wars; its European neighbours cease to treat it as a major power; the contrast with France (Napoleonic, industrial) and Britain (imperial, industrial) is stark.",
           "tag": "EVENT",
           "note": "Spain's absence from the Concert of Europe: Kissinger (1957), A World Restored — Spain not mentioned as a Great Power. The contrast in industrial output: Mitchell (1975), European Historical Statistics — Spain's industrialisation lag documented. The 'sick man' characterisation: contemporaries including Marx (articles on Spain 1854: New-York Tribune) used this framing. Álvarez Junco (2001), Mater Dolorosa: analyses Spain's 19th-century national identity crisis."
+        },
+        {
+          "id": "w2",
+          "group": "Geopolitical Shift",
+          "label": "Congress of Vienna (1815) — Spain sidelined despite the Peninsular War",
+          "date": "1814–1815",
+          "loc": "Vienna (Congress)",
+          "coords": [
+            48.2,
+            16.37
+          ],
+          "hint": "Despite Spain's massive sacrifices in the Peninsular War (which Wellington himself called the decisive theatre), Spain is entirely sidelined at the Congress of Vienna — receiving zero territorial or financial compensation; the Congress cements Spain's demotion to a second-class European power, a status that shapes its entire 19th-century political isolation.",
+          "tag": "EVENT",
+          "note": "Congress of Vienna Final Act 9 Jun 1815: the standard text — no Spanish territorial gains. Spain's delegation: led by Pedro Gómez Labrador — documented as ineffective in diplomatic records. Kissinger (1957), A World Restored: analyses Spain's marginalisation. The contrast with the scale of Spanish sacrifice (Peninsular War 1808–1814): documented in military records. Álvarez Junco (2001), Mater Dolorosa: analyses the Vienna marginalisation's impact on Spanish national identity."
         }
       ]
     },
@@ -713,6 +769,11 @@
       "accent": "#566573",
       "events": [
         {
+          "y": 1854,
+          "l": "Krausism — philosophical engine of Spanish liberalism",
+          "entryId": "t3"
+        },
+        {
           "y": 1876,
           "l": "Institución Libre de Enseñanza",
           "entryId": "t1"
@@ -738,6 +799,11 @@
           "y": 1826,
           "l": "Last colonies independent",
           "entryId": "ex1"
+        },
+        {
+          "y": 1855,
+          "l": "Railway Law — wider gauge isolates Spain",
+          "entryId": "ex2"
         }
       ]
     },
@@ -746,6 +812,11 @@
       "icon": "🌍",
       "accent": "#2471A3",
       "events": [
+        {
+          "y": 1815,
+          "l": "Congress of Vienna — Spain sidelined",
+          "entryId": "w2"
+        },
         {
           "y": 1820,
           "l": "Spain absent from Concert of Europe",

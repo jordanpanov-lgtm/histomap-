@@ -125,6 +125,34 @@
       "subtitle": "Civil war, international intervention and Francoist repression",
       "entries": [
         {
+          "id": "c6",
+          "group": "Social Conflicts",
+          "label": "Semana Trágica — Barcelona burns, Ferrer Guardia executed",
+          "date": "26 Jul–2 Aug 1909",
+          "loc": "Barcelona (barricades; church burnings)",
+          "coords": [
+            41.38,
+            2.18
+          ],
+          "hint": "Conscription of working-class men for the Second Melilla War sparks a general strike and street fighting in Barcelona — over 100 churches and convents burned; the military suppression is brutal; the execution of the anarchist educator Francisco Ferrer Guardia causes international outrage, brings down the Conservative government of Maura, and permanently radicalises the Catalan working class.",
+          "tag": "CIVIL WAR",
+          "note": "The general strike declaration 26 Jul 1909: documented in press (La Vanguardia, El Imparcial — BNE Gallica equivalent). The church burnings: documented in police and municipal records (Arxiu Municipal de Barcelona). Ferrer Guardia's trial and execution 13 Oct 1909: documented — his trial records in AHN. The international protest: documented in French, British and German press. Connelly Ullman (1968), The Tragic Week: the standard English study. Maura's government resignation: Gaceta de Madrid. The Semana Trágica permanently ends the possibility of peaceful integration of Barcelona's labour movement."
+        },
+        {
+          "id": "c7",
+          "group": "Second Republic Conflicts",
+          "label": "Asturias uprising — Franco's army rehearsal for the Civil War",
+          "date": "5–18 Oct 1934",
+          "loc": "Asturias (mining valleys; Oviedo besieged)",
+          "coords": [
+            43.36,
+            -5.85
+          ],
+          "hint": "The entry of the right-wing CEDA into the cabinet triggers a general strike that becomes a full-scale armed workers' uprising in Asturias — the Socialist and anarchist miners hold out for two weeks; the centre-right government sends the Army of Africa under General Francisco Franco to crush it; thousands killed, 30,000 imprisoned; the direct ideological and military rehearsal for the Civil War.",
+          "tag": "CIVIL WAR",
+          "note": "The uprising: documented in press (El Socialista, ABC — BNE). Franco's role as coordinator of the suppression: documented in military records (Archivo General Militar, Ávila). The casualties: approximately 1,500 killed, 30,000 imprisoned — documented in Republican parliamentary debates. Payne (1970), The Spanish Revolution ch.7: the standard study. The Asturias uprising polarises the Republic into two irreconcilable blocs — explicitly acknowledged by all participants. The Army of Africa's deployment against Spanish citizens is the template for July 1936."
+        },
+        {
           "id": "c1",
           "group": "Spanish Civil War",
           "label": "Military uprising begins — 17 July 1936",
@@ -137,34 +165,6 @@
           "hint": "The uprising starts in Spanish Morocco — Franco flies from the Canary Islands in a chartered British plane to take command; within 48 hours Spain is divided between Republican government and Nationalist rebels.",
           "tag": "CIVIL WAR",
           "note": "Franco's flight in the Dragon Rapide: documented in the plane's manifest (preserved). The uprising's spread across garrisons: documented in military and newspaper archives from both sides. Thomas (1961), The Spanish Civil War, Part I. The Dragon Rapide charter: Rankin (2003), Telegram from Guernica."
-        },
-        {
-          "id": "c2",
-          "group": "Spanish Civil War",
-          "label": "Bombing of Guernica — 26 April 1937",
-          "date": "26 Apr 1937",
-          "loc": "Guernica (Gernika), Basque Country",
-          "coords": [
-            43.31,
-            -2.67
-          ],
-          "hint": "The Condor Legion and Italian Air Force bomb the Basque market town of Guernica for three hours on a busy market day — the number of dead is disputed (126–1,654 in sources) but the symbolic impact is immediate and global; Picasso begins his painting within days.",
-          "tag": "BATTLE",
-          "note": "HARD ANCHOR: Wolfram von Richthofen diary entries, 18 and 23 April 1937: preserved in German military archives (Bundesarchiv-Militärarchiv) — describe the operation planning. Eyewitness: Father Alberto Onaindía (Basque priest, present that day) — his testimony published 1937. George Steer, The Times of London, 28 Apr 1937 (journalist, arrived hours after bombing). Casualty dispute: Basque government reported 1,654; local historians revised to 126–153. The uncertainty must be flagged."
-        },
-        {
-          "id": "c3",
-          "group": "Spanish Civil War",
-          "label": "Battle of the Ebro — final Republican offensive",
-          "date": "25 Jul–16 Nov 1938",
-          "loc": "Ebro river, Catalonia-Aragon border",
-          "coords": [
-            41.0,
-            0.5
-          ],
-          "hint": "The largest battle of the Civil War — the Republic crosses the Ebro with 80,000 troops in an attempt to reconnect the two halves of Republican territory — the Nationalists had split Republican Spain in April 1938 by reaching the Mediterranean at Vinaròs, isolating Catalonia; relieving pressure on Valencia was a secondary objective; initial success is reversed over four months; the Republic loses 70,000 casualties it cannot replace.",
-          "tag": "BATTLE",
-          "note": "Republican military records (fragmentary): Archivo General Militar de Ávila. International Brigades records: ALBA digital archive (UCSD). Thomas (1961) ch.55–59. The battle as the Republic's last major offensive: Graham (2002), The Spanish Republic at War. International press coverage: New York Times archive, Le Monde archive."
         },
         {
           "id": "c4",
@@ -195,6 +195,34 @@
           "note": "UNCERTAIN: Casualty figures disputed. Centro Documental de la Memoria Histórica (Salamanca): the primary archive. Mass graves database: Ministerio de la Presidencia, online from 2007. Preston (2012), The Spanish Holocaust: the most comprehensive modern study, with detailed regional evidence. The 'pact of silence' during the Transition limited documentation; ongoing excavations continue to revise numbers."
         },
         {
+          "id": "c2",
+          "group": "Spanish Civil War",
+          "label": "Bombing of Guernica — 26 April 1937",
+          "date": "26 Apr 1937",
+          "loc": "Guernica (Gernika), Basque Country",
+          "coords": [
+            43.31,
+            -2.67
+          ],
+          "hint": "The Condor Legion and Italian Air Force bomb the Basque market town of Guernica for three hours on a busy market day — the number of dead is disputed (126–1,654 in sources) but the symbolic impact is immediate and global; Picasso begins his painting within days.",
+          "tag": "BATTLE",
+          "note": "HARD ANCHOR: Wolfram von Richthofen diary entries, 18 and 23 April 1937: preserved in German military archives (Bundesarchiv-Militärarchiv) — describe the operation planning. Eyewitness: Father Alberto Onaindía (Basque priest, present that day) — his testimony published 1937. George Steer, The Times of London, 28 Apr 1937 (journalist, arrived hours after bombing). Casualty dispute: Basque government reported 1,654; local historians revised to 126–153. The uncertainty must be flagged."
+        },
+        {
+          "id": "c3",
+          "group": "Spanish Civil War",
+          "label": "Battle of the Ebro — final Republican offensive",
+          "date": "25 Jul–16 Nov 1938",
+          "loc": "Ebro river, Catalonia-Aragon border",
+          "coords": [
+            41.0,
+            0.5
+          ],
+          "hint": "The largest battle of the Civil War — the Republic crosses the Ebro with 80,000 troops in an attempt to reconnect the two halves of Republican territory — the Nationalists had split Republican Spain in April 1938 by reaching the Mediterranean at Vinaròs, isolating Catalonia; relieving pressure on Valencia was a secondary objective; initial success is reversed over four months; the Republic loses 70,000 casualties it cannot replace.",
+          "tag": "BATTLE",
+          "note": "Republican military records (fragmentary): Archivo General Militar de Ávila. International Brigades records: ALBA digital archive (UCSD). Thomas (1961) ch.55–59. The battle as the Republic's last major offensive: Graham (2002), The Spanish Republic at War. International press coverage: New York Times archive, Le Monde archive."
+        },
+        {
           "id": "c8",
           "group": "Francoist Era Conflicts",
           "label": "Assassination of Admiral Carrero Blanco — 1973",
@@ -207,34 +235,6 @@
           "hint": "ETA plants a bomb under Carrero Blanco's car — the explosion launches the car over a five-storey building; Carrero Blanco was Franco's designated successor and the assassination changes the course of the Transition by removing the hardest-line Francoist from succession.",
           "tag": "BATTLE",
           "note": "Police and judicial records: AHN. Contemporary press: El País archive, ABC archive. The engineering of the tunnel: documented in ETA's own later accounts. Preston (2012), Franco's Caudillo, ch. final. The assassination's political impact — removing the most rigid Francoist from succession — is argued by Preston (1993) and Payne (1987) as inadvertently facilitating the Transition."
-        },
-        {
-          "id": "c6",
-          "group": "Social Conflicts",
-          "label": "Semana Trágica — Barcelona burns, Ferrer Guardia executed",
-          "date": "26 Jul–2 Aug 1909",
-          "loc": "Barcelona (barricades; church burnings)",
-          "coords": [
-            41.38,
-            2.18
-          ],
-          "hint": "Conscription of working-class men for the Second Melilla War sparks a general strike and street fighting in Barcelona — over 100 churches and convents burned; the military suppression is brutal; the execution of the anarchist educator Francisco Ferrer Guardia causes international outrage, brings down the Conservative government of Maura, and permanently radicalises the Catalan working class.",
-          "tag": "CIVIL WAR",
-          "note": "The general strike declaration 26 Jul 1909: documented in press (La Vanguardia, El Imparcial — BNE Gallica equivalent). The church burnings: documented in police and municipal records (Arxiu Municipal de Barcelona). Ferrer Guardia's trial and execution 13 Oct 1909: documented — his trial records in AHN. The international protest: documented in French, British and German press. Connelly Ullman (1968), The Tragic Week: the standard English study. Maura's government resignation: Gaceta de Madrid. The Semana Trágica permanently ends the possibility of peaceful integration of Barcelona's labour movement."
-        },
-        {
-          "id": "c7",
-          "group": "Second Republic Conflicts",
-          "label": "Asturias uprising — Franco's army rehearsal for the Civil War",
-          "date": "5–18 Oct 1934",
-          "loc": "Asturias (mining valleys; Oviedo besieged)",
-          "coords": [
-            43.36,
-            -5.85
-          ],
-          "hint": "The entry of the right-wing CEDA into the cabinet triggers a general strike that becomes a full-scale armed workers' uprising in Asturias — the Socialist and anarchist miners hold out for two weeks; the centre-right government sends the Army of Africa under General Francisco Franco to crush it; thousands killed, 30,000 imprisoned; the direct ideological and military rehearsal for the Civil War.",
-          "tag": "CIVIL WAR",
-          "note": "The uprising: documented in press (El Socialista, ABC — BNE). Franco's role as coordinator of the suppression: documented in military records (Archivo General Militar, Ávila). The casualties: approximately 1,500 killed, 30,000 imprisoned — documented in Republican parliamentary debates. Payne (1970), The Spanish Revolution ch.7: the standard study. The Asturias uprising polarises the Republic into two irreconcilable blocs — explicitly acknowledged by all participants. The Army of Africa's deployment against Spanish citizens is the template for July 1936."
         }
       ]
     },
@@ -260,6 +260,20 @@
           "hint": "The 1931 Constitution separates Church and State, grants women the vote (the first time in Spanish history), establishes regional autonomy, and secularises education — it is the most progressive Spanish constitution to that date.",
           "tag": "LAW",
           "note": "Text: Gaceta de Madrid, 10 Dec 1931 (extant, digitised). Women's suffrage article 36: confirmed by vote in Cortes (debated by Clara Campoamor vs Victoria Kent — both women deputies). The Cortes debates on women's suffrage: Diario de Sesiones de las Cortes Constituyentes 1931. Arranz (2007), La Constitución de 1931."
+        },
+        {
+          "id": "o4",
+          "group": "Republican Law",
+          "label": "Statute of Autonomy of Catalonia — the Estatut",
+          "date": "9 Sep 1932",
+          "loc": "Madrid (Cortes); Barcelona (referendum)",
+          "coords": [
+            41.38,
+            2.18
+          ],
+          "hint": "The first Statute of Catalan Autonomy, approved by referendum (592,961 votes to 3,276) and ratified by the Madrid Cortes — giving Catalonia its own government (Generalitat) and official status for the Catalan language; suppressed by Franco in 1939.",
+          "tag": "LAW",
+          "note": "Gaceta de Madrid, 21 Sep 1932: text of the Estatut. The referendum result: documented in the Archivo del Parlament de Catalunya. The Generalitat archives (ANC, Barcelona): primary repository. The Estatut's suppression by Franco: documented in BOE 1938–39. The 1932 statute became the template for all subsequent Catalan autonomy statutes."
         },
         {
           "id": "o2",
@@ -288,20 +302,6 @@
           "hint": "The Political Responsibilities Law holds all who 'opposed the National Movement' from October 1934 onwards legally liable — giving the regime a legal framework to confiscate property and imprison Republicans retroactively going back five years.",
           "tag": "LAW",
           "note": "BOE 13 Feb 1939: text of the law. The retroactivity to 1934 was historically unprecedented in Spanish law. Preston (1993), Franco, ch.20 on the repression's legal architecture. The law created 40,000+ proceedings: AHN Fondos del Tribunal Nacional de Responsabilidades Políticas."
-        },
-        {
-          "id": "o4",
-          "group": "Republican Law",
-          "label": "Statute of Autonomy of Catalonia — the Estatut",
-          "date": "9 Sep 1932",
-          "loc": "Madrid (Cortes); Barcelona (referendum)",
-          "coords": [
-            41.38,
-            2.18
-          ],
-          "hint": "The first Statute of Catalan Autonomy, approved by referendum (592,961 votes to 3,276) and ratified by the Madrid Cortes — giving Catalonia its own government (Generalitat) and official status for the Catalan language; suppressed by Franco in 1939.",
-          "tag": "LAW",
-          "note": "Gaceta de Madrid, 21 Sep 1932: text of the Estatut. The referendum result: documented in the Archivo del Parlament de Catalunya. The Generalitat archives (ANC, Barcelona): primary repository. The Estatut's suppression by Franco: documented in BOE 1938–39. The 1932 statute became the template for all subsequent Catalan autonomy statutes."
         }
       ]
     },
@@ -315,20 +315,6 @@
       "subtitle": "National Catholicism, anticlerical violence and the Church-State alliance",
       "entries": [
         {
-          "id": "r1",
-          "group": "Catholic / Church of Rome",
-          "label": "National Catholicism — Franco's ideological fusion",
-          "date": "1939–1975",
-          "loc": "Spain-wide",
-          "coords": [
-            40.4,
-            -3.7
-          ],
-          "hint": "Franco fuses Catholic identity with Spanish nationalism — the Church receives extraordinary privileges (censorship power, education control, tax exemption) in exchange for legitimating the regime; the Concordat of 1953 formalises this arrangement.",
-          "tag": "EDICT",
-          "note": "Concordat of 1953 (Spain-Vatican): text in BOE 19 Oct 1953. The National Catholicism ideology: analysed in Lannon (1987), Privilege, Persecution and Prophecy: The Catholic Church in Spain. The Church's educational role: documented in Education Ministry records (AHN). Pérez-Díaz (1993), The Return of Civil Society on the Church's post-Franco evolution."
-        },
-        {
           "id": "r2",
           "group": "Catholic / Church of Rome",
           "label": "Anticlerical violence — burning of churches 1931 and 1936",
@@ -341,6 +327,20 @@
           "hint": "Churches and convents are burned in May 1931 (Madrid, Málaga) by Republican crowds and more extensively in July–September 1936 at Civil War's outbreak — approximately 7,000 clergy killed in Republican territory; documented in Church martyrology.",
           "tag": "PERSECUTION",
           "note": "The 1936 killings: documented in Causa General (1943) — a Francoist legal inquiry, biased but containing real data. Modern reassessment: Montero Moreno (1961), Historia de la persecución religiosa en España 1936–1939. The 7,000 figure: Callahan (2000), The Catholic Church in Spain. FLAG: the Causa General data requires critical handling as a Francoist propaganda document as well as a historical source."
+        },
+        {
+          "id": "r1",
+          "group": "Catholic / Church of Rome",
+          "label": "National Catholicism — Franco's ideological fusion",
+          "date": "1939–1975",
+          "loc": "Spain-wide",
+          "coords": [
+            40.4,
+            -3.7
+          ],
+          "hint": "Franco fuses Catholic identity with Spanish nationalism — the Church receives extraordinary privileges (censorship power, education control, tax exemption) in exchange for legitimating the regime; the Concordat of 1953 formalises this arrangement.",
+          "tag": "EDICT",
+          "note": "Concordat of 1953 (Spain-Vatican): text in BOE 19 Oct 1953. The National Catholicism ideology: analysed in Lannon (1987), Privilege, Persecution and Prophecy: The Catholic Church in Spain. The Church's educational role: documented in Education Ministry records (AHN). Pérez-Díaz (1993), The Return of Civil Society on the Church's post-Franco evolution."
         }
       ]
     },
@@ -354,18 +354,18 @@
       "subtitle": "Guernica, the Generation of '98, Lorca and Republican culture",
       "entries": [
         {
-          "id": "a1",
-          "group": "Painting & Visual Art",
-          "label": "Guernica — Picasso's response to the bombing",
-          "date": "May–Jun 1937",
-          "loc": "Paris (painted); Madrid (Museo Reina Sofía, since 1992)",
+          "id": "a3",
+          "group": "Literature & Poetry",
+          "label": "Federico García Lorca — poet, playwright, martyr",
+          "date": "1898–1936",
+          "loc": "Granada (birth, death); Madrid; New York",
           "coords": [
-            40.41,
-            -3.69
+            37.18,
+            -3.6
           ],
-          "hint": "Picasso paints Guernica in six weeks after reading George Steer's newspaper report — 3.49m × 7.76m, oils on canvas; it becomes the defining image of 20th-century political art and the most discussed painting of the Spanish Civil War.",
-          "tag": "MONUMENT",
-          "note": "Extant: Museo Reina Sofía, Madrid (since 1992, transferred from MoMA). Picasso began painting May 1937. The preparatory sketches (45 studies): also Reina Sofía. Van Hensbergen (2004), Guernica: The Biography of a Twentieth-Century Icon. The painting's political history — kept in MoMA throughout the Franco years at Picasso's explicit request — is itself a primary source on Spain-US relations."
+          "hint": "Lorca is shot by Nationalist forces in August 1936 near Granada — his body has never been found; his Romancero Gitano (1928) and Poeta en Nueva York (written 1929–30) are the most celebrated Spanish poems of the 20th century; his death became the defining symbol of Francoist cultural repression.",
+          "tag": "LITERATURE",
+          "note": "Lorca shot 18 Aug 1936: documented in multiple contemporary accounts; Gibson (1983), Federico García Lorca: A Life, the standard biography. The location of his burial: subject of ongoing forensic investigation (mass grave near Víznar, Granada) — as of 2024 not conclusively located. Romancero Gitano first edition 1928: BNE. Poet in New York first edition 1940 (posthumous): BNE."
         },
         {
           "id": "a2",
@@ -382,18 +382,46 @@
           "note": "Unamuno, Del sentimiento trágico de la vida (1913): BNE. Machado, Campos de Castilla (1912): BNE. Valle-Inclán, Luces de Bohemia (1920 — first esperpento): BNE. Note: the Generation of '98 as a movement is introduced in the spain-1808-1900 folio (t2); this entry covers the major works published in the 20th century. Fox (1997), Reimagining Spain: the standard English study."
         },
         {
-          "id": "a3",
-          "group": "Literature & Poetry",
-          "label": "Federico García Lorca — poet, playwright, martyr",
-          "date": "1898–1936",
-          "loc": "Granada (birth, death); Madrid; New York",
+          "id": "a5",
+          "group": "Music & Performance",
+          "label": "Flamenco and Republican culture — Carmen Amaya",
+          "date": "c.1913–1963",
+          "loc": "Barcelona (early career); Madrid; international tours",
           "coords": [
-            37.18,
-            -3.6
+            41.38,
+            2.18
           ],
-          "hint": "Lorca is shot by Nationalist forces in August 1936 near Granada — his body has never been found; his Romancero Gitano (1928) and Poeta en Nueva York (written 1929–30) are the most celebrated Spanish poems of the 20th century; his death became the defining symbol of Francoist cultural repression.",
+          "hint": "Carmen Amaya, born in a shack by the Barcelona waterfront, becomes the greatest flamenco dancer of the 20th century — her 1936 performance tour is interrupted by the Civil War, she goes into exile in South America, returns under Franco; her career documents the survival of Romani-Andalusian culture across the rupture.",
+          "tag": "EVIDENCE",
+          "note": "Carmen Amaya's career: documented in contemporary press and film. Her 1963 film Amor de Dios (extant). Pohren (1964), The Art of Flamenco: primary documentation of her technique. The Romani community's experience under Francoism: Castro Varela & Dhawan (2020). Her passport and emigration records: Archivo General de la Administración (AGA), Alcalá de Henares."
+        },
+        {
+          "id": "a7",
+          "group": "Film & Media",
+          "label": "Buñuel and the Residencia de Estudiantes — surrealist cinema",
+          "date": "1920–1961",
+          "loc": "Madrid (Residencia de Estudiantes); Paris; Mexico City",
+          "coords": [
+            40.45,
+            -3.69
+          ],
+          "hint": "Luis Buñuel, Federico García Lorca and Salvador Dalí share rooms at the Residencia de Estudiantes in the 1920s — the intellectual crucible of Spain's Silver Age; Buñuel and Dalí co-write Un Chien Andalou (1929), the founding text of surrealist cinema; Buñuel's later Viridiana (1961) wins the Palme d'Or and is immediately banned in Spain.",
           "tag": "LITERATURE",
-          "note": "Lorca shot 18 Aug 1936: documented in multiple contemporary accounts; Gibson (1983), Federico García Lorca: A Life, the standard biography. The location of his burial: subject of ongoing forensic investigation (mass grave near Víznar, Granada) — as of 2024 not conclusively located. Romancero Gitano first edition 1928: BNE. Poet in New York first edition 1940 (posthumous): BNE."
+          "note": "Un Chien Andalou (1929): directed Buñuel, written Buñuel and Dalí — BnF film archive. The Residencia de Estudiantes (founded 1910): Archivo de la Residencia de Estudiantes, Madrid — attendance records document Lorca, Dalí, Buñuel. Viridiana (1961): Palme d'Or Cannes — immediately banned in Spain by the Franco government; the censorship document is in AGA (Archivo General de la Administración). Edwards (1982), The Discreet Art of Luis Buñuel: the standard English study. The Residencia's role: Sánchez Vidal (1988), Buñuel, Lorca, Dalí: el enigma sin fin."
+        },
+        {
+          "id": "a1",
+          "group": "Painting & Visual Art",
+          "label": "Guernica — Picasso's response to the bombing",
+          "date": "May–Jun 1937",
+          "loc": "Paris (painted); Madrid (Museo Reina Sofía, since 1992)",
+          "coords": [
+            40.41,
+            -3.69
+          ],
+          "hint": "Picasso paints Guernica in six weeks after reading George Steer's newspaper report — 3.49m × 7.76m, oils on canvas; it becomes the defining image of 20th-century political art and the most discussed painting of the Spanish Civil War.",
+          "tag": "MONUMENT",
+          "note": "Extant: Museo Reina Sofía, Madrid (since 1992, transferred from MoMA). Picasso began painting May 1937. The preparatory sketches (45 studies): also Reina Sofía. Van Hensbergen (2004), Guernica: The Biography of a Twentieth-Century Icon. The painting's political history — kept in MoMA throughout the Franco years at Picasso's explicit request — is itself a primary source on Spain-US relations."
         },
         {
           "id": "a4",
@@ -410,20 +438,6 @@
           "note": "Construction decree: BOE Apr 1940. The use of forced labour: documented in Sueiro (1976), El Valle de los Caídos. Franco's burial: documented 1975; exhumation 24 Oct 2019: BOE, Supreme Court ruling. Extant (closed since 2019, transformation ongoing). The monument is itself a primary source for Francoist ideology of 'reconciliation' through Catholic ritual."
         },
         {
-          "id": "a5",
-          "group": "Music & Performance",
-          "label": "Flamenco and Republican culture — Carmen Amaya",
-          "date": "c.1913–1963",
-          "loc": "Barcelona (early career); Madrid; international tours",
-          "coords": [
-            41.38,
-            2.18
-          ],
-          "hint": "Carmen Amaya, born in a shack by the Barcelona waterfront, becomes the greatest flamenco dancer of the 20th century — her 1936 performance tour is interrupted by the Civil War, she goes into exile in South America, returns under Franco; her career documents the survival of Romani-Andalusian culture across the rupture.",
-          "tag": "EVIDENCE",
-          "note": "Carmen Amaya's career: documented in contemporary press and film. Her 1963 film Amor de Dios (extant). Pohren (1964), The Art of Flamenco: primary documentation of her technique. The Romani community's experience under Francoism: Castro Varela & Dhawan (2020). Her passport and emigration records: Archivo General de la Administración (AGA), Alcalá de Henares."
-        },
-        {
           "id": "a6",
           "group": "Painting & Visual Art",
           "label": "Dalí and Miró — Surrealism and the abstract from Catalonia",
@@ -436,20 +450,6 @@
           "hint": "Salvador Dalí (The Persistence of Memory, 1931) and Joan Miró (Catalan Farm, 1921–1922) are alongside Picasso the three titans of 20th-century Spanish art — both Catalans, both shaped by the Residencia de Estudiantes, both internationally influential; Dalí at the Meadows Museum (Dallas) and Miró at the Fundació Joan Miró (Barcelona, 1975) anchor their legacies in Spain.",
           "tag": "OBJECT",
           "note": "The Persistence of Memory (1931): Museum of Modern Art, New York (MoMA 162.1934). Catalan Farm (1921–1922): Museo Reina Sofía, Madrid. Dalí's friendship with Lorca and Buñuel at the Residencia: documented in correspondence (Fundació Gala-Salvador Dalí, Figueres). Miró's Fundació (designed by Josep Lluís Sert, 1975): Barcelona. Dalí Theatre-Museum, Figueres: opened 1974 (Dalí designed it himself — documented). Gibson (1997), The Shameful Life of Salvador Dalí: the standard biography."
-        },
-        {
-          "id": "a7",
-          "group": "Film & Media",
-          "label": "Buñuel and the Residencia de Estudiantes — surrealist cinema",
-          "date": "1920–1961",
-          "loc": "Madrid (Residencia de Estudiantes); Paris; Mexico City",
-          "coords": [
-            40.45,
-            -3.69
-          ],
-          "hint": "Luis Buñuel, Federico García Lorca and Salvador Dalí share rooms at the Residencia de Estudiantes in the 1920s — the intellectual crucible of Spain's Silver Age; Buñuel and Dalí co-write Un Chien Andalou (1929), the founding text of surrealist cinema; Buñuel's later Viridiana (1961) wins the Palme d'Or and is immediately banned in Spain.",
-          "tag": "LITERATURE",
-          "note": "Un Chien Andalou (1929): directed Buñuel, written Buñuel and Dalí — BnF film archive. The Residencia de Estudiantes (founded 1910): Archivo de la Residencia de Estudiantes, Madrid — attendance records document Lorca, Dalí, Buñuel. Viridiana (1961): Palme d'Or Cannes — immediately banned in Spain by the Franco government; the censorship document is in AGA (Archivo General de la Administración). Edwards (1982), The Discreet Art of Luis Buñuel: the standard English study. The Residencia's role: Sánchez Vidal (1988), Buñuel, Lorca, Dalí: el enigma sin fin."
         }
       ]
     },
@@ -477,6 +477,20 @@
           "note": "First edition: Revista de Occidente, Madrid 1930: BNE. The Revista de Occidente (1923–1936) itself: key intellectual journal of the era, archive at BNE. Moran (1996), El maestro en el erial: Ortega y Gasset and the Second Republic. The book's international reception: documented in translation records and press reviews."
         },
         {
+          "id": "t3",
+          "group": "Political Theory",
+          "label": "Republican propaganda posters — a visual primary corpus",
+          "date": "1936–1939",
+          "loc": "Barcelona; Madrid (printed)",
+          "coords": [
+            41.38,
+            2.18
+          ],
+          "hint": "The Spanish Republic produces over 2,000 propaganda posters — lithographs by Renau, El Lissitzky-influenced designs by various artists — constituting the richest single corpus of political graphic design of the 20th century, now digitised by multiple archives.",
+          "tag": "DOCUMENT",
+          "note": "Brandeis University Spanish Civil War Collection: 5,000+ items. BNE digital collection: hundreds of posters. Cary (1973) on Republican poster art. The Nationalist counter-poster tradition: smaller and less artistically significant. Southworth Collection (UCSD): the most comprehensive private collection, now digitised. The posters as primary evidence for Republican ideology: Brihuega (1982)."
+        },
+        {
           "id": "t2",
           "group": "History & Chronicle",
           "label": "George Orwell — Homage to Catalonia (1938)",
@@ -491,18 +505,32 @@
           "note": "First edition: Secker & Warburg, London 1938 — British Library holds the first edition. Orwell's POUM militia card (extant): documents his service. His medical records from the bullet wound: documented in Orwell's own correspondence (University College London, Orwell Archive). Crick (1980), George Orwell: A Life. The book sold only 638 copies in Orwell's lifetime."
         },
         {
-          "id": "t3",
-          "group": "Political Theory",
-          "label": "Republican propaganda posters — a visual primary corpus",
-          "date": "1936–1939",
-          "loc": "Barcelona; Madrid (printed)",
+          "id": "t5",
+          "group": "Philosophy",
+          "label": "Unamuno — pioneer of European existentialist philosophy",
+          "date": "1912",
+          "loc": "Salamanca (University of Salamanca; Rector)",
           "coords": [
-            41.38,
-            2.18
+            40.96,
+            -5.66
           ],
-          "hint": "The Spanish Republic produces over 2,000 propaganda posters — lithographs by Renau, El Lissitzky-influenced designs by various artists — constituting the richest single corpus of political graphic design of the 20th century, now digitised by multiple archives.",
-          "tag": "DOCUMENT",
-          "note": "Brandeis University Spanish Civil War Collection: 5,000+ items. BNE digital collection: hundreds of posters. Cary (1973) on Republican poster art. The Nationalist counter-poster tradition: smaller and less artistically significant. Southworth Collection (UCSD): the most comprehensive private collection, now digitised. The posters as primary evidence for Republican ideology: Brihuega (1982)."
+          "hint": "Miguel de Unamuno's Del sentimiento trágico de la vida (1912) explores the agonising conflict between rational scepticism and the desperate human desire for immortality — predating and directly influencing French existentialism; Sartre and Camus both cite him; Unamuno is the first philosopher in European tradition to place this 'tragic sense' at the centre of human existence.",
+          "tag": "TEXT",
+          "note": "Del sentimiento trágico de la vida (1912): BNE. English translation Crawford Flitch (1921): the vehicle of its European influence. Sartre's acknowledgment of Unamuno: documented in interviews — though Sartre's direct citation is debated, the conceptual overlap is documented by Nozick (1971), Miguel de Unamuno: the standard English study. The Salamanca rectorship: documented — his famous 'Venceréis, pero no convenceréis' confrontation with Millán Astray (October 1936) is one of the most documented scenes in Spanish cultural history. Unamuno died under house arrest 31 Dec 1936."
+        },
+        {
+          "id": "t4",
+          "group": "Philosophy",
+          "label": "María Zambrano — razón poética and the philosophy of exile",
+          "date": "1939–1984 (exile period and return)",
+          "loc": "Madrid (born; ILE educated); Rome; Havana; Paris; Geneva (exile)",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "María Zambrano (1904–1991) formulates razón poética (poetic reason) as an alternative to pure Cartesian rationalism — arguing that poetry, myth and deep contemplation reveal truths inaccessible to cold logic; exiled after the Civil War, she develops her philosophy across 45 years of exile and receives the Cervantes Prize (1988) and Prince of Asturias Award (1981) after the Transition.",
+          "tag": "TEXT",
+          "note": "Filosofía y Poesía (1939): first published in Mexico — the foundational text of razón poética. El hombre y lo divino (1955): the mature statement. Hacia un saber sobre el alma (1950). Cerezo Galán (2011), María Zambrano: pensadora de la Aurora: the standard Spanish study. The Cervantes Prize (1988): the highest honour in Spanish-language literature. Her return to Spain 1984: documented — she was the last major Republican exile to return. Her ILE formation: documented in the Residencia de Estudiantes records."
         }
       ]
     },
@@ -542,6 +570,20 @@
           "hint": "Franco's autarky policy (economic self-sufficiency) produces a decade of stagnation and hunger — rationing cards are in use until 1952; Spain's GDP does not recover to 1935 levels until 1951; the black market (estraperlo) becomes pervasive.",
           "tag": "ECONOMIC",
           "note": "Rationing records: AGA, Alcalá de Henares. Ration cards (extant objects): multiple museum collections. GDP data: Prados de la Escosura (2003), El progreso económico de España. The estraperlo (black market): documented in police and court records. Viñas et al. (1979), Política comercial exterior en España 1931–1975: the standard economic history."
+        },
+        {
+          "id": "s4",
+          "group": "Industry & Production",
+          "label": "INI (1941) — Francoist autarky's industrial engine",
+          "date": "25 Sep 1941",
+          "loc": "Madrid (headquarters; industrial plants nationwide)",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "The Instituto Nacional de Industria (INI, founded 1941) is the central economic instrument of Francoist autarky — a massive state holding company modelled on Mussolini's IRI, designed to build self-sufficient industrial capacity; it creates highly protected, inefficient state monopolies (SEAT cars, RENFE railways, IBERIA airlines, ENDESA electricity) that dominate the economy until the 1959 Stabilisation Plan forces course correction.",
+          "tag": "Industry & Production",
+          "note": "INI founding decree 25 Sep 1941: BOE. Sudrià (1999), 'La industrialización en España': the standard economic study. The IRI model: explicitly documented in INI's founding documents. Comín (1991), Historia de la empresa pública en España: the standard institutional study. The INI's companies: SEAT (1950), ENDESA (1944), IBERIA (nationalised 1943), ENSIDESA steel — all documented. The 1959 Plan de Estabilización as the INI's partial dismantling: see existing entry s3."
         },
         {
           "id": "s3",
@@ -597,6 +639,20 @@
           "note": "French government records: Archives nationales (Paris), series F7 (refugees). The Retirada's scale: documented in French military and police records. Mexican reception: Archivo Histórico Diplomático Mexicano. Pons Prades (1977), Republicanos españoles en la Segunda Guerra Mundial. Martínez (2007) on the Republican exile community."
         },
         {
+          "id": "ex4",
+          "group": "Diplomatic Exchange",
+          "label": "Meeting at Hendaye (1940) — Franco frustrates Hitler",
+          "date": "23 Oct 1940",
+          "loc": "Hendaye (French-Spanish border)",
+          "coords": [
+            43.36,
+            -1.77
+          ],
+          "hint": "Franco meets Hitler at Hendaye on 23 October 1940 — Hitler demands Spain's entry into the war; Franco makes impossible demands (vast French colonial territories in North Africa, massive grain shipments) and refuses to commit; Hitler famously says he would rather have three teeth pulled than negotiate with Franco again; Spain remains non-belligerent.",
+          "tag": "POLITICAL",
+          "note": "The Hendaye meeting 23 Oct 1940: German Foreign Ministry records (Auswärtiges Amt, Berlin) and Spanish Foreign Ministry records (AMAE). Hitler's 'teeth' remark: documented in Paul Schmidt's account (Hitler's interpreter, present at the meeting) — Schmidt (1949), Statist auf diplomatischer Bühne. Preston (1993), Franco: the standard English biography, ch.18: the most detailed account using both German and Spanish archives. Franco's demands: cession of French Morocco, Oran, and the Canaries — documented. The meeting's outcome: Hitler writes to Mussolini that dealing with Franco was impossible."
+        },
+        {
           "id": "ex3",
           "group": "Diplomatic Exchange",
           "label": "US-Spain Pacts of Madrid (1953) — Cold War legitimacy",
@@ -621,6 +677,20 @@
       "bg": "#F0F7FF",
       "subtitle": "Spain in its 20th-century European and global context",
       "entries": [
+        {
+          "id": "w3",
+          "group": "Geopolitical Shift",
+          "label": "Disaster of Annual (1921) — Morocco annihilates a Spanish army",
+          "date": "22 Jul 1921",
+          "loc": "Annual (Melilla region, Morocco)",
+          "coords": [
+            35.15,
+            -3.5
+          ],
+          "hint": "Moroccan Rif fighters under Abd el-Krim annihilate a Spanish army of 13,000 soldiers at Annual on 22 July 1921 — the worst Spanish military defeat in a century; the disaster shatters Spain's imperial prestige, triggers a massive parliamentary crisis (the Picasso Report investigation), and leads directly to Primo de Rivera's coup of September 1923.",
+          "tag": "BATTLE",
+          "note": "The Battle of Annual 22 Jul 1921: documented in Spanish military records (Archivo General Militar, Ávila). Spanish casualties: c.12,000–13,000 dead (exact figure disputed) — confirmed in parliamentary commission. The Picasso Report: Comisión Picasso investigation 1921–1923 — documented in Congreso de los Diputados. The connection to Primo de Rivera's coup: explicit in contemporary press and in Ben-Ami (1983). Abd el-Krim's subsequent Rif Republic (1921–1926): documented. Shannon Fleming (1991), Primo de Rivera and Abd-el-Krim: the standard English study."
+        },
         {
           "id": "w1",
           "group": "Geopolitical Shift",
@@ -673,20 +743,6 @@
           "hint": "Clara Campoamor argues for women's suffrage in the 1931 Constituent Cortes against opposition from fellow Republican Victoria Kent — her speech on 1 October 1931 is the primary document of Spanish feminism; women vote for the first time in the November 1933 elections.",
           "tag": "EVIDENCE",
           "note": "Campoamor's speech, 1 Oct 1931: Diario de Sesiones de las Cortes Constituyentes, 1 Oct 1931 (digitised, Congreso de los Diputados archive). The vote: Article 36 of the 1931 Constitution. Campoamor (1936), El voto femenino y yo: her own memoir of the suffrage campaign, BNE. Nash (1991), Defying Male Civilization: Women in the Spanish Civil War."
-        },
-        {
-          "id": "lv2",
-          "group": "Same-Sex Practice & Law",
-          "label": "Ley de Vagos y Maleantes — criminalisation of homosexuality",
-          "date": "1954 (amendment)",
-          "loc": "Spain-wide",
-          "coords": [
-            40.4,
-            -3.7
-          ],
-          "hint": "The 1933 Vagrancy Law is amended in 1954 to explicitly include homosexuals as subject to detention and forced labour camps — a CATEGORICAL SHIFT from implicit social stigma to explicit criminal category; replaced by the even harsher Ley de Peligrosidad Social (1970).",
-          "tag": "CATEGORICAL SHIFT",
-          "note": "BOE 17 Jul 1954: the amendment text. The Ley de Peligrosidad y Rehabilitación Social (1970): BOE 6 Aug 1970 — replaced the 1954 law with even more explicit criminalisation. Ugarte Pérez (2008), Una discriminación universal: la homosexualidad bajo el franquismo: the primary modern study. The internment camps (especially Badajoz): documented in prison records, partly in AGA. The transition to democracy formally decriminalised homosexuality in 1979."
         },
         {
           "id": "lv3",
@@ -743,6 +799,20 @@
           "hint": "After the 1939 defeat, thousands of Republican soldiers take to the mountains — the maquis wage guerrilla war against the Franco regime for over a decade; their lived reality is extreme isolation, survival in caves and farmhouse networks, and brutal counter-insurgency by the Civil Guard that includes torture and execution of civilian supporters (enlaces) who supply them.",
           "tag": "EVIDENCE",
           "note": "Maquis documentation: Archivo General de la Administración (AGA) and military records — Civil Guard reports on operations. Heine (1983), La oposición política al franquismo: the standard survey. Sánchez Agustí (2001), Maquis a Catalunya: uses regional archives. The Civil Guard's 'pacification' records: documented in AGA. The last active maquis (Francisco Sabaté Llopart, killed 1960): documented in press. The civilian network (enlaces): their torture and execution documented in trial records (Consejos de Guerra, AHN). A living memory: oral history projects document maquis survivors into the 2000s."
+        },
+        {
+          "id": "lv2",
+          "group": "Same-Sex Practice & Law",
+          "label": "Ley de Vagos y Maleantes — criminalisation of homosexuality",
+          "date": "1954 (amendment)",
+          "loc": "Spain-wide",
+          "coords": [
+            40.4,
+            -3.7
+          ],
+          "hint": "The 1933 Vagrancy Law is amended in 1954 to explicitly include homosexuals as subject to detention and forced labour camps — a CATEGORICAL SHIFT from implicit social stigma to explicit criminal category; replaced by the even harsher Ley de Peligrosidad Social (1970).",
+          "tag": "CATEGORICAL SHIFT",
+          "note": "BOE 17 Jul 1954: the amendment text. The Ley de Peligrosidad y Rehabilitación Social (1970): BOE 6 Aug 1970 — replaced the 1954 law with even more explicit criminalisation. Ugarte Pérez (2008), Una discriminación universal: la homosexualidad bajo el franquismo: the primary modern study. The internment camps (especially Badajoz): documented in prison records, partly in AGA. The transition to democracy formally decriminalised homosexuality in 1979."
         }
       ]
     }
@@ -995,6 +1065,11 @@
           "entryId": "s2"
         },
         {
+          "y": 1941,
+          "l": "INI — Francoist autarky's industrial engine",
+          "entryId": "s4"
+        },
+        {
           "y": 1959,
           "l": "Plan de Estabilización",
           "entryId": "s3"
@@ -1017,6 +1092,11 @@
           "entryId": "ex2"
         },
         {
+          "y": 1940,
+          "l": "Hendaye — Franco frustrates Hitler",
+          "entryId": "ex4"
+        },
+        {
           "y": 1953,
           "l": "Pacts of Madrid — US bases",
           "entryId": "ex3"
@@ -1028,6 +1108,11 @@
       "icon": "🌍",
       "accent": "#2471A3",
       "events": [
+        {
+          "y": 1921,
+          "l": "Disaster of Annual — 13,000 Spanish soldiers lost",
+          "entryId": "w3"
+        },
         {
           "y": 1940,
           "l": "Blue Division — Eastern Front",

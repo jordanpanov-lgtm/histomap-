@@ -124,34 +124,6 @@
           "note": "Chronicle of 754 (primary, by a Christian in al-Andalus): calls it the 'Battle of the Court of Martyrs'. Fredegar's Chronicle continuation: Frankish perspective. Charles Martel's role: documented. The battle's significance debate: Riche (1993) vs Collins (1989) — both use the same thin primary sources. The Muslim withdrawal: subsequent Arabic sources attribute it to raiding rather than permanent conquest."
         },
         {
-          "id": "c2",
-          "group": "Frontier Wars",
-          "label": "Roncesvalles — the ambush that created the Song of Roland",
-          "date": "15 Aug 778",
-          "loc": "Roncesvalles Pass, Pyrenees",
-          "coords": [
-            43.01,
-            -1.32
-          ],
-          "hint": "Charlemagne's retreating army is ambushed in the Roncesvalles Pass — the historical attackers are Basques, not Muslims, but the Chanson de Roland (c.1100) transforms them into a Muslim army; the gap between the historical event and its literary transformation is a primary example of medieval mythmaking.",
-          "tag": "BATTLE",
-          "note": "Einhard, Vita Karoli Magni (c.830): primary source — explicitly says Basques, names Roland as one of the dead. The Annales Regni Francorum: contemporary but vague. The Chanson de Roland (c.1100): BnF manuscript (Oxford copy). The transformation from Basques to Muslims: the clearest example of how the Reconquista narrative reshaped historical memory. Short (1990), La Chanson de Roland."
-        },
-        {
-          "id": "c3",
-          "group": "Internal Conflicts",
-          "label": "The Martyrs of Córdoba — Christian provocation under Muslim rule",
-          "date": "850–859",
-          "loc": "Córdoba",
-          "coords": [
-            37.88,
-            -4.78
-          ],
-          "hint": "A group of Christians in Córdoba deliberately seek martyrdom by publicly insulting Islam — 48 are executed between 850 and 859; Eulogius of Córdoba documents them; the episode reveals the tensions within the Mozarab community between accommodation and resistance to Muslim rule.",
-          "tag": "PERSECUTION",
-          "note": "Eulogius of Córdoba, Memoriale Sanctorum (851–858) and Documentum Martyriale (c.857): primary source — Eulogius was himself eventually executed (859). The Arabic-language response: the Qadi Ibn Ziyad's counter-arguments (preserved in Christian sources). Coope (1995), The Martyrs of Córdoba: the standard modern study. The episode documents both Christian-Muslim tension and the substantial Mozarab community."
-        },
-        {
           "id": "c4",
           "group": "Internal Conflicts",
           "label": "Berber Revolt — the crisis that reshaped al-Andalus",
@@ -166,6 +138,20 @@
           "note": "Ibn Abd al-Hakam, Futuh Misr (9th c.): primary source for the Berber revolt. Ibn Idhari, al-Bayan al-Mughrib: detailed account of the jund settlements. Kennedy (1996), Muslim Spain and Portugal pp.25–35: the standard modern analysis. The jund system (five Syrian military divisions settled in different regions): fundamental to al-Andalus's later tribal geography — documented in administrative sources. Collins (1989), The Arab Conquest of Spain ch.6."
         },
         {
+          "id": "c2",
+          "group": "Frontier Wars",
+          "label": "Roncesvalles — the ambush that created the Song of Roland",
+          "date": "15 Aug 778",
+          "loc": "Roncesvalles Pass, Pyrenees",
+          "coords": [
+            43.01,
+            -1.32
+          ],
+          "hint": "Charlemagne's retreating army is ambushed in the Roncesvalles Pass — the historical attackers are Basques, not Muslims, but the Chanson de Roland (c.1100) transforms them into a Muslim army; the gap between the historical event and its literary transformation is a primary example of medieval mythmaking.",
+          "tag": "BATTLE",
+          "note": "Einhard, Vita Karoli Magni (c.830): primary source — explicitly says Basques, names Roland as one of the dead. The Annales Regni Francorum: contemporary but vague. The Chanson de Roland (c.1100): BnF manuscript (Oxford copy). The transformation from Basques to Muslims: the clearest example of how the Reconquista narrative reshaped historical memory. Short (1990), La Chanson de Roland."
+        },
+        {
           "id": "c5",
           "group": "Internal Conflicts",
           "label": "Revolt of the Suburb — the largest urban uprising of the Emirate",
@@ -178,6 +164,20 @@
           "hint": "Under Emir al-Hakam I, the working population of Córdoba's southern suburb rises in mass revolt — the uprising is crushed with extreme violence; the suburb is razed, hundreds of leaders are crucified on the riverbank, and over 20,000 Andalusis are expelled; some of these exiles go on to conquer Alexandria and establish the Emirate of Crete.",
           "tag": "CIVIL WAR",
           "note": "Ibn al-Qutiyya, Tarikh iftitah al-Andalus (10th c.): primary narrative source. Ibn Hayyan, Muqtabis (fragments): additional details. The exile to Alexandria and Crete: documented in Arabic sources — the Andalusian exiles seize Alexandria c.814–815 and Crete c.824. Kennedy (1996) pp.67–72. The razed suburb: confirmed archaeologically — no 9th-century occupation layer on the south bank. This event directly precedes the 'Martyrs of Córdoba' generation."
+        },
+        {
+          "id": "c3",
+          "group": "Internal Conflicts",
+          "label": "The Martyrs of Córdoba — Christian provocation under Muslim rule",
+          "date": "850–859",
+          "loc": "Córdoba",
+          "coords": [
+            37.88,
+            -4.78
+          ],
+          "hint": "A group of Christians in Córdoba deliberately seek martyrdom by publicly insulting Islam — 48 are executed between 850 and 859; Eulogius of Córdoba documents them; the episode reveals the tensions within the Mozarab community between accommodation and resistance to Muslim rule.",
+          "tag": "PERSECUTION",
+          "note": "Eulogius of Córdoba, Memoriale Sanctorum (851–858) and Documentum Martyriale (c.857): primary source — Eulogius was himself eventually executed (859). The Arabic-language response: the Qadi Ibn Ziyad's counter-arguments (preserved in Christian sources). Coope (1995), The Martyrs of Córdoba: the standard modern study. The episode documents both Christian-Muslim tension and the substantial Mozarab community."
         },
         {
           "id": "c6",
@@ -258,6 +258,20 @@
       "subtitle": "Islam, Mozarab Christianity, Judaism and the question of convivencia",
       "entries": [
         {
+          "id": "r3",
+          "group": "Catholic / Church of Rome",
+          "label": "Mozarab community — Christians under Muslim rule",
+          "date": "711–1031",
+          "loc": "Córdoba; Toledo; Mérida",
+          "coords": [
+            37.88,
+            -4.78
+          ],
+          "hint": "The Mozarab Christians continue their faith under Muslim rule — they pay the jizya, maintain churches, copy manuscripts and produce scholars like Eulogius; the term 'Mozarab' (from Arabic mustarib, 'one who adopts Arab ways') documents the cultural integration that shaped a distinctive Iberian Christianity.",
+          "tag": "EVIDENCE",
+          "note": "Eulogius of Córdoba (died 859): primary source for Mozarab life. The Mozarabic manuscripts (9th–10th c.): Real Academia de la Historia. The Beatus manuscripts (commentaries on the Apocalypse, made in Christian monasteries under Muslim rule): UNESCO Memory of the World. Simonet (1897), Historia de los Mozárabes de España: the older comprehensive study."
+        },
+        {
           "id": "r1",
           "group": "Islam",
           "label": "Great Mosque of Córdoba — the architectural primary source",
@@ -284,20 +298,6 @@
           "hint": "Hasdai ibn Shaprut serves as Abd al-Rahman III's physician, diplomat and de facto foreign minister — he corresponds with the Byzantine Emperor and the Khazar King in Hebrew; his career is the clearest documented example of Jewish political participation at the summit of an Islamic state.",
           "tag": "EVIDENCE",
           "note": "Hasdai's letter to the Khazar King Joseph (c.960): Hebrew text preserved in multiple manuscripts; published Kobler (1978), Letters of Jews Through the Ages. His diplomatic role: documented in Arabic sources (al-Maqqari) and confirmed by Byzantine records. The Byzantine-Córdoba correspondence he handled: cross-referenced in Byzantine sources. Mann (1920), The Jews in Egypt and Palestine: the older standard study."
-        },
-        {
-          "id": "r3",
-          "group": "Catholic / Church of Rome",
-          "label": "Mozarab community — Christians under Muslim rule",
-          "date": "711–1031",
-          "loc": "Córdoba; Toledo; Mérida",
-          "coords": [
-            37.88,
-            -4.78
-          ],
-          "hint": "The Mozarab Christians continue their faith under Muslim rule — they pay the jizya, maintain churches, copy manuscripts and produce scholars like Eulogius; the term 'Mozarab' (from Arabic mustarib, 'one who adopts Arab ways') documents the cultural integration that shaped a distinctive Iberian Christianity.",
-          "tag": "EVIDENCE",
-          "note": "Eulogius of Córdoba (died 859): primary source for Mozarab life. The Mozarabic manuscripts (9th–10th c.): Real Academia de la Historia. The Beatus manuscripts (commentaries on the Apocalypse, made in Christian monasteries under Muslim rule): UNESCO Memory of the World. Simonet (1897), Historia de los Mozárabes de España: the older comprehensive study."
         }
       ]
     },
@@ -311,20 +311,6 @@
       "subtitle": "Andalusian architecture, Beatus manuscripts and court culture",
       "entries": [
         {
-          "id": "a1",
-          "group": "Architecture",
-          "label": "Madinat al-Zahra — the palace city of the caliphs",
-          "date": "936–1010",
-          "loc": "5km west of Córdoba (extant, partially excavated)",
-          "coords": [
-            37.88,
-            -4.85
-          ],
-          "hint": "Abd al-Rahman III builds Madinat al-Zahra as a new capital city — 1.5 sq km, housing the caliphal court, government offices, gardens and mosque; partially destroyed in civil war (1010) and abandoned; ongoing excavations since 1910 make it the richest archaeological site of Islamic Spain.",
-          "tag": "MONUMENT",
-          "note": "Extant (UNESCO 2018). Construction begun 936–940: documented in Arabic sources (al-Maqqari). The reception halls: excavated and partially restored. Vallejo Triano (2010), La ciudad califal de Madinat al-Zahra: the standard archaeological study. The deliberate siting: to challenge the Fatimid and Abbasid caliphates — political ideology made architecture."
-        },
-        {
           "id": "a3",
           "group": "Music & Performance",
           "label": "Ziryab — the musician who transformed Andalusian culture",
@@ -337,6 +323,20 @@
           "hint": "Abu al-Hasan Ali ibn Nafi (Ziryab) arrives in Córdoba from Baghdad in 822 — he is the greatest musician of the medieval Mediterranean, establishes the first music conservatory in Europe, adds a fifth string to the lute, codifies Andalusian music theory, and introduces new fashions, cuisine and etiquette to the Córdoba court.",
           "tag": "LITERATURE",
           "note": "Ziryab's arrival and role: Ibn Hayyan, Muqtabis (10th-c. court chronicle); al-Maqqari, Nafh al-Tib (drawing on Ibn Hayyan). The fifth string added to the oud: documented in Arabic musical theory sources. Shiloah (1995), Music in the World of Islam: the standard study. Ziryab's influence on Andalusian (flamenco-precursor) music: documented in the maqamat tradition."
+        },
+        {
+          "id": "a1",
+          "group": "Architecture",
+          "label": "Madinat al-Zahra — the palace city of the caliphs",
+          "date": "936–1010",
+          "loc": "5km west of Córdoba (extant, partially excavated)",
+          "coords": [
+            37.88,
+            -4.85
+          ],
+          "hint": "Abd al-Rahman III builds Madinat al-Zahra as a new capital city — 1.5 sq km, housing the caliphal court, government offices, gardens and mosque; partially destroyed in civil war (1010) and abandoned; ongoing excavations since 1910 make it the richest archaeological site of Islamic Spain.",
+          "tag": "MONUMENT",
+          "note": "Extant (UNESCO 2018). Construction begun 936–940: documented in Arabic sources (al-Maqqari). The reception halls: excavated and partially restored. Vallejo Triano (2010), La ciudad califal de Madinat al-Zahra: the standard archaeological study. The deliberate siting: to challenge the Fatimid and Abbasid caliphates — political ideology made architecture."
         },
         {
           "id": "a4",
@@ -378,6 +378,20 @@
           "note": "Kitab al-Tasrif (c.1000 CE): multiple Arabic manuscripts; Vol.30 (the surgical treatise) translated into Latin by Gerard of Cremona c.1150. Earliest manuscripts: Biblioteca Medicea Laurenziana, Florence. Hamarneh & Sonnedecker (1963), A Pharmaceutical View of Abulcasis al-Zahrawi: the standard English study. The Latin translation's influence: documented in European medical manuscript transmission."
         },
         {
+          "id": "t3",
+          "group": "History & Chronicle",
+          "label": "Almanzor purges al-Hakam II's library — state censorship",
+          "date": "c.976–978",
+          "loc": "Córdoba (library at Madinat al-Zahra and palace)",
+          "coords": [
+            37.88,
+            -4.85
+          ],
+          "hint": "To win the support of conservative religious jurists (ulema) and consolidate his regency, Almanzor publicly purges al-Hakam II's 400,000-volume library — burning or disposing of volumes of philosophy, astronomy, logic and music; the act of state censorship directly follows the praise of that library and is the other side of the caliphate's intellectual story.",
+          "tag": "DOCUMENT",
+          "note": "The library purge: documented in Arabic sources including al-Maqqari, Nafh al-Tib (drawing on earlier sources). Almanzor's purge is dated to the first years of his effective regency (c.976–978). Kennedy (1996) pp.107–110: the standard analysis. The irony: Almanzor who destroyed the library is also the patron of many scholars — the purge was politically rather than intellectually motivated. The dispersal of volumes: some survived in private collections — documented in later bibliographic sources."
+        },
+        {
           "id": "t2",
           "group": "History & Chronicle",
           "label": "Ibn Hayyan — the greatest Andalusian historian",
@@ -392,18 +406,32 @@
           "note": "Muqtabis: partially surviving in multiple volumes. Vol. II (reign of Abd al-Rahman II): Madrid Real Academia de la Historia. Vol. V (reign of Abd al-Rahman III): published by García Gómez (1967). Matin: largely lost; fragments quoted in later authors. Kennedy (1996) uses Ibn Hayyan throughout. The partial survival: a result of the sack of Córdoba's libraries (1009–1031)."
         },
         {
-          "id": "t3",
-          "group": "History & Chronicle",
-          "label": "Almanzor purges al-Hakam II's library — state censorship",
-          "date": "c.976–978",
-          "loc": "Córdoba (library at Madinat al-Zahra and palace)",
+          "id": "t4",
+          "group": "Theology",
+          "label": "Maliki fiqh — the orthodox framework of Andalusi law",
+          "date": "c.796 (adoption) onwards",
+          "loc": "Córdoba (caliphal courts; mosques)",
           "coords": [
             37.88,
-            -4.85
+            -4.78
           ],
-          "hint": "To win the support of conservative religious jurists (ulema) and consolidate his regency, Almanzor publicly purges al-Hakam II's 400,000-volume library — burning or disposing of volumes of philosophy, astronomy, logic and music; the act of state censorship directly follows the praise of that library and is the other side of the caliphate's intellectual story.",
-          "tag": "DOCUMENT",
-          "note": "The library purge: documented in Arabic sources including al-Maqqari, Nafh al-Tib (drawing on earlier sources). Almanzor's purge is dated to the first years of his effective regency (c.976–978). Kennedy (1996) pp.107–110: the standard analysis. The irony: Almanzor who destroyed the library is also the patron of many scholars — the purge was politically rather than intellectually motivated. The dispersal of volumes: some survived in private collections — documented in later bibliographic sources."
+          "hint": "The Maliki school of Islamic jurisprudence — founded by Malik ibn Anas of Medina — becomes the official legal orthodoxy of al-Andalus under Hisham I (796); its conservative reliance on the practice of Medina and judicial consensus (ijma) shapes all public life; its restriction of rationalist philosophy triggers the counter-movements of Ibn Masarra, Ibn Hazm and eventually Averroës.",
+          "tag": "TEXT",
+          "note": "The adoption of Malikism under Hisham I (796): documented in Ibn al-Faradi's biographical dictionary of Andalusi scholars. Malik's al-Muwatta (the foundational text): multiple manuscripts; translated Bewley (1989). Fierro (1987), La heterodoxia en al-Andalus durante el período omeya: the standard study of Maliki orthodoxy and its opponents. The Maliki school's institutional dominance: documented in the qadi (judge) appointment records analysed by Marín (1992). This entry explains why rationalist philosophy was dangerous in al-Andalus — essential context for Averroës's exile."
+        },
+        {
+          "id": "t5",
+          "group": "Philosophy",
+          "label": "Ibn Masarra — the first Andalusi mystical philosopher",
+          "date": "869–931",
+          "loc": "Córdoba (born); Sierra de Córdoba (school); Orient (studies)",
+          "coords": [
+            37.88,
+            -4.78
+          ],
+          "hint": "Ibn Masarra (869–931) is the pioneer of esoteric philosophy and proto-Sufism in al-Andalus — he introduces Neo-Platonic and mystical ideas challenging Maliki orthodoxy, gathers a secret school in the Sierra de Córdoba, and lays the intellectual and metaphysical foundations for Ibn Arabi three centuries later; his works were condemned and burned.",
+          "tag": "TEXT",
+          "note": "Ibn Masarra's works: only fragments survive — his Risalat al-I'tibar and Kitab al-Huruf partially preserved in later quotations. Asín Palacios (1914), Ibn Masarra y su escuela: the foundational study (Spanish). Stroumsa (1992), Freethinkers of Medieval Islam: contextualises Ibn Masarra within the rationalist underground. The burning of his books: documented in Islamic biographical sources. The connection to Ibn Arabi: argued by Asín Palacios (1931), El islam cristianizado — the philosophical lineage. His Sierra de Córdoba school: documented in biographic dictionaries."
         }
       ]
     },
@@ -431,6 +459,34 @@
           "note": "The Arabic agricultural manuals: Ibn Bassal's Libro de Agricultura (11th c.) — Real Biblioteca del Monasterio de El Escorial; Abu'l-Khayr al-Ishbili's Kitab al-Filaha (12th c.). Watson (1983), Agricultural Innovation in the Early Islamic World: the standard study of the 'Arab agricultural revolution'. The Valencian irrigation system: still operating today — documented from Arabic sources and continued in use."
         },
         {
+          "id": "s3",
+          "group": "Fiscal & Monetary",
+          "label": "Jizya and kharaj — the fiscal roots of social rebellion",
+          "date": "711–1031",
+          "loc": "Al-Andalus (tax collection empire-wide)",
+          "coords": [
+            37.88,
+            -4.78
+          ],
+          "hint": "The Umayyad state treasury relies on a dual-tax system — jizya (poll tax on non-Muslims) and kharaj (land tax); as mass Muwallad conversions to Islam exempt converts from the jizya, the emirs manipulate agricultural tax categories to compensate; this fiscal squeeze on converts and non-Arab Muslims is the economic root of the social rebellions documented in the Conflict category.",
+          "tag": "Fiscal & Monetary",
+          "note": "The jizya and kharaj system in al-Andalus: documented in Ibn Hawqal, Kitab Surat al-Ard (10th c.) — primary geographical and fiscal source. The Muwallad tax problem: Kennedy (1996), Muslim Spain pp.60–75 — analyses the connection between conversion waves and fiscal crisis. The Bobastro rebellion's fiscal dimension: Acién Almansa (1994) — the Muwallads' tax grievances explicitly documented. The dual-tax system: Sijpesteijn (2013), Shaping a Muslim State: the comparative Egyptian evidence for the same dynamics."
+        },
+        {
+          "id": "s4",
+          "group": "Fiscal & Monetary",
+          "label": "Jizya, kharaj and the Muwallad fiscal crisis",
+          "date": "711–1031",
+          "loc": "Al-Andalus (empire-wide)",
+          "coords": [
+            37.88,
+            -4.78
+          ],
+          "hint": "The Umayyad state relies on a dual-tax system: jizya (poll tax on non-Muslims) and kharaj (land tax); mass conversions of native Hispano-Romans (Muwallads) threaten state revenue by removing jizya payers; the Emirs manipulate agricultural tax categories to compensate, creating structural fiscal injustice that directly sparks the Muwallad social rebellions documented in the Lives category.",
+          "tag": "Fiscal & Monetary",
+          "note": "The jizya and kharaj system: documented in the Pact of Tudmir (713) — the earliest al-Andalus administrative document. The Muwallad conversion-revenue problem: analysed in Kennedy (1996), Muslim Spain and Portugal pp.44–60. The fiscal manipulation response: documented in Arabic administrative sources. Acién Almansa (1994), Entre el feudalismo y el Islam: explicitly connects the fiscal injustice to the Ibn Hafsun rebellion. The dual-tax system is the foundation of Umayyad political economy in al-Andalus."
+        },
+        {
           "id": "s2",
           "group": "Trade & Commerce",
           "label": "Córdoba at its peak — the largest city in Western Europe",
@@ -456,20 +512,6 @@
       "subtitle": "Diplomacy, translation and the transmission of knowledge",
       "entries": [
         {
-          "id": "ex1",
-          "group": "Diplomatic Exchange",
-          "label": "Córdoba and Byzantium — caliphal diplomacy",
-          "date": "c.948–952",
-          "loc": "Córdoba; Constantinople",
-          "coords": [
-            37.88,
-            -4.78
-          ],
-          "hint": "Abd al-Rahman III exchanges embassies with the Byzantine Emperor Constantine VII and with Otto I, King of East Francia (not yet Holy Roman Emperor — Otto received that title in 962, after Abd al-Rahman III's death in 961); the Byzantine mission brings a Greek Dioscorides manuscript; a Byzantine monk Nicolas is sent to assist translation.",
-          "tag": "POLITICAL",
-          "note": "The Byzantine embassy c.948–952: Constantine Porphyrogenitus, De Ceremoniis; cross-referenced in ʿĪsā al-Rāzī's court annals. Otto I's status: King of East Francia at the time of the 953–954 exchange — he was crowned Holy Roman Emperor by Pope John XII only on 2 February 962, after Abd al-Rahman III's death (Oct 961). The monk Nicolas's arrival: documented in Arabic sources. The Dioscorides manuscript: the primary object of the Byzantine exchange."
-        },
-        {
           "id": "ex2",
           "group": "Cultural Transmission",
           "label": "The 716 coin — al-Andalus names itself",
@@ -482,6 +524,62 @@
           "hint": "A dinar struck in 716 — just 5 years after the conquest — bears 'al-Andalus' in Arabic on one side and 'Span' in Latin on the other; the earliest attestation of the Arabic name for the territory; the bilingual coin documents the new political entity negotiating its identity in two scripts simultaneously.",
           "tag": "DOCUMENT",
           "note": "HARD ANCHOR: The 716 dinar: Museo Arqueológico Nacional, Madrid. The 'Span' inscription: the earliest dated use of this Latin form. Published in Miles (1950), The Coinage of the Umayyads of Spain. Cited in Wikipedia article on Al-Andalus as 'the earliest attestation of this Arab name'. The bilingual coin is the clearest single object documenting the conquest and naming."
+        },
+        {
+          "id": "ex3",
+          "group": "Intellectual Exchange",
+          "label": "Radhanite trade network — Córdoba as western terminus of global commerce",
+          "date": "c. 800–1000",
+          "loc": "Córdoba (western terminus); Baghdad; India; China",
+          "coords": [
+            37.88,
+            -4.78
+          ],
+          "hint": "Córdoba serves as the western terminus of the Radhanite Jewish merchant network — an extraordinary trans-Eurasian trade system connecting Spain to Baghdad, India and China; the Radhanites bring paper-making technology, silks, spices and Chinese goods westward; Hasdai ibn Shaprut (the Jewish vizier) is the network's Córdoba anchor.",
+          "tag": "ECONOMIC",
+          "note": "The Radhanite network: documented in Ibn Khordadbeh, Book of Roads and Kingdoms (c.870) — the primary source describing their four trans-continental routes. The Córdoba connection: documented through Hasdai ibn Shaprut's diplomatic correspondence. McCormick (2001), Origins of the European Economy ch.20: the standard modern study of the Radhanite network. The paper-making transmission: paper reaches al-Andalus c.900 — documented in manuscript production evidence."
+        },
+        {
+          "id": "ex5",
+          "group": "Intellectual Exchange",
+          "label": "Radhanites and the muwashshah — Córdoba at the centre of global exchange",
+          "date": "c. 850–1031",
+          "loc": "Córdoba (western terminus); Baghdad; India; China (Radhanite network)",
+          "coords": [
+            37.88,
+            -4.78
+          ],
+          "hint": "Córdoba is the western terminus of the Radhanite Jewish trade network — linking Spain to Baghdad, India and China; simultaneously, Andalusi poets develop the muwashshah and zajal verse forms that introduce Romance vernacular endings (kharjas) into Arabic poetry — the most intimate linguistic exchange in the whole Iberian contact zone.",
+          "tag": "DOCUMENT",
+          "note": "The Radhanite network: Ibn Khordadbeh, Kitab al-Masalik (c.870) — the primary Arabic source describing their four trade routes through Spain. Constable (1994), Trade and Traders in Muslim Spain: the standard economic study. The muwashshah form: developed in al-Andalus c.9th–10th c. The kharjas: Romance vernacular lines embedded in Arabic/Hebrew poems — first published by Stern (1948). Monroe (1974), Hispano-Arabic Poetry: the standard English anthology. The kharjas are the earliest surviving examples of Romance vernacular poetry."
+        },
+        {
+          "id": "ex4",
+          "group": "Cultural Transmission",
+          "label": "Muwashshah and zajal — Romance vernacular enters Arabic poetry",
+          "date": "c. 900–1031",
+          "loc": "Córdoba and al-Andalus (caliphal courts)",
+          "coords": [
+            37.88,
+            -4.78
+          ],
+          "hint": "The muwashshah (strophic poem) and zajal (colloquial variant) develop in al-Andalus as distinctive poetic forms — their final stanzas (kharjas) often switch to Romance vernacular or colloquial Arabic, embedding the earliest surviving Romance-language lyrics inside Arabic poetry; a unique literary exchange with no parallel elsewhere in the medieval world.",
+          "tag": "DOCUMENT",
+          "note": "The kharjas (Romance endings): first identified by Samuel Stern (1948) — Al-Andalus 13: the foundational discovery. The earliest examples: dated to the 11th century but the forms develop earlier. Monroe (1974), Hispano-Arabic Poetry: the standard anthology. The linguistic significance: the kharjas are the earliest surviving Romance-language lyric poetry — predating French troubadour poetry. Menocal (1987), The Arabic Role in Medieval Literary History: the standard study of the cross-cultural exchange."
+        },
+        {
+          "id": "ex1",
+          "group": "Diplomatic Exchange",
+          "label": "Córdoba and Byzantium — caliphal diplomacy",
+          "date": "c.948–952",
+          "loc": "Córdoba; Constantinople",
+          "coords": [
+            37.88,
+            -4.78
+          ],
+          "hint": "Abd al-Rahman III exchanges embassies with the Byzantine Emperor Constantine VII and with Otto I, King of East Francia (not yet Holy Roman Emperor — Otto received that title in 962, after Abd al-Rahman III's death in 961); the Byzantine mission brings a Greek Dioscorides manuscript; a Byzantine monk Nicolas is sent to assist translation.",
+          "tag": "POLITICAL",
+          "note": "The Byzantine embassy c.948–952: Constantine Porphyrogenitus, De Ceremoniis; cross-referenced in ʿĪsā al-Rāzī's court annals. Otto I's status: King of East Francia at the time of the 953–954 exchange — he was crowned Holy Roman Emperor by Pope John XII only on 2 February 962, after Abd al-Rahman III's death (Oct 961). The monk Nicolas's arrival: documented in Arabic sources. The Dioscorides manuscript: the primary object of the Byzantine exchange."
         }
       ]
     },
@@ -520,20 +618,6 @@
       "subtitle": "Gender, sexuality & marginalised experience · evidence anchored · including the convivencia debate",
       "entries": [
         {
-          "id": "lv1",
-          "group": "Women's Agency",
-          "label": "Subh — the Basque concubine who ruled al-Andalus",
-          "date": "c.977–1009",
-          "loc": "Córdoba (caliphal court)",
-          "coords": [
-            37.88,
-            -4.78
-          ],
-          "hint": "Subh, a Basque concubine of Caliph al-Hakam II and mother of the child-caliph Hisham II, effectively co-rules al-Andalus with Almanzor during the regency — she controls the caliph's seal, manages correspondence and is documented wielding executive power as queen mother; her eventual break with Almanzor in 996 triggers a political crisis.",
-          "tag": "EVIDENCE",
-          "note": "Subh's role: Ibn Hayyan, Muqtabis (fragments) — she was al-Hakam II's concubine and Hisham II's mother, not Hisham II's concubine. Her management of the caliphal seal during Hisham II's minority: documented in contemporary sources. Her correspondence: some letters preserved. Rubiera Mata (1992), La mujer en al-Andalus. The break with Almanzor 996: documented. Subh is the best-documented woman in 10th-century Iberia, Muslim or Christian."
-        },
-        {
           "id": "lv2",
           "group": "Marginalised Communities",
           "label": "The convivencia debate — coexistence or oppression?",
@@ -545,21 +629,21 @@
           ],
           "hint": "The degree of Jewish-Christian-Muslim coexistence in al-Andalus is the most contested question in Iberian medieval historiography — Américo Castro (1954) argued for a Golden Age of tolerance; Brian Catlos (2014) argues it was pragmatic coexistence under hierarchy; the dhimma documents legal inequality alongside cultural flowering.",
           "tag": "CATEGORICAL SHIFT",
-          "note": "Américo Castro, España en su Historia (1948, translated 1954): the foundational 'convivencia' argument. Catlos (2014), Infidel Kings and Unholy Warriors: the modern critical reassessment. The dhimma system documentation: Pact of Tudmir (713). Hasdai ibn Shaprut's career: evidence for Jewish participation at the summit of power. This is a CATEGORICAL SHIFT entry not for a historical event but for a historiographic framework — the debate itself is a primary fact about how Spain constructs its medieval past."
+          "note": "Medieval primary sources documenting the legal framework: Pact of Tudmir (713, AGI); dhimma provisions in al-Maqqari; Hasdai ibn Shaprut correspondence (BnF); AHN Inquisición records of Jewish and Christian communities. The HISTORIOGRAPHIC DEBATE anchor: Américo Castro, España en su Historia (1948) vs Brian Catlos (2014) — note these are 20th/21st-century frameworks, not medieval primary sources; the primary evidence is the Pact of Tudmir, the court annals, and the tax records. This entry treats the convivencia debate as a historiographic framework — the primary fact is that multiple religious communities co-existed under a structured legal hierarchy (dhimma), documented in medieval sources; the degree of tolerance is the contested interpretation."
         },
         {
-          "id": "lv3",
-          "group": "Same-Sex Practice & Law",
-          "label": "Ibn Hazm — The Ring of the Dove",
-          "date": "c.1022",
-          "loc": "Córdoba; Almería (written in exile)",
+          "id": "lv5",
+          "group": "Marginalised Communities",
+          "label": "Muwallads — neo-Muslims and the discrimination that sparked revolt",
+          "date": "711–1031",
+          "loc": "Al-Andalus (throughout; concentrated in rural south and Málaga)",
           "coords": [
-            36.83,
-            -2.46
+            37.88,
+            -4.78
           ],
-          "hint": "Ibn Hazm's Tawq al-Hamama (The Ring of the Dove, c.1022) is a treatise on love including documented accounts of same-sex desire — written in exile after the fall of Córdoba; it discusses love between men with the same analytical framework as heterosexual love, without the condemnatory framework of later Islamic jurisprudence.",
+          "hint": "The Muwallads — native Hispano-Romans who converted to Islam — face systemic social discrimination from the Arab aristocracy who monopolise political offices; despite sincere conversion, Muwallads are excluded from power, taxed more heavily and treated as second-class Muslims; this unequal lived reality directly fuels the Ibn Hafsun rebellion (880–917), the longest internal revolt in al-Andalus history.",
           "tag": "EVIDENCE",
-          "note": "Tawq al-Hamama (c.1022): Arabic manuscripts; Arberry translation (1953), The Ring of the Dove. Ibn Hazm was a courtier of the last Umayyad caliph — writing from direct observation. Pérès (1953), La poésie andalouse en arabe classique: contextualises the homoerotic poetry tradition. The text's frank treatment of same-sex desire: noted by Boswell (1980), Christianity, Social Tolerance and Homosexuality (uses it as evidence for medieval Islamic tolerance)."
+          "note": "The Muwallad social reality: documented in Ibn Hayyan's Muqtabis — the term muwallad itself implies adoptive or second-rank status. The discriminatory tax and administrative structures: analysed in Kennedy (1996), Muslim Spain and Portugal pp.60–75. The connection to Ibn Hafsun: Acién Almansa (1994), Entre el feudalismo y el Islam — argues the Bobastro rebellion is fundamentally a Muwallad social protest. The Arabic sources' own discomfort with the discrimination: noted in Tolan (2002), Saracens. The Muwallad social structure is the counterpart to the Mozarab and Jewish communities — a three-tier social reality documented across all contemporary sources."
         },
         {
           "id": "lv4",
@@ -576,18 +660,32 @@
           "note": "The Saqaliba in the caliphal court: documented in ʿĪsā al-Rāzī's court annals (971–975) and Ibn Hayyan's Muqtabis. The taifa states ruled by Saqaliba after 1031: Denia (Mujahid), Almería (Khayran), Tortosa (Labib) — documented in Ibn Idhari. Scales (1994), The Fall of the Caliphate: analyses the Saqaliba's political rise. The trafficking networks: documented in Frankish sources recording raids and slave trading. This is the most extreme documented case of CATEGORICAL SHIFT in the folio: from trafficked slave to sovereign ruler."
         },
         {
-          "id": "lv5",
-          "group": "Marginalised Communities",
-          "label": "Muwallads — neo-Muslims and the discrimination that sparked revolt",
-          "date": "711–1031",
-          "loc": "Al-Andalus (throughout; concentrated in rural south and Málaga)",
+          "id": "lv1",
+          "group": "Women's Agency",
+          "label": "Subh — the Basque concubine who ruled al-Andalus",
+          "date": "c.977–1009",
+          "loc": "Córdoba (caliphal court)",
           "coords": [
             37.88,
             -4.78
           ],
-          "hint": "The Muwallads — native Hispano-Romans who converted to Islam — face systemic social discrimination from the Arab aristocracy who monopolise political offices; despite sincere conversion, Muwallads are excluded from power, taxed more heavily and treated as second-class Muslims; this unequal lived reality directly fuels the Ibn Hafsun rebellion (880–917), the longest internal revolt in al-Andalus history.",
+          "hint": "Subh, a Basque concubine of Caliph al-Hakam II and mother of the child-caliph Hisham II, effectively co-rules al-Andalus with Almanzor during the regency — she controls the caliph's seal, manages correspondence and is documented wielding executive power as queen mother; her eventual break with Almanzor in 996 triggers a political crisis.",
           "tag": "EVIDENCE",
-          "note": "The Muwallad social reality: documented in Ibn Hayyan's Muqtabis — the term muwallad itself implies adoptive or second-rank status. The discriminatory tax and administrative structures: analysed in Kennedy (1996), Muslim Spain and Portugal pp.60–75. The connection to Ibn Hafsun: Acién Almansa (1994), Entre el feudalismo y el Islam — argues the Bobastro rebellion is fundamentally a Muwallad social protest. The Arabic sources' own discomfort with the discrimination: noted in Tolan (2002), Saracens. The Muwallad social structure is the counterpart to the Mozarab and Jewish communities — a three-tier social reality documented across all contemporary sources."
+          "note": "Subh's role: Ibn Hayyan, Muqtabis (fragments) — she was al-Hakam II's concubine and Hisham II's mother, not Hisham II's concubine. Her management of the caliphal seal during Hisham II's minority: documented in contemporary sources. Her correspondence: some letters preserved. Rubiera Mata (1992), La mujer en al-Andalus. The break with Almanzor 996: documented. Subh is the best-documented woman in 10th-century Iberia, Muslim or Christian."
+        },
+        {
+          "id": "lv3",
+          "group": "Same-Sex Practice & Law",
+          "label": "Ibn Hazm — The Ring of the Dove",
+          "date": "c.1022",
+          "loc": "Córdoba; Almería (written in exile)",
+          "coords": [
+            36.83,
+            -2.46
+          ],
+          "hint": "Ibn Hazm's Tawq al-Hamama (The Ring of the Dove, c.1022) is a treatise on love including documented accounts of same-sex desire — written in exile after the fall of Córdoba; it discusses love between men with the same analytical framework as heterosexual love, without the condemnatory framework of later Islamic jurisprudence.",
+          "tag": "EVIDENCE",
+          "note": "Tawq al-Hamama (c.1022): Arabic manuscripts; Arberry translation (1953), The Ring of the Dove. Ibn Hazm was a courtier of the last Umayyad caliph — writing from direct observation. Pérès (1953), La poésie andalouse en arabe classique: contextualises the homoerotic poetry tradition. The text's frank treatment of same-sex desire: noted by Boswell (1980), Christianity, Social Tolerance and Homosexuality (uses it as evidence for medieval Islamic tolerance)."
         }
       ]
     }
@@ -784,6 +882,16 @@
       "accent": "#566573",
       "events": [
         {
+          "y": 796,
+          "l": "Maliki fiqh becomes al-Andalus orthodoxy",
+          "entryId": "t4"
+        },
+        {
+          "y": 869,
+          "l": "Ibn Masarra — Andalusi mystical philosophy",
+          "entryId": "t5"
+        },
+        {
           "y": 936,
           "l": "Al-Zahrawi — father of surgery",
           "entryId": "t1"
@@ -811,6 +919,16 @@
           "entryId": "s1"
         },
         {
+          "y": 711,
+          "l": "Jizya/kharaj — fiscal roots of Muwallad rebellion",
+          "entryId": "s3"
+        },
+        {
+          "y": 750,
+          "l": "Jizya/kharaj — fiscal system and Muwallad crisis",
+          "entryId": "s4"
+        },
+        {
           "y": 950,
           "l": "Córdoba — largest city in Western Europe",
           "entryId": "s2"
@@ -826,6 +944,21 @@
           "y": 716,
           "l": "The 716 coin — al-Andalus names itself",
           "entryId": "ex2"
+        },
+        {
+          "y": 800,
+          "l": "Radhanites — Córdoba to China trade network",
+          "entryId": "ex3"
+        },
+        {
+          "y": 870,
+          "l": "Radhanites and muwashshah — global exchange",
+          "entryId": "ex5"
+        },
+        {
+          "y": 900,
+          "l": "Muwashshah — Romance vernacular in Arabic poetry",
+          "entryId": "ex4"
         },
         {
           "y": 948,

@@ -24,6 +24,21 @@
       "subtitle": "The Visigothic kings of Toledo — from Arianism to Catholic monarchy",
       "entries": [
         {
+          "id": "k2",
+          "group": "Catholic Kingdom (589–636)",
+          "dynasty": "Visigothic",
+          "label": "Leovigild — the unifier who died Arian",
+          "date": "569–586",
+          "loc": "Toledo",
+          "coords": [
+            39.86,
+            -4.03
+          ],
+          "hint": "Recared's father Leovigild unites the Iberian Peninsula under Visigothic rule, crushes the Suebi kingdom of Galicia (585) and builds Toledo as the capital — but dies an Arian; his son's conversion undoes the religious division he could not resolve.",
+          "tag": "SUCCESSION",
+          "note": "John of Biclaro, Chronicle (c.590): primary source for Leovigild's reign — eyewitness chronicle. Isidore of Seville, History of the Goths (c.625): retrospective but draws on earlier sources. The conquest of the Suebi 585: documented in both. Thompson (1969), The Goths in Spain (Clarendon): the older standard study. Collins (2004) ch.2–3."
+        },
+        {
           "id": "k1",
           "group": "Catholic Kingdom (589–636)",
           "dynasty": "Visigothic",
@@ -39,19 +54,19 @@
           "note": "Third Council of Toledo 589 CE: acts preserved in the Collectio Hispana (the canonical collection of councils compiled by Isidore). Recared's profession of faith: included in the council acts. Collins (2004), Visigothic Spain 409–711 (Blackwell): the standard English study. The council acts: edited in Vives (1963), Concilios Visigóticos e Hispano-Romanos."
         },
         {
-          "id": "k2",
-          "group": "Catholic Kingdom (589–636)",
+          "id": "k5",
+          "group": "Peak Kingdom (636–672)",
           "dynasty": "Visigothic",
-          "label": "Leovigild — the unifier who died Arian",
-          "date": "569–586",
+          "label": "Chindaswinth — the ruthless consolidator",
+          "date": "642–653",
           "loc": "Toledo",
           "coords": [
             39.86,
             -4.03
           ],
-          "hint": "Recared's father Leovigild unites the Iberian Peninsula under Visigothic rule, crushes the Suebi kingdom of Galicia (585) and builds Toledo as the capital — but dies an Arian; his son's conversion undoes the religious division he could not resolve.",
+          "hint": "Chindaswinth seizes the throne aged 79 and consolidates royal power with exceptional violence — he executes or tonsures hundreds of rebellious nobles and their families, confiscates their estates, and initiates the legal codification that his son Recceswinth completes as the Liber Iudiciorum; the most effective internal consolidator of Visigothic royal authority.",
           "tag": "SUCCESSION",
-          "note": "John of Biclaro, Chronicle (c.590): primary source for Leovigild's reign — eyewitness chronicle. Isidore of Seville, History of the Goths (c.625): retrospective but draws on earlier sources. The conquest of the Suebi 585: documented in both. Thompson (1969), The Goths in Spain (Clarendon): the older standard study. Collins (2004) ch.2–3."
+          "note": "The Eighth Council of Toledo (653): Recceswinth convenes it partly to rehabilitate his father's brutal methods — the council acts document both. Chindaswinth's executions: documented in the council acts and in later chronicles. The confiscation of noble estates: documented in donation records. Orlandis (1977), Historia de España: la España visigótica: the standard Spanish study. Collins (2004), Visigothic Spain ch.5: the standard English analysis."
         },
         {
           "id": "k3",
@@ -82,21 +97,6 @@
           "hint": "The last decades of the kingdom are a succession crisis — coups, depositions, factional conflicts between noble clans; Rodrigo (Roderic) is king when Tariq ibn Ziyad crosses from Africa in 711; the Battle of Guadalete ends the kingdom in a single afternoon.",
           "tag": "SUCCESSION",
           "note": "The Chronicle of 754 (written in al-Andalus, 754 CE): the most contemporary account of the conquest, written by a Christian under Muslim rule — primary source for the fall. The Battle of Guadalete: Collins (2004) ch.8. Rodrigo's coinage: the last Visigothic coin issues — numismatic evidence. The fragmentary nature of late-kingdom documentation: a historiographic problem."
-        },
-        {
-          "id": "k5",
-          "group": "Peak Kingdom (636–672)",
-          "dynasty": "Visigothic",
-          "label": "Chindaswinth — the ruthless consolidator",
-          "date": "642–653",
-          "loc": "Toledo",
-          "coords": [
-            39.86,
-            -4.03
-          ],
-          "hint": "Chindaswinth seizes the throne aged 79 and consolidates royal power with exceptional violence — he executes or tonsures hundreds of rebellious nobles and their families, confiscates their estates, and initiates the legal codification that his son Recceswinth completes as the Liber Iudiciorum; the most effective internal consolidator of Visigothic royal authority.",
-          "tag": "SUCCESSION",
-          "note": "The Eighth Council of Toledo (653): Recceswinth convenes it partly to rehabilitate his father's brutal methods — the council acts document both. Chindaswinth's executions: documented in the council acts and in later chronicles. The confiscation of noble estates: documented in donation records. Orlandis (1977), Historia de España: la España visigótica: the standard Spanish study. Collins (2004), Visigothic Spain ch.5: the standard English analysis."
         }
       ]
     },
@@ -110,20 +110,6 @@
       "subtitle": "Suppression of the Suebi, noble revolts and the Muslim conquest",
       "entries": [
         {
-          "id": "c1",
-          "group": "Wars of Unification",
-          "label": "Leovigild destroys the Suebi Kingdom of Galicia",
-          "date": "585",
-          "loc": "Galicia (northwest Spain)",
-          "coords": [
-            42.87,
-            -8.54
-          ],
-          "hint": "Leovigild conquers the last independent Germanic kingdom in Iberia — the Suebi of Galicia — completing the unification of the peninsula under Visigothic rule; Andeca, the last Suebi king, is tonsured and sent to a monastery.",
-          "tag": "BATTLE",
-          "note": "John of Biclaro, Chronicle (590): primary contemporary source — records the campaign. Isidore, History of the Goths 49: retrospective account. The tonsuring of Andeca: documented in both sources. The destruction of the Suebi kingdom is the last act of Germanic consolidation in post-Roman Iberia."
-        },
-        {
           "id": "c2",
           "group": "Internal Conflicts",
           "label": "Revolt of Hermenegild — son against father",
@@ -136,6 +122,20 @@
           "hint": "Leovigild's son Hermenegild converts to Catholicism and revolts from Seville — the conflict is simultaneously dynastic and religious; Hermenegild is captured, deposed, eventually executed; his revolt demonstrates the depth of the Arian-Catholic divide.",
           "tag": "CIVIL WAR",
           "note": "John of Biclaro, Chronicle: primary source. Gregory the Great, Dialogi IV.31: a near-contemporary account — Gregory saw Hermenegild as a martyr. Hermenegild canonised (1585): the evidence of his death documents the long memory of Visigothic confessional conflict. Collins (2004) ch.3. The revolt's outcome (Leovigild wins militarily but Catholicism wins culturally) is one of the great ironies of the period."
+        },
+        {
+          "id": "c1",
+          "group": "Wars of Unification",
+          "label": "Leovigild destroys the Suebi Kingdom of Galicia",
+          "date": "585",
+          "loc": "Galicia (northwest Spain)",
+          "coords": [
+            42.87,
+            -8.54
+          ],
+          "hint": "Leovigild conquers the last independent Germanic kingdom in Iberia — the Suebi of Galicia — completing the unification of the peninsula under Visigothic rule; Andeca, the last Suebi king, is tonsured and sent to a monastery.",
+          "tag": "BATTLE",
+          "note": "John of Biclaro, Chronicle (590): primary contemporary source — records the campaign. Isidore, History of the Goths 49: retrospective account. The tonsuring of Andeca: documented in both sources. The destruction of the Suebi kingdom is the last act of Germanic consolidation in post-Roman Iberia."
         },
         {
           "id": "c3",
@@ -177,20 +177,6 @@
           "note": "Council acts (canons): preserved in the Collectio Hispana, compiled by Isidore and continued. Critical edition: Vives (1963), Concilios Visigóticos. The Fourth Council of Toledo 633: begun 5 December 633 — all Iberian bishops present. The council acts' survival: exceptional — most Visigothic documentary sources are lost; the councils survive through ecclesiastical transmission."
         },
         {
-          "id": "o2",
-          "group": "Imperial Law",
-          "label": "Liber Iudiciorum — the first universal law code of medieval Iberia",
-          "date": "654",
-          "loc": "Toledo (promulgated)",
-          "coords": [
-            39.86,
-            -4.03
-          ],
-          "hint": "The Liber Iudiciorum (Book of Judgements) replaces separate Gothic and Roman law with a single code for all subjects — 12 books, covering family law, slavery, commerce, criminal law; it is the most comprehensive law code in the post-Roman West and remains in use in Castile for centuries.",
-          "tag": "LAW",
-          "note": "Liber Iudiciorum (654 CE): Zeumer (1902) MGH Leges I (critical edition). Preface: explicit about the goal of unified law for Goths and Romans. The later Fuero Juzgo (Spanish vernacular version, commissioned by Fernando III in 13th c.): direct descendant. King (1972), Law and Society in the Visigothic Kingdom (Cambridge): the standard English study."
-        },
-        {
           "id": "o3",
           "group": "Social Reform",
           "label": "Anti-Jewish legislation — the Toledan councils' darkest chapter",
@@ -203,6 +189,20 @@
           "hint": "From the Fourth Council (633) onwards, successive councils issue increasingly severe anti-Jewish legislation — forced baptism, prohibition of Jewish practices, culminating in the Seventeenth Council (694) ordering all Jews enslaved; these councils document the CATEGORICAL SHIFT from religious to racial persecution.",
           "tag": "LAW",
           "note": "Fourth Council of Toledo (633) canons 57–66: prohibit apostasy by baptised Jews. Liber Iudiciorum Book 12, Title 2: anti-Jewish laws. Seventeenth Council of Toledo (694): canons ordering enslavement. The Jewish community's response: limited documentation — some evidence of contact with North African Jewish communities (potentially implicated in opening gates to Muslim forces in 711). Collins (2004) ch.5 on the Jewish community."
+        },
+        {
+          "id": "o2",
+          "group": "Imperial Law",
+          "label": "Liber Iudiciorum — the first universal law code of medieval Iberia",
+          "date": "654",
+          "loc": "Toledo (promulgated)",
+          "coords": [
+            39.86,
+            -4.03
+          ],
+          "hint": "The Liber Iudiciorum (Book of Judgements) replaces separate Gothic and Roman law with a single code for all subjects — 12 books, covering family law, slavery, commerce, criminal law; it is the most comprehensive law code in the post-Roman West and remains in use in Castile for centuries.",
+          "tag": "LAW",
+          "note": "Liber Iudiciorum (654 CE): Zeumer (1902) MGH Leges I (critical edition). Preface: explicit about the goal of unified law for Goths and Romans. The later Fuero Juzgo (Spanish vernacular version, commissioned by Fernando III in 13th c.): direct descendant. King (1972), Law and Society in the Visigothic Kingdom (Cambridge): the standard English study."
         }
       ]
     },
@@ -215,6 +215,20 @@
       "bg": "#F0FFF6",
       "subtitle": "From Arianism to Catholic monarchy — the Toledan church",
       "entries": [
+        {
+          "id": "r3",
+          "group": "Catholic / Church of Rome",
+          "label": "Leander of Seville — the architect of Recared's conversion",
+          "date": "c.534–600",
+          "loc": "Seville (Archbishop); Constantinople (exile)",
+          "coords": [
+            37.38,
+            -5.99
+          ],
+          "hint": "Leander of Seville — Isidore's older brother — spends years in Constantinople cultivating Recared's Catholic sympathies during Leovigild's reign, returns to Seville, and presides over the Third Council of Toledo (589) as the kingdom's conversion is formalised; the conversion is as much his achievement as Recared's.",
+          "tag": "COUNCIL",
+          "note": "Gregory the Great's correspondence with Leander: Registrum Epistularum I.41 — primary source documenting their friendship from Leander's Constantinople exile. Leander's De Institutione Virginum (a treatise written for his sister Florentina): BnF. Isidore, De Viris Illustribus ch.28: praises his brother. The Third Council of Toledo 589: Leander presides — his signature heads the episcopal list. Collins (2004), Visigothic Spain ch.3."
+        },
         {
           "id": "r1",
           "group": "Catholic / Church of Rome",
@@ -242,20 +256,6 @@
           "hint": "The Visigothic kingdom develops its own distinctive liturgy — the Mozarabic (or Hispano-Mozarabic) rite; it survives the Muslim conquest in use among Christians under Islamic rule and is still celebrated today in Toledo's Mozarabic Chapel; the primary source is the Toledo manuscripts.",
           "tag": "CULT",
           "note": "The Liber Ordinum and Liber Misticus (Visigothic liturgical manuscripts): Real Academia de la Historia, Madrid (Aemilianensis collection). Pinell (1965), Liturgia Hispánica: the standard study. The Mozarabic rite today: Corpus Christi Chapel, Toledo Cathedral — continuous use. The manuscripts' survival through the Muslim period: a remarkable case of cultural transmission. UNESCO Memory of the World for the Beatus manuscripts (related tradition)."
-        },
-        {
-          "id": "r3",
-          "group": "Catholic / Church of Rome",
-          "label": "Leander of Seville — the architect of Recared's conversion",
-          "date": "c.534–600",
-          "loc": "Seville (Archbishop); Constantinople (exile)",
-          "coords": [
-            37.38,
-            -5.99
-          ],
-          "hint": "Leander of Seville — Isidore's older brother — spends years in Constantinople cultivating Recared's Catholic sympathies during Leovigild's reign, returns to Seville, and presides over the Third Council of Toledo (589) as the kingdom's conversion is formalised; the conversion is as much his achievement as Recared's.",
-          "tag": "COUNCIL",
-          "note": "Gregory the Great's correspondence with Leander: Registrum Epistularum I.41 — primary source documenting their friendship from Leander's Constantinople exile. Leander's De Institutione Virginum (a treatise written for his sister Florentina): BnF. Isidore, De Viris Illustribus ch.28: praises his brother. The Third Council of Toledo 589: Leander presides — his signature heads the episcopal list. Collins (2004), Visigothic Spain ch.3."
         }
       ]
     },
@@ -268,6 +268,20 @@
       "bg": "#FFF8F5",
       "subtitle": "Visigothic art, manuscripts and the golden age of Toledo",
       "entries": [
+        {
+          "id": "a3",
+          "group": "Music & Performance",
+          "label": "Conantius of Palencia — Visigothic sacred music",
+          "date": "c.610–640",
+          "loc": "Palencia (bishopric)",
+          "coords": [
+            42.01,
+            -4.53
+          ],
+          "hint": "Conantius, Bishop of Palencia, is credited with composing new melodies for the Mozarabic liturgy — Archbishop Ildefonsus of Toledo (in his continuation of Isidore's De Viris Illustribus) praises his musical and liturgical compositions; the Visigothic chant tradition he helped shape survives in Toledo manuscripts.",
+          "tag": "LITERATURE",
+          "note": "Ildefonsus of Toledo, De Viris Illustribus ch.11 (continuation of Isidore's work): praises Conantius's music — primary contemporary testimony. Note: it is Ildefonsus, not Isidore, who records this. The Mozarabic chant manuscripts: Real Academia de la Historia (Aemilianensis). Levy (1998), Gregorian Chant and the Carolingians: discusses the Visigothic-Mozarabic chant relationship."
+        },
         {
           "id": "a1",
           "group": "Metalwork & Luxury Arts",
@@ -295,20 +309,6 @@
           "hint": "The church of San Juan de Baños is the best-preserved Visigothic building in the world — built by Recceswinth in 661, its dedication inscription survives in situ; the horseshoe arches, marble columns and carved stone document Visigothic architectural style at its peak.",
           "tag": "MONUMENT",
           "note": "HARD ANCHOR: Dedication inscription in situ: 'Rex Reccesvinthus amator nominis Christi hanc aedem iuris almae consecrabit in honore sancti Johannis' — dated 661 by Recceswinth's regnal year. Extant (Baños de Cerrato, Palencia). Caballero & Mateos (1999), Visigodos y Omeyas: documents the building archaeology. The inscription: edited in Vives (1969), Inscripciones Cristianas de la España Romana y Visigoda."
-        },
-        {
-          "id": "a3",
-          "group": "Music & Performance",
-          "label": "Conantius of Palencia — Visigothic sacred music",
-          "date": "c.610–640",
-          "loc": "Palencia (bishopric)",
-          "coords": [
-            42.01,
-            -4.53
-          ],
-          "hint": "Conantius, Bishop of Palencia, is credited with composing new melodies for the Mozarabic liturgy — Archbishop Ildefonsus of Toledo (in his continuation of Isidore's De Viris Illustribus) praises his musical and liturgical compositions; the Visigothic chant tradition he helped shape survives in Toledo manuscripts.",
-          "tag": "LITERATURE",
-          "note": "Ildefonsus of Toledo, De Viris Illustribus ch.11 (continuation of Isidore's work): praises Conantius's music — primary contemporary testimony. Note: it is Ildefonsus, not Isidore, who records this. The Mozarabic chant manuscripts: Real Academia de la Historia (Aemilianensis). Levy (1998), Gregorian Chant and the Carolingians: discusses the Visigothic-Mozarabic chant relationship."
         }
       ]
     },
@@ -321,6 +321,20 @@
       "bg": "#F5F6FA",
       "subtitle": "Isidore of Seville — the encyclopaedist who preserved antiquity",
       "entries": [
+        {
+          "id": "t4",
+          "group": "Theology",
+          "label": "Ildefonsus of Toledo — bishop, biographer and cult-builder",
+          "date": "607–667",
+          "loc": "Toledo (Archbishop 657–667)",
+          "coords": [
+            39.86,
+            -4.03
+          ],
+          "hint": "Archbishop Ildefonsus of Toledo writes De virginitate Sanctae Mariae (a defence of Mary's perpetual virginity), continues Isidore's De Viris Illustribus with biographies of subsequent church figures (including his correction about Conantius), and builds the cult of the Virgin in Toledo that shapes the city's identity through the medieval period.",
+          "tag": "TEXT",
+          "note": "De virginitate Sanctae Mariae (c.657): multiple manuscripts — BnF and Real Academia de la Historia. De Viris Illustribus (continuation of Isidore's work): Ildefonsus ch.11 praises Conantius's music — the source misattributed to Isidore in earlier scholarship. His appointment as Archbishop 657: documented in council acts. The Toledo Marian cult: Bishko (1948), 'The Mozarabic Monk-Bishop Tradition': traces Ildefonsus's long influence. Collins (2004) ch.6."
+        },
         {
           "id": "t1",
           "group": "Science & Geography",
@@ -364,18 +378,18 @@
           "note": "Prognosticum futuri saeculi (c.688): critical edition in CCL 115 (Corpus Christianorum Latinorum). Julian served as Archbishop of Toledo 680–690 — contemporary documentation in council acts. Hillgarth (1970), 'The Position of Isidorian Studies' in Isidoriana: the standard survey of Visigothic intellectual life. The text's 200+ surviving manuscripts: documented in the CCL edition."
         },
         {
-          "id": "t4",
-          "group": "Theology",
-          "label": "Ildefonsus of Toledo — bishop, biographer and cult-builder",
-          "date": "607–667",
-          "loc": "Toledo (Archbishop 657–667)",
+          "id": "t5",
+          "group": "Political Theory",
+          "label": "Isidore's constitutional kingship — Rex eris si recte facias",
+          "date": "c.612–633",
+          "loc": "Seville (written)",
           "coords": [
-            39.86,
-            -4.03
+            37.38,
+            -5.99
           ],
-          "hint": "Archbishop Ildefonsus of Toledo writes De virginitate Sanctae Mariae (a defence of Mary's perpetual virginity), continues Isidore's De Viris Illustribus with biographies of subsequent church figures (including his correction about Conantius), and builds the cult of the Virgin in Toledo that shapes the city's identity through the medieval period.",
+          "hint": "Isidore's Sententiae formulates the foundational principle of medieval constitutionalism: 'Rex eris si recte facias; si non facias, non eris' ('You will be king if you act rightly; if you do not, you will not be') — royal legitimacy is conditioned on justice and law; this breaks from Roman imperial absolutism and underpins medieval theories of tyrannicide and limited monarchy.",
           "tag": "TEXT",
-          "note": "De virginitate Sanctae Mariae (c.657): multiple manuscripts — BnF and Real Academia de la Historia. De Viris Illustribus (continuation of Isidore's work): Ildefonsus ch.11 praises Conantius's music — the source misattributed to Isidore in earlier scholarship. His appointment as Archbishop 657: documented in council acts. The Toledo Marian cult: Bishko (1948), 'The Mozarabic Monk-Bishop Tradition': traces Ildefonsus's long influence. Collins (2004) ch.6."
+          "note": "Isidore, Sententiae III.48 (c.612–615): 'Rex a recte agendo vocatur; regnando enim nomen accipit, non regnando perdit' — multiple manuscript traditions; PL 83. The specific maxim 'Rex eris si recte facias': its influence documented in the 4th Council of Toledo (633) which cites Isidore's framework for royal conduct. Reydellet (1981), La royauté dans la littérature latine de Sidoine Apollinaire à Isidore de Séville: the standard study. Collins (2004) ch.6 on the constitutional implications. The maxim's medieval career: cited by 9th-century Carolingian theorists onward — documented in political treatise traditions."
         }
       ]
     },
@@ -401,6 +415,34 @@
           "hint": "The Visigoths mint tremisses (one-third solidus gold coins) from the late 6th century — each coin names the king and the mint city; the coinage series documents every ruler and provides the most complete chronological sequence for the kingdom; coins with Arabic legends appear in 711, marking the conquest.",
           "tag": "OBJECT",
           "note": "Visigothic coinage corpus: Miles (1952), The Coinage of the Visigoths of Spain (ANS): the standard numismatic catalogue. The coins naming Leovigild, Recared and successors: documented. The transition coins 711 (Arabic-Latin bilingual): documented in Miles and numismatic museums. MAN Madrid holds the largest collection. The coins are the single most dateable sequence of Visigothic material evidence."
+        },
+        {
+          "id": "s2",
+          "group": "Fiscal & Monetary",
+          "label": "Leovigild's monetary reform — Visigothic fiscal sovereignty",
+          "date": "c. 575–586",
+          "loc": "Toledo (royal mint)",
+          "coords": [
+            39.86,
+            -4.03
+          ],
+          "hint": "Leovigild breaks the Visigothic kingdom's dependency on Byzantine currency standards — he halts the minting of pseudo-imperial coins and strikes the first national gold tremissis bearing his own name and portrait; the reform establishes absolute Visigothic fiscal sovereignty and transforms the coin from a claim of Roman legitimacy to an assertion of independent Gothic kingship.",
+          "tag": "OBJECT",
+          "note": "Leovigild's coins: Miles (1952), The Coinage of the Visigoths of Spain — documents the transition from pseudo-imperial to personal-name coins. The monetary reform is datable to the later years of his reign (c.575–586) by numismatic sequence. The first coin bearing 'LIVVIGILDVS REX': documented — the clearest material evidence of the sovereignty claim. Collins (2004), Visigothic Spain ch.2: contextualises the monetary reform within Leovigild's broader programme of state-building."
+        },
+        {
+          "id": "s3",
+          "group": "Fiscal & Monetary",
+          "label": "Leovigild's monetary reform — Visigothic fiscal sovereignty",
+          "date": "c. 575–586",
+          "loc": "Toledo (royal mint)",
+          "coords": [
+            39.86,
+            -4.03
+          ],
+          "hint": "Leovigild halts the minting of pseudo-imperial coins imitating Byzantine currency and strikes the first Visigothic tremissis bearing his own name and image — establishing absolute fiscal sovereignty; no longer borrowing legitimacy from Constantinople, the Visigothic state declares monetary independence.",
+          "tag": "Fiscal & Monetary",
+          "note": "Leovigild's coinage reform: documented numismatically — Miles (1952), The Coinage of the Visigoths of Spain (ANS): the standard catalogue. The transition from pseudo-imperial to royal coins: documented in the series. The political statement: the coins bearing 'LIVVIGILDVS REX' rather than a Byzantine emperor's portrait. Collins (2004), Visigothic Spain ch.3. The reform coincides with Leovigild's political consolidation — fiscal and political sovereignty are announced simultaneously."
         }
       ]
     },
@@ -413,6 +455,20 @@
       "bg": "#F0FAFA",
       "subtitle": "Mediterranean connections, Byzantine rivalry and Islamic conquest",
       "entries": [
+        {
+          "id": "ex3",
+          "group": "Diplomatic Exchange",
+          "label": "Atanagild invites Byzantium — the origin of Byzantine Spania",
+          "date": "552",
+          "loc": "Southern Iberia (Spania province)",
+          "coords": [
+            37.6,
+            -0.98
+          ],
+          "hint": "The Visigothic noble Atanagild invites Justinian's forces into the peninsula in 552 to assist his rebellion against King Agila I — Justinian obliges; the Byzantines take the southeast coast and refuse to leave; Atanagild becomes king but spends 15 years trying to expel the allies he had invited in.",
+          "tag": "POLITICAL",
+          "note": "Jordanes, Getica (551): near-contemporary source. Procopius, Wars VIII.24: documents Justinian's decision to intervene. The Byzantine province of Spania (552–624): documented in Byzantine administrative sources and confirmed archaeologically at Cartagena and Málaga. Vallejo Girvés (2012), Bizancio y la España tardoantigua: the standard modern study. Collins (2004) ch.2: analyses the episode's long-term consequences for the kingdom."
+        },
         {
           "id": "ex1",
           "group": "Diplomatic Exchange",
@@ -442,18 +498,32 @@
           "note": "Visigothic script manuscripts: Real Academia de la Historia (Aemilianensis collection). Millares Carlo (1983), Tratado de Paleografía Española: the standard study — documents the script's regional character and its replacement by Caroline minuscule after 1080. The Council of Burgos (1080): imposed the Roman rite and with it Caroline script. The Beatus manuscripts: UNESCO Memory of the World — the tradition continues post-conquest in Mozarab communities."
         },
         {
-          "id": "ex3",
-          "group": "Diplomatic Exchange",
-          "label": "Atanagild invites Byzantium — the origin of Byzantine Spania",
-          "date": "552",
-          "loc": "Southern Iberia (Spania province)",
+          "id": "ex4",
+          "group": "Maritime & Trade Routes",
+          "label": "Mediterranean trade rupture — the end of ancient connectivity",
+          "date": "c. 640–711",
+          "loc": "Western Mediterranean (Hispanian ports cut off from Constantinople and Alexandria)",
           "coords": [
-            37.6,
-            -0.98
+            37.88,
+            -4.78
           ],
-          "hint": "The Visigothic noble Atanagild invites Justinian's forces into the peninsula in 552 to assist his rebellion against King Agila I — Justinian obliges; the Byzantines take the southeast coast and refuse to leave; Atanagild becomes king but spends 15 years trying to expel the allies he had invited in.",
-          "tag": "POLITICAL",
-          "note": "Jordanes, Getica (551): near-contemporary source. Procopius, Wars VIII.24: documents Justinian's decision to intervene. The Byzantine province of Spania (552–624): documented in Byzantine administrative sources and confirmed archaeologically at Cartagena and Málaga. Vallejo Girvés (2012), Bizancio y la España tardoantigua: the standard modern study. Collins (2004) ch.2: analyses the episode's long-term consequences for the kingdom."
+          "hint": "Islamic naval expansion in the Mediterranean from c.640 severs the ancient maritime trade routes connecting Hispanian ports to Constantinople and Alexandria — the flow of eastern luxury goods, papyrus, spices and grain dries up; the Visigothic economy retreats into agrarian isolation; the rupture accelerates rural feudalisation and is reflected archaeologically in the sharp decline of imported pottery in 7th-century Hispanian sites.",
+          "tag": "ECONOMIC",
+          "note": "The archaeological evidence for the trade rupture: Collins (2004) cites the sharp decline in Eastern Mediterranean ceramics in post-650 Hispanian contexts. McCormick (2001), Origins of the European Economy: the standard quantitative study of the late antique trade collapse — uses ship-wreck data and coin finds to document the rupture. The Pirenne thesis (Henri Pirenne, 1937, Mohammed and Charlemagne): the foundational but contested argument that Islamic expansion caused the end of ancient Mediterranean unity — now modified but the core observation of trade rupture confirmed by archaeology."
+        },
+        {
+          "id": "ex5",
+          "group": "Maritime & Trade Routes",
+          "label": "Mediterranean commercial rupture — the Pirenne Thesis",
+          "date": "c. 650–711",
+          "loc": "Western Mediterranean (sea routes severed)",
+          "coords": [
+            38.0,
+            5.0
+          ],
+          "hint": "Henri Pirenne's thesis — that the Islamic expansion in the late 7th century severed ancient Mediterranean trade routes, isolating Spain from Constantinople and Alexandria and accelerating rural agrarian feudalisation — remains debated; the material evidence of sharply declining luxury imports and the collapse of Mediterranean-oriented urban trade in late Visigothic Iberia supports a significant commercial rupture.",
+          "tag": "ECONOMIC",
+          "note": "Pirenne (1937), Mohammed and Charlemagne: the foundational thesis. The archaeological evidence for Visigothic Hispania: Wickham (2005), Framing the Early Middle Ages: critiques Pirenne while acknowledging the commercial decline. The decline of imported luxury ceramics in late Visigothic levels: documented in multiple Spanish excavation reports. Collins (2004) ch.8: notes the economic isolation of late Visigothic Spain. This entry presents the Pirenne Thesis as a historiographic framework — the commercial rupture is documented even if the full thesis is debated."
         }
       ]
     },
@@ -635,9 +705,9 @@
       "accent": "#8D6E63",
       "events": [
         {
-          "y": 661,
-          "l": "San Juan de Baños — Recceswinth's church",
-          "entryId": "a2"
+          "y": 615,
+          "l": "Conantius — Visigothic sacred music",
+          "entryId": "a3"
         },
         {
           "y": 653,
@@ -645,9 +715,9 @@
           "entryId": "a1"
         },
         {
-          "y": 615,
-          "l": "Conantius — Visigothic sacred music",
-          "entryId": "a3"
+          "y": 661,
+          "l": "San Juan de Baños — Recceswinth's church",
+          "entryId": "a2"
         }
       ]
     },
@@ -656,6 +726,11 @@
       "icon": "💡",
       "accent": "#566573",
       "events": [
+        {
+          "y": 612,
+          "l": "Isidore: Rex eris — constitutional kingship theory",
+          "entryId": "t5"
+        },
         {
           "y": 619,
           "l": "Isidore: History of the Goths",
@@ -687,6 +762,16 @@
           "y": 575,
           "l": "Visigothic tremisses — gold coinage",
           "entryId": "s1"
+        },
+        {
+          "y": 575,
+          "l": "Leovigild — Visigothic fiscal sovereignty",
+          "entryId": "s2"
+        },
+        {
+          "y": 575,
+          "l": "Leovigild — Visigothic monetary sovereignty",
+          "entryId": "s3"
         }
       ]
     },
@@ -709,6 +794,16 @@
           "y": 624,
           "l": "Byzantines expelled",
           "entryId": "ex1"
+        },
+        {
+          "y": 650,
+          "l": "Mediterranean trade rupture — ancient connectivity ends",
+          "entryId": "ex4"
+        },
+        {
+          "y": 650,
+          "l": "Mediterranean rupture — commercial isolation",
+          "entryId": "ex5"
         }
       ]
     },

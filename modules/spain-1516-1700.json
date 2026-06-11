@@ -95,6 +95,62 @@
       "subtitle": "European wars, Ottoman confrontation and colonial conquest",
       "entries": [
         {
+          "id": "c3",
+          "group": "Colonial Conquest",
+          "label": "Conquest of Mexico — Cortés and Tenochtitlan",
+          "date": "1519–1521",
+          "loc": "Tenochtitlan (mod. Mexico City)",
+          "coords": [
+            19.43,
+            -99.13
+          ],
+          "hint": "Hernán Cortés with 500 men and indigenous allies destroys the Aztec empire — Tenochtitlan falls on 13 August 1521; the conquest of the most powerful state in the Americas is accomplished in two years, transforming the known world.",
+          "tag": "BATTLE",
+          "note": "Cortés's Cartas de Relación (5 letters to Charles V, 1519–1526): first published in Seville 1522–1525; BNE holds early editions. The Aztec account: Sahagún, Florentine Codex Book XII (Nahuatl-Spanish, 1577): BNAH Mexico City. Cortés's appointment: AGS. Restall (2003), Seven Myths of the Spanish Conquest: the standard modern reassessment using both Spanish and indigenous sources."
+        },
+        {
+          "id": "c6",
+          "group": "Internal Conflicts",
+          "label": "Revolt of the Comuneros — the crushing of Castilian constitutionalism",
+          "date": "1520–1521",
+          "loc": "Castile (Toledo; Segovia; Valladolid); Battle of Villalar",
+          "coords": [
+            41.63,
+            -5.0
+          ],
+          "hint": "The Castilian Comunidades revolt against Charles I's foreign Flemish-dominated court and heavy imperial taxation — the Battle of Villalar (23 April 1521) crushes the Comuneros and permanently breaks urban constitutional resistance in Castile; royal absolutism is consolidated and the tax burden of Habsburg wars falls entirely on Castilian commoners.",
+          "tag": "CIVIL WAR",
+          "note": "The Battle of Villalar 23 Apr 1521: AGS Guerra Antigua. The Comunero leaders (Padilla, Bravo, Maldonado) executed the following day: documented in contemporary accounts. The Comunero manifesto: published pamphlets — BNE. Haliczer (1981), The Comuneros of Castile: the standard English study. The long-term consequence: the Cortes of Castile never again successfully challenges royal fiscal demands — documented in subsequent Cortes proceedings (AHN Consejos). Charles I's response: documented in his correspondence (AGS Estado)."
+        },
+        {
+          "id": "c4",
+          "group": "Colonial Conquest",
+          "label": "Conquest of Peru — Pizarro and the Inca Empire",
+          "date": "1532–1572",
+          "loc": "Cajamarca; Cuzco (Peru)",
+          "coords": [
+            -13.52,
+            -71.97
+          ],
+          "hint": "Francisco Pizarro captures the Inca emperor Atahualpa at Cajamarca (16 November 1532) — ransomed for a room full of gold and silver and then executed; within 40 years the largest empire in pre-Columbian America is reduced to a Spanish viceroyalty.",
+          "tag": "BATTLE",
+          "note": "Pizarro's appointment: AGS. The ransom room dimensions: Felipe Guaman Poma de Ayala, Nueva corónica y buen gobierno (c.1615) — Andean perspective, Royal Library of Denmark (GKS 2232 4°). Pedro Pizarro, Relación del descubrimiento (1571): eyewitness account. The capture at Cajamarca 16 Nov 1532: confirmed across Spanish and Andean sources."
+        },
+        {
+          "id": "c7",
+          "group": "European Wars",
+          "label": "Eighty Years' War — the Flanders swamp that bled Spain dry",
+          "date": "1568–1648",
+          "loc": "Spanish Netherlands (mod. Belgium; Netherlands); Spanish Road",
+          "coords": [
+            50.85,
+            4.35
+          ],
+          "hint": "The Dutch Revolt (1568–1648) is the absolute military and economic centrepiece of the Habsburg era — the 'Flanders swamp' that consumes the American silver, drives the Philip II bankruptcies, requires the Army of Flanders, and forces the 'Spanish Road' logistics route from Milan to Brussels; it ends at Westphalia when Spain recognises the Dutch Republic.",
+          "tag": "CIVIL WAR",
+          "note": "The Army of Flanders records: AGS Guerra Antigua — the most detailed surviving records of any early modern military force. The 'Spanish Road': Parker (1972), The Army of Flanders and the Spanish Road 1567–1659: the standard study. Alba's Council of Blood (1567): documented in the Dutch State Archives (Nationaal Archief, Den Haag). Parker (1977), The Dutch Revolt: the standard history. The financial drain: Drelichman & Voth (2014) document the correlation between Flanders expenditure and the Philip II bankruptcies."
+        },
+        {
           "id": "c1",
           "group": "European Wars",
           "label": "Battle of Lepanto — Ottoman advance halted",
@@ -123,34 +179,6 @@
           "note": "Philip II's planning documents: AGS Guerra Antigua — the most detailed surviving record of a pre-modern naval expedition's logistics. The Armada's casualty list: compiled from AGS by Mattingly (1959), The Armada. Wreck archaeology: multiple sites off the Irish coast, excavated 1968–present (Ulster Museum, Belfast). Philip II's letter on the defeat: AGS Estado — 'I sent the fleet against men, not storms.'"
         },
         {
-          "id": "c3",
-          "group": "Colonial Conquest",
-          "label": "Conquest of Mexico — Cortés and Tenochtitlan",
-          "date": "1519–1521",
-          "loc": "Tenochtitlan (mod. Mexico City)",
-          "coords": [
-            19.43,
-            -99.13
-          ],
-          "hint": "Hernán Cortés with 500 men and indigenous allies destroys the Aztec empire — Tenochtitlan falls on 13 August 1521; the conquest of the most powerful state in the Americas is accomplished in two years, transforming the known world.",
-          "tag": "BATTLE",
-          "note": "Cortés's Cartas de Relación (5 letters to Charles V, 1519–1526): first published in Seville 1522–1525; BNE holds early editions. The Aztec account: Sahagún, Florentine Codex Book XII (Nahuatl-Spanish, 1577): BNAH Mexico City. Cortés's appointment: AGS. Restall (2003), Seven Myths of the Spanish Conquest: the standard modern reassessment using both Spanish and indigenous sources."
-        },
-        {
-          "id": "c4",
-          "group": "Colonial Conquest",
-          "label": "Conquest of Peru — Pizarro and the Inca Empire",
-          "date": "1532–1572",
-          "loc": "Cajamarca; Cuzco (Peru)",
-          "coords": [
-            -13.52,
-            -71.97
-          ],
-          "hint": "Francisco Pizarro captures the Inca emperor Atahualpa at Cajamarca (16 November 1532) — ransomed for a room full of gold and silver and then executed; within 40 years the largest empire in pre-Columbian America is reduced to a Spanish viceroyalty.",
-          "tag": "BATTLE",
-          "note": "Pizarro's appointment: AGS. The ransom room dimensions: Felipe Guaman Poma de Ayala, Nueva corónica y buen gobierno (c.1615) — Andean perspective, Royal Library of Denmark (GKS 2232 4°). Pedro Pizarro, Relación del descubrimiento (1571): eyewitness account. The capture at Cajamarca 16 Nov 1532: confirmed across Spanish and Andean sources."
-        },
-        {
           "id": "c5",
           "group": "European Wars",
           "label": "Thirty Years War and Peace of Westphalia (1648)",
@@ -163,34 +191,6 @@
           "hint": "Spain fights the Thirty Years War on behalf of the Catholic Habsburgs — at the Peace of Münster (January 1648, part of Westphalia) Spain formally recognises the independence of the Northern Netherlands (the Dutch Republic); the Spanish Netherlands (southern, roughly modern Belgium) remain under Spanish Habsburg control until Utrecht (1713).",
           "tag": "BATTLE",
           "note": "Peace of Westphalia: original text at Niedersächsisches Landesarchiv, Osnabrück; Spanish ratification in AGS. The Spanish financial exhaustion: documented in AGS Contadurías Generales (Drelichman & Voth 2014). Elliott (1963), Imperial Spain: the standard narrative of the decline. The treaty is the foundation document of modern international law."
-        },
-        {
-          "id": "c6",
-          "group": "Internal Conflicts",
-          "label": "Revolt of the Comuneros — the crushing of Castilian constitutionalism",
-          "date": "1520–1521",
-          "loc": "Castile (Toledo; Segovia; Valladolid); Battle of Villalar",
-          "coords": [
-            41.63,
-            -5.0
-          ],
-          "hint": "The Castilian Comunidades revolt against Charles I's foreign Flemish-dominated court and heavy imperial taxation — the Battle of Villalar (23 April 1521) crushes the Comuneros and permanently breaks urban constitutional resistance in Castile; royal absolutism is consolidated and the tax burden of Habsburg wars falls entirely on Castilian commoners.",
-          "tag": "CIVIL WAR",
-          "note": "The Battle of Villalar 23 Apr 1521: AGS Guerra Antigua. The Comunero leaders (Padilla, Bravo, Maldonado) executed the following day: documented in contemporary accounts. The Comunero manifesto: published pamphlets — BNE. Haliczer (1981), The Comuneros of Castile: the standard English study. The long-term consequence: the Cortes of Castile never again successfully challenges royal fiscal demands — documented in subsequent Cortes proceedings (AHN Consejos). Charles I's response: documented in his correspondence (AGS Estado)."
-        },
-        {
-          "id": "c7",
-          "group": "European Wars",
-          "label": "Eighty Years' War — the Flanders swamp that bled Spain dry",
-          "date": "1568–1648",
-          "loc": "Spanish Netherlands (mod. Belgium; Netherlands); Spanish Road",
-          "coords": [
-            50.85,
-            4.35
-          ],
-          "hint": "The Dutch Revolt (1568–1648) is the absolute military and economic centrepiece of the Habsburg era — the 'Flanders swamp' that consumes the American silver, drives the Philip II bankruptcies, requires the Army of Flanders, and forces the 'Spanish Road' logistics route from Milan to Brussels; it ends at Westphalia when Spain recognises the Dutch Republic.",
-          "tag": "CIVIL WAR",
-          "note": "The Army of Flanders records: AGS Guerra Antigua — the most detailed surviving records of any early modern military force. The 'Spanish Road': Parker (1972), The Army of Flanders and the Spanish Road 1567–1659: the standard study. Alba's Council of Blood (1567): documented in the Dutch State Archives (Nationaal Archief, Den Haag). Parker (1977), The Dutch Revolt: the standard history. The financial drain: Drelichman & Voth (2014) document the correlation between Flanders expenditure and the Philip II bankruptcies."
         }
       ]
     },
@@ -203,34 +203,6 @@
       "bg": "#F0F7FF",
       "subtitle": "Imperial administration, colonial law and the Inquisition's legal framework",
       "entries": [
-        {
-          "id": "o1",
-          "group": "Colonial Law",
-          "label": "Laws of Burgos — first colonial legislation",
-          "date": "27 Dec 1512",
-          "loc": "Burgos (issued)",
-          "coords": [
-            42.34,
-            -3.7
-          ],
-          "hint": "The Laws of Burgos are the first European colonial legislation — a direct response to Bartolomé de las Casas's testimony about indigenous abuse; they regulate the treatment of indigenous peoples in the Americas, though enforcement is minimal.",
-          "tag": "LAW",
-          "note": "NOTE: The Laws of Burgos (1512) predate the Habsburg period (1516) — they belong to Ferdinand's regency and the Catholic Monarchs era. Included here as the earliest colonial legislation that the Habsburgs inherit. Text: Archivo General de Indias (AGI), Indiferente General 419, L.4. First published Burgos 1513. Las Casas's testimony that provoked them: documented in his Historia de las Indias. Simpson (1929), The Encomienda in New Spain: the standard study of the laws' implementation. The gap between the law's text and colonial reality is itself a primary source on the nature of empire."
-        },
-        {
-          "id": "o2",
-          "group": "Colonial Law",
-          "label": "New Laws of 1542 — Las Casas's greatest victory",
-          "date": "20 Nov 1542",
-          "loc": "Barcelona (issued)",
-          "coords": [
-            41.38,
-            2.18
-          ],
-          "hint": "After Las Casas's persistent lobbying, Charles V issues the New Laws abolishing indigenous slavery and the encomienda system — they provoke a revolt by Spanish colonists in Peru and are partially repealed; but they establish the legal principle that indigenous people are free subjects of the Crown.",
-          "tag": "LAW",
-          "note": "Text: AGI, Indiferente General 423, L.20. Las Casas's Brevísima Relación (1542): written to accompany these laws — BNE first edition 1552. The Peruvian revolt against the laws: documented in AGI Peru. Hanke (1949), The Spanish Struggle for Justice: the standard study of Las Casas and the New Laws."
-        },
         {
           "id": "o3",
           "group": "Inquisition",
@@ -246,6 +218,20 @@
           "note": "AHN, Inquisición series: the primary archive, holding 49,000 trial records. Homza (2006), The Spanish Inquisition 1478–1614: Anthology of Sources — makes key documents accessible. Henningsen (1980), The Witches' Advocate: statistical analysis of 44,000 cases. The AHN Inquisición archive is the richest surviving record of marginalised lives in early modern Europe."
         },
         {
+          "id": "o1",
+          "group": "Colonial Law",
+          "label": "Laws of Burgos — first colonial legislation",
+          "date": "27 Dec 1512",
+          "loc": "Burgos (issued)",
+          "coords": [
+            42.34,
+            -3.7
+          ],
+          "hint": "The Laws of Burgos are the first European colonial legislation — a direct response to Bartolomé de las Casas's testimony about indigenous abuse; they regulate the treatment of indigenous peoples in the Americas, though enforcement is minimal.",
+          "tag": "LAW",
+          "note": "NOTE: The Laws of Burgos (1512) predate the Habsburg period (1516) — they belong to Ferdinand's regency and the Catholic Monarchs era. Included here as the earliest colonial legislation that the Habsburgs inherit. Text: Archivo General de Indias (AGI), Indiferente General 419, L.4. First published Burgos 1513. Las Casas's testimony that provoked them: documented in his Historia de las Indias. Simpson (1929), The Encomienda in New Spain: the standard study of the laws' implementation. The gap between the law's text and colonial reality is itself a primary source on the nature of empire."
+        },
+        {
           "id": "o4",
           "group": "Imperial Administration",
           "label": "Archivo General de Simancas — world's first purpose-built archive",
@@ -258,6 +244,20 @@
           "hint": "Philip II issues the world's first archive regulations on 24 August 1588 — the Simancas ordinances define the archivist's role, access procedures and document organisation; the archive holds 33 million documents and is the primary source for the entire Spanish empire.",
           "tag": "DOCUMENT",
           "note": "UNESCO Memory of the World (2002). Philip II's ordinances 24 Aug 1588: AGS, text published. The archive's 33 million documents in 80,000 bundles: current holdings. PARES (Portal de Archivos Españoles): digitised access. The Simancas archive is — after the Vatican — the most important archive for global 16th-19th century history (UNESCO)."
+        },
+        {
+          "id": "o2",
+          "group": "Colonial Law",
+          "label": "New Laws of 1542 — Las Casas's greatest victory",
+          "date": "20 Nov 1542",
+          "loc": "Barcelona (issued)",
+          "coords": [
+            41.38,
+            2.18
+          ],
+          "hint": "After Las Casas's persistent lobbying, Charles V issues the New Laws abolishing indigenous slavery and the encomienda system — they provoke a revolt by Spanish colonists in Peru and are partially repealed; but they establish the legal principle that indigenous people are free subjects of the Crown.",
+          "tag": "LAW",
+          "note": "Text: AGI, Indiferente General 423, L.20. Las Casas's Brevísima Relación (1542): written to accompany these laws — BNE first edition 1552. The Peruvian revolt against the laws: documented in AGI Peru. Hanke (1949), The Spanish Struggle for Justice: the standard study of Las Casas and the New Laws."
         }
       ]
     },
@@ -324,32 +324,32 @@
       "subtitle": "El Siglo de Oro — Velázquez, Cervantes, El Greco and the Golden Age",
       "entries": [
         {
-          "id": "a1",
-          "group": "Literature & Poetry",
-          "label": "Don Quixote — first modern novel",
-          "date": "1605 (Part I); 1615 (Part II)",
-          "loc": "Madrid (published by Juan de la Cuesta)",
+          "id": "a5",
+          "group": "Music & Performance",
+          "label": "Tomás Luis de Victoria — polyphony at the Counter-Reformation",
+          "date": "c.1548–1611",
+          "loc": "Rome (trained); Madrid (died)",
           "coords": [
             40.42,
             -3.71
           ],
-          "hint": "Cervantes publishes Don Quixote Part I in January 1605 — it sells out within a week; Part II follows in 1615; the novel is immediately translated across Europe and is arguably the most influential work of prose fiction ever written.",
+          "hint": "Tomás Luis de Victoria is the greatest Spanish composer of the Renaissance — his Officium Defunctorum (1605), written for the death of Empress María, is the masterpiece of Counter-Reformation polyphony; printed by the Royal Printer in Madrid.",
           "tag": "LITERATURE",
-          "note": "First edition Part I: Juan de la Cuesta, Madrid, Jan 1605. Only a handful of Part I first editions survive; one at the BNE. The pirated edition (Lisbon 1605) confirms the original's success. Part II first edition 1615: BNE. Cervantes's imprisonment records (he was twice jailed for debt): AGS. Rico (2004), critical edition: the standard modern text. The novel's connection to the Inquisition: Cervantes was examined by inquisitors (documented in AHN)."
+          "note": "Officium Defunctorum first edition: Madrid, 1605 (Royal Printer) — BNE and British Library. Victoria's appointment to the Descalzas Reales convent, Madrid: Archivo del Palacio Real. Stevenson (1961), Spanish Cathedral Music in the Golden Age: the standard study. The Officium's dedicatory letter to Philip III: documents Victoria's position at court."
         },
         {
-          "id": "a2",
-          "group": "Painting & Visual Art",
-          "label": "Velázquez at Philip IV's court — Las Meninas",
-          "date": "1623–1660",
-          "loc": "Madrid (El Alcázar; now Prado)",
+          "id": "a6",
+          "group": "Literature & Poetry",
+          "label": "Lazarillo de Tormes — the picaresque and the view from below",
+          "date": "1554",
+          "loc": "Burgos (published anonymously)",
           "coords": [
-            40.41,
-            -3.69
+            42.34,
+            -3.7
           ],
-          "hint": "Diego Velázquez serves as Philip IV's court painter for 37 years — Las Meninas (1656) is arguably the most analysed painting in Western art history; his court appointment records survive, and the Prado holds the world's most important Velázquez collection.",
-          "tag": "OBJECT",
-          "note": "Velázquez's court appointment 6 Oct 1623: Archivo del Palacio Real. Las Meninas (1656): Museo del Prado (P001174) — inventory first documented in 1666 palace inventory. Palomino (1724), El Parnaso Español: the earliest substantial account of Velázquez's life and work, written within living memory. Brown (1986), Velázquez: the standard modern study."
+          "hint": "Lazarillo de Tormes (1554, anonymous) is the founding text of the picaresque novel — narrated by a pauper's son who survives by serving a succession of masters each exposed as hypocrites; its anti-clerical satire was placed on the Index; it is the satirical, gritty counterweight to the idealised literature of the Renaissance, documenting poverty and social mobility from below.",
+          "tag": "LITERATURE",
+          "note": "First edition: Burgos (also Alcalá and Antwerp, all 1554): BNE holds copies. Placed on the Index of Forbidden Books 1559: documented. An expurgated version published 1573. The anonymous authorship: still debated — Diego Hurtado de Mendoza and others proposed. Rico (1987), La novela picaresca española: the standard modern study. The picaresque genre it founds: Guzmán de Alfarache (1599), Quevedo's El Buscón (c.1626) — all documented."
         },
         {
           "id": "a3",
@@ -380,34 +380,6 @@
           "note": "El Greco's contract for the Burial of the Count of Orgaz: Toledo Cathedral archive (1586) — full text survives. The painting: in situ, Santo Tomé, Toledo. His payment records: Toledo notarial archives. Álvarez Lopera (1999), El Greco: the standard modern catalogue. The contract's provisions (including the price dispute) document both the commission process and El Greco's status."
         },
         {
-          "id": "a5",
-          "group": "Music & Performance",
-          "label": "Tomás Luis de Victoria — polyphony at the Counter-Reformation",
-          "date": "c.1548–1611",
-          "loc": "Rome (trained); Madrid (died)",
-          "coords": [
-            40.42,
-            -3.71
-          ],
-          "hint": "Tomás Luis de Victoria is the greatest Spanish composer of the Renaissance — his Officium Defunctorum (1605), written for the death of Empress María, is the masterpiece of Counter-Reformation polyphony; printed by the Royal Printer in Madrid.",
-          "tag": "LITERATURE",
-          "note": "Officium Defunctorum first edition: Madrid, 1605 (Royal Printer) — BNE and British Library. Victoria's appointment to the Descalzas Reales convent, Madrid: Archivo del Palacio Real. Stevenson (1961), Spanish Cathedral Music in the Golden Age: the standard study. The Officium's dedicatory letter to Philip III: documents Victoria's position at court."
-        },
-        {
-          "id": "a6",
-          "group": "Literature & Poetry",
-          "label": "Lazarillo de Tormes — the picaresque and the view from below",
-          "date": "1554",
-          "loc": "Burgos (published anonymously)",
-          "coords": [
-            42.34,
-            -3.7
-          ],
-          "hint": "Lazarillo de Tormes (1554, anonymous) is the founding text of the picaresque novel — narrated by a pauper's son who survives by serving a succession of masters each exposed as hypocrites; its anti-clerical satire was placed on the Index; it is the satirical, gritty counterweight to the idealised literature of the Renaissance, documenting poverty and social mobility from below.",
-          "tag": "LITERATURE",
-          "note": "First edition: Burgos (also Alcalá and Antwerp, all 1554): BNE holds copies. Placed on the Index of Forbidden Books 1559: documented. An expurgated version published 1573. The anonymous authorship: still debated — Diego Hurtado de Mendoza and others proposed. Rico (1987), La novela picaresca española: the standard modern study. The picaresque genre it founds: Guzmán de Alfarache (1599), Quevedo's El Buscón (c.1626) — all documented."
-        },
-        {
           "id": "a7",
           "group": "Literature & Poetry",
           "label": "Lope de Vega and Calderón — Golden Age theatre",
@@ -420,6 +392,34 @@
           "hint": "Lope de Vega (1,500+ plays; Arte nuevo de hacer comedias, 1609) revolutionises European drama with the comedia nueva mixing tragedy and comedy; Calderón de la Barca's La vida es sueño (1635) is the metaphysical masterpiece of the age; the corrales de comedias (open-air public theatres) are the primary social and architectural sources for early modern performance.",
           "tag": "LITERATURE",
           "note": "Lope de Vega, Arte nuevo de hacer comedias (1609): BNE — the manifesto of the new drama. La vida es sueño first edition (1636): BNE. The Corral de la Cruz (1579) and Corral del Príncipe (1583): floor plans documented in Archivo de la Villa de Madrid. Surviving corral: Corral de Comedias de Almagro (1628) — extant, UNESCO tentative list; annual festival of classical theatre. Shergold (1967), A History of the Spanish Stage: the standard study. Lope's documented 1,500+ plays: the largest output of any playwright in Western literature."
+        },
+        {
+          "id": "a1",
+          "group": "Literature & Poetry",
+          "label": "Don Quixote — first modern novel",
+          "date": "1605 (Part I); 1615 (Part II)",
+          "loc": "Madrid (published by Juan de la Cuesta)",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "Cervantes publishes Don Quixote Part I in January 1605 — it sells out within a week; Part II follows in 1615; the novel is immediately translated across Europe and is arguably the most influential work of prose fiction ever written.",
+          "tag": "LITERATURE",
+          "note": "First edition Part I: Juan de la Cuesta, Madrid, Jan 1605. Only a handful of Part I first editions survive; one at the BNE. The pirated edition (Lisbon 1605) confirms the original's success. Part II first edition 1615: BNE. Cervantes's imprisonment records (he was twice jailed for debt): AGS. Rico (2004), critical edition: the standard modern text. The novel's connection to the Inquisition: Cervantes was examined by inquisitors (documented in AHN)."
+        },
+        {
+          "id": "a2",
+          "group": "Painting & Visual Art",
+          "label": "Velázquez at Philip IV's court — Las Meninas",
+          "date": "1623–1660",
+          "loc": "Madrid (El Alcázar; now Prado)",
+          "coords": [
+            40.41,
+            -3.69
+          ],
+          "hint": "Diego Velázquez serves as Philip IV's court painter for 37 years — Las Meninas (1656) is arguably the most analysed painting in Western art history; his court appointment records survive, and the Prado holds the world's most important Velázquez collection.",
+          "tag": "OBJECT",
+          "note": "Velázquez's court appointment 6 Oct 1623: Archivo del Palacio Real. Las Meninas (1656): Museo del Prado (P001174) — inventory first documented in 1666 palace inventory. Palomino (1724), El Parnaso Español: the earliest substantial account of Velázquez's life and work, written within living memory. Brown (1986), Velázquez: the standard modern study."
         }
       ]
     },
@@ -432,6 +432,20 @@
       "bg": "#F5F6FA",
       "subtitle": "Humanism, scholasticism, political theory and the debate on empire",
       "entries": [
+        {
+          "id": "t2",
+          "group": "Theology",
+          "label": "Francisco de Vitoria — founder of international law",
+          "date": "1539",
+          "loc": "Salamanca (University)",
+          "coords": [
+            40.96,
+            -5.66
+          ],
+          "hint": "Franciscus de Vitoria's Relectiones Theologicae (1539) argue that indigenous peoples have natural rights and that war against them requires just cause — the founding text of modern international law and the law of nations.",
+          "tag": "TEXT",
+          "note": "Relectiones Theologicae: first published Lyons 1557; Salamanca University library holds the lecture notes (relectiones). Vitoria's lectures were taken down by students — the manuscripts are the primary source. Pagden & Lawrence (eds.) (1991), Political Writings: the standard English edition. Scott (1934), The Spanish Origin of International Law: the foundational study of Vitoria's influence."
+        },
         {
           "id": "t1",
           "group": "Political Theory",
@@ -447,18 +461,32 @@
           "note": "Las Casas's Apologética Historia (c.1551): manuscript BNE. Sepúlveda's Democrates Alter (refused publication by the Spanish universities): manuscript AHN. The debate's proceedings: partially documented in Las Casas, Aquí se contiene una disputa (1552) — BNE. Hanke (1974), All Mankind Is One: the standard study. The conquests' suspension: documented in AGS. This is the founding debate of international human rights law."
         },
         {
-          "id": "t2",
-          "group": "Theology",
-          "label": "Francisco de Vitoria — founder of international law",
-          "date": "1539",
-          "loc": "Salamanca (University)",
+          "id": "t4",
+          "group": "Political Theory",
+          "label": "School of Salamanca — the Quantity Theory of Money",
+          "date": "c.1556–1600",
+          "loc": "Salamanca (University); Seville (Mercado)",
           "coords": [
             40.96,
             -5.66
           ],
-          "hint": "Franciscus de Vitoria's Relectiones Theologicae (1539) argue that indigenous peoples have natural rights and that war against them requires just cause — the founding text of modern international law and the law of nations.",
+          "hint": "Salamanca scholastics Martín de Azpilcueta (Navarrus) and Tomás de Mercado analyse the American silver flood and formulate the Quantity Theory of Money — linking money supply to inflation — decades before Jean Bodin or northern European thinkers; they also develop early purchasing power parity theory; these are the founding texts of monetary economics.",
           "tag": "TEXT",
-          "note": "Relectiones Theologicae: first published Lyons 1557; Salamanca University library holds the lecture notes (relectiones). Vitoria's lectures were taken down by students — the manuscripts are the primary source. Pagden & Lawrence (eds.) (1991), Political Writings: the standard English edition. Scott (1934), The Spanish Origin of International Law: the foundational study of Vitoria's influence."
+          "note": "Martín de Azpilcueta, Comentario resolutorio de cambios (1556): the first statement of the quantity theory of money — BNE first edition. Tomás de Mercado, Suma de tratos y contratos (1571): BNE. Grice-Hutchinson (1952), The School of Salamanca: Readings in Spanish Monetary Theory: the standard English study establishing the priority claim. Muñoz de Juana (1998), Scholastic Morality and the Birth of Economics: the standard modern study. The quantity theory formulation: 'the more money there is in a country, the more expensive commodities become' — Azpilcueta explicitly states this in the 1556 text."
+        },
+        {
+          "id": "t5",
+          "group": "Philosophy",
+          "label": "Baltasar Gracián — The Art of Worldly Wisdom",
+          "date": "1637–1648",
+          "loc": "Huesca; Zaragoza (Jesuit colleges)",
+          "coords": [
+            42.14,
+            -0.41
+          ],
+          "hint": "Baltasar Gracián's Oráculo Manual y Arte de Prudencia (1647) is 300 maxims of cynical Baroque pragmatism — how to navigate power, society and self-presentation; celebrated across Europe immediately; Schopenhauer translates it into German (1862) and calls it 'the best life manual ever written'; Nietzsche cites it as an influence.",
+          "tag": "TEXT",
+          "note": "Oráculo Manual y Arte de Prudencia (1647): BNE first edition. Gracián published under a pseudonym (Lorenzo Gracián) due to Jesuit censure. Schopenhauer's German translation (1862): Handorakel und Kunst der Weltklugheit — he explicitly calls it the best practical guide ever written. Nietzsche's citations: documented in Beyond Good and Evil §283. Hidalgo-Serna (1993), Das ingeniöse Denken bei Baltasar Gracián: the standard modern study. Gracián's other works: El Criticón (1651–1657) — an allegorical novel influenced by Ibn Tufail."
         }
       ]
     },
@@ -498,6 +526,20 @@
           "hint": "Philip II defaults on his debts three times despite receiving more silver than any monarch in history (1557, 1575, 1596); a fourth default in 1607 occurs under his son Philip III; the gaps between American silver revenue and imperial expenditure are documented in extraordinary detail in Simancas.",
           "tag": "ECONOMIC",
           "note": "AGS Contadurías Generales, Legajos 84–92: the primary archive for Philip II's finances. Drelichman & Voth (2014), Lending to the Borrower from Hell: Debt and Default in the Age of Philip II — uses the Simancas data for a quantitative analysis. The 1575 bankruptcy document: AGS Estado. Carande (1987), Carlos V y sus banqueros: the earlier standard study."
+        },
+        {
+          "id": "s3",
+          "group": "Fiscal & Monetary",
+          "label": "Vellón crisis — copper debasement and monetary collapse",
+          "date": "1599–1680",
+          "loc": "Castile (mints at Segovia, Toledo, Seville)",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "Philip III and IV debase the currency by minting pure copper vellón coins while hoarding silver — runaway domestic inflation follows, a collapse in trade, silver disappearing from internal circulation, and a destructive dual-monetary system where silver commands a premium over face value; the vellón crisis is the domestic economic face of Habsburg imperial overstretch.",
+          "tag": "Fiscal & Monetary",
+          "note": "AGS, Contadurías Generales: the primary archive for Habsburg monetary policy. The vellón inflation: Hamilton (1934), American Treasure and the Price Revolution, ch.5 — quantifies the debasement. The silver premium (agio): documented in merchant correspondence (Archivo de Protocolos, Madrid). Ruiz Martín (1975), 'La banca en España hasta 1782', in El Banco de España: the standard monetary history. The dual monetary system: merchants kept accounts in two currencies simultaneously — documented in notarial records."
         }
       ]
     },
@@ -510,20 +552,6 @@
       "bg": "#F0FAFA",
       "subtitle": "The Manila Galleon, the Columbian Exchange and global Spain",
       "entries": [
-        {
-          "id": "ex1",
-          "group": "Silk Road & Trade Routes",
-          "label": "Manila Galleon — the first Pacific trade route",
-          "date": "1565–1815",
-          "loc": "Manila (Philippines) → Acapulco (Mexico) → Seville",
-          "coords": [
-            14.6,
-            120.98
-          ],
-          "hint": "The Manila Galleon establishes the first regular trans-Pacific trade route in 1565 — Mexican silver goes west to China; Chinese silk and porcelain go east to the Americas and Europe; a global trading circuit for 250 years.",
-          "tag": "ECONOMIC",
-          "note": "AGI, Philippines series: the primary archive for Manila Galleon records. Andrade (1519): the first voyage by Urdaneta, documented. Schurz (1939), The Manila Galleon: the foundational study. Flynn & Giráldez (1995) on the silver-silk exchange. Chinese porcelain from Manila Galleons recovered archaeologically in Mexico: multiple museum collections. The route operated 1565–1815 — 250 years of continuous trans-Pacific trade."
-        },
         {
           "id": "ex2",
           "group": "Cultural Transmission",
@@ -551,6 +579,34 @@
           "hint": "Spain and Portugal divide the world between them at Tordesillas (1494) — under the Catholic Monarchs, before the Habsburg dynasty; included here as the legal foundation of the Habsburg colonial system; everything west of 370 leagues from Cape Verde goes to Spain.",
           "tag": "POLITICAL",
           "note": "NOTE: The Treaty of Tordesillas (1494) predates the Habsburg period (1516) — it belongs to the Catholic Monarchs era (see spain-1230-1492 folio). Included here as foundational context for the Habsburg colonial system. HARD ANCHOR: Original treaty text — two copies survive: Archivo General de Simancas (AGS PTR, legajo 49, doc. 5) and Arquivo Nacional da Torre do Tombo (Lisbon). Both inscribed on UNESCO Memory of the World register (2007). Signed 7 June 1494. The line's implications for Brazil: documented in subsequent Portuguese correspondence. Davenport (1917), European Treaties Bearing on the History of the United States: the standard English edition."
+        },
+        {
+          "id": "ex4",
+          "group": "Maritime & Trade Routes",
+          "label": "Casa de la Contratación — monopoly, corruption and contraband",
+          "date": "1503–1790",
+          "loc": "Seville (Casa de la Contratación); Cádiz (monopoly transferred 1717)",
+          "coords": [
+            37.38,
+            -5.99
+          ],
+          "hint": "The Casa de la Contratación holds a strict single-port monopoly on all American trade — this rigidity fosters immense corruption (documented in its own records), chokes mercantile flexibility, and opens the American coasts to massive Dutch and English contraband trade; the monopoly is the institutional reason why Spain extracts less value from its empire than its rivals extract illegally.",
+          "tag": "ECONOMIC",
+          "note": "Casa de la Contratación records: AGI, Indiferente General — the primary archive. Founded 20 Jan 1503: AGI. The contraband problem: documented in AGI reports from colonial governors throughout the 17th century. Haring (1918), Trade and Navigation between Spain and the Indies: the standard study. The monopoly's transfer to Cádiz 1717: documented. The 1778 Free Trade Decree (see Bourbon Spain folio): the eventual dissolution of the Cádiz monopoly — a direct response to the failures documented here."
+        },
+        {
+          "id": "ex1",
+          "group": "Maritime & Trade Routes",
+          "label": "Manila Galleon — the first Pacific trade route",
+          "date": "1565–1815",
+          "loc": "Manila (Philippines) → Acapulco (Mexico) → Seville",
+          "coords": [
+            14.6,
+            120.98
+          ],
+          "hint": "The Manila Galleon establishes the first regular trans-Pacific trade route in 1565 — Mexican silver goes west to China; Chinese silk and porcelain go east to the Americas and Europe; a global trading circuit for 250 years.",
+          "tag": "ECONOMIC",
+          "note": "AGI, Philippines series: the primary archive for Manila Galleon records. Andrade (1519): the first voyage by Urdaneta, documented. Schurz (1939), The Manila Galleon: the foundational study. Flynn & Giráldez (1995) on the silver-silk exchange. Chinese porcelain from Manila Galleons recovered archaeologically in Mexico: multiple museum collections. The route operated 1565–1815 — 250 years of continuous trans-Pacific trade."
         }
       ]
     },
@@ -576,6 +632,20 @@
           "hint": "At its peak under Philip II, the Spanish empire encompasses the Americas, the Philippines, Portugal (1580–1640), southern Italy, the Netherlands, and parts of North Africa — the first genuinely global empire, administered from Madrid via a postal network that spans the world.",
           "tag": "EVENT",
           "note": "The phrase 'on which the sun never sets': documented first in a 1557 document from the court of Charles V. The imperial postal network: documented in AGS. Parker (1998), The Grand Strategy of Philip II: maps and analyses the empire's logistical system. The Philippines acquisition 1565: AGI. The Portuguese union 1580: AGS Estado."
+        },
+        {
+          "id": "w4",
+          "group": "Geopolitical Shift",
+          "label": "Twelve Years' Truce (1609) — de facto recognition of the Dutch Republic",
+          "date": "9 Apr 1609",
+          "loc": "Antwerp (signed)",
+          "coords": [
+            51.22,
+            4.4
+          ],
+          "hint": "After four decades of war and four Habsburg bankruptcies, Spain signs the Twelve Years' Truce — a massive geopolitical blow: it is the de facto recognition of a Protestant sovereign republic; it allows the Dutch East India Company (VOC) to aggressively expand in Asia and Brazil at Spanish-Portuguese expense; Spain resumes war in 1621 but never recovers its position.",
+          "tag": "EVENT",
+          "note": "Twelve Years' Truce 9 Apr 1609: Archives des Affaires Étrangères and Nationaal Archief (Den Haag). The Dutch VOC's Asian expansion during the truce: documented in VOC records (Nationaal Archief). Israel (1982), The Dutch Republic and the Hispanic World 1606–1661: the standard study. The Spanish debate over the truce: documented in the Consejo de Estado minutes (AGS Estado) — Lerma vs. the hawks. The truce is simultaneously Spain's greatest diplomatic humiliation and a temporary necessity for fiscal recovery."
         },
         {
           "id": "w2",
@@ -645,6 +715,20 @@
           "note": "AHN Inquisición: sodomy cases catalogued by Berco (2007), Sexual Hierarchies, Public Status: Men, Sodomy, and Society in Spain's Golden Age — the primary modern study using AHN records. Garza Carvajal (2003), Butterflies Will Burn: Prosecuting Sodomites in Early Modern Spain and Mexico. The records document both the acts and the social networks around them. The Inquisition's jurisdiction over sodomy (shared with secular courts): documented in the Instrucciones (1561)."
         },
         {
+          "id": "lv5",
+          "group": "Enslaved Lives",
+          "label": "Urban pícaros and domestic slaves in Habsburg Seville",
+          "date": "c. 1550–1650",
+          "loc": "Seville; Madrid (main centres)",
+          "coords": [
+            37.38,
+            -5.99
+          ],
+          "hint": "The American silver influx triggers massive inflation (the Price Revolution) destroying domestic industries — Seville and Madrid fill with urban poor, beggars and abandoned children; simultaneously, enslaved Black Africans and Morisco war captives constitute up to 10% of Seville's urban population, serving in households, shipyards and municipal services; the picaresque literature documents both realities.",
+          "tag": "EVIDENCE",
+          "note": "Seville's enslaved population (up to 10%): documented in parish records and notarial archives (Archivo Histórico Provincial de Sevilla) — Pike (1967), 'Sevillian Society in the Sixteenth Century', Hispanic American Historical Review: the standard study. The Price Revolution in Spain: Hamilton (1934), American Treasure and the Price Revolution in Spain: uses AGS data. The pícaros: contemporaries (Mateo Alemán, Quevedo) document them. Domínguez Ortiz (1955), La sociedad española en el siglo XVII: the standard social history. The Lazarillo de Tormes entry (a6) documents this reality from within."
+        },
+        {
           "id": "lv3",
           "group": "Indigenous Lives",
           "label": "Florentine Codex — indigenous voice in the conquest",
@@ -671,20 +755,6 @@
           "hint": "Sor Juana Inés de la Cruz, a nun in colonial Mexico, is the greatest poet of the Spanish Golden Age — her Respuesta a Sor Filotea (1691) is the first feminist manifesto in the Americas, defending women's right to education against her bishop's censure.",
           "tag": "EVIDENCE",
           "note": "Respuesta a Sor Filotea de la Cruz (1691): manuscript at New York Public Library (Berg Collection). First published 1700 (Fama y Obras Póstumas). Sor Juana's convent records: Archivo del Antiguo Convento de San Jerónimo, Mexico City. Paz (1982), Sor Juana or, the Traps of Faith: the standard modern biography. Her forced 'renunciation' of learning (1693): documented in the convent's own records — the bishop's pressure and her submission."
-        },
-        {
-          "id": "lv5",
-          "group": "Enslaved Lives",
-          "label": "Urban pícaros and domestic slaves in Habsburg Seville",
-          "date": "c. 1550–1650",
-          "loc": "Seville; Madrid (main centres)",
-          "coords": [
-            37.38,
-            -5.99
-          ],
-          "hint": "The American silver influx triggers massive inflation (the Price Revolution) destroying domestic industries — Seville and Madrid fill with urban poor, beggars and abandoned children; simultaneously, enslaved Black Africans and Morisco war captives constitute up to 10% of Seville's urban population, serving in households, shipyards and municipal services; the picaresque literature documents both realities.",
-          "tag": "EVIDENCE",
-          "note": "Seville's enslaved population (up to 10%): documented in parish records and notarial archives (Archivo Histórico Provincial de Sevilla) — Pike (1967), 'Sevillian Society in the Sixteenth Century', Hispanic American Historical Review: the standard study. The Price Revolution in Spain: Hamilton (1934), American Treasure and the Price Revolution in Spain: uses AGS data. The pícaros: contemporaries (Mateo Alemán, Quevedo) document them. Domínguez Ortiz (1955), La sociedad española en el siglo XVII: the standard social history. The Lazarillo de Tormes entry (a6) documents this reality from within."
         }
       ]
     }
@@ -907,6 +977,16 @@
           "y": 1550,
           "l": "Valladolid debate",
           "entryId": "t1"
+        },
+        {
+          "y": 1556,
+          "l": "School of Salamanca — Quantity Theory of Money",
+          "entryId": "t4"
+        },
+        {
+          "y": 1647,
+          "l": "Baltasar Gracián — Art of Worldly Wisdom",
+          "entryId": "t5"
         }
       ]
     },
@@ -929,6 +1009,11 @@
           "y": 1565,
           "l": "Manila Galleon begins",
           "entryId": "ex1"
+        },
+        {
+          "y": 1599,
+          "l": "Vellón crisis — copper debasement",
+          "entryId": "s3"
         }
       ]
     },
@@ -938,14 +1023,19 @@
       "accent": "#148080",
       "events": [
         {
+          "y": 1492,
+          "l": "Columbian Exchange begins",
+          "entryId": "ex2"
+        },
+        {
           "y": 1494,
           "l": "Treaty of Tordesillas",
           "entryId": "ex3"
         },
         {
-          "y": 1492,
-          "l": "Columbian Exchange begins",
-          "entryId": "ex2"
+          "y": 1503,
+          "l": "Casa de la Contratación — monopoly and contraband",
+          "entryId": "ex4"
         },
         {
           "y": 1565,
@@ -968,6 +1058,11 @@
           "y": 1580,
           "l": "Portugal annexed",
           "entryId": "w1"
+        },
+        {
+          "y": 1609,
+          "l": "Twelve Years' Truce — Dutch Republic recognised",
+          "entryId": "w4"
         },
         {
           "y": 1640,

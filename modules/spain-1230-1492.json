@@ -54,36 +54,6 @@
           "note": "Alfonso X's reign: documented through his own prolific output. The Siete Partidas: multiple manuscripts; Las siete partidas del Rey don Alfonso (BnF and BNE). The Cantigas de Santa María: 4 illuminated manuscripts survive — Real Biblioteca del Monasterio de El Escorial (T.I.1 and B.I.2), BNE and BnF. His astronomical Alfonsine Tables: used in Europe until the 17th century — British Library holds early copies."
         },
         {
-          "id": "k3",
-          "group": "Crown of Aragon (1213–1410)",
-          "dynasty": "Aragonese",
-          "label": "James I of Aragon — the Mediterranean empire",
-          "date": "1213–1276",
-          "loc": "Zaragoza; Valencia (conquered 1238); Palma de Mallorca (conquered 1229)",
-          "coords": [
-            41.65,
-            -0.88
-          ],
-          "hint": "James I of Aragon conquers the Balearic Islands (1229) and Valencia (1238) — establishing the Crown of Aragon as a Mediterranean power; his own autobiography the Llibre dels Fets is the first royal autobiography in a European vernacular language.",
-          "tag": "SUCCESSION",
-          "note": "Llibre dels Fets (Book of Deeds, c.1270–1276): James I's own autobiography — oldest royal autobiography in a vernacular European language. BNE and Arxiu de la Corona d'Aragó hold manuscripts. Smith & Buffery (2003), The Book of Deeds of James I of Aragon: the standard English translation. The Crown of Aragon's Mediterranean expansion: documented in treaty archives."
-        },
-        {
-          "id": "k4",
-          "group": "Catholic Monarchs (1469–1492)",
-          "dynasty": "Trastámara",
-          "label": "Ferdinand and Isabella — the Catholic Monarchs",
-          "date": "1469–1492 (and beyond)",
-          "loc": "Castile; Aragon; Granada (from 1492)",
-          "coords": [
-            40.42,
-            -3.71
-          ],
-          "hint": "Ferdinand of Aragon and Isabella of Castile marry in 1469 — their union doesn't formally merge the two kingdoms but creates a personal union that acts as one; they complete the Reconquista (1492), expel the Jews (1492), and send Columbus (1492); they are the effective founders of unified Spain.",
-          "tag": "SUCCESSION",
-          "note": "The marriage contract 18 Oct 1469: Archivo de la Corona de Aragón — the primary document of the dynastic union. Their joint titulature ('los Reyes Católicos'): conferred by Pope Alexander VI 1496 — Vatican Archives. The Alhambra Decree (31 Mar 1492): AGS. Columbus commission: AGS Patronato Real. Edwards (2000), Ferdinand and Isabella: the standard English biography."
-        },
-        {
           "id": "k5",
           "group": "Crown of Castile (1284–1369)",
           "dynasty": "Castilian",
@@ -99,6 +69,21 @@
           "note": "Alfonso XI's reign: Crónica de Alfonso XI (primary). The Battle of Río Salado 30 Oct 1340: ibid. The Ordenamiento de Alcalá 1348: AHN — gives the Siete Partidas legal force. His death at Gibraltar 26 Mar 1350: Crónica de Alfonso XI — documented as the Black Death; confirmed by the timing and symptoms described. O'Callaghan (2011), The Gibraltar Crusade: the standard modern study. He is the only western European monarch documented to have died of plague."
         },
         {
+          "id": "k3",
+          "group": "Crown of Aragon (1213–1410)",
+          "dynasty": "Aragonese",
+          "label": "James I of Aragon — the Mediterranean empire",
+          "date": "1213–1276",
+          "loc": "Zaragoza; Valencia (conquered 1238); Palma de Mallorca (conquered 1229)",
+          "coords": [
+            41.65,
+            -0.88
+          ],
+          "hint": "James I of Aragon conquers the Balearic Islands (1229) and Valencia (1238) — establishing the Crown of Aragon as a Mediterranean power; his own autobiography the Llibre dels Fets is the first royal autobiography in a European vernacular language.",
+          "tag": "SUCCESSION",
+          "note": "Llibre dels Fets (Book of Deeds, c.1270–1276): James I's own autobiography — oldest royal autobiography in a vernacular European language. BNE and Arxiu de la Corona d'Aragó hold manuscripts. Smith & Buffery (2003), The Book of Deeds of James I of Aragon: the standard English translation. The Crown of Aragon's Mediterranean expansion: documented in treaty archives."
+        },
+        {
           "id": "k6",
           "group": "Crown of Aragon (1213–1410)",
           "dynasty": "Trastámara",
@@ -112,6 +97,21 @@
           "hint": "When Martin I of Aragon dies childless in 1410, the Crown of Aragon faces civil war over succession — instead of fighting, representatives of Aragon, Catalonia and Valencia appoint nine arbitrators who meet at Caspe; on 28 June 1412 they select Ferdinand I of Antequera (a Castilian Trastámara) as king, bringing the Trastámara dynasty to both Castile and Aragon, directly enabling the Ferdinand/Isabella marriage of 1469.",
           "tag": "SUCCESSION",
           "note": "The Caspe proceedings 1412: Archivo de la Corona d'Aragó — the arbitrators' records. The selection of Ferdinand I: documented. Vicens Vives (1953), Juan II de Aragón: the standard study of the Caspe compromise's dynastic consequences. The direct chain: Caspe (1412) → Trastámaras in Aragon → John II → Ferdinand → marriage to Isabella (1469) → Catholic Monarchs. Without Caspe there is no Ferdinand and Isabella."
+        },
+        {
+          "id": "k4",
+          "group": "Catholic Monarchs (1469–1492)",
+          "dynasty": "Trastámara",
+          "label": "Ferdinand and Isabella — the Catholic Monarchs",
+          "date": "1469–1492 (and beyond)",
+          "loc": "Castile; Aragon; Granada (from 1492)",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "Ferdinand of Aragon and Isabella of Castile marry in 1469 — their union doesn't formally merge the two kingdoms but creates a personal union that acts as one; they complete the Reconquista (1492), expel the Jews (1492), and send Columbus (1492); they are the effective founders of unified Spain.",
+          "tag": "SUCCESSION",
+          "note": "The marriage contract 18 Oct 1469: Archivo de la Corona de Aragón — the primary document of the dynastic union. Their joint titulature ('los Reyes Católicos'): conferred by Pope Alexander VI 1496 — Vatican Archives. The Alhambra Decree (31 Mar 1492): AGS. Columbus commission: AGS Patronato Real. Edwards (2000), Ferdinand and Isabella: the standard English biography."
         }
       ]
     },
@@ -206,20 +206,6 @@
       "subtitle": "The Siete Partidas, Cortes and the development of Iberian law",
       "entries": [
         {
-          "id": "o1",
-          "group": "Imperial Law",
-          "label": "Siete Partidas — composed by Alfonso X, enforced by Alfonso XI",
-          "date": "c.1265",
-          "loc": "Castile (written and promulgated)",
-          "coords": [
-            40.35,
-            -3.7
-          ],
-          "hint": "Alfonso X compiles the Siete Partidas (c.1256–1265) — the most comprehensive medieval Iberian law code; but it is never promulgated in his lifetime due to fierce noble opposition favouring local fueros; it remains a theoretical compendium until 1348 when his great-grandson Alfonso XI gives it statutory force in the Ordenamiento de Alcalá.",
-          "tag": "LAW",
-          "note": "Siete Partidas (c.1256–1265): BNE holds the primary manuscripts. The failure to promulgate under Alfonso X: documented in the political conflict with the Castilian nobility. The Ordenamiento de Alcalá 1348 (Alfonso XI): gives the Siete Partidas legal force — text in AHN. US influence: still referenced in Louisiana courts until 1825. Burns (2001), Las Siete Partidas (Pennsylvania): the standard English translation. The gap between composition and enforcement is itself a primary fact about the limits of royal legislative power in 13th-century Castile."
-        },
-        {
           "id": "o2",
           "group": "Constitutional Law",
           "label": "Cortes of Castile and Aragon — early representative assemblies",
@@ -234,6 +220,20 @@
           "note": "NOTE: Cortes of León (1188) predates this folio's 1230 start — included as foundational context. UNESCO Memory of the World (2013). Cortes of León 1188: UNESCO Memory of the World (2013) — the decrees are the primary documents. The Aragonese Corts: Arxiu de la Corona d'Aragó — extensive documentation. Valdeavellano (1968), Historia de España Vol.I: the standard survey. The León 1188 Cortes' UNESCO inscription: explicitly as 'the first representative parliament in world history'."
         },
         {
+          "id": "o1",
+          "group": "Imperial Law",
+          "label": "Siete Partidas — composed by Alfonso X, enforced by Alfonso XI",
+          "date": "c.1265",
+          "loc": "Castile (written and promulgated)",
+          "coords": [
+            40.35,
+            -3.7
+          ],
+          "hint": "Alfonso X compiles the Siete Partidas (c.1256–1265) — the most comprehensive medieval Iberian law code; but it is never promulgated in his lifetime due to fierce noble opposition favouring local fueros; it remains a theoretical compendium until 1348 when his great-grandson Alfonso XI gives it statutory force in the Ordenamiento de Alcalá.",
+          "tag": "LAW",
+          "note": "Siete Partidas (c.1256–1265): BNE holds the primary manuscripts. The failure to promulgate under Alfonso X: documented in the political conflict with the Castilian nobility. The Ordenamiento de Alcalá 1348 (Alfonso XI): gives the Siete Partidas legal force — text in AHN. US influence: still referenced in Louisiana courts until 1825. Burns (2001), Las Siete Partidas (Pennsylvania): the standard English translation. The gap between composition and enforcement is itself a primary fact about the limits of royal legislative power in 13th-century Castile."
+        },
+        {
           "id": "o3",
           "group": "Ecclesiastical Act",
           "label": "Spanish Inquisition established — 1478",
@@ -246,6 +246,20 @@
           "hint": "Ferdinand and Isabella petition Pope Sixtus IV to establish a royal Inquisition — the papal bull of 1 November 1478 authorises it; the Inquisition is under royal (not papal) control; its first auto de fe is held in Seville in 1481; Tomás de Torquemada is appointed Inquisitor General in 1483.",
           "tag": "EDICT",
           "note": "Papal bull Exigit sincerae devotionis (1 Nov 1478): Vatican Archives. Torquemada's appointment 1483: documented. The first auto de fe (Seville, 6 Feb 1481): documented in contemporary records. AHN Inquisición: the primary archive for all subsequent proceedings. Kamen (1997), The Spanish Inquisition: the standard modern study — covers this founding period."
+        },
+        {
+          "id": "o4",
+          "group": "Constitutional Law",
+          "label": "Aragonese pactismo — constitutional limits on royal power",
+          "date": "c.1283 (General Privilege) onwards",
+          "loc": "Zaragoza; Barcelona; Valencia (Corts/Cortes of Aragon)",
+          "coords": [
+            41.65,
+            -0.88
+          ],
+          "hint": "The Crown of Aragon is defined by pactismo — the legal theory that royal power is strictly limited by mutual contracts sworn between the king and the regional estates (Corts) of Catalonia, Aragon and Valencia; the General Privilege of Aragon (1283) and the institution of the Justicia Mayor institutionalise this constitutional limitation; it offers a powerful alternative to Castilian absolutism.",
+          "tag": "LAW",
+          "note": "The General Privilege of Aragon (Privilegio General, 1283): Archivo de la Corona d'Aragó — the foundational pactismo document. The Justicia Mayor of Aragon: Archivo de la Diputación del Reino de Aragón. The Catalan Constitutions (Usatges of Barcelona, 12th c. onwards): Arxiu de la Corona d'Aragó. Lalinde Abadía (1980), Los fueros de Aragón: the standard study. Elliott (2018), Scots and Catalans: places Aragonese pactismo in European comparative perspective. The contrast with Castilian absolutism: the Cortes' different powers documented comparatively in Procter (1980), Curia and Cortes in León and Castile."
         }
       ]
     },
@@ -298,6 +312,20 @@
       "subtitle": "Gothic cathedrals, the Cantigas and Mudéjar art",
       "entries": [
         {
+          "id": "a4",
+          "group": "Architecture",
+          "label": "Gothic cathedrals — Burgos, Toledo and León",
+          "date": "1221–c.1500",
+          "loc": "Burgos (begun 1221); Toledo (begun 1226); León (begun c.1205)",
+          "coords": [
+            42.34,
+            -3.7
+          ],
+          "hint": "The great Gothic cathedrals of Burgos, Toledo and León — all begun in the 13th century under French influence — are the monumental primary sources of medieval Spanish religious expression; León's cathedral (c.1,800 sq metres of stained glass) is called 'the house of light'; Burgos and Toledo develop into the hyper-ornate Isabelline Gothic by the late 15th century.",
+          "tag": "MONUMENT",
+          "note": "Burgos Cathedral (begun 1221): UNESCO 1984 — building accounts in Archivo de la Catedral de Burgos. Toledo Cathedral (begun 1226): extant — Archivo de la Catedral de Toledo. León Cathedral (begun c.1205): extant — c.1,800 sq metres of medieval stained glass, the largest concentration in a Romanesque/Gothic structure in Europe. Williams (1977), A Spanish Romanesque: contextualises the transition. The Isabelline Gothic (Flamboyant-Mudéjar fusion): San Juan de los Reyes, Toledo (1476–1504) — commissioned by the Catholic Monarchs, extant."
+        },
+        {
           "id": "a1",
           "group": "Architecture",
           "label": "Mudéjar architecture — Muslim craftsmen for Christian patrons",
@@ -338,20 +366,6 @@
           "hint": "The Llibre Vermell (Red Book) of Montserrat contains 10 songs for pilgrims to sing or dance at the shrine — the earliest documented use of dancing in a Christian devotional context; the manuscript also contains plague songs written during the Black Death epidemics; it is the oldest extant Catalan music manuscript.",
           "tag": "LITERATURE",
           "note": "HARD ANCHOR: Llibre Vermell de Montserrat (c.1399): Arxiu de l'Abadia de Montserrat. The 10 songs include polyphonic and monophonic pieces. Gómez (1990), La música medieval en España: the standard study. The dancing at shrines: the text explicitly describes pilgrims dancing in the nave — 'because the pilgrims are accustomed to watch at night in the church'. The plague songs: composed c.1348–1350 — documented by internal references."
-        },
-        {
-          "id": "a4",
-          "group": "Architecture",
-          "label": "Gothic cathedrals — Burgos, Toledo and León",
-          "date": "1221–c.1500",
-          "loc": "Burgos (begun 1221); Toledo (begun 1226); León (begun c.1205)",
-          "coords": [
-            42.34,
-            -3.7
-          ],
-          "hint": "The great Gothic cathedrals of Burgos, Toledo and León — all begun in the 13th century under French influence — are the monumental primary sources of medieval Spanish religious expression; León's cathedral (c.1,800 sq metres of stained glass) is called 'the house of light'; Burgos and Toledo develop into the hyper-ornate Isabelline Gothic by the late 15th century.",
-          "tag": "MONUMENT",
-          "note": "Burgos Cathedral (begun 1221): UNESCO 1984 — building accounts in Archivo de la Catedral de Burgos. Toledo Cathedral (begun 1226): extant — Archivo de la Catedral de Toledo. León Cathedral (begun c.1205): extant — c.1,800 sq metres of medieval stained glass, the largest concentration in a Romanesque/Gothic structure in Europe. Williams (1977), A Spanish Romanesque: contextualises the transition. The Isabelline Gothic (Flamboyant-Mudéjar fusion): San Juan de los Reyes, Toledo (1476–1504) — commissioned by the Catholic Monarchs, extant."
         }
       ]
     },
@@ -364,20 +378,6 @@
       "bg": "#F5F6FA",
       "subtitle": "Alfonso X's scriptorium and the intellectual synthesis",
       "entries": [
-        {
-          "id": "t1",
-          "group": "Science & Geography",
-          "label": "Alfonsine Tables — astronomy in three languages",
-          "date": "c.1252–1270",
-          "loc": "Toledo (Alfonso X's scriptorium)",
-          "coords": [
-            39.86,
-            -4.03
-          ],
-          "hint": "Alfonso X commissions revised astronomical tables — the Alfonsine Tables — from a team of Jewish and Muslim astronomers working in Toledo; compiled in Arabic, translated to Castilian, later to Latin; used by European astronomers including Copernicus until the 17th century.",
-          "tag": "TEXT",
-          "note": "Alfonsine Tables (c.1270): compiled by Isaac ibn Sid and Judah ben Moses ha-Cohen. The Paris edition 1483: the standard Latin version. Copernicus used them: documented in his notes. Chabás & Goldstein (2003), The Alfonsine Tables of Toledo: the standard modern study. The collaboration of Jewish and Muslim astronomers under a Christian king: a primary example of convivencia in intellectual production."
-        },
         {
           "id": "t2",
           "group": "Political Theory",
@@ -405,6 +405,20 @@
           "hint": "Archbishop Rodrigo Jiménez de Rada's De Rebus Hispaniae (On the Affairs of Spain, c.1243) is the first comprehensive history of the Iberian Peninsula — he was present at Las Navas de Tolosa (1212) and his account of it is an eyewitness document; the work defines the Reconquista as a providential national narrative.",
           "tag": "TEXT",
           "note": "De Rebus Hispaniae (c.1243): manuscripts in multiple archives; printed edition Lorenzana (1793). Rodrigo's eyewitness account of Las Navas de Tolosa: the most detailed contemporary narrative. Linehan (1993), History and the Historians of Medieval Spain: the standard critical study of the source tradition. The work's 'national narrative' framing: Linehan argues it retrospectively constructs a Spanish identity."
+        },
+        {
+          "id": "t1",
+          "group": "Science & Geography",
+          "label": "Alfonsine Tables — astronomy in three languages",
+          "date": "c.1252–1270",
+          "loc": "Toledo (Alfonso X's scriptorium)",
+          "coords": [
+            39.86,
+            -4.03
+          ],
+          "hint": "Alfonso X commissions revised astronomical tables — the Alfonsine Tables — from a team of Jewish and Muslim astronomers working in Toledo; compiled in Arabic, translated to Castilian, later to Latin; used by European astronomers including Copernicus until the 17th century.",
+          "tag": "TEXT",
+          "note": "Alfonsine Tables (c.1270): compiled by Isaac ibn Sid and Judah ben Moses ha-Cohen. The Paris edition 1483: the standard Latin version. Copernicus used them: documented in his notes. Chabás & Goldstein (2003), The Alfonsine Tables of Toledo: the standard modern study. The collaboration of Jewish and Muslim astronomers under a Christian king: a primary example of convivencia in intellectual production."
         }
       ]
     },
@@ -427,9 +441,9 @@
             40.0,
             -5.0
           ],
-          "hint": "Alfonso X charters the Mesta (the shepherds' guild) in 1273 — organising the seasonal migration of up to 2 million merino sheep between summer pastures in the north and winter pastures in the south; Castilian wool drives the Flemish textile industry and becomes the engine of the medieval Castilian economy.",
+          "hint": "Alfonso X charters the Mesta (shepherds' guild) in 1273 — the guild organises the seasonal migration of up to 2 million merino sheep; but the Crown grants the Mesta immense grazing monopolies and transit rights (cañadas reales) over farmland in exchange for immediate royal loans; this stifles food agriculture, creates chronic grain deficits in Castile, and lays the structural seeds of long-term agricultural stagnation.",
           "tag": "Trade & Commerce",
-          "note": "Mesta charter 1273: AGS and AHN. Klein (1920), The Mesta: A Study in Spanish Economic History 1273–1836: the standard study. The merino sheep numbers: documented in 14th-c. fiscal records. The Castile-Flanders wool trade: documented in Bruges merchant archives and Castilian royal customs records. The Mesta's long-term impact on Castilian agriculture: documented in subsequent land-use surveys."
+          "note": "Mesta charter 1273: AGS and AHN. Klein (1920), The Mesta: A Study in Spanish Economic History 1273–1836: the standard study. The merino sheep numbers: documented in 14th-c. fiscal records. The Castile-Flanders wool trade: documented in Bruges merchant archives and Castilian royal customs records. The Mesta's long-term impact on Castilian agriculture: documented in subsequent land-use surveys. The negative fiscal consequences: Klein (1920), The Mesta ch.5 — documents how the cañadas reales legally overrode enclosed farmland. The Castilian grain deficit: documented in 15th-century price series. The immediate royal loans in exchange for monopoly rights: AGS Contadurías. The connection to Spain's later agricultural problems: Ringrose (1983), Madrid and the Spanish Economy 1560–1850 traces the Mesta's long shadow."
         },
         {
           "id": "s2",
@@ -457,18 +471,32 @@
       "subtitle": "Iberian-Mediterranean trade and cross-cultural exchange",
       "entries": [
         {
-          "id": "ex1",
-          "group": "Trade & Commerce",
-          "label": "Crown of Aragon's Mediterranean empire — the Catalan Atlas (1375)",
-          "date": "1375",
-          "loc": "Mallorca (made); Paris (BnF, held)",
+          "id": "ex4",
+          "group": "Maritime & Trade Routes",
+          "label": "Consolat de Mar — the founding code of Mediterranean maritime law",
+          "date": "c. 1250–1300 (compiled); Barcelona and Valencia",
+          "loc": "Barcelona; Valencia (compiled and used)",
           "coords": [
-            39.57,
-            2.65
+            41.38,
+            2.18
           ],
-          "hint": "The Catalan Atlas (1375) made by Abraham Cresques in Mallorca is the most detailed world map of the 14th century — showing the Silk Road, West African gold kingdoms, and the Indian Ocean; it is the product of the Crown of Aragon's Mediterranean mercantile intelligence.",
+          "hint": "The Consolat de Mar (Consulate of the Sea) is the pioneering maritime law code compiled in Barcelona and Valencia — governing merchant shipping, naval commerce and trade disputes across the entire Mediterranean basin; adopted by Genoa, Venice and later all European maritime powers; the most influential medieval legal exchange in European commercial history.",
           "tag": "DOCUMENT",
-          "note": "HARD ANCHOR: Catalan Atlas (1375): BnF (Manuscrit espagnol 30) — digitised. Made by Abraham Cresques, a Jewish cartographer in Mallorca. The detail of West Africa (including Mali's gold): drawn from traveller accounts. Pujades (2007), Les cartes portolanes: the standard study. The Crown of Aragon's Mediterranean trade documentation: Arxiu de la Corona d'Aragó — extensive merchant records."
+          "note": "Consolat de Mar: earliest dated manuscript c.1282 (Valencia); compiled versions from Barcelona. Archivo de la Corona d'Aragó holds the primary manuscripts. First printed edition Valencia 1494: BNE. Pene Vidari (1979), Il Consolato del Mare: the standard modern study. The code's Mediterranean adoption: documented in Genoese, Venetian and Pisan merchant archives. The code's influence: still cited in Spanish and Italian maritime law into the 19th century — documented."
+        },
+        {
+          "id": "e_ex4",
+          "group": "Maritime & Trade Routes",
+          "label": "Consolat de Mar — Barcelona's pioneering maritime law code",
+          "date": "c. 1258–1350 (consolidated)",
+          "loc": "Barcelona and Valencia (origin and codification)",
+          "coords": [
+            41.38,
+            2.18
+          ],
+          "hint": "The Consolat de Mar (Consulate of the Sea) is the most influential medieval maritime law code in the Western world — compiled in Barcelona and Valencia, it governs international merchant shipping, naval commerce, insurance and trade disputes across the entire Mediterranean basin; adopted voluntarily by merchant communities from Genoa to Ragusa.",
+          "tag": "DOCUMENT",
+          "note": "The Consolat de Mar (c.1258–1350): BNE and Arxiu de la Corona d'Aragó. First printed edition: Barcelona 1494. English translation: Twiss (1874), The Black Book of the Admiralty Vol.III. Ashburner (1909), The Rhodian Sea-Law: places it in the ancient maritime law tradition. The voluntary adoption across the Mediterranean: documented in merchant guild records from Genoa (Archivio di Stato) to Venice. Its influence on modern maritime law: documented in legal history."
         },
         {
           "id": "ex2",
@@ -483,6 +511,20 @@
           "hint": "Genoese merchants are embedded in Castilian and Aragonese trade networks throughout the 14th and 15th centuries — providing credit, maritime expertise and commercial connections; Christopher Columbus is a Genoese working for Castile; his voyage is the product of this long Ibero-Genoese commercial partnership.",
           "tag": "POLITICAL",
           "note": "Genoese merchant records in Seville: Archivo Histórico Provincial de Sevilla. The Genoese colony in Seville: documented from the 13th century. Columbus's Genoese origins: documented in notarial records from Genoa. Phillips (1988), Columbus: the standard biography, documents the Genoese-Castilian commercial world. The connection between the Genoese network and the 1492 voyage: Fernández-Armesto (1991), Columbus."
+        },
+        {
+          "id": "ex1",
+          "group": "Trade & Commerce",
+          "label": "Crown of Aragon's Mediterranean empire — the Catalan Atlas (1375)",
+          "date": "1375",
+          "loc": "Mallorca (made); Paris (BnF, held)",
+          "coords": [
+            39.57,
+            2.65
+          ],
+          "hint": "The Catalan Atlas (1375) made by Abraham Cresques in Mallorca is the most detailed world map of the 14th century — showing the Silk Road, West African gold kingdoms, and the Indian Ocean; it is the product of the Crown of Aragon's Mediterranean mercantile intelligence.",
+          "tag": "DOCUMENT",
+          "note": "HARD ANCHOR: Catalan Atlas (1375): BnF (Manuscrit espagnol 30) — digitised. Made by Abraham Cresques, a Jewish cartographer in Mallorca. The detail of West Africa (including Mali's gold): drawn from traveller accounts. Pujades (2007), Les cartes portolanes: the standard study. The Crown of Aragon's Mediterranean trade documentation: Arxiu de la Corona d'Aragó — extensive merchant records."
         },
         {
           "id": "ex3",
@@ -510,6 +552,34 @@
       "subtitle": "The Catholic Monarchs and the birth of the global world",
       "entries": [
         {
+          "id": "w3",
+          "group": "Geopolitical Shift",
+          "label": "The Catalan-Aragonese empire — Sicily, Naples, Athens",
+          "date": "1282–1387",
+          "loc": "Sicily; Sardinia; Naples; Duchy of Athens (Greece)",
+          "coords": [
+            37.5,
+            15.09
+          ],
+          "hint": "The Crown of Aragon builds a vast Mediterranean maritime empire — Sicily (1282, via the Sicilian Vespers), Sardinia (1323), Naples (1442); the mercenary Almogavar army seizes the Duchy of Athens and Neopatria in Greece (1311–1388); at its peak Aragon controls the western and central Mediterranean, fundamentally altering the balance of power in the eastern Mediterranean.",
+          "tag": "EVENT",
+          "note": "The Sicilian Vespers (30 Mar 1282): documented in multiple contemporary chronicles. The Almogavar conquest of Athens: Chronicle of Ramon Muntaner (primary — Muntaner was present). The Duchy of Athens under Catalan rule 1311–1388: documented in the Archive of the Crown of Aragon. Setton (1948), Catalan Domination of Athens: the standard study. Hillgarth (1976), The Spanish Kingdoms 1250–1516 Vol.I: the standard English survey. The Almogavar mercenaries: documented as the most feared military force in early 14th-century Europe."
+        },
+        {
+          "id": "w2",
+          "group": "Geopolitical Shift",
+          "label": "Almogavars and the Catalan Company — Athens and beyond",
+          "date": "1302–1388",
+          "loc": "Sicily; Constantinople; Athens; Neopatria (Greece)",
+          "coords": [
+            37.97,
+            23.73
+          ],
+          "hint": "After the Sicilian wars, the Catalan Company (almogavar mercenaries) takes service with Byzantium, turns on their employers, conquers the Duchy of Athens (1311) and Neopatria; the Crown of Aragon rules duchies in Greece for 77 years — the most extraordinary geopolitical overreach of medieval Iberia, fundamentally altering the eastern Mediterranean balance of power.",
+          "tag": "EVENT",
+          "note": "Ramon Muntaner, Crònica (c.1325): primary source — eyewitness account of the Catalan Company by a participant. The Battle of the Cephissus 15 Mar 1311: documented in Muntaner and in Byzantine sources. The Duchy of Athens under Aragonese rule 1311–1388: Archivo de la Corona d'Aragó — administrative records. Setton (1948), Catalan Domination of Athens: the standard study. The almogavars: professional light infantry, documented in Muntaner and in military records."
+        },
+        {
           "id": "w1",
           "group": "Geopolitical Shift",
           "label": "1492 — the year Spain makes the modern world",
@@ -535,18 +605,18 @@
       "subtitle": "Gender, sexuality & marginalised experience · evidence anchored · including categorical shifts",
       "entries": [
         {
-          "id": "lv1",
-          "group": "Women's Agency",
-          "label": "Isabella I — queen regnant and architect of Spain",
-          "date": "1474–1504",
-          "loc": "Castile; Granada; Segovia (coronation)",
+          "id": "lv3",
+          "group": "Enslaved Lives",
+          "label": "African slavery in medieval Iberia — the Valencian slave market",
+          "date": "c.1300–1492",
+          "loc": "Valencia; Barcelona; Seville (main slave markets)",
           "coords": [
-            40.95,
-            -4.12
+            39.47,
+            -0.38
           ],
-          "hint": "Isabella I of Castile is crowned in Segovia on 13 December 1474 — ruling in her own right; she initiates the Inquisition, completes the Reconquista, expels the Jews, and authorises Columbus; she is the most consequential woman in the founding of the modern world and the primary political actor behind every 1492 event.",
+          "hint": "The Crown of Aragon operates slave markets in Valencia and Barcelona from the 14th century — trading primarily in sub-Saharan Africans, Moors, and enslaved people from the Black Sea region; the Valencian notarial records are among the best-documented medieval European slave trade archives.",
           "tag": "EVIDENCE",
-          "note": "Isabella's coronation 13 Dec 1474: Segovia — documented in contemporary chronicles. Her personal correspondence: AGS — documented. Liss (1992), Isabel the Queen: the standard modern biography. The Granada capitulations and Alhambra Decree: both issued jointly but Isabella's role documented as dominant in Spanish sources. The contrast with her husband: Ferdinand handled Aragon; Isabella handled Castile — documented in their separate chancelleries."
+          "note": "Valencian notarial records documenting slave sales: Arxiu del Regne de València — published in Verlinden (1955), L'Esclavage dans l'Europe médiévale Vol.I. The Barcelona slave market: documented in Arxiu de la Corona d'Aragó. Blumenthal (2009), Enemies and Familiars: Slavery and Mastery in Fifteenth-Century Valencia: the standard modern study using the notarial records. The scale: Blumenthal documents 10,000+ slave sales in Valencia alone 1375–1425."
         },
         {
           "id": "lv2",
@@ -561,20 +631,6 @@
           "hint": "The conversos (Jewish converts to Christianity, mostly forced) are the central social problem of 15th-century Castile — too Christian to be Jewish, too recently Jewish to be trusted as Christians; the Inquisition is created specifically to investigate their sincerity; the blood purity statutes (limpieza de sangre) later bar them from office.",
           "tag": "CATEGORICAL SHIFT",
           "note": "The converso population: Beinart (2002) estimates 100,000+ forced conversions in 1391. The Inquisition's primary targets: AHN Inquisición records show conversos as the dominant category in 15th-c. proceedings. The Toledo blood purity statute (1449): the first such statute — documented in AHN (see Visigothic Spain folio connection). Netanyahu (1995), The Origins of the Inquisition: the foundational study of the converso problem. This is a CATEGORICAL SHIFT: the creation of a new intermediate category (converso) that satisfies neither Christian nor Jewish frameworks."
-        },
-        {
-          "id": "lv3",
-          "group": "Enslaved Lives",
-          "label": "African slavery in medieval Iberia — the Valencian slave market",
-          "date": "c.1300–1492",
-          "loc": "Valencia; Barcelona; Seville (main slave markets)",
-          "coords": [
-            39.47,
-            -0.38
-          ],
-          "hint": "The Crown of Aragon operates slave markets in Valencia and Barcelona from the 14th century — trading primarily in sub-Saharan Africans, Moors, and enslaved people from the Black Sea region; the Valencian notarial records are among the best-documented medieval European slave trade archives.",
-          "tag": "EVIDENCE",
-          "note": "Valencian notarial records documenting slave sales: Arxiu del Regne de València — published in Verlinden (1955), L'Esclavage dans l'Europe médiévale Vol.I. The Barcelona slave market: documented in Arxiu de la Corona d'Aragó. Blumenthal (2009), Enemies and Familiars: Slavery and Mastery in Fifteenth-Century Valencia: the standard modern study using the notarial records. The scale: Blumenthal documents 10,000+ slave sales in Valencia alone 1375–1425."
         },
         {
           "id": "lv4",
@@ -603,6 +659,20 @@
           "hint": "Catalan peasants (pagesos de remença) live under the 'Bad Customs' (mals usos) — brutal feudal abuses binding them to the land, taxing their marriages, and permitting physical punishment; their Remensa Wars (1462–1486) are the largest successful peasant rebellion in late medieval Europe; Ferdinand II abolishes the Bad Customs in the Sentencia Arbitral de Guadalupe (1486).",
           "tag": "CATEGORICAL SHIFT",
           "note": "The mals usos documentation: Arxiu de la Corona d'Aragó — the six Bad Customs listed in contemporary documents. The Remensa Wars: Vicens Vives (1945), El gran sindicat remença: the standard study. The Sentencia Arbitral de Guadalupe 21 Apr 1486: Arxiu de la Corona d'Aragó — Ferdinand II's arbitration abolishing the mals usos. Freedman (1991), The Origins of Peasant Servitude in Medieval Catalonia: the standard English study. This is a CATEGORICAL SHIFT: the legal abolition of inherited servitude for Catalan peasants — the only such wholesale peasant liberation in 15th-century Iberia."
+        },
+        {
+          "id": "lv1",
+          "group": "Women's Agency",
+          "label": "Isabella I — queen regnant and architect of Spain",
+          "date": "1474–1504",
+          "loc": "Castile; Granada; Segovia (coronation)",
+          "coords": [
+            40.95,
+            -4.12
+          ],
+          "hint": "Isabella I of Castile is crowned in Segovia on 13 December 1474 — ruling in her own right; she initiates the Inquisition, completes the Reconquista, expels the Jews, and authorises Columbus; she is the most consequential woman in the founding of the modern world and the primary political actor behind every 1492 event.",
+          "tag": "EVIDENCE",
+          "note": "Isabella's coronation 13 Dec 1474: Segovia — documented in contemporary chronicles. Her personal correspondence: AGS — documented. Liss (1992), Isabel the Queen: the standard modern biography. The Granada capitulations and Alhambra Decree: both issued jointly but Isabella's role documented as dominant in Spanish sources. The contrast with her husband: Ferdinand handled Aragon; Isabella handled Castile — documented in their separate chancelleries."
         }
       ]
     }
@@ -745,6 +815,11 @@
           "entryId": "o1"
         },
         {
+          "y": 1283,
+          "l": "Aragonese pactismo — General Privilege",
+          "entryId": "o4"
+        },
+        {
           "y": 1478,
           "l": "Spanish Inquisition established",
           "entryId": "o3"
@@ -835,6 +910,16 @@
       "accent": "#148080",
       "events": [
         {
+          "y": 1258,
+          "l": "Consolat de Mar — Mediterranean maritime law",
+          "entryId": "ex4"
+        },
+        {
+          "y": 1282,
+          "l": "Consolat de Mar — Mediterranean maritime law",
+          "entryId": "ex4"
+        },
+        {
           "y": 1300,
           "l": "Genoese merchants in Castile",
           "entryId": "ex2"
@@ -856,6 +941,16 @@
       "icon": "🌍",
       "accent": "#2471A3",
       "events": [
+        {
+          "y": 1282,
+          "l": "Catalan-Aragonese empire — Sicily to Athens",
+          "entryId": "w3"
+        },
+        {
+          "y": 1311,
+          "l": "Catalan Company takes Athens",
+          "entryId": "w2"
+        },
         {
           "y": 1492,
           "l": "Granada falls; Jews expelled; Columbus",
