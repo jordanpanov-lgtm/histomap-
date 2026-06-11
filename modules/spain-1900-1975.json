@@ -39,6 +39,21 @@
           "note": "Alfonso XIII's abdication letter (14 Apr 1931): published in full in La Gaceta de Madrid (official gazette) and major newspapers of the day. The 1931 local election results — the trigger for his departure — are in the Archivo Histórico Nacional (AHN). Preston (2004), Juan Carlos: A People's King, ch.1 for context."
         },
         {
+          "id": "k6",
+          "group": "Restoration Monarchy (1874–1931)",
+          "dynasty": "Bourbon",
+          "label": "Primo de Rivera — dictatorship that doomed the monarchy",
+          "date": "13 Sep 1923–28 Jan 1930",
+          "loc": "Madrid (Directory; then Civil Directory)",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "General Miguel Primo de Rivera pronounces in Barcelona on 13 September 1923 — Alfonso XIII accepts him as prime minister; the dictatorship suspends the 1876 Constitution, dissolves the Cortes, bans political parties and establishes a corporate state; its economic success (1920s boom) and political failure (it collapses in 1930) leaves the monarchy compromised and directly causes the 1931 Republic.",
+          "tag": "COUP",
+          "note": "Primo de Rivera's pronunciamiento 13 Sep 1923: documented in press and official records. Alfonso XIII's acceptance: documented — the king's complicity permanently damages his legitimacy. The suspension of the Constitution: Gaceta de Madrid. The collapse 28 Jan 1930: documented. Ben-Ami (1983), Fascism from Above: The Dictatorship of Primo de Rivera in Spain: the standard English study. The connection to 1931: Tusell (1988) documents how the dictatorship's collapse made the monarchy indefensible."
+        },
+        {
           "id": "k2",
           "group": "Second Republic (1931–1936)",
           "dynasty": "Republic",
@@ -52,6 +67,36 @@
           "hint": "The Second Republic is proclaimed from the balcony of the Interior Ministry at the Puerta del Sol — a jubilant popular moment; the Republic will govern through four phases before the Civil War destroys it.",
           "tag": "SUCCESSION",
           "note": "Proclamation 14 April 1931: La Gaceta de Madrid, 15 Apr 1931 — the official gazette records the Provisional Government. Photographs: Agencia EFE archive. The Provisional Government's composition: documented in the same gazette. Carr (1982), Spain 1808–1975: the standard English-language history of the Republic."
+        },
+        {
+          "id": "k7",
+          "group": "Second Republic (1931–1936)",
+          "dynasty": "Republic",
+          "label": "Manuel Azaña — the Republic's indispensable man",
+          "date": "1931–1939",
+          "loc": "Madrid (Cortes; Palacio Nacional)",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "Manuel Azaña is the dominant intellectual-politician of the Second Republic — Prime Minister twice (1931–1933, 1936) and President (1936–1939); his speeches are primary sources for Republican constitutional thought; his diaries (smuggled out to France) are the finest literary document of the Civil War; he dies in exile in Montauban, November 1940.",
+          "tag": "SUCCESSION",
+          "note": "Azaña's diaries (1931–1939): published as Memorias políticas y de guerra — BNE; the primary literary-political document of the Republic. His 'Una política' speech (1930) and the Cortes debates: Diario de Sesiones del Congreso de los Diputados 1931–1933 (digitised, Congreso). Azaña's death Montauban 3 Nov 1940: documented in French civil records. Juliá (2008), Vida y tiempo de Manuel Azaña: the standard biography. His La velada en Benicarló (1939): the most direct literary account of the Republic's collapse."
+        },
+        {
+          "id": "k8",
+          "group": "Second Republic (1931–1936)",
+          "dynasty": "Falange",
+          "label": "José Antonio Primo de Rivera — the Falange and Spanish fascism",
+          "date": "29 Oct 1933–20 Nov 1936",
+          "loc": "Madrid (Teatro de la Comedia, founding speech); Alicante (executed)",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "José Antonio Primo de Rivera (son of the dictator) founds the Falange Española at the Teatro de la Comedia on 29 October 1933 — the founding speech is the primary document of Spanish fascism; arrested by the Republic in 1936, he is executed in Alicante on 20 November 1936 (the same day Franco enters Madrid); Franco appropriates his movement and mythology.",
+          "tag": "SUCCESSION",
+          "note": "The founding speech 29 Oct 1933: ABC 30 Oct 1933 (BNE Hemeroteca) — published verbatim. José Antonio's execution Alicante 20 Nov 1936: documented in Republican military tribunal records (AHN). The Falange programme (27 points, 1934): BNE — the primary ideological document. Preston (1994), Franco: A Biography, ch.5 analyses the José Antonio–Franco relationship. The body's transfer to the Valle de los Caídos (1959): documented — the cult of the 'absent one' (el ausente). Rodríguez Jiménez (2000), Historia de Falange Española de las JONS: the standard study."
         },
         {
           "id": "k3",
@@ -97,21 +142,6 @@
           "hint": "Francisco Franco rules Spain from April 1939 to his death on 20 November 1975 — the longest dictatorship in 20th-century Western Europe; his regime archives are partly in the AHN and partly still classified.",
           "tag": "SUCCESSION",
           "note": "Franco's death certificate 20 Nov 1975: registered in Madrid civil registry. The Valle de los Caídos decree (Apr 1940): BOE. Franco's 36 years of rule: documented in Boletín Oficial del Estado (BOE), the official state gazette, throughout. Preston (1993), Franco: A Biography: the standard modern biography (900pp)."
-        },
-        {
-          "id": "k6",
-          "group": "Primo de Rivera Dictatorship (1923–1930)",
-          "dynasty": "Bourbon",
-          "label": "Primo de Rivera — dictatorship that doomed the monarchy",
-          "date": "13 Sep 1923–28 Jan 1930",
-          "loc": "Madrid (Directory; then Civil Directory)",
-          "coords": [
-            40.42,
-            -3.71
-          ],
-          "hint": "General Miguel Primo de Rivera pronounces in Barcelona on 13 September 1923 — Alfonso XIII accepts him as prime minister; the dictatorship suspends the 1876 Constitution, dissolves the Cortes, bans political parties and establishes a corporate state; its economic success (1920s boom) and political failure (it collapses in 1930) leaves the monarchy compromised and directly causes the 1931 Republic.",
-          "tag": "COUP",
-          "note": "Primo de Rivera's pronunciamiento 13 Sep 1923: documented in press and official records. Alfonso XIII's acceptance: documented — the king's complicity permanently damages his legitimacy. The suspension of the Constitution: Gaceta de Madrid. The collapse 28 Jan 1930: documented. Ben-Ami (1983), Fascism from Above: The Dictatorship of Primo de Rivera in Spain: the standard English study. The connection to 1931: Tusell (1988) documents how the dictatorship's collapse made the monarchy indefensible."
         }
       ]
     },
@@ -137,6 +167,20 @@
           "hint": "Conscription of working-class men for the Second Melilla War sparks a general strike and street fighting in Barcelona — over 100 churches and convents burned; the military suppression is brutal; the execution of the anarchist educator Francisco Ferrer Guardia causes international outrage, brings down the Conservative government of Maura, and permanently radicalises the Catalan working class.",
           "tag": "CIVIL WAR",
           "note": "The general strike declaration 26 Jul 1909: documented in press (La Vanguardia, El Imparcial — BNE Gallica equivalent). The church burnings: documented in police and municipal records (Arxiu Municipal de Barcelona). Ferrer Guardia's trial and execution 13 Oct 1909: documented — his trial records in AHN. The international protest: documented in French, British and German press. Connelly Ullman (1968), The Tragic Week: the standard English study. Maura's government resignation: Gaceta de Madrid. The Semana Trágica permanently ends the possibility of peaceful integration of Barcelona's labour movement."
+        },
+        {
+          "id": "c9",
+          "group": "Colonial Wars",
+          "label": "Rif War and Battle of Alhucemas — Spain's colonial trauma",
+          "date": "1921–1927",
+          "loc": "Rif mountains, Morocco; Alhucemas Bay (landing 8 Sep 1925)",
+          "coords": [
+            35.27,
+            -3.93
+          ],
+          "hint": "The Rif War (1921–1927) follows the Disaster of Annual — Abd el-Krim's Rif Republic holds Spain at bay for six years; the Battle of Alhucemas (8 September 1925) is the decisive turning point: a Spanish-French amphibious landing, the first successful large-scale amphibious operation in modern warfare, planned by Franco and Primo de Rivera; Abd el-Krim surrenders May 1926.",
+          "tag": "BATTLE",
+          "note": "The Alhucemas landing 8 Sep 1925: Archivo General Militar (Ávila) — the planning documents. Franco's role: his memoir Diario de una Bandera (1922) and subsequent accounts. Abd el-Krim's memoirs (published 1927): the primary Rif perspective. Shannon Fleming (1991), Primo de Rivera and Abd-el-Krim: the standard English study. The landing's military significance: the template cited by Eisenhower's planners for Operation Torch (1942) — documented. Abd el-Krim's surrender May 1926: documented in French colonial records (ANOM)."
         },
         {
           "id": "c7",
@@ -193,6 +237,34 @@
           "hint": "Francoist forces systematically execute Republican soldiers, officials and civilians during and after the Civil War — the Historical Memory Law (2007) initiated a mass graves programme; current estimates range from 100,000 to 200,000 killed in political repression.",
           "tag": "PERSECUTION",
           "note": "UNCERTAIN: Casualty figures disputed. Centro Documental de la Memoria Histórica (Salamanca): the primary archive. Mass graves database: Ministerio de la Presidencia, online from 2007. Preston (2012), The Spanish Holocaust: the most comprehensive modern study, with detailed regional evidence. The 'pact of silence' during the Transition limited documentation; ongoing excavations continue to revise numbers."
+        },
+        {
+          "id": "c10",
+          "group": "Spanish Civil War (1936–1939)",
+          "label": "Siege of Madrid — 'No pasarán'",
+          "date": "7 Nov 1936–28 Mar 1939",
+          "loc": "Madrid",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "The Nationalist assault on Madrid begins on 7 November 1936 and fails — 'No pasarán' becomes the Republic's rallying cry; Madrid holds for 28 months against bombardment and siege; the International Brigades' first major action is here (Battle of Jarama, 1937); Madrid does not fall until 28 March 1939 when Casado's coup surrenders the city.",
+          "tag": "BATTLE",
+          "note": "The assault of 7 Nov 1936: Archivo General Militar (Ávila) and Soviet military archives (partial access). Dolores Ibárruri's '¡No pasarán!' broadcast: Radio Madrid 19 Jul 1936 — documented; the phrase becomes the Republican emblem. The Battle of Jarama (Feb 1937): documented in International Brigade records (RGASPI, Moscow). Beevor (1982), The Battle for Spain, ch.9–11: the standard account. Preston (2006), The Spanish Civil War, ch.8. The final surrender 28 Mar 1939: Casado's negotiations documented in AHN."
+        },
+        {
+          "id": "c11",
+          "group": "Prelude to Civil War",
+          "label": "Assassination of Calvo-Sotelo — the coup's trigger",
+          "date": "13 Jul 1936",
+          "loc": "Madrid",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "The monarchist opposition leader José Calvo Sotelo is arrested at his home on 13 July 1936 by assault guards and murdered — in retaliation for the killing of lieutenant José Castillo; his body is dumped at the Madrid morgue; the assassination is the immediate pretext the conspirators use to justify the military uprising four days later.",
+          "tag": "BATTLE",
+          "note": "Calvo-Sotelo's murder 13 Jul 1936: documented in police and judicial records (AHN). The retaliatory logic: the socialist lieutenant Castillo had been murdered the day before — documented. Calvo-Sotelo's famous last Cortes speech (16 Jun 1936) predicting the violence: Diario de Sesiones. Preston (1994), Franco, ch.9: the standard account. The coup timetable: the conspirators accelerate their plans after the murder — documented in Mola's correspondence (Archivo General Militar)."
         },
         {
           "id": "c2",
@@ -302,6 +374,20 @@
           "hint": "The Political Responsibilities Law holds all who 'opposed the National Movement' from October 1934 onwards legally liable — giving the regime a legal framework to confiscate property and imprison Republicans retroactively going back five years.",
           "tag": "LAW",
           "note": "BOE 13 Feb 1939: text of the law. The retroactivity to 1934 was historically unprecedented in Spanish law. Preston (1993), Franco, ch.20 on the repression's legal architecture. The law created 40,000+ proceedings: AHN Fondos del Tribunal Nacional de Responsabilidades Políticas."
+        },
+        {
+          "id": "o5",
+          "group": "Penal Law",
+          "label": "Ley de Peligrosidad Social (1970) — targeting gay men and trans people",
+          "date": "4 Aug 1970",
+          "loc": "Madrid (BOE 6 Aug 1970); enforcement nationwide",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "The Ley de Peligrosidad y Rehabilitación Social (1970) replaces the 1954 Ley de Vagos as the primary instrument of persecution — it specifically names homosexuals as a 'social danger'; gay men and trans people are sentenced to 'rehabilitation centres' (psychiatric facilities) or exile to specified towns; enforcement intensifies in the early 1970s.",
+          "tag": "LAW",
+          "note": "Ley de Peligrosidad y Rehabilitación Social (4 Aug 1970): BOE 6 Aug 1970 — primary document. The 'rehabilitation centres': Huelva and Badajoz facilities documented in AHN and press. Olmeda (2004), El látigo y la pluma: homosexuales en la España de Franco: the standard study, using AHN criminal records. The contrast with the Ley de Vagos (1954): the 1970 law specifically names homosexuality whereas the 1954 law used the category 'rufianes' (rogues). The law's enforcement statistics: AHN Audiencias Provinciales. Repeal: 1979, after the Transition."
         }
       ]
     },
@@ -341,6 +427,34 @@
           "hint": "Franco fuses Catholic identity with Spanish nationalism — the Church receives extraordinary privileges (censorship power, education control, tax exemption) in exchange for legitimating the regime; the Concordat of 1953 formalises this arrangement.",
           "tag": "EDICT",
           "note": "Concordat of 1953 (Spain-Vatican): text in BOE 19 Oct 1953. The National Catholicism ideology: analysed in Lannon (1987), Privilege, Persecution and Prophecy: The Catholic Church in Spain. The Church's educational role: documented in Education Ministry records (AHN). Pérez-Díaz (1993), The Return of Civil Society on the Church's post-Franco evolution."
+        },
+        {
+          "id": "r4",
+          "group": "Catholic / Church of Rome",
+          "label": "Opus Dei and the Technocrats — the Church that modernised Francoism",
+          "date": "1957–1973",
+          "loc": "Madrid (Ministerio de Hacienda; various ministries)",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "Opus Dei technocrats enter Franco's cabinet from 1957 — Laureano López Rodó, Mariano Navarro Rubio, Alberto Ullastres; their Plan de Estabilización (1959) and Development Plans abandon autarky and open Spain to foreign investment; the Spanish Miracle follows; Opus Dei simultaneously provides the regime's intellectual respectability and the foundation for its economic transformation.",
+          "tag": "CULT",
+          "note": "The cabinet reshuffle of February 1957: documented in the Boletín Oficial del Estado. López Rodó's memoirs: the primary insider account. The Plan de Estabilización (20 Jul 1959): BOE — primary document. Payne (1965), Franco's Spain: contextualises Opus Dei's political role. Preston (1993), Franco, ch.24: the standard account. The Matesa scandal (1969) — an Opus Dei financial fraud that fractures the technocrat coalition: documented in press (AGA, Archivo General de la Administración)."
+        },
+        {
+          "id": "r3",
+          "group": "Catholic / Church of Rome",
+          "label": "Vatican II and the Church's break with Franco",
+          "date": "1962–1971",
+          "loc": "Rome (Vatican II, 1962–1965); Madrid (1971 Bishops' Assembly)",
+          "coords": [
+            41.9,
+            12.49
+          ],
+          "hint": "Vatican II (1962–1965) forces a global rethinking of Church-state relations; in Spain, a younger generation of priests becomes active in the labour movement and Basque nationalism; the 1971 National Assembly of Bishops passes a motion asking forgiveness for the Church's role in the Civil War — it only narrowly fails the required two-thirds majority; the rupture between Franco and the Church is documented in the Vatican archives.",
+          "tag": "COUNCIL",
+          "note": "Vatican II: Lumen Gentium and Gaudium et Spes (both 1964–1965) — the theological documents. The 1971 National Assembly of Bishops' vote: documented in the Assembly acts — the motion to ask forgiveness for taking sides in the Civil War received a majority but not the required two-thirds. The Añoveros Affair (1974 — Bishop of Bilbao arrested): AHN and Vatican archives. Callahan (2000), The Catholic Church in Spain 1875–1998, ch.12: the standard study. The Workers' Commissions (CCOO) and their priest networks: documented in Ministerio de Gobernación files."
         }
       ]
     },
@@ -410,6 +524,20 @@
           "note": "Un Chien Andalou (1929): directed Buñuel, written Buñuel and Dalí — BnF film archive. The Residencia de Estudiantes (founded 1910): Archivo de la Residencia de Estudiantes, Madrid — attendance records document Lorca, Dalí, Buñuel. Viridiana (1961): Palme d'Or Cannes — immediately banned in Spain by the Franco government; the censorship document is in AGA (Archivo General de la Administración). Edwards (1982), The Discreet Art of Luis Buñuel: the standard English study. The Residencia's role: Sánchez Vidal (1988), Buñuel, Lorca, Dalí: el enigma sin fin."
         },
         {
+          "id": "a8",
+          "group": "Literature & Poetry",
+          "label": "Miguel Hernández — the goatherd poet who died in Franco's prison",
+          "date": "1936–1942",
+          "loc": "Orihuela (born); Madrid; Alicante prison (died 28 Mar 1942)",
+          "coords": [
+            38.08,
+            -0.94
+          ],
+          "hint": "Miguel Hernández, a self-taught goatherd from Orihuela, writes the defining poetry of the Civil War (Viento del pueblo, 1937) and the post-war imprisonment (Cancionero y romancero de ausencias, written in prison); his letters to his wife Josefina from prison are among the most moving primary documents of Francoist repression; he dies of tuberculosis in Alicante prison on 28 March 1942, aged 31.",
+          "tag": "LITERATURE",
+          "note": "Cancionero y romancero de ausencias (written 1938–1941, published posthumously 1958): BNE. Prison letters to Josefina Manresa: published by her in 1974 — the primary documentary record of his imprisonment. Viento del pueblo (1937): BNE. His trial records: AHN — condemned to death, commuted to 30 years; died of tuberculosis. Cano Ballesta (1968), La poesía de Miguel Hernández: the standard study. UNESCO's proclamation of the Hernández centenary (2010): documents his global literary standing."
+        },
+        {
           "id": "a1",
           "group": "Painting & Visual Art",
           "label": "Guernica — Picasso's response to the bombing",
@@ -438,6 +566,34 @@
           "note": "Construction decree: BOE Apr 1940. The use of forced labour: documented in Sueiro (1976), El Valle de los Caídos. Franco's burial: documented 1975; exhumation 24 Oct 2019: BOE, Supreme Court ruling. Extant (closed since 2019, transformation ongoing). The monument is itself a primary source for Francoist ideology of 'reconciliation' through Catholic ritual."
         },
         {
+          "id": "a10",
+          "group": "Music & Performance",
+          "label": "Paco de Lucía and Lola Flores — flamenco between tradition and modernity",
+          "date": "c.1955–1975",
+          "loc": "Algeciras (Paco, born 1947); Jerez de la Frontera (Lola, born 1923)",
+          "coords": [
+            36.13,
+            -5.45
+          ],
+          "hint": "Lola Flores ('La Faraona') is the defining popular artist of Franco's Spain — her copla and flamenco reach every household via radio and cinema; Paco de Lucía begins his professional career aged 11 and by 1967 records his first solo album; his technical revolution of flamenco guitar (incorporating jazz harmonics, picado speed) transforms the art form; both document flamenco's survival under the regime's appropriation of it as 'folk culture'.",
+          "tag": "LITERATURE",
+          "note": "Lola Flores's first film El Negro que tiene tu negra (1956): filmoteca records. Her early radio career: documented in RTVE archive. Paco de Lucía's first album La fabulosa guitarra de Paco de Lucía (1967): Philips Records — the primary artefact. Caballero Bonald (1975), Luces y sombras del flamenco: the standard contemporary study (published the year of Franco's death). The regime's use of flamenco as 'Spain's authentic culture': documented in the Ministerio de Información y Turismo promotional materials (AGA)."
+        },
+        {
+          "id": "a9",
+          "group": "Music & Performance",
+          "label": "Joan Manuel Serrat and the Nova Cançó — singing resistance",
+          "date": "1965–1975",
+          "loc": "Barcelona; Madrid; Latin America (exile tours)",
+          "coords": [
+            41.38,
+            2.18
+          ],
+          "hint": "Joan Manuel Serrat and the Nova Cançó movement (Raimon, Maria del Mar Bonet, Lluís Llach) use Catalan and Spanish song as anti-Franco resistance — Serrat's refusal to sing in Spanish at Eurovision 1968 (insisting on Catalan) is a political act documented in censorship files; his Mediterráneo (1971) becomes the most celebrated Spanish-language album of the century.",
+          "tag": "LITERATURE",
+          "note": "Serrat's Eurovision refusal 1968: documented in RTVE and TVE censorship files (AGA, Sección Cultura). Mediterráneo (1971): CBS Records Spain — the original LP. The Nova Cançó movement: documented in Ministerio de Información y Turismo censorship records (AGA). Lluís Llach's L'estaca (1968): the primary anthem of anti-Franco Catalan resistance — censored immediately. Vidal Manzanares (2004), Joan Manuel Serrat: the standard biography. The censorship apparatus: the Junta de Censura de Actividades Teatrales — its files in AGA document each rejection."
+        },
+        {
           "id": "a6",
           "group": "Painting & Visual Art",
           "label": "Dalí and Miró — Surrealism and the abstract from Catalonia",
@@ -462,6 +618,20 @@
       "bg": "#F5F6FA",
       "subtitle": "Intellectuals, exile and the suppression of free thought",
       "entries": [
+        {
+          "id": "t5",
+          "group": "Philosophy",
+          "label": "Unamuno — pioneer of European existentialist philosophy",
+          "date": "1912",
+          "loc": "Salamanca (University of Salamanca; Rector)",
+          "coords": [
+            40.96,
+            -5.66
+          ],
+          "hint": "Miguel de Unamuno's Del sentimiento trágico de la vida (1912) explores the agonising conflict between rational scepticism and the desperate human desire for immortality — predating and directly influencing French existentialism; Sartre and Camus both cite him; Unamuno is the first philosopher in European tradition to place this 'tragic sense' at the centre of human existence.",
+          "tag": "TEXT",
+          "note": "Del sentimiento trágico de la vida (1912): BNE. English translation Crawford Flitch (1921): the vehicle of its European influence. Sartre's acknowledgment of Unamuno: documented in interviews — though Sartre's direct citation is debated, the conceptual overlap is documented by Nozick (1971), Miguel de Unamuno: the standard English study. The Salamanca rectorship: documented — his famous 'Venceréis, pero no convenceréis' confrontation with Millán Astray (October 1936) is one of the most documented scenes in Spanish cultural history. Unamuno died under house arrest 31 Dec 1936."
+        },
         {
           "id": "t1",
           "group": "Philosophy",
@@ -505,20 +675,6 @@
           "note": "First edition: Secker & Warburg, London 1938 — British Library holds the first edition. Orwell's POUM militia card (extant): documents his service. His medical records from the bullet wound: documented in Orwell's own correspondence (University College London, Orwell Archive). Crick (1980), George Orwell: A Life. The book sold only 638 copies in Orwell's lifetime."
         },
         {
-          "id": "t5",
-          "group": "Philosophy",
-          "label": "Unamuno — pioneer of European existentialist philosophy",
-          "date": "1912",
-          "loc": "Salamanca (University of Salamanca; Rector)",
-          "coords": [
-            40.96,
-            -5.66
-          ],
-          "hint": "Miguel de Unamuno's Del sentimiento trágico de la vida (1912) explores the agonising conflict between rational scepticism and the desperate human desire for immortality — predating and directly influencing French existentialism; Sartre and Camus both cite him; Unamuno is the first philosopher in European tradition to place this 'tragic sense' at the centre of human existence.",
-          "tag": "TEXT",
-          "note": "Del sentimiento trágico de la vida (1912): BNE. English translation Crawford Flitch (1921): the vehicle of its European influence. Sartre's acknowledgment of Unamuno: documented in interviews — though Sartre's direct citation is debated, the conceptual overlap is documented by Nozick (1971), Miguel de Unamuno: the standard English study. The Salamanca rectorship: documented — his famous 'Venceréis, pero no convenceréis' confrontation with Millán Astray (October 1936) is one of the most documented scenes in Spanish cultural history. Unamuno died under house arrest 31 Dec 1936."
-        },
-        {
           "id": "t4",
           "group": "Philosophy",
           "label": "María Zambrano — razón poética and the philosophy of exile",
@@ -535,9 +691,9 @@
       ]
     },
     {
-      "id": "subsistence",
-      "label": "Subsistence",
-      "icon": "🌾",
+      "id": "economy",
+      "label": "Economy",
+      "icon": "💰",
       "color": "#4A3200",
       "accent": "#8B5E00",
       "bg": "#FFFBF0",
@@ -598,6 +754,20 @@
           "hint": "Franco appoints Opus Dei-linked technocrats who impose austerity and open Spain to foreign investment — the 1959 Stabilisation Plan ends autarky and triggers the 'Spanish miracle' of 6% annual growth in the 1960s.",
           "tag": "ECONOMIC",
           "note": "Plan de Estabilización decree: BOE, Jul 1959. World Bank and IMF involvement: documented in their archives (Washington DC). Payne (1987), The Franco Regime, ch.17 on the technocrats. GDP growth 1960–1973: Prados de la Escosura (2003). The plan's social consequences — mass internal migration from Andalusia and Extremadura to Catalonia and Basque Country — documented in census records."
+        },
+        {
+          "id": "s5",
+          "group": "Industry & Production",
+          "label": "The Spanish Miracle (1959–1973) — fastest growth in Western Europe",
+          "date": "1959–1973",
+          "loc": "Spain (Catalonia; Basque Country; Madrid — industrial poles)",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "Following the 1959 Stabilisation Plan, Spain achieves the fastest sustained economic growth in Western Europe — GDP grows at c.7% annually for 14 years; mass industrialisation, rural-to-urban migration (5 million internal migrants), tourist boom (from 6 million tourists in 1960 to 34 million in 1973), and remittances from Spanish workers in France and Germany transform the country.",
+          "tag": "Industry & Production",
+          "note": "GDP growth data (1959–1973): Banco de España historical series and OECD. The internal migration figures: INE census 1960 and 1970. Tourist arrivals: INE tourism statistics. Harrison (1985), The Spanish Economy in the Twentieth Century, ch.8: the standard study. Tortella (2000), The Development of Modern Spain, ch.10: contextualises the miracle's structural limits. The contrast with the autarky period (1939–1959): documented in the same INE series. The miracle ends at the 1973 oil shock: documented."
         }
       ]
     },
@@ -718,6 +888,20 @@
           "hint": "The 1946 UN resolution recommends member states withdraw ambassadors from Spain (45 to 2 vote) — Spain is isolated; by 1955 the Cold War reverses this and Spain is admitted to the UN; the complete diplomatic rehabilitation of a Fascist regime by Western powers.",
           "tag": "EVENT",
           "note": "UN Resolution 39(I), 12 Dec 1946: UN General Assembly records (digitised). The ambassador withdrawals: documented in diplomatic correspondence (AHN). Spain's UN admission 14 Dec 1955: UN records. The US role in rehabilitation: FRUS 1952–54 Vol.VI. Payne (1987), The Franco Regime, ch.16 on the Cold War transformation."
+        },
+        {
+          "id": "w4",
+          "group": "Geopolitical Shift",
+          "label": "Green March — Spain abandons the Spanish Sahara (1975)",
+          "date": "6 Nov 1975",
+          "loc": "Spanish Sahara (Western Sahara); Marrakesh (Madrid Accords)",
+          "coords": [
+            24.5,
+            -13.0
+          ],
+          "hint": "On 6 November 1975 — while Franco is dying — Hassan II of Morocco sends 350,000 civilians across the border into Spanish Sahara in the 'Green March'; Spain, under Arias Navarro's caretaker government, signs the Madrid Accords (14 November 1975) surrendering the territory to Morocco and Mauritania; the Sahrawi population becomes stateless; the conflict remains unresolved.",
+          "tag": "EVENT",
+          "note": "The Green March 6 Nov 1975: UN Security Council Resolution 380 (6 Nov 1975) — condemning the march. The Madrid Accords 14 Nov 1975: AGA (Ministerio de la Presidencia); Morocco and Mauritania. Hodges (1983), Western Sahara: The Roots of a Desert War: the standard study. The ICJ Advisory Opinion (16 Oct 1975): found no territorial sovereignty — ignored by Morocco. The Sahrawi refugees: documented in UNHCR reports from 1976. Franco's death (20 Nov 1975): five days after the Madrid Accords."
         }
       ]
     },
@@ -801,6 +985,20 @@
           "note": "Maquis documentation: Archivo General de la Administración (AGA) and military records — Civil Guard reports on operations. Heine (1983), La oposición política al franquismo: the standard survey. Sánchez Agustí (2001), Maquis a Catalunya: uses regional archives. The Civil Guard's 'pacification' records: documented in AGA. The last active maquis (Francisco Sabaté Llopart, killed 1960): documented in press. The civilian network (enlaces): their torture and execution documented in trial records (Consejos de Guerra, AHN). A living memory: oral history projects document maquis survivors into the 2000s."
         },
         {
+          "id": "lv7",
+          "group": "Persecuted Communities",
+          "label": "Las Trece Rosas — thirteen women executed on 5 August 1939",
+          "date": "5 Aug 1939",
+          "loc": "Madrid (Cementerio del Este — executed at dawn)",
+          "coords": [
+            40.42,
+            -3.37
+          ],
+          "hint": "Thirteen young women — the youngest aged 18, members of the Socialist Youth — are executed by firing squad at dawn on 5 August 1939; charged with 'military rebellion' for alleged involvement in a bomb plot; their letters written the night before execution to their families are among the most documented primary sources of Francoist terror against women.",
+          "tag": "PERSECUTION",
+          "note": "The trial records: AHN, Fondos Contemporáneos, Audiencia Territorial de Madrid — documented. The execution order: Archivo del Cementerio de la Almudena. The last letters (written the night of 4–5 August 1939): published in full by Ferrero (2003), Las Trece Rosas: the foundational modern account (based on AHN records). The youngest, Julia Conesa (18): documented. Preston (2012), The Spanish Holocaust, ch.17: uses the trial records. The Trece Rosas are the most documented case of gendered political execution in early Francoism."
+        },
+        {
           "id": "lv2",
           "group": "Same-Sex Practice & Law",
           "label": "Ley de Vagos y Maleantes — criminalisation of homosexuality",
@@ -827,19 +1025,19 @@
         {
           "y": 1902,
           "y2": 1923,
-          "l": "Alfonso XIII",
+          "l": "Alfonso XIII — constitutional monarchy",
           "entryId": "k1"
         },
         {
           "y": 1923,
           "y2": 1930,
           "l": "Primo de Rivera dictatorship",
-          "entryId": "k1"
+          "entryId": "k6"
         },
         {
           "y": 1930,
           "y2": 1931,
-          "l": "Crisis and fall of monarchy",
+          "l": "Crisis and fall of the monarchy",
           "entryId": "k1"
         }
       ]
@@ -857,64 +1055,16 @@
           "entryId": "k6"
         },
         {
-          "y": 1923,
-          "y2": 1930,
-          "l": "Primo de Rivera dictatorship",
-          "entryId": "k6"
-        },
-        {
-          "y": 1923,
-          "y2": 1930,
-          "l": "Primo de Rivera dictatorship",
-          "entryId": "k6"
-        },
-        {
-          "y": 1923,
-          "y2": 1930,
-          "l": "Primo de Rivera dictatorship",
-          "entryId": "k6"
-        },
-        {
-          "y": 1923,
-          "y2": 1930,
-          "l": "Primo de Rivera dictatorship",
-          "entryId": "k6"
-        },
-        {
-          "y": 1923,
-          "y2": 1930,
-          "l": "Primo de Rivera dictatorship",
-          "entryId": "k6"
-        },
-        {
-          "y": 1923,
-          "y2": 1930,
-          "l": "Primo de Rivera dictatorship",
-          "entryId": "k6"
-        },
-        {
-          "y": 1923,
-          "y2": 1930,
-          "l": "Primo de Rivera dictatorship",
-          "entryId": "k6"
-        },
-        {
-          "y": 1923,
-          "y2": 1930,
-          "l": "Primo de Rivera dictatorship",
-          "entryId": "k6"
-        },
-        {
-          "y": 1923,
-          "y2": 1930,
-          "l": "Primo de Rivera dictatorship",
-          "entryId": "k6"
-        },
-        {
           "y": 1931,
           "y2": 1936,
           "l": "Second Spanish Republic",
           "entryId": "k2"
+        },
+        {
+          "y": 1933,
+          "y2": 1936,
+          "l": "Falange founded — José Antonio",
+          "entryId": "k8"
         }
       ]
     },
@@ -949,6 +1099,21 @@
           "entryId": "c6"
         },
         {
+          "y": 1921,
+          "l": "Disaster of Annual — 13,000 dead",
+          "entryId": "w3"
+        },
+        {
+          "y": 1921,
+          "l": "Rif War begins — Annual disaster",
+          "entryId": "c9"
+        },
+        {
+          "y": 1925,
+          "l": "Battle of Alhucemas — first modern amphibious landing",
+          "entryId": "c9"
+        },
+        {
           "y": 1934,
           "l": "Asturias uprising — Army of Africa deployed",
           "entryId": "c7"
@@ -957,6 +1122,16 @@
           "y": 1936,
           "l": "Military coup — Civil War begins",
           "entryId": "c1"
+        },
+        {
+          "y": 1936,
+          "l": "Siege of Madrid begins — 'No pasarán'",
+          "entryId": "c10"
+        },
+        {
+          "y": 1936,
+          "l": "Calvo-Sotelo assassination — coup trigger",
+          "entryId": "c11"
         },
         {
           "y": 1937,
@@ -1004,6 +1179,11 @@
           "y": 1939,
           "l": "Ley de Responsabilidades Políticas",
           "entryId": "o3"
+        },
+        {
+          "y": 1970,
+          "l": "Ley de Peligrosidad — gay men and trans criminalised",
+          "entryId": "o5"
         }
       ]
     },
@@ -1043,14 +1223,29 @@
           "entryId": "a1"
         },
         {
+          "y": 1937,
+          "l": "Miguel Hernández — Viento del pueblo",
+          "entryId": "a8"
+        },
+        {
           "y": 1940,
           "l": "Valle de los Caídos (forced labour)",
           "entryId": "a4"
+        },
+        {
+          "y": 1955,
+          "l": "Paco de Lucía and Lola Flores — flamenco",
+          "entryId": "a10"
+        },
+        {
+          "y": 1965,
+          "l": "Nova Cançó — Serrat, Llach, Raimon",
+          "entryId": "a9"
         }
       ]
     },
     {
-      "id": "subsistence",
+      "id": "economy",
       "icon": "🌾",
       "accent": "#8B5E00",
       "events": [
@@ -1073,6 +1268,11 @@
           "y": 1959,
           "l": "Plan de Estabilización",
           "entryId": "s3"
+        },
+        {
+          "y": 1959,
+          "l": "Spanish Miracle begins — 7% annual growth",
+          "entryId": "s5"
         }
       ]
     },
@@ -1127,6 +1327,11 @@
           "y": 1953,
           "l": "Cold War rehabilitation",
           "entryId": "ex3"
+        },
+        {
+          "y": 1975,
+          "l": "Green March — Spain abandons Western Sahara",
+          "entryId": "w4"
         }
       ]
     },
@@ -1161,9 +1366,41 @@
           "entryId": "lv6"
         },
         {
+          "y": 1939,
+          "l": "Las Trece Rosas — thirteen women executed",
+          "entryId": "lv7"
+        },
+        {
           "y": 1954,
           "l": "Homosexuality criminalised (Ley Vagos)",
           "entryId": "lv2"
+        }
+      ]
+    },
+    {
+      "id": "belief",
+      "icon": "🙏",
+      "accent": "#1E8449",
+      "events": [
+        {
+          "y": 1931,
+          "l": "Anticlerical violence — churches burned",
+          "entryId": "r2"
+        },
+        {
+          "y": 1939,
+          "l": "National Catholicism — Franco's state religion",
+          "entryId": "r1"
+        },
+        {
+          "y": 1957,
+          "l": "Opus Dei technocrats enter cabinet",
+          "entryId": "r4"
+        },
+        {
+          "y": 1962,
+          "l": "Vatican II — Church breaks with Francoism",
+          "entryId": "r3"
         }
       ]
     }
