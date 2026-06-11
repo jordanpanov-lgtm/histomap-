@@ -54,6 +54,21 @@
           "note": "Abdication law of Juan Carlos I: BOE 19 Jun 2014. Felipe VI's 3 Oct 2017 speech: RTVE broadcast, transcript on La Moncloa. Constitutionally, the speech's political content was unusual — analysed by constitutional scholars in real time. The reign's constitutional status: documented in BOE throughout."
         },
         {
+          "id": "k9",
+          "group": "Constitutional Monarchy",
+          "dynasty": "Bourbon",
+          "label": "Juan Carlos I abdicates — scandal and the crown's political necessity",
+          "date": "2 Jun 2014",
+          "loc": "Madrid (Palacio de la Zarzuela)",
+          "coords": [
+            40.46,
+            -3.77
+          ],
+          "hint": "Juan Carlos I's abdication is forced by an accumulation of royal scandals — his elephant-hunting trip in Botswana (April 2012, during Spain's worst unemployment crisis), the Nóos corruption case involving his son-in-law Iñaki Urdangarin and his daughter Infanta Cristina, and his relationship with Corinna zu Sayn-Wittgenstein; Felipe VI's accession is a political necessity to preserve the institution.",
+          "tag": "SUCCESSION",
+          "note": "Juan Carlos I's abdication announcement 2 Jun 2014: BOE. The Botswana hunting trip April 2012: documented in press — Juan Carlos hospitalised while on safari. The Nóos case: Infanta Cristina's eventual acquittal but Urdangarin convicted (2017): BOE and court records. Juan Carlos I's self-imposed exile to Abu Dhabi (August 2020) following money-laundering investigations: BOE announcement. Pradera (2014), Corrupción y política: contextualises the scandals. Felipe VI's accession 19 Jun 2014: BOE."
+        },
+        {
           "id": "k3",
           "group": "Democracy",
           "dynasty": "UCD",
@@ -144,19 +159,19 @@
           "note": "Appointment after no-confidence: BOE 2 Jun 2018. Re-elected Jan 2020 (coalition with Unidas Podemos — first coalition government in Spanish democratic history): BOE 8 Jan 2020. 2023 election results: Interior Ministry — PSOE won fewer seats than PP but formed government with Junts support and amnesty law. Amnesty Law: BOE May 2024. The 153 declassified 23-F documents (Feb 2026): announced by Sánchez as 'settling a historical debt' — La Moncloa press release."
         },
         {
-          "id": "k9",
-          "group": "Constitutional Monarchy",
-          "dynasty": "Bourbon",
-          "label": "Juan Carlos I abdicates — scandal and the crown's political necessity",
-          "date": "2 Jun 2014",
-          "loc": "Madrid (Palacio de la Zarzuela)",
+          "id": "k10",
+          "group": "Transition (1975–1982)",
+          "dynasty": "UCD",
+          "label": "Leopoldo Calvo-Sotelo — the PM of Spain's NATO accession",
+          "date": "26 Feb 1981–2 Dec 1982",
+          "loc": "Madrid",
           "coords": [
-            40.46,
-            -3.77
+            40.42,
+            -3.71
           ],
-          "hint": "Juan Carlos I's abdication is forced by an accumulation of royal scandals — his elephant-hunting trip in Botswana (April 2012, during Spain's worst unemployment crisis), the Nóos corruption case involving his son-in-law Iñaki Urdangarin and his daughter Infanta Cristina, and his relationship with Corinna zu Sayn-Wittgenstein; Felipe VI's accession is a political necessity to preserve the institution.",
+          "hint": "Leopoldo Calvo-Sotelo succeeds Suárez as PM on 26 February 1981 — days after the 23-F coup attempt; he guides Spain into NATO (May 1982) over massive public opposition; his brief 22-month government manages the consolidation of democracy in its most fragile post-coup moment; his UCD coalition collapses at the 1982 elections giving González a historic majority.",
           "tag": "SUCCESSION",
-          "note": "Juan Carlos I's abdication announcement 2 Jun 2014: BOE. The Botswana hunting trip April 2012: documented in press — Juan Carlos hospitalised while on safari. The Nóos case: Infanta Cristina's eventual acquittal but Urdangarin convicted (2017): BOE and court records. Juan Carlos I's self-imposed exile to Abu Dhabi (August 2020) following money-laundering investigations: BOE announcement. Pradera (2014), Corrupción y política: contextualises the scandals. Felipe VI's accession 19 Jun 2014: BOE."
+          "note": "Calvo-Sotelo's investiture 26 Feb 1981: Congreso de los Diputados records — he was confirmed during the occupation of parliament by Tejero's guardia civil; the vote completed under coup conditions. Spain's NATO accession (30 May 1982): NATO archives. The 1982 election results: Ministerio del Interior — PSOE wins 202 of 350 seats (the largest majority in Spanish democratic history). Powell (2001), España en democracia 1975–2000: the standard study."
         }
       ]
     },
@@ -170,6 +185,20 @@
       "subtitle": "ETA terrorism, the 23-F coup attempt and the 11-M bombings",
       "entries": [
         {
+          "id": "c3",
+          "group": "ETA Terrorism",
+          "label": "ETA — from political assassinations to dissolution (1975–2018)",
+          "date": "1975–2018",
+          "loc": "San Sebastián (declaration); Spain-wide (consequences)",
+          "coords": [
+            43.32,
+            -1.98
+          ],
+          "hint": "ETA (Euskadi Ta Askatasuna) carries out its most intense campaign after Franco's death — assassinating Prime Minister Carrero Blanco (1973, see 1900–1975 folio), Admiral Carrero's successor Arias Navarro's cabinet candidate Luis Carrero (1975), Prime Minister Adolfo Suárez's military aide (1979), and 21 soldiers in Hipercor (1987); ETA declares a unilateral permanent ceasefire on 20 October 2011 and formally dissolves itself on 2 May 2018.",
+          "tag": "POLITICAL",
+          "note": "ETA's operations under democracy: AHN (Audiencia Nacional terrorism cases). Key attacks: Atocha massacre (1977) — by ultra-right, not ETA; Hipercor bombing 19 Jun 1987 (21 dead, 45 injured, documented); Admiral Carrero Blanco 1973 (see 1900–1975 folio). ETA's total victims 1959–2010: approximately 829 killed — documented by the Asociación de Víctimas del Terrorismo and the COVITE database. The 20 Oct 2011 ceasefire: International Contact Group, documented. Dissolution 2 May 2018: public statement. Llera Ramo (1994), 'ETA: From Secret Army to Social Movement': the standard political science study."
+        },
+        {
           "id": "c2",
           "group": "Coup Attempt",
           "label": "23-F — attempted coup in parliament, 1981",
@@ -182,20 +211,6 @@
           "hint": "Lt Col Antonio Tejero storms the Congress of Deputies with 200 Civil Guards — the entire government is held hostage for 18 hours; Juan Carlos's televised address at 1:14am defeats the coup; the events are captured on television and radio.",
           "tag": "CIVIL WAR",
           "note": "EXCEPTIONAL ANCHOR: RTVE footage (extant, broadcast live) — Tejero entering Congress captured on parliamentary cameras. King's speech broadcast 1:14am, 24 Feb 1981: RTVE archive. 153 declassified documents (25 Feb 2026): La Moncloa — include transcripts of telephone conversations between military commanders (Euronews, 25 Feb 2026). Tejero convicted 1982: Tribunal Supremo records."
-        },
-        {
-          "id": "c3",
-          "group": "ETA Terrorism",
-          "label": "ETA's final ceasefire declaration — 2011",
-          "date": "20 Oct 2011",
-          "loc": "San Sebastián (declaration); Spain-wide (consequences)",
-          "coords": [
-            43.32,
-            -1.98
-          ],
-          "hint": "ETA declares a 'definitive cessation of armed activity' on 20 October 2011 — ending 43 years of terrorism that killed over 800 people; the declaration comes after a sustained international and judicial pressure campaign.",
-          "tag": "POLITICAL",
-          "note": "ETA declaration 20 Oct 2011: published in full in Gara (Basque newspaper) and international press. The full text: archived in Centro Memorial de las Víctimas del Terrorismo (Vitoria). The death toll of 829: documented in Interior Ministry records. ETA's formal dissolution 3 May 2018: Interior Ministry announcement. The verification process: facilitated by international observers including Brian Currin (South Africa)."
         },
         {
           "id": "c4",
@@ -224,6 +239,34 @@
           "hint": "Hundreds of thousands occupy central squares across Spain on 15 May 2011 — protesting austerity, political corruption and the two-party system; the Puerta del Sol camp lasts weeks; the movement directly inspires Podemos (2014) and later Occupy Wall Street.",
           "tag": "EVENT",
           "note": "The 15-M manifesto (¡Democracia Real YA!): published in full, archived at BNE digital. Turnout estimates: Interior Ministry (ranging 130,000–2,000,000+ — dispute itself is significant). The camp in Sol: documented in El País and El Mundo from 15 May 2011. Toret (2013), Tecnopolítica: the first academic study. The connection to Podemos founding: Iglesias (2015), Politics in a Time of Crisis — Podemos leader's own account. Castells (2012), Networks of Outrage and Hope: places 15-M in global comparative context."
+        },
+        {
+          "id": "c8",
+          "group": "Constitutional Crisis",
+          "label": "Catalan independence crisis — 2017 referendum",
+          "date": "1 Oct 2017",
+          "loc": "Catalonia (polling stations); Madrid (constitutional court)",
+          "coords": [
+            41.38,
+            2.18
+          ],
+          "hint": "The Catalan government holds an independence referendum declared illegal by the Constitutional Court — 2.3 million vote (90% yes, 43% turnout); Spanish police violently block polling stations; the Catalan president Puigdemont flees to Belgium; the crisis remains unresolved.",
+          "tag": "EVENT",
+          "note": "Referendum results: Generalitat de Catalunya, 1 Oct 2017. Constitutional Court ruling (ATC 24/2017): declaring the referendum illegal. Puigdemont's exile in Belgium: Belgian court records. The UN Human Rights Committee ruling (2023): found Spain violated Puigdemont's right to stand for election. Felipe VI's 3 Oct 2017 speech: RTVE archive. The 2021 pardons of imprisoned leaders: BOE 22 Jun 2021."
+        },
+        {
+          "id": "c7",
+          "group": "ETA & Basque Conflict",
+          "label": "ETA dissolves — end of 59-year armed campaign (2018)",
+          "date": "2 May 2018",
+          "loc": "Cambo-les-Bains, France (dissolution statement)",
+          "coords": [
+            43.37,
+            -1.39
+          ],
+          "hint": "ETA formally dissolves all its structures on 2 May 2018 — ending a 59-year armed campaign that killed approximately 829 people and wounded thousands; it comes seven years after the 2011 permanent ceasefire; the Basque peace process is documented as the most successful European de-radicalisation of a terrorist organisation since the IRA.",
+          "tag": "EVENT",
+          "note": "ETA's dissolution statement 2 May 2018: published in full. The 829 victims: COVITE (Colectivo de Víctimas del Terrorismo) database — the most rigorous count. Muro (2008), Ethnicity and Violence: The Case of Radical Basque Nationalism: the standard political science study. Alonso (2011), Leaving Terrorism Behind: Individual and Collective Disengagement: analyses the demobilisation process. The Glencree Centre (Ireland) facilitated some dialogue — documented."
         }
       ]
     },
@@ -236,6 +279,20 @@
       "bg": "#F0F7FF",
       "subtitle": "The Constitution of 1978 and the legal architecture of democracy",
       "entries": [
+        {
+          "id": "o3",
+          "group": "Constitutional Law",
+          "label": "Pactos de la Moncloa — the economic consensus",
+          "date": "25 Oct 1977",
+          "loc": "Madrid (Moncloa Palace)",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "All major political parties sign the Moncloa Pacts — agreeing wage restraint, political reform, and economic stabilisation simultaneously; the pacts are the economic foundation of the Transition, preventing the inflation-triggered crisis that derailed other democratisations.",
+          "tag": "LAW",
+          "note": "Text of the Moncloa Pacts: BOE 27 Oct 1977. Signed by 7 parties including PCE (Communist) and AP (conservative): documented. Fuentes Quintana (1983), Economía y política en la Transición. The pacts as economic model: cited in international democratic transition literature (O'Donnell & Schmitter 1986)."
+        },
         {
           "id": "o1",
           "group": "Constitutional Law",
@@ -265,18 +322,18 @@
           "note": "Basque Statute of Autonomy (Estatuto de Gernika): BOE 22 Dec 1979. Catalan Statute (Estatut de Sau): BOE 18 Dec 1979. The subsequent statutes for other regions: BOE throughout 1981–83. The constitutional ambiguity: Morán (2009) on the 'state of autonomies' as an unfinished settlement. The 17 autonomías: documented in Ministerio de las Administraciones Públicas records."
         },
         {
-          "id": "o3",
-          "group": "Constitutional Law",
-          "label": "Pactos de la Moncloa — the economic consensus",
-          "date": "25 Oct 1977",
-          "loc": "Madrid (Moncloa Palace)",
+          "id": "o5",
+          "group": "Human Rights",
+          "label": "GAL affair — state terrorism and Spain's worst constitutional scandal",
+          "date": "1983–1987 (prosecutions 1990s–2000s)",
+          "loc": "French Basque Country (operations); Madrid (trials)",
           "coords": [
-            40.42,
-            -3.71
+            43.3,
+            -1.98
           ],
-          "hint": "All major political parties sign the Moncloa Pacts — agreeing wage restraint, political reform, and economic stabilisation simultaneously; the pacts are the economic foundation of the Transition, preventing the inflation-triggered crisis that derailed other democratisations.",
+          "hint": "The GAL (Grupos Antiterroristas de Liberación) are state-sponsored death squads operated by high-ranking Spanish Interior Ministry officials — they conduct assassinations, kidnappings and torture against suspected ETA members in France (1983–1987); the exposure and judicial process leads to criminal convictions of a former Interior Minister (José Barrionuevo) and a Secretary of State; the worst constitutional scandal of Spain's democratic era.",
           "tag": "LAW",
-          "note": "Text of the Moncloa Pacts: BOE 27 Oct 1977. Signed by 7 parties including PCE (Communist) and AP (conservative): documented. Fuentes Quintana (1983), Economía y política en la Transición. The pacts as economic model: cited in international democratic transition literature (O'Donnell & Schmitter 1986)."
+          "note": "The GAL operations 1983–1987: documented in judicial proceedings. The 1997 Supreme Court convictions: published in BOE — José Barrionuevo (Interior Minister) and Rafael Vera (Secretary of State) convicted of kidnapping. Woodworth (2001), Dirty War, Clean Hands: ETA, the GAL and Spanish Democracy: the standard English study using court records. The GAL's 28 victims: documented. The scandal's political impact: directly contributes to the PSOE's 1996 election defeat. This is Spain's Watergate equivalent."
         },
         {
           "id": "o4",
@@ -291,20 +348,6 @@
           "hint": "The 2007 Ley de Memoria Histórica mandates a mass graves programme, removes Francoist symbols from public space, and recognises victims of the Civil War and dictatorship — the 2022 Democratic Memory Law strengthens it; both laws are contested politically.",
           "tag": "LAW",
           "note": "Ley 52/2007 de Memoria Histórica: BOE 27 Dec 2007. Ley 20/2022 de Memoria Democrática: BOE 20 Oct 2022. Mass graves database: Ministerio de Presidencia, online. Centro Documental de la Memoria Histórica (Salamanca): the primary archive. The law's political contestation: documented in parliamentary debates (Diario de Sesiones). The PP government's suspension of funding 2011–2015: documented in budget records."
-        },
-        {
-          "id": "o5",
-          "group": "Human Rights",
-          "label": "GAL affair — state terrorism and Spain's worst constitutional scandal",
-          "date": "1983–1987 (prosecutions 1990s–2000s)",
-          "loc": "French Basque Country (operations); Madrid (trials)",
-          "coords": [
-            43.3,
-            -1.98
-          ],
-          "hint": "The GAL (Grupos Antiterroristas de Liberación) are state-sponsored death squads operated by high-ranking Spanish Interior Ministry officials — they conduct assassinations, kidnappings and torture against suspected ETA members in France (1983–1987); the exposure and judicial process leads to criminal convictions of a former Interior Minister (José Barrionuevo) and a Secretary of State; the worst constitutional scandal of Spain's democratic era.",
-          "tag": "LAW",
-          "note": "The GAL operations 1983–1987: documented in judicial proceedings. The 1997 Supreme Court convictions: published in BOE — José Barrionuevo (Interior Minister) and Rafael Vera (Secretary of State) convicted of kidnapping. Woodworth (2001), Dirty War, Clean Hands: ETA, the GAL and Spanish Democracy: the standard English study using court records. The GAL's 28 victims: documented. The scandal's political impact: directly contributes to the PSOE's 1996 election defeat. This is Spain's Watergate equivalent."
         }
       ]
     },
@@ -357,6 +400,20 @@
       "subtitle": "La Movida, cinema, architecture and the cultural explosion",
       "entries": [
         {
+          "id": "a6",
+          "group": "Sculpture & Public Art",
+          "label": "Chillida — El Peine del Viento and democratic public space",
+          "date": "1977",
+          "loc": "San Sebastián (Paseo del Ondarreta coast)",
+          "coords": [
+            43.32,
+            -2.02
+          ],
+          "hint": "Eduardo Chillida's El Peine del Viento (The Comb of the Wind, 1977) — three massive iron sculptures anchored into the rocky Basque coast at San Sebastián — becomes the defining symbol of Spain's democratic opening; its integration of heavy industrial ironwork with untamed natural geography expresses a politics of freedom and rootedness that resonates beyond aesthetics.",
+          "tag": "MONUMENT",
+          "note": "El Peine del Viento (1977): in situ, Paseo del Ondarreta, San Sebastián. Architect: Luis Peña Ganchegui (the plaza setting). Chillida's own account of the work's conception: Chillida (1998), Escritos. The 1977 date: installed during the Transition — the political timing deliberate. Kosme de Barañano (1991), Chillida: the standard monograph. The Guggenheim Bilbao has a major Chillida collection. The work's political resonance in the Basque Country in 1977: documented in contemporary press."
+        },
+        {
           "id": "a1",
           "group": "Film & Media",
           "label": "Pedro Almodóvar and La Movida Madrileña",
@@ -369,6 +426,34 @@
           "hint": "La Movida — the creative explosion following Franco's death — produces Almodóvar's first films (Pepi, Luci, Bom, 1980; What Have I Done to Deserve This?, 1984), Andy Warhol's visits to Madrid, and a deliberate transgression of Francoist repression through sexual and artistic freedom.",
           "tag": "LITERATURE",
           "note": "Almodóvar's Pepi, Luci, Bom (1980): first film, made for 500,000 pesetas — production records at El Deseo SA. All About My Mother (1999), Todo sobre mi madre: won the Oscar for Best Foreign Film — Academy of Motion Picture Arts and Sciences records. The Movida's documentation: Ministerio de Cultura archives, press coverage in El País (first edition 4 May 1976 — itself a primary source of the Transition)."
+        },
+        {
+          "id": "a5",
+          "group": "Literature & Poetry",
+          "label": "Camilo José Cela — Spain's Nobel in Literature (1989)",
+          "date": "1989",
+          "loc": "Madrid (Nobel announcement); Iria Flavia, Galicia (born)",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "Camilo José Cela wins the Nobel Prize in Literature on 19 October 1989 — the only Spanish writer of the democratic era to receive it; his La Familia de Pascual Duarte (1942, published clandestinely) and La Colmena (1951, published in Buenos Aires due to censorship) are the foundational texts of postwar Spanish realism; the Nobel crowns a career that spans dictatorship and democracy.",
+          "tag": "LITERATURE",
+          "note": "Nobel Prize announcement 19 Oct 1989: Nobel Foundation records. La familia de Pascual Duarte (1942): published clandestinely (the Francoists banned it within weeks) — BNE. La Colmena (1951): published Buenos Aires (Emecé) due to Spanish censorship — first Spanish edition 1966 (BNE). The Nobel lecture (Stockholm, 8 Dec 1989): Nobel Foundation archive. Ilie (1980), Literature and Inner Exile: contextualises Cela within Francoist culture. Cela's subsequent scandal (plagiarism claims): documented — does not diminish the Nobel's historical significance."
+        },
+        {
+          "id": "a4",
+          "group": "Gastronomy & Conceptual Art",
+          "label": "Ferran Adrià and elBulli — gastronomy at Documenta 12",
+          "date": "1994–2011 (elBulli peak); 2007 (Documenta)",
+          "loc": "Roses, Girona (elBulli restaurant); Kassel, Germany (Documenta 12)",
+          "coords": [
+            42.27,
+            3.18
+          ],
+          "hint": "Ferran Adrià's elBulli (Roses, Girona) is voted the world's best restaurant five times — his molecular gastronomy and deconstructive techniques redefine cooking as conceptual art; in 2007 he is the first chef officially invited to participate in Documenta 12 in Kassel (the world's leading contemporary art exhibition), where elBulli is designated Pavilion G — the only non-physical pavilion.",
+          "tag": "OBJECT",
+          "note": "Documenta 12 (2007): catalogue and documentation — Documenta Archive, Kassel. Adrià's designation as Pavilion G: documented in the official Documenta 12 catalogue (2007). The five 'world's best restaurant' awards: Restaurant Magazine rankings 2002, 2006, 2007, 2008, 2009 — documented. elBulli Foundation (since 2011): Roses, Girona. Adrià's El Bulli: 1998–2002 (published 2002): the definitive documentation of his technique. The Documenta invitation: analysed in Marian Dobrescu, 'Can Gastronomy Be Art?' (2009) — the precedent-setting nature of the invitation."
         },
         {
           "id": "a2",
@@ -397,48 +482,6 @@
           "hint": "Rosalía Vila Tobella's album El Mal Querer (2018) fuses flamenco with electronic production — winning the Latin Grammy for Best Fusion/Urban Interpretation and the Grammy for Best Latin/Urban Album; the most internationally successful Spanish musical artist since Julio Iglesias.",
           "tag": "LITERATURE",
           "note": "El Mal Querer (2018): Sony Music. Latin Grammy winner 2018 (documented). Grammy Award winner 2023: Recording Academy records. The album's flamenco sources: based on a 13th-century Occitan novel Flamenca — the literary source documented in liner notes. Rosalía's conservatory training: Escola Superior de Música de Catalunya records. The album is currently the most studied recent work of Spanish popular music in academic literature."
-        },
-        {
-          "id": "a4",
-          "group": "Gastronomy & Conceptual Art",
-          "label": "Ferran Adrià and elBulli — gastronomy at Documenta 12",
-          "date": "1994–2011 (elBulli peak); 2007 (Documenta)",
-          "loc": "Roses, Girona (elBulli restaurant); Kassel, Germany (Documenta 12)",
-          "coords": [
-            42.27,
-            3.18
-          ],
-          "hint": "Ferran Adrià's elBulli (Roses, Girona) is voted the world's best restaurant five times — his molecular gastronomy and deconstructive techniques redefine cooking as conceptual art; in 2007 he is the first chef officially invited to participate in Documenta 12 in Kassel (the world's leading contemporary art exhibition), where elBulli is designated Pavilion G — the only non-physical pavilion.",
-          "tag": "OBJECT",
-          "note": "Documenta 12 (2007): catalogue and documentation — Documenta Archive, Kassel. Adrià's designation as Pavilion G: documented in the official Documenta 12 catalogue (2007). The five 'world's best restaurant' awards: Restaurant Magazine rankings 2002, 2006, 2007, 2008, 2009 — documented. elBulli Foundation (since 2011): Roses, Girona. Adrià's El Bulli: 1998–2002 (published 2002): the definitive documentation of his technique. The Documenta invitation: analysed in Marian Dobrescu, 'Can Gastronomy Be Art?' (2009) — the precedent-setting nature of the invitation."
-        },
-        {
-          "id": "a5",
-          "group": "Literature & Poetry",
-          "label": "Camilo José Cela — Spain's Nobel in Literature (1989)",
-          "date": "1989",
-          "loc": "Madrid (Nobel announcement); Iria Flavia, Galicia (born)",
-          "coords": [
-            40.42,
-            -3.71
-          ],
-          "hint": "Camilo José Cela wins the Nobel Prize in Literature on 19 October 1989 — the only Spanish writer of the democratic era to receive it; his La Familia de Pascual Duarte (1942, published clandestinely) and La Colmena (1951, published in Buenos Aires due to censorship) are the foundational texts of postwar Spanish realism; the Nobel crowns a career that spans dictatorship and democracy.",
-          "tag": "LITERATURE",
-          "note": "Nobel Prize announcement 19 Oct 1989: Nobel Foundation records. La familia de Pascual Duarte (1942): published clandestinely (the Francoists banned it within weeks) — BNE. La Colmena (1951): published Buenos Aires (Emecé) due to Spanish censorship — first Spanish edition 1966 (BNE). The Nobel lecture (Stockholm, 8 Dec 1989): Nobel Foundation archive. Ilie (1980), Literature and Inner Exile: contextualises Cela within Francoist culture. Cela's subsequent scandal (plagiarism claims): documented — does not diminish the Nobel's historical significance."
-        },
-        {
-          "id": "a6",
-          "group": "Sculpture & Public Art",
-          "label": "Chillida — El Peine del Viento and democratic public space",
-          "date": "1977",
-          "loc": "San Sebastián (Paseo del Ondarreta coast)",
-          "coords": [
-            43.32,
-            -2.02
-          ],
-          "hint": "Eduardo Chillida's El Peine del Viento (The Comb of the Wind, 1977) — three massive iron sculptures anchored into the rocky Basque coast at San Sebastián — becomes the defining symbol of Spain's democratic opening; its integration of heavy industrial ironwork with untamed natural geography expresses a politics of freedom and rootedness that resonates beyond aesthetics.",
-          "tag": "MONUMENT",
-          "note": "El Peine del Viento (1977): in situ, Paseo del Ondarreta, San Sebastián. Architect: Luis Peña Ganchegui (the plaza setting). Chillida's own account of the work's conception: Chillida (1998), Escritos. The 1977 date: installed during the Transition — the political timing deliberate. Kosme de Barañano (1991), Chillida: the standard monograph. The Guggenheim Bilbao has a major Chillida collection. The work's political resonance in the Basque Country in 1977: documented in contemporary press."
         }
       ]
     },
@@ -510,14 +553,67 @@
       ]
     },
     {
-      "id": "subsistence",
-      "label": "Subsistence",
-      "icon": "🌾",
+      "id": "technology",
+      "label": "Technology",
+      "icon": "⚙️",
+      "color": "#1A2A3A",
+      "accent": "#2E86AB",
+      "bg": "#F0F8FF",
+      "subtitle": "Scientific and technological developments in democratic Spain",
+      "entries": [
+        {
+          "id": "te1",
+          "group": "Energy & Environment",
+          "label": "Renewable energy transformation — Spain leads the EU",
+          "date": "2000–present",
+          "loc": "Spain (nationwide; wind: Galicia, Castile; solar: Andalusia, Extremadura)",
+          "coords": [
+            40.4,
+            -3.7
+          ],
+          "hint": "Spain becomes one of the world's renewable energy leaders — wind power (Iberdrola is the world's largest renewables company by 2020) and solar provide over 50% of Spain's electricity by 2022; in April 2023 Spain runs entirely on renewables for the first time; the transition is driven by EU climate policy, geography and major domestic investment.",
+          "tag": "CONSTRUCTION",
+          "note": "Red Eléctrica de España (REE) data: Spain's renewable share reaches 50.3% in 2022 — REE annual report (public). The 100% renewable milestone (April 2023): REE real-time data, documented. Iberdrola as world's largest renewables company: financial records and Forbes rankings. Spain's wind capacity: GWEC (Global Wind Energy Council) annual reports. The EU Renewable Energy Directive (2009, 2018): the legislative framework. Escribano (2021), 'Spain's Green New Deal': the standard policy analysis."
+        },
+        {
+          "id": "te2",
+          "group": "Digital & Science",
+          "label": "Severo Ochoa Centre network and the CSIC — Spanish science post-transition",
+          "date": "2005–present",
+          "loc": "Madrid; Barcelona; Bilbao (Severo Ochoa centres)",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "The designation of Severo Ochoa Centres of Excellence (2008 onwards) marks Spain's post-transition investment in scientific infrastructure — from 0.3% of GDP on R&D in 1975 to over 1.4% by 2007; the CSIC (Consejo Superior de Investigaciones Científicas) is the fourth-largest research institution in the EU; Spain's integration into the European Research Area is the scientific dimension of EU membership.",
+          "tag": "INVENTION",
+          "note": "Severo Ochoa programme: Spanish Ministry of Science (MICINN) — official documentation from 2008. CSIC institutional profile: CSIC annual reports. R&D spending as % of GDP: INE series 1975–2010 — documents the post-transition trajectory. Spain's ERC grant acquisition: European Research Council data. The austerity cuts to R&D (2010–2014): documented in MICINN budget records — a significant setback. Sanz-Menéndez & Cruz-Castro (2019), 'Research Organisations in Spain' in Research Policy: the standard study."
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "label": "Economy",
+      "icon": "💰",
       "color": "#4A3200",
       "accent": "#8B5E00",
       "bg": "#FFFBF0",
       "subtitle": "The Spanish economic miracle, boom and crash",
       "entries": [
+        {
+          "id": "s4",
+          "group": "Industry & Production",
+          "label": "Reconversión Industrial — dismantling heavy industry for Europe",
+          "date": "1983–1992",
+          "loc": "Asturias (mining); Sagunto (steel); El Ferrol; Cádiz (shipyards)",
+          "coords": [
+            43.36,
+            -5.85
+          ],
+          "hint": "Felipe González's government systematically dismantles inefficient state-subsidised heavy industries (coal mines, steel mills, shipyards) to prepare Spain for the EEC; the Reconversión Industrial provokes violent general strikes and riots in industrial towns — Asturian miners' marches, the Sagunto steel crisis (1983) — permanently restructuring the labour landscape and initiating Spain's transition to a service economy.",
+          "tag": "Industry & Production",
+          "note": "The Reconversión Industrial 1983–1992: BOE legislative series. The Sagunto crisis (1983): the steel mill closure sparks the first major post-transition industrial conflict — documented in press (El País archive) and union records. General strikes: UGT and CCOO records. Malo de Molina (1983), El mercado de trabajo en España: the standard economic study of the period. Salmon (1995), The Modern Spanish Economy: the standard English survey. The EU Structural Fund compensation for reconversión areas: documented in EU OJEU records."
+        },
         {
           "id": "s1",
           "group": "Trade & Commerce",
@@ -531,6 +627,20 @@
           "hint": "Spain's EU accession on 1 January 1986 ends nearly a decade of negotiations — it triggers massive structural funds, foreign investment and economic integration; Spain's GDP per capita rises from 70% of EU average (1985) to 90% (2007).",
           "tag": "ECONOMIC",
           "note": "Accession Treaty signed 12 Jun 1985: Archivo del Ministerio de Asuntos Exteriores (Madrid). Entered into force 1 Jan 1986: Official Journal of the European Communities, L302, 15 Nov 1985. GDP convergence data: Eurostat. The accession negotiations (1977–1985): documented in AMAE. Fuentes Quintana (1989) on the economic consequences."
+        },
+        {
+          "id": "s5",
+          "group": "Fiscal & Monetary",
+          "label": "Euro introduction — Spain adopts the single currency (2002)",
+          "date": "1 Jan 2002 (coins and notes); 1 Jan 1999 (accounting)",
+          "loc": "Madrid; eurozone (12 member states)",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "Spain adopts euro coins and notes on 1 January 2002 — the peseta, in circulation since 1868, is withdrawn; the Euro is the most visible daily sign of European integration; Spain meets the Maastricht convergence criteria through significant fiscal adjustment; the single currency later constrains Spain's response to the 2008 crisis (no devaluation possible).",
+          "tag": "Fiscal & Monetary",
+          "note": "Euro launch 1 Jan 2002: European Central Bank records. The peseta's history: Banco de España archive. Spain's Maastricht convergence (1997–1999): documented in Ministerio de Economía reports. Pérez-García et al. (2006), El euro en España: the standard economic study. The ECB's no-devaluation constraint during the 2008 crisis: documented in Banco de España reports and IMF Article IV consultations with Spain. The peseta exchange rate (166.386 pesetas = 1 euro): fixed 1 Jan 1999, documented."
         },
         {
           "id": "s2",
@@ -586,18 +696,18 @@
           "note": "NATO accession 30 May 1982: NATO records. Referendum 12 Mar 1986: Interior Ministry results (52.5% yes, 39.8% no, 7.7% blank). The campaign's reversal: documented in PSOE internal records and press. The three-condition 'yes': documented in González's statement (BOE). Spain's full military integration (joining the integrated command): 1999 — NATO records."
         },
         {
-          "id": "ex2",
-          "group": "Migration & Settlement",
-          "label": "Mass immigration to Spain — 1990s–2000s",
-          "date": "1995–2008",
-          "loc": "Spain-wide; Catalonia; Madrid; Murcia (agricultural zones)",
+          "id": "ex4",
+          "group": "Cultural Transmission",
+          "label": "EU Cohesion Funds — the infrastructure of European integration",
+          "date": "1986–2020",
+          "loc": "Spain (nationwide — AVE network; motorways; ports)",
           "coords": [
-            40.4,
-            -3.7
+            40.42,
+            -3.71
           ],
-          "hint": "Spain transforms from a country of emigrants to one of the world's fastest-growing immigration destinations — from 500,000 foreign residents (1995) to 5.6 million (2008); Moroccan, Romanian, Ecuadorian and other communities create new social realities documented in census and civil registry.",
-          "tag": "MIGRATION",
-          "note": "INE Padrón Municipal (municipal register): the primary source — records all residents, citizens or not, by nationality. Data series 1996–2008: INE website. Izquierdo & Cornelius (2012), Controlling Immigration: Spain chapter — the standard academic analysis. The Delegación del Gobierno para la Inmigración y la Emigración annual reports: primary government documentation."
+          "hint": "Spain is the largest net recipient of EU Cohesion and Structural Funds for decades — this massive capital transfer finances the world's second-largest high-speed rail network (AVE), motorway construction and port modernisation; the EU funds physically integrate Spain's transport exchange into the European core, transforming a country still partly isolated by its wider railway gauge.",
+          "tag": "ECONOMIC",
+          "note": "EU Cohesion Fund transfers to Spain: European Commission DG REGIO — Spain's cumulative receipts documented. The AVE network (first line Madrid-Seville 1992): RENFE records; now 3,600+ km. The motorway construction: Ministerio de Fomento historical statistics. Tortella & García Ruiz (2013), Spanish Money and Banking: contextualises the EU fund impact. The irony: EU funds build the standard-gauge AVE that finally integrates Spain, compensating for the 1855 gauge decision documented in the previous folio."
         },
         {
           "id": "ex3",
@@ -612,6 +722,20 @@
           "hint": "1992 is Spain's international coming-out moment — the Barcelona Olympics and Seville Universal Exposition held simultaneously symbolise the complete transformation from isolated dictatorship to modern European democracy; Barcelona's Olympic architecture (Montjuïc, Olympic Village) permanently reshapes the city; the Expo's 'Isla de la Cartuja' initiates Seville's infrastructure modernisation.",
           "tag": "DOCUMENT",
           "note": "Barcelona 1992 Olympics: Comité Olímpic de Catalunya records; IOC documentation. The Olympic Village redevelopment of the waterfront: Arxiu Municipal de Barcelona — transforms Barcelona's coastal geography. The Seville Expo 1992: Archivo General de Andalucía. The AVE high-speed rail Madrid-Seville: inaugurated for the Expo (April 1992) — RENFE records. Moragas & Botella (eds.) (2002), Barcelona: l'herència dels Jocs: the standard study. The two events together received 100+ million visitors."
+        },
+        {
+          "id": "ex2",
+          "group": "Migration & Settlement",
+          "label": "Mass immigration to Spain — 1990s–2000s",
+          "date": "1995–2008",
+          "loc": "Spain-wide; Catalonia; Madrid; Murcia (agricultural zones)",
+          "coords": [
+            40.4,
+            -3.7
+          ],
+          "hint": "Spain transforms from a country of emigrants to one of the world's fastest-growing immigration destinations — from 500,000 foreign residents (1995) to 5.6 million (2008); Moroccan, Romanian, Ecuadorian and other communities create new social realities documented in census and civil registry.",
+          "tag": "MIGRATION",
+          "note": "INE Padrón Municipal (municipal register): the primary source — records all residents, citizens or not, by nationality. Data series 1996–2008: INE website. Izquierdo & Cornelius (2012), Controlling Immigration: Spain chapter — the standard academic analysis. The Delegación del Gobierno para la Inmigración y la Emigración annual reports: primary government documentation."
         }
       ]
     },
@@ -625,32 +749,46 @@
       "subtitle": "Democratic Spain in its European and global context",
       "entries": [
         {
-          "id": "w1",
+          "id": "w7",
           "group": "Geopolitical Shift",
-          "label": "Catalan independence crisis — 2017 referendum",
-          "date": "1 Oct 2017",
-          "loc": "Catalonia (polling stations); Madrid (constitutional court)",
+          "label": "España vaciada — rural depopulation and the two Spains",
+          "date": "c.1980–present (crisis identified c.2019)",
+          "loc": "Interior provinces: Soria; Teruel; Cuenca; Zamora; Guadalajara",
           "coords": [
-            41.38,
-            2.18
+            41.76,
+            -2.46
           ],
-          "hint": "The Catalan government holds an independence referendum declared illegal by the Constitutional Court — 2.3 million vote (90% yes, 43% turnout); Spanish police violently block polling stations; the Catalan president Puigdemont flees to Belgium; the crisis remains unresolved.",
+          "hint": "Spain empties from the inside — the interior provinces (Soria has the lowest population density in the EU, Teruel 'existe') haemorrhage population to Madrid, Barcelona and the coasts; the 'España vaciada' (emptied Spain) political movement coalesces around the 2019 general elections demanding rural infrastructure investment; a structural demographic crisis with no equivalent in Western Europe.",
           "tag": "EVENT",
-          "note": "Referendum results: Generalitat de Catalunya, 1 Oct 2017. Constitutional Court ruling (ATC 24/2017): declaring the referendum illegal. Puigdemont's exile in Belgium: Belgian court records. The UN Human Rights Committee ruling (2023): found Spain violated Puigdemont's right to stand for election. Felipe VI's 3 Oct 2017 speech: RTVE archive. The 2021 pardons of imprisoned leaders: BOE 22 Jun 2021."
+          "note": "Population density data: INE (Instituto Nacional de Estadística) census — Soria at 8.8 inhabitants/km² (2021), the lowest in the EU. The 'Teruel Existe' movement: founded 1999, won a Congress seat in November 2019 elections — Junta Electoral Central records. The España vaciada manifesto (31 Mar 2019): published rally in Madrid attended by 100,000 people — documented in press. Camarero (2017), La España rural: the standard sociological study. The 2019–2022 parliamentary platform: documented in Congreso records."
         },
         {
-          "id": "w3",
-          "group": "Epidemic & Demographic",
-          "label": "COVID-19 pandemic — Spain among the worst hit",
-          "date": "Mar 2020–Jun 2021",
-          "loc": "Madrid; Catalonia; Castile-La Mancha (hardest hit)",
+          "id": "w5",
+          "group": "Climate & Environment",
+          "label": "Prestige oil spill — Nunca Máis",
+          "date": "13 Nov 2002",
+          "loc": "Galician coast (Atlantic)",
           "coords": [
-            40.42,
-            -3.71
+            42.5,
+            -8.9
           ],
-          "hint": "Spain is among the first European countries overwhelmed by COVID-19 — Madrid's hospitals collapse in March 2020; Spain declares a state of alarm (14 March), one of Europe's strictest lockdowns; official deaths exceed 120,000 by mid-2021; the pandemic triggers a €140bn EU recovery fund allocation.",
-          "tag": "PLAGUE",
-          "note": "State of alarm decree: Real Decreto 463/2020, BOE 14 Mar 2020. Official death toll: INE and Centro Nacional de Epidemiología data — disputed between official (87,000) and excess mortality estimates (120,000+). EU recovery fund (Plan de Recuperación, Transformación y Resiliencia): BOE and European Commission documentation. The nursing home deaths (residencias de mayores): Defensor del Pueblo inquiry report (2021). The pandemic's political impact: regional competence disputes documented in Constitutional Court records."
+          "hint": "The tanker Prestige sinks off the Galician coast releasing 77,000 tonnes of oil — the worst environmental disaster in Spanish history; the government's delayed response ('the black thread moves away') provokes the Nunca Máis (Never Again) movement and hundreds of thousands of volunteers.",
+          "tag": "CLIMATE",
+          "note": "The sinking: 13 Nov 2002 (split and sank 19 Nov). Official investigation: Ministerio de Fomento records. Environmental damage: documented in Xunta de Galicia and CSIC (Spanish National Research Council) studies. Volunteer numbers: estimated 300,000+ — documented in contemporary press and municipal records. The 'hilo negro' (black thread) quote by Environment Minister Clos: press archive 18 Nov 2002. Criminal proceedings: Tribunal Supremo ruling 2013. The Nunca Máis movement: its manifesto and records archived at Consello da Cultura Galega."
+        },
+        {
+          "id": "w6",
+          "group": "Geopolitical Shift",
+          "label": "Perejil Island Crisis (2002) — Spain's southern frontier",
+          "date": "11–17 Jul 2002",
+          "loc": "Perejil Island (Parsley Island) — Strait of Gibraltar",
+          "coords": [
+            35.92,
+            -5.42
+          ],
+          "hint": "Moroccan troops briefly occupy the tiny uninhabited island of Perejil in the Strait of Gibraltar — Spain responds with military force to expel them (Operation Romeo Sierra); US Secretary of State Powell mediates the resolution; the first post-Cold War territorial military confrontation between a European power and a North African state highlights Spain's unresolved southern geopolitical tensions.",
+          "tag": "EVENT",
+          "note": "The Moroccan occupation 11 Jul 2002: documented in Spanish and Moroccan press. Spain's military response (Operation Romeo Sierra) 17 Jul 2002: Spanish Ministry of Defence official statement. US mediation by Colin Powell: US State Department records. Gillespie (2006), Spain and the Mediterranean: the standard study of Spain-Morocco relations. The crisis's context: Spain's ongoing sovereignty disputes with Morocco (Ceuta, Melilla, Alhucemas) — documented in Foreign Ministry records. The island returns to its undefined status after the crisis — neither sovereign state acknowledges the other's claim."
         },
         {
           "id": "w4",
@@ -667,18 +805,18 @@
           "note": "Turnout estimates: Interior Ministry (650,000 in Madrid alone); organisers (2 million Madrid). National total: 10–11 million (organisers); widely cited as largest protest in Spanish history. Aznar's 'Letter of Eight' (WSJ, 30 Jan 2003): the primary document of his Iraq position. Public opinion: CIS survey Feb 2003 — 91% of Spaniards opposed the war (CIS study 2481). The protest's connection to the 11-M electoral result: argued in press, documented in CIS post-election surveys."
         },
         {
-          "id": "w5",
-          "group": "Climate & Environment",
-          "label": "Prestige oil spill — Nunca Máis",
-          "date": "13 Nov 2002",
-          "loc": "Galician coast (Atlantic)",
+          "id": "w3",
+          "group": "Epidemic & Demographic",
+          "label": "COVID-19 pandemic — Spain among the worst hit",
+          "date": "Mar 2020–Jun 2021",
+          "loc": "Madrid; Catalonia; Castile-La Mancha (hardest hit)",
           "coords": [
-            42.5,
-            -8.9
+            40.42,
+            -3.71
           ],
-          "hint": "The tanker Prestige sinks off the Galician coast releasing 77,000 tonnes of oil — the worst environmental disaster in Spanish history; the government's delayed response ('the black thread moves away') provokes the Nunca Máis (Never Again) movement and hundreds of thousands of volunteers.",
-          "tag": "CLIMATE",
-          "note": "The sinking: 13 Nov 2002 (split and sank 19 Nov). Official investigation: Ministerio de Fomento records. Environmental damage: documented in Xunta de Galicia and CSIC (Spanish National Research Council) studies. Volunteer numbers: estimated 300,000+ — documented in contemporary press and municipal records. The 'hilo negro' (black thread) quote by Environment Minister Clos: press archive 18 Nov 2002. Criminal proceedings: Tribunal Supremo ruling 2013. The Nunca Máis movement: its manifesto and records archived at Consello da Cultura Galega."
+          "hint": "Spain is among the first European countries overwhelmed by COVID-19 — Madrid's hospitals collapse in March 2020; Spain declares a state of alarm (14 March), one of Europe's strictest lockdowns; official deaths exceed 120,000 by mid-2021; the pandemic triggers a €140bn EU recovery fund allocation.",
+          "tag": "PLAGUE",
+          "note": "State of alarm decree: Real Decreto 463/2020, BOE 14 Mar 2020. Official death toll: INE and Centro Nacional de Epidemiología data — disputed between official (87,000) and excess mortality estimates (120,000+). EU recovery fund (Plan de Recuperación, Transformación y Resiliencia): BOE and European Commission documentation. The nursing home deaths (residencias de mayores): Defensor del Pueblo inquiry report (2021). The pandemic's political impact: regional competence disputes documented in Constitutional Court records."
         }
       ]
     },
@@ -692,6 +830,48 @@
       "subtitle": "Gender, sexuality & marginalised experience · evidence anchored · including categorical shifts",
       "entries": [
         {
+          "id": "lv4",
+          "group": "Marginalised Communities",
+          "label": "Romani community — gitanos in democratic Spain",
+          "date": "1978–present",
+          "loc": "Andalusia; Catalonia; Madrid (gitano communities throughout)",
+          "coords": [
+            37.38,
+            -5.99
+          ],
+          "hint": "Spain's 750,000 Romani (gitano) population is the largest in Western Europe — the Constitution forbids ethnic discrimination but structural inequalities are documented in education, housing and employment; the Fundación Secretariado Gitano produces annual reports measuring the gap between legal equality and lived reality.",
+          "tag": "EVIDENCE",
+          "note": "Fundación Secretariado Gitano, Discriminación y Comunidad Gitana: annual reports from 2004 (primary data source). INE population estimates: ~750,000–1 million. The gitano community's legal status under democracy: Constitutional Court jurisprudence on Roma rights. Laparra (2007), La exclusión social en España: the standard academic study. The community's cultural role in flamenco: documented in ethnomusicological literature."
+        },
+        {
+          "id": "lv6",
+          "group": "Enslaved Lives",
+          "label": "Almería greenhouses — the human cost of Spain's agricultural miracle",
+          "date": "c. 1990–present",
+          "loc": "El Ejido; Roquetas de Mar (Almería — 'Sea of Plastic')",
+          "coords": [
+            36.77,
+            -2.81
+          ],
+          "hint": "Tens of thousands of undocumented sub-Saharan African and Moroccan workers sustain the Almería greenhouse economy that supplies much of Europe's winter vegetables — they work in extreme heat with toxic agrochemicals, live in chabolas (makeshift shanties of discarded plastic and wood) without running water or electricity, earning below minimum wage; Europe's largest agricultural labour human rights crisis.",
+          "tag": "EVIDENCE",
+          "note": "The El Ejido riots (February 2000 — attacks by Spanish residents on migrant workers): documented in press and Defensor del Pueblo report. The Almería greenhouse sector economics: INE agricultural statistics — 30,000+ hectares under plastic. Human Rights Watch (2000), Memorandum on Spain and Migrant Workers: the foundational rights report on Almería conditions. Checa (2001), El Ejido, la ciudad-cortijo: the standard sociological study. The chabola communities: documented in Médicos del Mundo and SOS Racismo reports. The Almería model: documented as the direct product of Spain's post-EEC agricultural liberalisation."
+        },
+        {
+          "id": "lv5",
+          "group": "Women's Agency",
+          "label": "Murder of Ana Orantes (1997) — the case that changed Spain",
+          "date": "17 Dec 1997",
+          "loc": "Granada",
+          "coords": [
+            37.18,
+            -3.6
+          ],
+          "hint": "Ana Orantes, 60, goes on Andalusian television (Canal Sur) to recount forty years of domestic abuse — a legal system treating domestic violence as a private matter forces her to share a home with her abuser despite divorce; thirteen days later he burns her alive; the murder shatters Spain's silence on domestic violence and directly triggers the 2004 Comprehensive Law against Gender-Based Violence.",
+          "tag": "CATEGORICAL SHIFT",
+          "note": "Ana Orantes's Canal Sur interview (10 Dec 1997): Canal Sur archive. Her murder 17 Dec 1997: documented in police and judicial records. Her husband José Parejo's conviction: Supreme Court. The 2004 Ley Orgánica de Medidas de Protección Integral contra la Violencia de Género (28 Dec 2004): BOE — explicitly influenced by the Orantes case in parliamentary debate. Bosch et al. (2013), Femicidio/Feminicidio: analyses the Orantes case as the legislative catalyst. This is a CATEGORICAL SHIFT: the Orantes murder transforms domestic violence from a private family matter into a public constitutional emergency in Spanish law."
+        },
+        {
           "id": "lv1",
           "group": "Same-Sex Practice & Law",
           "label": "Same-sex marriage legalised — 2005",
@@ -704,6 +884,20 @@
           "hint": "Spain legalises same-sex marriage on 30 June 2005 — the third country in the world after the Netherlands and Belgium; Prime Minister Zapatero explicitly frames it as completing the democratic revolution begun in 1978; the Constitutional Court upholds it in 2012.",
           "tag": "CATEGORICAL SHIFT",
           "note": "Ley 13/2005: BOE 2 Jul 2005 — the law text. The Congressional vote (30 Apr 2005): 183 in favour, 136 against — Diario de Sesiones del Congreso. Constitutional Court Ruling STC 198/2012 (6 Nov 2012): upholds the law 8–3. Spain was the third country globally and the first majority-Catholic country. The law's social context: CIS (Centro de Investigaciones Sociológicas) surveys document public opinion shifts 1985–2005."
+        },
+        {
+          "id": "lv7",
+          "group": "Marginalised Communities",
+          "label": "Mileuristas — Spain's precarious educated generation",
+          "date": "2005–present",
+          "loc": "Spain (nationwide; Madrid and Barcelona most acute)",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "In 2005 a letter to El País coins 'mileurista' — a highly educated, multilingual graduate trapped in precarious temporary contracts earning barely €1,000/month; the 2008 crash sends youth unemployment past 55%; the 'lost generation' is defined by delayed independence, declining birth rates, and mass emigration of Spain's most educated youth to northern Europe.",
+          "tag": "EVIDENCE",
+          "note": "The mileurista letter (El País, 21 Aug 2005): El País archive — the coinage by Carolina Alguacil. Youth unemployment statistics (2013 peak, 55.7%): Eurostat — the highest in the EU at the time. The emigration data: INE Estadística de Variaciones Residenciales — documented surge of 25–34 year olds to Germany, UK, France 2008–2015. Muñoz Molina (2013), Todo lo que era sólido: a literary primary source on generational precarity. The housing affordability crisis entry (s3) documents the structural continuation of mileurista precarity."
         },
         {
           "id": "lv2",
@@ -734,111 +928,60 @@
           "note": "Ley 4/2023: BOE 2 Mar 2023. The congressional vote (188 in favour, 150 against, 12 abstentions): Diario de Sesiones, 16 Feb 2023. The internal PSOE debate: documented in party records and press. The contrasting debate between trans rights advocates and some feminist groups: documented in El País and Público archives 2020–2023. This is a CATEGORICAL SHIFT: from medicalised gender identity to self-declaration."
         },
         {
-          "id": "lv4",
-          "group": "Marginalised Communities",
-          "label": "Romani community — gitanos in democratic Spain",
-          "date": "1978–present",
-          "loc": "Andalusia; Catalonia; Madrid (gitano communities throughout)",
-          "coords": [
-            37.38,
-            -5.99
-          ],
-          "hint": "Spain's 750,000 Romani (gitano) population is the largest in Western Europe — the Constitution forbids ethnic discrimination but structural inequalities are documented in education, housing and employment; the Fundación Secretariado Gitano produces annual reports measuring the gap between legal equality and lived reality.",
-          "tag": "EVIDENCE",
-          "note": "Fundación Secretariado Gitano, Discriminación y Comunidad Gitana: annual reports from 2004 (primary data source). INE population estimates: ~750,000–1 million. The gitano community's legal status under democracy: Constitutional Court jurisprudence on Roma rights. Laparra (2007), La exclusión social en España: the standard academic study. The community's cultural role in flamenco: documented in ethnomusicological literature."
-        },
-        {
-          "id": "lv5",
-          "group": "Women's Agency",
-          "label": "Murder of Ana Orantes (1997) — the case that changed Spain",
-          "date": "17 Dec 1997",
-          "loc": "Granada",
-          "coords": [
-            37.18,
-            -3.6
-          ],
-          "hint": "Ana Orantes, 60, goes on Andalusian television (Canal Sur) to recount forty years of domestic abuse — a legal system treating domestic violence as a private matter forces her to share a home with her abuser despite divorce; thirteen days later he burns her alive; the murder shatters Spain's silence on domestic violence and directly triggers the 2004 Comprehensive Law against Gender-Based Violence.",
-          "tag": "CATEGORICAL SHIFT",
-          "note": "Ana Orantes's Canal Sur interview (10 Dec 1997): Canal Sur archive. Her murder 17 Dec 1997: documented in police and judicial records. Her husband José Parejo's conviction: Supreme Court. The 2004 Ley Orgánica de Medidas de Protección Integral contra la Violencia de Género (28 Dec 2004): BOE — explicitly influenced by the Orantes case in parliamentary debate. Bosch et al. (2013), Femicidio/Feminicidio: analyses the Orantes case as the legislative catalyst. This is a CATEGORICAL SHIFT: the Orantes murder transforms domestic violence from a private family matter into a public constitutional emergency in Spanish law."
-        },
-        {
-          "id": "lv6",
-          "group": "Enslaved Lives",
-          "label": "Almería greenhouses — the human cost of Spain's agricultural miracle",
-          "date": "c. 1990–present",
-          "loc": "El Ejido; Roquetas de Mar (Almería — 'Sea of Plastic')",
-          "coords": [
-            36.77,
-            -2.81
-          ],
-          "hint": "Tens of thousands of undocumented sub-Saharan African and Moroccan workers sustain the Almería greenhouse economy that supplies much of Europe's winter vegetables — they work in extreme heat with toxic agrochemicals, live in chabolas (makeshift shanties of discarded plastic and wood) without running water or electricity, earning below minimum wage; Europe's largest agricultural labour human rights crisis.",
-          "tag": "EVIDENCE",
-          "note": "The El Ejido riots (February 2000 — attacks by Spanish residents on migrant workers): documented in press and Defensor del Pueblo report. The Almería greenhouse sector economics: INE agricultural statistics — 30,000+ hectares under plastic. Human Rights Watch (2000), Memorandum on Spain and Migrant Workers: the foundational rights report on Almería conditions. Checa (2001), El Ejido, la ciudad-cortijo: the standard sociological study. The chabola communities: documented in Médicos del Mundo and SOS Racismo reports. The Almería model: documented as the direct product of Spain's post-EEC agricultural liberalisation."
-        },
-        {
-          "id": "lv7",
-          "group": "Marginalised Communities",
-          "label": "Mileuristas — Spain's precarious educated generation",
-          "date": "2005–present",
-          "loc": "Spain (nationwide; Madrid and Barcelona most acute)",
+          "id": "lv8",
+          "group": "Same-Sex Practice & Law",
+          "label": "La Veneno and Pedro Zerolo — visibility and the politics of LGBTQ+ identity",
+          "date": "1990s–2010s",
+          "loc": "Madrid",
           "coords": [
             40.42,
             -3.71
           ],
-          "hint": "In 2005 a letter to El País coins 'mileurista' — a highly educated, multilingual graduate trapped in precarious temporary contracts earning barely €1,000/month; the 2008 crash sends youth unemployment past 55%; the 'lost generation' is defined by delayed independence, declining birth rates, and mass emigration of Spain's most educated youth to northern Europe.",
+          "hint": "Cristina Ortiz 'La Veneno' — a transgender sex worker from Adra (Almería) who becomes a television celebrity on late-night talk shows in 1996 — is the first trans figure with mass popular visibility in Spain; Pedro Zerolo (PSOE councillor, grandson of a Canarian Republican exile) is the architect of Spain's 2005 same-sex marriage law and the face of its parliamentary campaign; both embody the transition from marginalisation to legal recognition.",
           "tag": "EVIDENCE",
-          "note": "The mileurista letter (El País, 21 Aug 2005): El País archive — the coinage by Carolina Alguacil. Youth unemployment statistics (2013 peak, 55.7%): Eurostat — the highest in the EU at the time. The emigration data: INE Estadística de Variaciones Residenciales — documented surge of 25–34 year olds to Germany, UK, France 2008–2015. Muñoz Molina (2013), Todo lo que era sólido: a literary primary source on generational precarity. The housing affordability crisis entry (s3) documents the structural continuation of mileurista precarity."
+          "note": "La Veneno's first television appearance: Esta noche cruzamos el Mississipi (Telecinco, 1996) — documented in TVE and Telecinco archives. Her biography: Valeria Vegas (2016), Libérate: the primary biographical account. Her death 5 Nov 2016: documented. The TV series Veneno (Atresplayer, 2020): documentary-drama that restored her legacy. Pedro Zerolo's parliamentary role in the same-sex marriage law (Ley 13/2005): Congreso de los Diputados debates — his speech of 30 June 2005. Zerolo's death 9 Jun 2015 (cancer): documented. These two figures together document the arc from criminalization to constitutional protection."
         }
       ]
     }
   ],
   "timeline": [
     {
-      "id": "transition",
+      "id": "bourbon-kings",
       "icon": "⚜️",
-      "accent": "#2471A3",
-      "label": "Bourbon Restoration (1975–1982)",
+      "accent": "#3A1A8B",
+      "label": "Bourbon Restoration",
       "events": [
         {
           "y": 1975,
-          "y2": 1982,
-          "l": "Juan Carlos I — Transition architect",
-          "entryId": "k1"
-        },
-        {
-          "y": 1976,
-          "y2": 1981,
-          "l": "Adolfo Suárez — first PM",
-          "entryId": "k3"
-        }
-      ]
-    },
-    {
-      "id": "democracy",
-      "icon": "⚜️",
-      "accent": "#1A5276",
-      "label": "Bourbon Constitutional (1982–today)",
-      "events": [
-        {
-          "y": 1982,
           "y2": 2014,
-          "l": "Juan Carlos I — constitutional king",
+          "l": "Juan Carlos I (1975–2014)",
           "entryId": "k1"
         },
         {
           "y": 2014,
-          "y2": 2025,
-          "l": "Felipe VI",
+          "l": "Felipe VI accedes",
           "entryId": "k2"
         }
       ]
     },
     {
-      "id": "governments",
+      "id": "prime-ministers",
       "icon": "⚜️",
-      "accent": "#1A5276",
-      "label": "Governments",
+      "accent": "#2A0A7B",
+      "label": "Prime Ministers",
       "events": [
+        {
+          "y": 1976,
+          "y2": 1981,
+          "l": "Suárez (UCD)",
+          "entryId": "k3"
+        },
+        {
+          "y": 1981,
+          "y2": 1982,
+          "l": "Calvo-Sotelo (UCD)",
+          "entryId": "k10"
+        },
         {
           "y": 1982,
           "y2": 1996,
@@ -865,7 +1008,6 @@
         },
         {
           "y": 2018,
-          "y2": 2025,
           "l": "Sánchez (PSOE)",
           "entryId": "k8"
         }
@@ -895,6 +1037,16 @@
           "y": 2011,
           "l": "15-M Indignados — Sol occupied",
           "entryId": "c5"
+        },
+        {
+          "y": 2017,
+          "l": "Catalan independence crisis",
+          "entryId": "c8"
+        },
+        {
+          "y": 2018,
+          "l": "ETA formally dissolves",
+          "entryId": "c7"
         }
       ]
     },
@@ -968,14 +1120,24 @@
       ]
     },
     {
-      "id": "subsistence",
+      "id": "economy",
       "icon": "🌾",
       "accent": "#8B5E00",
       "events": [
         {
+          "y": 1983,
+          "l": "Reconversión Industrial — dismantling heavy industry",
+          "entryId": "s4"
+        },
+        {
           "y": 1986,
           "l": "EU accession — structural funds",
           "entryId": "s1"
+        },
+        {
+          "y": 2002,
+          "l": "Euro replaces the peseta",
+          "entryId": "s5"
         },
         {
           "y": 2008,
@@ -1001,8 +1163,8 @@
         },
         {
           "y": 1986,
-          "l": "EU accession",
-          "entryId": "s1"
+          "l": "EU Cohesion Funds — infrastructure of integration",
+          "entryId": "ex4"
         },
         {
           "y": 1992,
@@ -1022,9 +1184,14 @@
       "accent": "#2471A3",
       "events": [
         {
-          "y": 2017,
-          "l": "Catalan independence crisis",
-          "entryId": "w1"
+          "y": 2002,
+          "l": "Prestige oil spill — Nunca Máis",
+          "entryId": "w5"
+        },
+        {
+          "y": 2002,
+          "l": "Perejil Island Crisis — southern frontier tension",
+          "entryId": "w6"
         },
         {
           "y": 2003,
@@ -1032,9 +1199,9 @@
           "entryId": "w4"
         },
         {
-          "y": 2002,
-          "l": "Prestige oil spill — Nunca Máis",
-          "entryId": "w5"
+          "y": 2019,
+          "l": "España vaciada movement — rural depopulation",
+          "entryId": "w7"
         },
         {
           "y": 2020,
@@ -1054,6 +1221,11 @@
           "entryId": "lv1"
         },
         {
+          "y": 1996,
+          "l": "La Veneno — first trans visibility on Spanish TV",
+          "entryId": "lv8"
+        },
+        {
           "y": 1997,
           "l": "Murder of Ana Orantes — triggers gender violence law",
           "entryId": "lv5"
@@ -1062,11 +1234,6 @@
           "y": 2000,
           "l": "Almería greenhouses — migrant labour crisis",
           "entryId": "lv6"
-        },
-        {
-          "y": 2005,
-          "l": "Same-sex marriage legalised",
-          "entryId": "lv1"
         },
         {
           "y": 2005,
@@ -1082,6 +1249,23 @@
           "y": 2023,
           "l": "Trans Law — self-declaration",
           "entryId": "lv3"
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "icon": "⚙️",
+      "accent": "#2E86AB",
+      "events": [
+        {
+          "y": 2000,
+          "l": "Renewable energy expansion begins",
+          "entryId": "te1"
+        },
+        {
+          "y": 2008,
+          "l": "Severo Ochoa centres — scientific excellence",
+          "entryId": "te2"
         }
       ]
     }
