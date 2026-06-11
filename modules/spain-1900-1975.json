@@ -1070,6 +1070,20 @@
       "subtitle": "Spain in its 20th-century European and global context",
       "entries": [
         {
+          "id": "w7",
+          "group": "Geopolitical Shift",
+          "label": "World War I — Spain neutral, economically transformed",
+          "date": "1914–1918",
+          "loc": "Spain (neutral throughout)",
+          "coords": [
+            40.42,
+            -3.71
+          ],
+          "hint": "Spain remains neutral throughout WWI — the last major European war in which it takes no part; neutrality brings an economic windfall (Spanish exports to both sides boom) but also social disruption; the war accelerates industrialisation in Catalonia and the Basque Country, deepens regional inequality, and radicalises the labour movement; the post-war crisis of 1917–1923 flows directly from wartime strains.",
+          "tag": "EVENT",
+          "note": "Spain's formal neutrality declaration August 1914: Gaceta de Madrid. The export boom: Banco de Espana statistics 1914-1918 -- documented. The 1917 crisis (general strike + military juntas + Catalan assembly simultaneously): AHN and press (La Vanguardia, ABC -- BNE Hemeroteca). Ben-Ami (1983), The Origins of the Second Republic in Spain: analyses WWI's role in destabilising the Restoration system. Harrison (1985), The Spanish Economy in the Twentieth Century, ch.4: quantifies the wartime economic transformation."
+        },
+        {
           "id": "w3",
           "group": "Geopolitical Shift",
           "label": "Disaster of Annual (1921) — Morocco annihilates a Spanish army",
@@ -1396,6 +1410,38 @@
           "y2": 1975,
           "l": "Franco — head of state",
           "entryId": "k5"
+        }
+      ]
+    },
+    {
+      "id": "wars",
+      "icon": "⚔️",
+      "accent": "#7B2D2D",
+      "label": "Wars",
+      "events": [
+        {
+          "y": 1909,
+          "y2": 1927,
+          "l": "Moroccan / Rif campaigns",
+          "entryId": "c9"
+        },
+        {
+          "y": 1914,
+          "y2": 1918,
+          "l": "World War I (Spain neutral)",
+          "entryId": "w7"
+        },
+        {
+          "y": 1936,
+          "y2": 1939,
+          "l": "Spanish Civil War",
+          "entryId": "c1"
+        },
+        {
+          "y": 1939,
+          "y2": 1945,
+          "l": "World War II (non-belligerent)",
+          "entryId": "w1"
         }
       ]
     },
@@ -1750,6 +1796,11 @@
       "icon": "🌍",
       "accent": "#2471A3",
       "events": [
+        {
+          "y": 1914,
+          "l": "WWI — Spain neutral, economically transformed",
+          "entryId": "w7"
+        },
         {
           "y": 1921,
           "l": "Disaster of Annual — 13,000 Spanish soldiers lost",
