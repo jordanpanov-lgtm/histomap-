@@ -1054,6 +1054,20 @@
       "subtitle": "Gender, sexuality & marginalised experience · evidence anchored · including categorical shifts",
       "entries": [
         {
+          "id": "lv10",
+          "group": "Same-Sex Practice & Law",
+          "label": "Jose Perez Ocana -- street drag, anarchism and the first protest against the Ley de Peligrosidad (1977)",
+          "date": "1977-1983",
+          "loc": "Barcelona (Las Ramblas; Placa Reial; Park Guell)",
+          "coords": [
+            41.38,
+            2.18
+          ],
+          "hint": "Jose Perez Ocana, an Andalusian painter who moves to Barcelona around 1971, becomes the central figure of Las Ramblas' emerging counterculture -- performing in drag daily, fusing Andalusian religious imagery with flamboyant theatricality; he leads the first public demonstration against the Ley de Peligrosidad Social at the 1977 Jornadas Libertarias in Park Guell; Ventura Pons's 1978 documentary Ocana, retrat intermitent captures him discussing the law directly; he dies in 1983 when his costume catches fire during a performance, aged 36. He sits at the earliest point of the queer visibility arc this folio documents, two decades before La Veneno's television breakthrough.",
+          "tag": "EVIDENCE",
+          "note": "Ventura Pons, Ocana, retrat intermitent (1978): extant documentary, Cannes selection -- the primary visual record, includes Ocana discussing the Ley de Peligrosidad Social directly. The 1977 Jornadas Libertarias (CNT, Park Guell): documented in contemporary press and Pons's film. MACBA holds over 200 surviving paintings and papier-mache sculptures -- the primary material collection. Centro de Interpretacion Ocana, Cantillana (opened 2018): institutional documentation of his life and work. His death 18 Sep 1983 (costume fire during a performance in Seville): documented in press. Preciado (2023), 'The Ocana We Deserve', Stedelijk Studies: the standard critical reassessment."
+        },
+        {
           "id": "lv4",
           "group": "Marginalised Communities",
           "label": "Romani community — gitanos in democratic Spain",
@@ -1596,6 +1610,11 @@
       "icon": "🪞",
       "accent": "#7B4FA6",
       "events": [
+        {
+          "y": 1977,
+          "l": "Ocana -- street drag, first protest vs Ley de Peligrosidad",
+          "entryId": "lv10"
+        },
         {
           "y": 1979,
           "l": "Homosexuality decriminalised",

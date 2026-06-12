@@ -1319,6 +1319,20 @@
           "note": "Boix's Nuremberg testimony (29 Jan 1946): International Military Tribunal records (Avalon Project, Yale Law School) -- primary. His photographs: held at the Museu Nacional d'Art de Catalunya (MNAC) and the Amical de Mauthausen archive. The 7,000 Spanish deportees: documented in the Triangulo Azul project (Universidad de Salamanca). Pons Prades (1974), Republicanos espanoles en la Segunda Guerra Mundial: the first comprehensive study. Bermejo (2002), Francesc Boix, el fotografo de Mauthausen: the standard biography."
         },
         {
+          "id": "lv12",
+          "group": "Same-Sex Practice & Law",
+          "label": "Florencio Pla Meseguer 'La Pastora' — intersex maquis, 1917-2004",
+          "date": "1947-1960",
+          "loc": "Vallibona, Castellon (born); AGLA maquis territory, Els Ports/Maestrat",
+          "coords": [
+            40.45,
+            -0.13
+          ],
+          "hint": "Born intersex in 1917 and registered as 'Teresa' by his father (partly to avoid military service), Florencio Pla Meseguer is raped by Guardia Civil agents in 1947 while working as a shepherd; he flees to the mountains and joins the AGLA maquis, where he adopts the name Florencio, cuts his hair and dresses as a man for the first time. After three years' solitary survival in a cave he is arrested in Andorra in 1960, sentenced to death (commuted to 30 years), and imprisoned in a WOMEN's facility for 18 years despite his lived male identity -- a direct CATEGORICAL SHIFT between assigned, lived and legally recognised identity. Released under the 1977 amnesty, in 1987 he secures legal recognition as male in the Civil Registry.",
+          "tag": "CATEGORICAL SHIFT",
+          "note": "Calvo Segarra, La pastora, del monte al mito (2011): the standard biography, based on AGLA records and interviews. The 1987 Civil Registry correction: documented -- Florencio specifically pursued this after release. Elena Solanas (niece), Florencio Pla 'La Pastora': la dignitat robada (Sembra Llibres, 2023): family archive and oral history. AGLA (Agrupacion Guerrillera de Levante y Aragon) unit records: Archivo Historico, partial declassification. The 1960 Andorra arrest and extradition: documented in Spanish judicial records (Audiencia de Castellon). His imprisonment in a women's facility 1960-1978: the central documented injustice -- AHN penitentiary records. Villar Raso, La pastora: el maqui hermafrodita (1978): the first (sensationalised) account, contrasted by later scholarship."
+        },
+        {
           "id": "lv2",
           "group": "Same-Sex Practice & Law",
           "label": "Ley de Vagos y Maleantes — criminalisation of homosexuality",
@@ -1891,6 +1905,11 @@
           "y": 1940,
           "l": "Boix — Spanish Republicans in Mauthausen",
           "entryId": "lv8"
+        },
+        {
+          "y": 1947,
+          "l": "La Pastora -- intersex maquis, CATEGORICAL SHIFT",
+          "entryId": "lv12"
         },
         {
           "y": 1954,
