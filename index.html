@@ -112,9 +112,9 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
 
 /* ── TIMELINE ── */
 #timeline-view{display:none}
-#timeline-scroll{padding:16px 20px 20px;background:#faf9f6;border-bottom:1px solid #e8e0d0}
+#timeline-scroll{padding:16px 20px 20px;background:#faf9f6;border-bottom:1px solid #e8e0d0;overflow-x:auto;-webkit-overflow-scrolling:touch}
 #tl-label{font-size:9px;color:#bbb;font-family:'Courier New',monospace;letter-spacing:.12em;margin-bottom:8px}
-#tl-svg{display:block;width:100%;height:auto}
+#tl-svg{display:block;}
 
 /* ── LIST ── */
 #list-view{display:none}
@@ -1014,13 +1014,14 @@ function buildTimeline() {
   if (!MOD) return;
   const svg  = document.getElementById('tl-svg');
   const wrap = document.getElementById('timeline-scroll');
-  const W = 1200;  // wider logical space gives labels more room
   const lanes = MOD.timeline;
   const MIN = MOD.period.start, MAX = MOD.period.end;
-  // Label width: measure longest label to avoid overflow
+  // Label width in real pixels
   const longestLabel = Math.max(...lanes.map(l => (l.label || l.id).length));
-  const LW = Math.min(220, Math.max(120, longestLabel * 7));
-  const GAP = 2;
+  const LW = Math.min(200, Math.max(110, longestLabel * 8));
+  const GAP = 3;
+  // Fixed pixel canvas — scroll horizontally if needed
+  const W = Math.max(wrap.clientWidth || 900, 1100);
 
   // ── For the POWER lane, compute non-overlapping row layout ──
   // Each lane gets its own sub-row structure
@@ -1046,8 +1047,8 @@ function buildTimeline() {
   });
 
   // Compute Y offsets per lane
-  const ROW_H = 18; // height per sub-row
-  const LANE_PAD = 4; // top/bottom padding per lane
+  const ROW_H = 22; // height per sub-row (real pixels)
+  const LANE_PAD = 5; // top/bottom padding per lane
   let laneOffsets = [];
   let y = 0;
   laneLayouts.forEach(ll => {
@@ -1056,10 +1057,10 @@ function buildTimeline() {
   });
   const H = y + 22; // +22 for year axis at bottom
 
-  svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
-  svg.setAttribute('preserveAspectRatio', 'xMinYMin meet');
-  svg.removeAttribute('width');
-  svg.removeAttribute('height');
+  svg.setAttribute('width', W);
+  svg.setAttribute('height', H);
+  svg.removeAttribute('viewBox');
+  svg.removeAttribute('preserveAspectRatio');
   svg.innerHTML = '';
 
   const TPAD = (MAX - MIN) * 0.02; // 2% padding each side so boundary events aren't clipped
@@ -1076,7 +1077,7 @@ function buildTimeline() {
     svg.appendChild(l);
     const t = document.createElementNS('http://www.w3.org/2000/svg','text');
     t.setAttribute('x',x); t.setAttribute('y',H-4); t.setAttribute('text-anchor','middle');
-    t.setAttribute('font-size','8'); t.setAttribute('fill','#bbb'); t.setAttribute('font-family',"'Courier New',monospace");
+    t.setAttribute('font-size','11'); t.setAttribute('fill','#bbb'); t.setAttribute('font-family',"'Courier New',monospace");
     t.textContent = yr; svg.appendChild(t);
   });
 
@@ -1107,7 +1108,7 @@ function buildTimeline() {
     const ltext = lane.label || (catMeta && catMeta.label) || lane.id.replace(/-/g,' ').toUpperCase();
     const lt = document.createElementNS('http://www.w3.org/2000/svg','text');
     lt.setAttribute('x','4'); lt.setAttribute('y', ty + laneH/2 + 4);
-    lt.setAttribute('font-size','9'); lt.setAttribute('fill', lane.accent);
+    lt.setAttribute('font-size','12'); lt.setAttribute('fill', lane.accent);
     lt.setAttribute('font-family',"'Courier New',monospace"); lt.setAttribute('font-weight','600');
     lt.textContent = licon + ' ' + ltext;
     svg.appendChild(lt);
@@ -1144,7 +1145,7 @@ function buildTimeline() {
         if (x2-x1 > 24) {
           const rt = document.createElementNS('http://www.w3.org/2000/svg','text');
           rt.setAttribute('x', x1+4); rt.setAttribute('y', rowY + ROW_H/2 + 3.5);
-          rt.setAttribute('font-size','7'); rt.setAttribute('fill', lane.accent);
+          rt.setAttribute('font-size','10'); rt.setAttribute('fill', lane.accent);
           rt.setAttribute('font-family',"'Courier New',monospace"); rt.textContent = ev.l;
           rt.style.pointerEvents = 'none';
           svg.appendChild(rt);
@@ -1307,7 +1308,7 @@ window.addEventListener('load', () => {
   // so the initial render is not blocked
   setTimeout(buildSearchIndex, 1500);
 });
-window.addEventListener('resize', () => { /* viewBox scales automatically */ });
+window.addEventListener('resize', () => { if (currentView==='timeline') buildTimeline(); });
 </script>
 </body>
 </html>
