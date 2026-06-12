@@ -207,6 +207,20 @@
           "note": "Council of Troubles records: Algemeen Rijksarchief, Brussels -- over 12,000 cases documented. The executions of Egmont and Hoorne (5 Jun 1568): documented contemporary accounts, became iconic martyrdom images in Dutch propaganda. Alba's own correspondence with Philip II: AGS Estado -- documents his methods and the king's instructions. Parker (1977), The Dutch Revolt: the standard study of how Alba's repression backfired. The 'Black Legend' literature: Apologie of William of Orange (1581) explicitly uses Alba as its central villain -- BNE holds period editions."
         },
         {
+          "id": "c16",
+          "group": "European Wars",
+          "label": "The Spanish Road -- Europe's logistical masterpiece",
+          "date": "1567-1633",
+          "loc": "Milan to Flanders, via Franche-Comte and Lorraine",
+          "coords": [
+            45.46,
+            9.19
+          ],
+          "hint": "The Spanish Road (Camino Espanol) is the overland supply route by which Spain moves troops, silver and supplies from its Italian possessions (Milan) to the army fighting in Flanders (entry c7) -- carefully routed through friendly or neutral territory (Savoy, Franche-Comte, Lorraine) to avoid hostile France; the Duke of Alba's army marches this route in 1567 (entry c10) to crush the Dutch revolt, and the route remains in use until growing French control of the corridor and the 1633 death of the Duchess of Savoy force a shift to maritime supply via the Atlantic -- a logistical achievement enabling Spain to project military power across the length of Europe for over six decades.",
+          "tag": "MIGRATION",
+          "note": "Alba's 1567 march (10,000 troops, Milan to Brussels in under six weeks): documented in Spanish and Franche-Comte municipal records of troop passage and provisioning. Parker (1972), The Army of Flanders and the Spanish Road 1567-1659: the standard and definitive study, using Spanish military pay and supply records (AGS, Guerra). The route's closure by the 1630s (French annexation of key passes): documented in the same Parker study. The connection to Rocroi (entry c13, 1643) and the broader Franco-Spanish War: the Spanish Road's closure is a direct precondition for the military difficulties culminating at Rocroi."
+        },
+        {
           "id": "c7",
           "group": "European Wars",
           "label": "Eighty Years' War — the Flanders swamp that bled Spain dry",
@@ -263,6 +277,20 @@
           "note": "Philip II's planning documents: AGS Guerra Antigua — the most detailed surviving record of a pre-modern naval expedition's logistics. The Armada's casualty list: compiled from AGS by Mattingly (1959), The Armada. Wreck archaeology: multiple sites off the Irish coast, excavated 1968–present (Ulster Museum, Belfast). Philip II's letter on the defeat: AGS Estado — 'I sent the fleet against men, not storms.'"
         },
         {
+          "id": "c15",
+          "group": "European Wars",
+          "label": "Twelve Years' Truce (1609) — de facto recognition of the Dutch Republic",
+          "date": "9 Apr 1609",
+          "loc": "Antwerp (signed)",
+          "coords": [
+            51.22,
+            4.4
+          ],
+          "hint": "The Twelve Years' Truce (1609) suspends the Eighty Years' War -- during this period the Dutch VOC (chartered 1602) expands aggressively in Asia at Portuguese expense. The Dutch West India Company (WIC), responsible for the later military campaigns and conquests in Brazil (Salvador da Bahia 1624, Pernambuco 1630), is not chartered until 1621 -- precisely when the Truce expires and war resumes; Brazil's Dutch conquest is therefore a consequence of the Truce's END, not a benefit Spain granted during it.",
+          "tag": "EVENT",
+          "note": "Twelve Years' Truce 9 Apr 1609: Archives des Affaires Étrangères and Nationaal Archief (Den Haag). The Dutch VOC (Asia, during the Truce) and separately the WIC (chartered 1621, Brazil campaigns after the Truce's expiry)'s Asian expansion during the truce: documented in VOC (Asia, during the Truce) and separately the WIC (chartered 1621, Brazil campaigns after the Truce's expiry) records (Nationaal Archief). Israel (1982), The Dutch Republic and the Hispanic World 1606–1661: the standard study. The Spanish debate over the truce: documented in the Consejo de Estado minutes (AGS Estado) — Lerma vs. the hawks. The truce is simultaneously Spain's greatest diplomatic humiliation and a temporary necessity for fiscal recovery."
+        },
+        {
           "id": "c5",
           "group": "European Wars",
           "label": "Thirty Years War and Peace of Westphalia (1648)",
@@ -317,6 +345,20 @@
           "hint": "At Rocroi, the young Duc d'Enghien (later the Great Conde) destroys the Spanish Army of Flanders -- the Spanish tercios, for over a century considered Europe's finest infantry, are annihilated, with the Tercio Viejo de Cartagena fighting to near-total destruction rather than surrender; news of the defeat reaches Madrid days after Olivares's fall, and Rocroi becomes, in subsequent French and Spanish historiography alike, the symbolic end of Spanish military supremacy -- though Spain fights on for sixteen more years until the Peace of the Pyrenees (entry w3).",
           "tag": "BATTLE",
           "note": "Battle of Rocroi 19 May 1643: AGS Guerra -- Spanish casualty figures (c.7,000 of c.17,000 engaged) documented alongside French accounts. The Tercio Viejo de Cartagena's last stand: documented in both Spanish and French regimental histories -- its colours were reportedly captured only after the unit was annihilated. Quatrefages (1979), Los tercios espanoles: the standard study of the tercio system's decline. The symbolic 'end of an era' framing: explicitly constructed in 19th-century French historiography (Rocroi as the birth of French military glory under Louis XIV) -- a useful case of myth-making worth noting alongside the factual defeat."
+        },
+        {
+          "id": "c14",
+          "group": "European Wars",
+          "label": "Treaty of the Pyrenees — the real transfer of hegemony to France",
+          "date": "7 Nov 1659",
+          "loc": "Isle of Pheasants (border island, Bidasoa river)",
+          "coords": [
+            43.36,
+            -1.77
+          ],
+          "hint": "Spain's war with France continues for 11 years after Westphalia (1648) -- the Treaty of the Pyrenees (1659) ends the Franco-Spanish War (entry c13, the wars-lane span) with Spain ceding Roussillon (northern Catalonia) and Artois to Louis XIV; the Infanta Maria Teresa's marriage to Louis XIV (with a renounced but later contested inheritance claim) becomes the pretext for the War of Spanish Succession four decades later -- the treaty that ends one war plants the seed of the next folio's opening conflict.",
+          "tag": "EVENT",
+          "note": "Treaty of the Pyrenees 7 Nov 1659: Archives des Affaires Étrangères (La Courneuve) and AGS Estado. The signing location (Isle of Pheasants, a condominium of France and Spain): documented. The cession of Roussillon: text in the treaty. The María Teresa marriage clause: Article 33 — her renunciation of Spanish succession rights (later contested by Louis XIV). Lynn (1999), The Wars of Louis XIV ch.2. The connection to the spain-1610-1715 folio: this treaty is also covered from the French perspective. The Maria Teresa marriage clause's later relevance: directly connects to the War of Spanish Succession (1701-1714, entry c1 in the next folio, spain-1700-1808) -- Philip V's claim derives from this 1659/1660 marriage."
         }
       ]
     },
@@ -766,6 +808,20 @@
           "note": "Mesta privileges and canada routes: Archivo de la Mesta (now in AHN). Klein (1920), The Mesta: A Study in Spanish Economic History 1273-1836: the standard English study. Tasa del Trigo: first systematic price ceiling under Philip II, repeatedly adjusted -- AGS, Consejo de Hacienda. Baltic grain imports to Spain by the 1600s: documented in Casa de Contratacion and northern port customs records. Vassberg (1984), Land and Society in Golden Age Castile: the standard study connecting Mesta privilege and grain price controls as a single structural problem, directly anticipating the arbitristas' diagnosis (entry t7)."
         },
         {
+          "id": "s6",
+          "group": "Demography",
+          "label": "Seville's boom and rural Castile's depopulation -- one redistribution",
+          "date": "1500-1600",
+          "loc": "Seville (destination); rural Castile (source)",
+          "coords": [
+            39.5,
+            -4.5
+          ],
+          "hint": "While the Mesta/Tasa del Trigo combination (entry s4) drains rural Castile of agricultural labour and the plague (entry s5) compounds rural depopulation, Seville's population roughly quadruples between 1500 and c.150,000+ by 1600 -- becoming the largest city in Spain and, briefly, one of the largest in Europe. This is not two separate stories but one: the empire's wealth and opportunity concentrate in a single port city while the agricultural interior empties -- a redistribution of population that the arbitristas (entry t7) identify as a structural symptom, decades before modern demographers had the tools to confirm it from parish records.",
+          "tag": "Demography",
+          "note": "Seville population growth (c.60,000 in 1500 to c.150,000+ by 1600): Archivo Municipal de Sevilla census records. Vassberg (1984), Land and Society in Golden Age Castile: documents the corresponding rural depopulation through parish and seigneurial records. Nadal (1984), La poblacion espanola: the standard population history connecting urban growth and rural decline as a single redistributive phenomenon. The arbitristas' contemporary diagnosis (Cellorigo 1600, entry t7) explicitly identifies rural-to-urban migration as a cause of agricultural decline -- a remarkably modern structural observation three centuries before urbanisation theory."
+        },
+        {
           "id": "s1",
           "group": "Trade & Commerce",
           "label": "Silver from Potosí — the engine of the world economy",
@@ -832,6 +888,48 @@
       "bg": "#F0F8FF",
       "subtitle": "Science, engineering and material innovation",
       "entries": [
+        {
+          "id": "te2",
+          "group": "Cartography & Navigation",
+          "label": "The Padron Real and Spanish navigational science",
+          "date": "1508 (Padron Real established); 1545 (Medina's Arte de Navegar)",
+          "loc": "Seville (Casa de Contratacion)",
+          "coords": [
+            37.39,
+            -5.99
+          ],
+          "hint": "The Casa de Contratacion (entry ex4) maintains the Padron Real -- a continuously updated master map incorporating data from every returning pilot, kept secret as a state asset; Pedro de Medina's Arte de Navegar (1545) and Martin Cortes's Breve compendio de la esfera (1551) systematise dead-reckoning navigation and are translated into English within decades -- Cortes's work becomes the standard English navigational manual (as 'The Arte of Navigation', 1561), meaning English navigators who later raid Spanish shipping learn their craft from Spanish textbooks.",
+          "tag": "INVENTION",
+          "note": "Padron Real: documented in Casa de Contratacion administrative records (AGI). Pedro de Medina, Arte de Navegar (1545, Valladolid): BNE. Martin Cortes, Breve compendio de la esfera (1551, Seville): BNE; English translation by Richard Eden (1561) used as the Royal Navy's standard text into the 17th century -- documented in English naval education records. Sandman (2007), 'Spanish Nautical Cartography and the Padron Real', in The History of Cartography vol.3: the standard modern study."
+        },
+        {
+          "id": "te3",
+          "group": "Military Engineering",
+          "label": "Bastion fortifications -- defending the Caribbean against privateers",
+          "date": "1539 (Havana begins); 1586-1700 (Cartagena's walls)",
+          "loc": "Havana; Cartagena de Indias; San Juan",
+          "coords": [
+            23.13,
+            -82.35
+          ],
+          "hint": "Following Francis Drake's sack of Cartagena (1586) and repeated raids on Havana, Spain undertakes a century-long programme of bastion-style fortification across its Caribbean ports -- angled bastions designed to eliminate dead ground and concentrate cannon fire, engineered by Italian-trained military architects (Bautista Antonelli and successors); Havana's Morro Castle, Cartagena's walls and San Juan's El Morro become some of the most sophisticated fortifications in the Americas, and Cartagena's defences successfully repel a major British assault as late as 1741 (entry c4 in the next folio, War of Jenkins' Ear) -- a 16th-century engineering investment still paying off two centuries later.",
+          "tag": "CONSTRUCTION",
+          "note": "Bautista Antonelli's fortification designs for Havana and Cartagena (from 1586): AGI, Mapas y Planos -- extensive surviving plans. Morro Castle, Havana (begun 1589): extant, UNESCO World Heritage. Cartagena's walls (extant, UNESCO World Heritage): construction records AGI. Marchena Fernandez (1992), Ejercito y milicias en el mundo colonial americano: the standard study of colonial military engineering. The direct line to Cartagena's 1741 defence (cross-reference: spain-1700-1808, entry c4): the fortifications built under THIS folio's timeframe are what Blas de Lezo defends."
+        },
+        {
+          "id": "te4",
+          "group": "Naval Architecture",
+          "label": "The galleon -- Iberian innovation in oceanic ship design",
+          "date": "c.1550-1600 (design standardisation)",
+          "loc": "Spanish and Basque shipyards",
+          "coords": [
+            43.3,
+            -3.0
+          ],
+          "hint": "The galleon -- combining the carrack's cargo capacity with the war galley's lower, more manoeuvrable hull and reduced top-heavy superstructure -- emerges from Iberian shipyards by the mid-16th century as the dominant vessel for both transatlantic treasure transport and naval warfare; its design balances cargo space (essential for the silver fleets, entry s1) against the need to carry heavy cannon and survive Atlantic crossings, remaining the basic template for oceanic shipping for over two centuries -- the Manila Galleon (entry ex1) and the Spanish Armada (entry c2) are both built on this single underlying design innovation.",
+          "tag": "INVENTION",
+          "note": "Galleon design evolution from carrack and galley hybrid forms: Phillips (1986), Six Galleons for the King of Spain: Imperial Defense in the Early Seventeenth Century -- the standard English study using Spanish shipbuilding contracts (AGS, Marina). Basque shipyards (Pasaia, Zumaia) as major construction centres: documented in royal shipbuilding contracts. The design's dual use for treasure transport and warfare (the same hull type underlying both ex1 and c2): explicitly discussed in Phillips and in Casado Soto (1988), Los barcos espanoles del siglo XVI."
+        },
         {
           "id": "te1",
           "group": "Mining & Metallurgy",
@@ -909,9 +1007,9 @@
             37.39,
             -5.99
           ],
-          "hint": "The Consulado de Cargadores a Indias, founded 1543, is the merchant guild that controls the transatlantic fleets (flotas y galeones) -- financing royal loans in exchange for trade privileges and operating as a cartel that dictates prices across the empire; through the 16th century this makes Seville the largest city in Spain and the financial nerve centre of the empire, its population roughly quadrupling between 1500 and 1600 as merchants, sailors and migrants from across Europe converge on the city -- the commercial complement to the regulatory Casa de Contratacion (entry ex4).",
+          "hint": "The Consulado de Cargadores a Indias, founded 1543, is the merchant guild that controls the transatlantic fleets (flotas y galeones) -- financing royal loans (juros) in exchange for trade privileges and operating as a cartel that dictates which goods, in what quantity, travel to the Indies each year; this cartel structure is the commercial complement to the regulatory Casa de Contratacion (entry ex4) -- between them, a single port (Seville, later Cadiz) and a single merchant guild control the entire legal flow of goods between Spain and its American empire for over two centuries.",
           "tag": "ECONOMIC",
-          "note": "Consulado founding 1543: Archivo General de Indias, Consulados. Garcia-Baquero Gonzalez (1992), La Carrera de Indias: the standard study of the Consulado's commercial dominance. Seville population growth (c.60,000 in 1500 to c.150,000+ by 1600): documented in municipal census records (Archivo Municipal de Sevilla). The Consulado's role financing royal loans (juros) in exchange for trade privileges: AGI, Indiferente General -- direct mechanism connecting merchant capital to the bankruptcies documented in entry s2."
+          "note": "Consulado founding 1543: Archivo General de Indias, Consulados. Garcia-Baquero Gonzalez (1992), La Carrera de Indias: the standard study of the Consulado's commercial dominance and its cartel pricing of the annual fleets. The Consulado's role financing royal loans (juros) in exchange for trade privileges: AGI, Indiferente General -- direct mechanism connecting merchant capital to the bankruptcies documented in entry s2. The Casa de Contratacion / Consulado pairing as regulatory/commercial halves of one monopoly system: Garcia-Baquero Gonzalez's central argument."
         },
         {
           "id": "ex1",
@@ -926,20 +1024,6 @@
           "hint": "The Manila Galleon establishes the first regular trans-Pacific trade route in 1565 — Mexican silver goes west to China; Chinese silk and porcelain go east to the Americas and Europe; a global trading circuit for 250 years.",
           "tag": "ECONOMIC",
           "note": "AGI, Philippines series: the primary archive for Manila Galleon records. Andrade (1519): the first voyage by Urdaneta, documented. Schurz (1939), The Manila Galleon: the foundational study. Flynn & Giráldez (1995) on the silver-silk exchange. Chinese porcelain from Manila Galleons recovered archaeologically in Mexico: multiple museum collections. The route operated 1565–1815 — 250 years of continuous trans-Pacific trade."
-        },
-        {
-          "id": "ex6",
-          "group": "Military Logistics",
-          "label": "The Spanish Road -- Europe's logistical masterpiece",
-          "date": "1567-1633",
-          "loc": "Milan to Flanders, via Franche-Comte and Lorraine",
-          "coords": [
-            45.46,
-            9.19
-          ],
-          "hint": "The Spanish Road (Camino Espanol) is the overland supply route by which Spain moves troops, silver and supplies from its Italian possessions (Milan) to the army fighting in Flanders (entry c7) -- carefully routed through friendly or neutral territory (Savoy, Franche-Comte, Lorraine) to avoid hostile France; the Duke of Alba's army marches this route in 1567 (entry c10) to crush the Dutch revolt, and the route remains in use until growing French control of the corridor and the 1633 death of the Duchess of Savoy force a shift to maritime supply via the Atlantic -- a logistical achievement enabling Spain to project military power across the length of Europe for over six decades.",
-          "tag": "MIGRATION",
-          "note": "Alba's 1567 march (10,000 troops, Milan to Brussels in under six weeks): documented in Spanish and Franche-Comte municipal records of troop passage and provisioning. Parker (1972), The Army of Flanders and the Spanish Road 1567-1659: the standard and definitive study, using Spanish military pay and supply records (AGS, Guerra). The route's closure by the 1630s (French annexation of key passes): documented in the same Parker study. The connection to Rocroi (entry c13, 1643) and the broader Franco-Spanish War: the Spanish Road's closure is a direct precondition for the military difficulties culminating at Rocroi."
         }
       ]
     },
@@ -981,46 +1065,18 @@
           "note": "The 1580 annexation following the Battle of Alcantara: documented in both Spanish and Portuguese chronicles of the period. The Cortes of Tomar (1581), where Philip II swears to respect Portuguese institutional autonomy (a separate Council of Portugal, separate laws): AHN -- the legal basis of the 'union' as composite rather than incorporative. Boxer (1969), The Portuguese Seaborne Empire 1415-1825: the standard English study of how the union exposed Portuguese Asia and Brazil to Dutch attack (directly connecting to entry w4's VOC/WIC timeline). The union's end with the Restoration (1640, entry c12): the Duke of Braganza's acclamation as John IV explicitly invokes the illegality of the 1580 succession."
         },
         {
-          "id": "w4",
+          "id": "w6",
           "group": "Geopolitical Shift",
-          "label": "Twelve Years' Truce (1609) — de facto recognition of the Dutch Republic",
-          "date": "9 Apr 1609",
-          "loc": "Antwerp (signed)",
+          "label": "The General Crisis of the Seventeenth Century",
+          "date": "1640s-1650s",
+          "loc": "Europe and Asia (comparative)",
           "coords": [
-            51.22,
-            4.4
+            30.0,
+            30.0
           ],
-          "hint": "The Twelve Years' Truce (1609) suspends the Eighty Years' War -- during this period the Dutch VOC (chartered 1602) expands aggressively in Asia at Portuguese expense. The Dutch West India Company (WIC), responsible for the later military campaigns and conquests in Brazil (Salvador da Bahia 1624, Pernambuco 1630), is not chartered until 1621 -- precisely when the Truce expires and war resumes; Brazil's Dutch conquest is therefore a consequence of the Truce's END, not a benefit Spain granted during it.",
+          "hint": "The mid-17th-century convulsions documented in this folio -- the Catalan Revolt, the Portuguese Restoration, Rocroi -- are not uniquely Spanish failures but Spain's local instance of a wave of simultaneous crises across Eurasia: the Fronde in France (1648-1653), the English Civil War and regicide (1642-1649), the Ming-Qing dynastic transition in China (1644), and unrest across the Ottoman Empire all cluster in the same two decades; modern climate-historical scholarship links this clustering to the 'Little Ice Age's coldest phase, producing harvest failures worldwide. Read this way, Spain's 1640s are not evidence of unique decline but of a genuinely global structural crisis that the composite monarchy, unusually, survives intact as a unified state -- unlike Ming China or the British monarchy, both of which fall.",
           "tag": "EVENT",
-          "note": "Twelve Years' Truce 9 Apr 1609: Archives des Affaires Étrangères and Nationaal Archief (Den Haag). The Dutch VOC (Asia, during the Truce) and separately the WIC (chartered 1621, Brazil campaigns after the Truce's expiry)'s Asian expansion during the truce: documented in VOC (Asia, during the Truce) and separately the WIC (chartered 1621, Brazil campaigns after the Truce's expiry) records (Nationaal Archief). Israel (1982), The Dutch Republic and the Hispanic World 1606–1661: the standard study. The Spanish debate over the truce: documented in the Consejo de Estado minutes (AGS Estado) — Lerma vs. the hawks. The truce is simultaneously Spain's greatest diplomatic humiliation and a temporary necessity for fiscal recovery."
-        },
-        {
-          "id": "w2",
-          "group": "Geopolitical Shift",
-          "label": "Decline of Spanish hegemony — 1640–1700",
-          "date": "1640–1700",
-          "loc": "Portugal (independence); Catalonia (revolt); Netherlands (lost)",
-          "coords": [
-            40.4,
-            -3.7
-          ],
-          "hint": "1640 is Spain's annus horribilis — Portugal revolts and regains independence; Catalonia revolts (the Reapers' War); the Thirty Years War continues; Philip IV's chief minister Olivares falls; by 1700 the empire has lost Portugal, the northern Netherlands and much of its European prestige.",
-          "tag": "EVENT",
-          "note": "Portugal's independence declaration 1640: Arquivo Nacional da Torre do Tombo, Lisbon. The Catalan revolt (Guerra dels Segadors): its anthem 'Els Segadors' (1640) is still Catalonia's national anthem. Olivares's memoranda: Elliott & Peña (1978). Elliott (1963), Imperial Spain and (1986), The Count-Duke of Olivares: the standard studies of the decline."
-        },
-        {
-          "id": "w3",
-          "group": "Geopolitical Shift",
-          "label": "Treaty of the Pyrenees — the real transfer of hegemony to France",
-          "date": "7 Nov 1659",
-          "loc": "Isle of Pheasants (border island, Bidasoa river)",
-          "coords": [
-            43.36,
-            -1.77
-          ],
-          "hint": "Spain's war with France continues for 11 years after Westphalia — the Treaty of the Pyrenees (1659) is the real moment of hegemonic transfer: Spain cedes Roussillon (northern Catalonia) and Artois to Louis XIV; the Infanta María Teresa marries Louis XIV; France becomes definitively Europe's dominant power.",
-          "tag": "EVENT",
-          "note": "Treaty of the Pyrenees 7 Nov 1659: Archives des Affaires Étrangères (La Courneuve) and AGS Estado. The signing location (Isle of Pheasants, a condominium of France and Spain): documented. The cession of Roussillon: text in the treaty. The María Teresa marriage clause: Article 33 — her renunciation of Spanish succession rights (later contested by Louis XIV). Lynn (1999), The Wars of Louis XIV ch.2. The connection to the spain-1610-1715 folio: this treaty is also covered from the French perspective."
+          "note": "Parker (2013), Global Crisis: War, Climate Change and Catastrophe in the Seventeenth Century: the standard modern comparative study, explicitly using Spain alongside China, England and the Ottoman Empire as parallel case studies. Trevor-Roper (1959), 'The General Crisis of the 17th Century', Past & Present: the originating historiographical debate. The Little Ice Age's coldest decades (1640s-1690s, the 'Maunder Minimum' approaching): documented in tree-ring and ice-core proxy records. The comparative framing directly supports the revisionist reading of k6/k7 (Storrs, Elliott) -- Spain's survival as a unified composite monarchy through this global crisis, when contemporaries like the Stuart monarchy and Ming China did not survive, is itself the more remarkable story."
         }
       ]
     },
@@ -1254,7 +1310,7 @@
         {
           "y": 1635,
           "y2": 1659,
-          "l": "Franco-Spanish War",
+          "l": "Franco-Spanish War (ends at Pyrenees, 1659)",
           "entryId": "c13"
         },
         {
@@ -1302,6 +1358,11 @@
           "entryId": "c10"
         },
         {
+          "y": 1567,
+          "l": "Spanish Road -- Alba's march to Flanders",
+          "entryId": "c16"
+        },
+        {
           "y": 1568,
           "l": "Eighty Years' War begins",
           "entryId": "c7"
@@ -1320,6 +1381,11 @@
           "y": 1588,
           "l": "Spanish Armada",
           "entryId": "c2"
+        },
+        {
+          "y": 1609,
+          "l": "Twelve Years' Truce -- Dutch Republic recognised",
+          "entryId": "c15"
         },
         {
           "y": 1618,
@@ -1350,6 +1416,11 @@
           "y": 1648,
           "l": "Westphalia — Dutch Republic recognised",
           "entryId": "c7"
+        },
+        {
+          "y": 1659,
+          "l": "Treaty of the Pyrenees -- hegemony transfers to France",
+          "entryId": "c14"
         }
       ]
     },
@@ -1532,6 +1603,11 @@
           "entryId": "s4"
         },
         {
+          "y": 1550,
+          "l": "Seville's boom, rural Castile's depopulation",
+          "entryId": "s6"
+        },
+        {
           "y": 1557,
           "l": "First Habsburg bankruptcy",
           "entryId": "s2"
@@ -1559,9 +1635,24 @@
       "accent": "#2E86AB",
       "events": [
         {
+          "y": 1508,
+          "l": "Padron Real -- Spanish navigational science",
+          "entryId": "te2"
+        },
+        {
           "y": 1554,
           "l": "Patio process -- mercury amalgamation",
           "entryId": "te1"
+        },
+        {
+          "y": 1560,
+          "l": "The galleon -- Iberian naval architecture",
+          "entryId": "te4"
+        },
+        {
+          "y": 1586,
+          "l": "Bastion fortifications -- Caribbean defence",
+          "entryId": "te3"
         }
       ]
     },
@@ -1594,11 +1685,6 @@
           "y": 1565,
           "l": "Manila Galleon — Pacific trade",
           "entryId": "ex1"
-        },
-        {
-          "y": 1567,
-          "l": "Spanish Road -- Milan to Flanders",
-          "entryId": "ex6"
         }
       ]
     },
@@ -1623,24 +1709,9 @@
           "entryId": "w5"
         },
         {
-          "y": 1609,
-          "l": "Twelve Years' Truce — Dutch Republic recognised",
-          "entryId": "w4"
-        },
-        {
           "y": 1640,
-          "l": "Portugal revolts; Catalonia revolts",
-          "entryId": "w2"
-        },
-        {
-          "y": 1648,
-          "l": "Westphalia — hegemony ends",
-          "entryId": "w2"
-        },
-        {
-          "y": 1659,
-          "l": "Treaty of the Pyrenees — French hegemony",
-          "entryId": "w3"
+          "l": "General Crisis of the 17th Century",
+          "entryId": "w6"
         }
       ]
     },
