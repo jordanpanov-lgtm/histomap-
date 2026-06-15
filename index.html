@@ -119,6 +119,9 @@ body{background:#f4f1eb;font-family:Georgia,serif;color:#222;min-height:100vh}
 /* ── LIST ── */
 #list-view{display:none}
 #list-area{padding:14px 20px 40px}
+#list-toolbar{display:flex;align-items:center;justify-content:flex-end;margin-bottom:10px}
+#expand-all-btn{font-size:10px;font-family:'Courier New',monospace;padding:4px 10px;border:1px solid #bbb;border-radius:3px;background:#fafafa;color:#555;cursor:pointer;letter-spacing:.05em;transition:all .15s}
+#expand-all-btn:hover{background:#f0ead6;border-color:#888;color:#222}
 
 .cat-panel{border:1px solid #ddd;border-radius:6px;margin-bottom:8px;background:#fafafa;overflow:clip;transition:all .2s}
 .cat-panel.open{border-color:var(--accent)}
@@ -874,9 +877,29 @@ function allEntries() {
 function entryById(id) { return allEntries().find(e => e.id === id); }
 
 // ── LIST ──────────────────────────────────────────────────────────────────────
+function toggleAllPanels() {
+  const panels = document.querySelectorAll('.cat-panel');
+  const btn = document.getElementById('expand-all-btn');
+  const anyCollapsed = Array.from(panels).some(p => !p.classList.contains('open'));
+  panels.forEach(p => {
+    if (anyCollapsed) {
+      p.classList.add('open');
+      p.querySelector('.cat-toggle').textContent = '−';
+    } else {
+      p.classList.remove('open');
+      p.querySelector('.cat-toggle').textContent = '+';
+    }
+  });
+  btn.textContent = anyCollapsed ? '− Collapse all' : '+ Expand all';
+}
+
 function buildList() {
   const area = document.getElementById('list-area');
   area.innerHTML = '';
+  const toolbar = document.createElement('div');
+  toolbar.id = 'list-toolbar';
+  toolbar.innerHTML = '<button id="expand-all-btn" onclick="toggleAllPanels()">+ Expand all</button>';
+  area.appendChild(toolbar);
   MOD.categories.forEach(cat => {
     const icon = catIcon(cat);
     const panel = document.createElement('div');
@@ -958,6 +981,12 @@ function filterList() {
       panel.querySelector('.cat-toggle').textContent = '+';
     }
   });
+  // Sync expand-all button label
+  const btn = document.getElementById('expand-all-btn');
+  if (btn) {
+    const anyOpen = Array.from(document.querySelectorAll('.cat-panel')).some(p => p.classList.contains('open'));
+    btn.textContent = anyOpen ? '− Collapse all' : '+ Expand all';
+  }
 }
 
 // ── TIMELINE ──────────────────────────────────────────────────────────────────
